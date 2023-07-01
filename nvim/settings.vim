@@ -12,6 +12,10 @@ set splitright      " open split on right
 
 set timeoutlen=500
 
+set textwidth=80
+
+set formatoptions=jcrqlt " see: fo-table
+
 " set expandtab for files that don't play nice with tabs
 autocmd BufEnter *.{hs,fnl,lhs,purs,cabal,y,elm} set expandtab
 

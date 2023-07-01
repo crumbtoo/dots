@@ -133,6 +133,7 @@ local sh = Terminal:new
 	{ cmd = vim.o.shell
 	, persist_size = false
 	, direction = "horizontal"
+	, on_create = bind_easy_escape
 	}
 
 local ghci = Terminal:new
@@ -152,6 +153,12 @@ local lazygit = Terminal:new
 	, float_opts =
 		{ border = "curved"
 		}
+	-- praying this executes after the TempOpen autocmd event
+	, on_create =
+		function()
+		vim.keymap.del("t", "jk", { buffer = true })
+		vim.keymap.del("t", "kj", { buffer = true })
+		end
 	}
 
 function _ghci_toggle()

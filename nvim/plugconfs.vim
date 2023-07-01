@@ -137,7 +137,7 @@ local sh = Terminal:new
 	}
 
 local ghci = Terminal:new
-	{ cmd = 'if [ -f "*.cabal" ]; then stack repl; else ghci; fi'
+	{ cmd = 'if stat {*.cabal,stack.yaml} >/dev/null 2>&1; then stack repl; else ghci; fi'
 	, persist_size = false
 	, direction = "horizontal"
 	, id = 0

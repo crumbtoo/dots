@@ -15,8 +15,9 @@ set timeoutlen=500
 set textwidth=80
 
 set formatoptions=jcrqlt " see: fo-table
+au Filetype * set formatoptions=jcrqlt " override ftplugins
 
-" set expandtab for files that don't play nice with tabs
+" set expandtab for more 'alignable' languages
 autocmd BufEnter *.{hs,fnl,lhs,purs,cabal,y,elm} set expandtab
 
 try

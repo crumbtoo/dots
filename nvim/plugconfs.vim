@@ -156,10 +156,14 @@ local lazygit = Terminal:new
 	-- praying this executes after the TempOpen autocmd event
 	, on_create =
 		function()
-		vim.keymap.del("t", "jk", { buffer = true })
-		vim.keymap.del("t", "kj", { buffer = true })
+			vim.keymap.del("t", "jk", { buffer = 0 })
+			vim.keymap.del("t", "kj", { buffer = 0 })
 		end
 	}
+
+function _ghci_reload()
+	ghci:send(":r", true)
+end
 
 function _ghci_toggle()
 	ghci:toggle()

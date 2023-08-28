@@ -1,4 +1,4 @@
-call plug#begin('/home/crumb/.config/nvim/plugins')
+call plug#begin('~/crumb/.config/nvim/plugins')
 
 Plug 'AlexvZyl/nordic.nvim'								        " colourscheme
 Plug 'mhinz/vim-startify'									    " start screen

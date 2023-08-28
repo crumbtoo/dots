@@ -9,7 +9,7 @@ require("nordic").setup
 		}
 	, bold_keywords = false
 	, italic_comments = true
-	, transparent_bg = true
+	, transparent_bg = false
 	, override =
 		{ Hardline_mode_insert =
 			{ bg = "#81a1c1"

@@ -274,3 +274,46 @@ lua require('leap').add_default_mappings()
 " => nvim-window (nvim-tree style window navigation)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => lean.nvim (lean filetype)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+lua << EOF
+require('lean').setup
+	{ lsp = false
+
+	, ft =
+		{ default = "lean"
+		}
+
+	, abbreviations =
+		{ enable = true
+		, extra = { }
+		, leader = '\\'
+		}
+	, mappings = true
+
+	, infoview =
+		{ autoopen = true
+		, width = 50
+		, height = 20
+		, horizontal_position = "bottom"
+		, separate_tab = false
+		, indicators = "auto"
+		,
+		}
+
+	, progress_bars =
+		{ enable = true
+		, priority = 10
+		}
+
+	, stderr =
+		{ enable = true
+		, height = 5
+		, on_lines = nil
+		}
+
+	, lsp3 = false
+}
+EOF

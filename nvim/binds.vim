@@ -1,4 +1,5 @@
 let g:mapleader = " "
+let g:maplocalleader = "  "
 
 nmap <silent> <space> :nohl<CR>
 

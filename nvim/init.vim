@@ -20,6 +20,8 @@ Plug 'lukas-reineke/indent-blankline.nvim'						" rule lines to show levels of i
 Plug 'purescript-contrib/purescript-vim'						" purescript highlighting and indentation
 Plug 'git@github.com:ggandor/leap.nvim.git'						" clairvoyant navigation
 Plug 'https://gitlab.com/yorickpeterse/nvim-window.git'			" nvim-tree style window navigation
+Plug 'Julian/lean.nvim'
+Plug 'neovim/nvim-lspconfig'									" i fucking hate you
 
 call plug#end()
 

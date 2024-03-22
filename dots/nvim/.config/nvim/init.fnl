@@ -1,11 +1,13 @@
-(print :hi2)
-
 (let [lazy (require :lazy)]
   (lazy.setup (require :plugins)
               { :performance
                   { :reset_packpath false
                   }
-                :lockfile (.. (vim.fn.stdpath "data") "/lazy-lock.json")
+                :dev
+                  { :path "~/git"
+                    :patterns []
+                    :fallback false
+                  }
               }))
 
 ; TODO: include seems to slow down opening nvim, but avoids the issues with
@@ -17,7 +19,7 @@
 
 (let [p (require :nvim-treesitter.configs)]
   (p.setup
-    { :ensure_installed [ :haskell :fennel ]
+    { :ensure_installed [ (comment :haskell :fennel) ]
       :highlight
         { :enable true
         }

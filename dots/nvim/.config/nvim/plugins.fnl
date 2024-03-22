@@ -29,7 +29,7 @@
   (opts :startup-nvim/startup.nvim
         :config (require :plugins.startup-nvim)
         :dependencies [ :nvim-telescope/telescope.nvim
-                        :nvim-lua/plenary.nvim])
+                        :nvim-lua/plenary.nvim ])
   :https://gitlab.com/yorickpeterse/nvim-window.git
   (opts :akinsho/toggleterm.nvim
         :config (require :plugins.toggleterm))
@@ -37,33 +37,33 @@
         :config (require :plugins.nvim-tree))
   (opts :lukas-reineke/indent-blankline.nvim
         :main :ibl
-        :opts { :scope {:enabled false} })
+        :opts { :scope {:enabled false}})
+  (opts :nvim-telescope/telescope.nvim
+        :main :telescope)
+  (opts :crumbtoo/nvim-window-mode
+        :dev true
+        :main :nfnl-plugin-example
+        :opts {})
+  :mbbill/undotree
 
   ;;; language tools
   (opts :nvim-treesitter/nvim-treesitter
         :config #(require :plugins.treesitter))
-  ; (opts :julienvincent/nvim-paredit
-  ;       :config (require :plugins.nvim-paredit))
-  ; (opts :julienvincent/nvim-paredit-fennel
-  ;       :dependencies [ :julienvincent/nvim-paredit ]
-  ;       :ft [ :fennel ]
-  ;       :config #(: (require :nvim-paredit-fennel) :setup))
-  ; (opts :Olical/conjure
-  ;       :init (fn []
-  ;               (tset vim.g "conjure#filetype#fennel" :conjure.client.fennel.stdio)))
+  :nvim-treesitter/playground
   (opts :jaawerth/fennel.vim)
   (opts :Vigemus/iron.nvim
         :config #(require :plugins.iron))
   (opts :sudormrfbin/cheatsheet.nvim
         :main :cheatsheet
         :opts (require :plugins.cheatsheet))
-  :junegunn/vim-easy-align
+  (opts :junegunn/vim-easy-align
+        :config #(require :plugins.easy-align))
   (opts :lervag/vimtex
         :config #(require :plugins.vimtex))
   (opts :nvim-treesitter/nvim-treesitter-textobjects
-        :dependencies [ :nvim-treesitter/nvim-treesitter ]
+        :dependencies [ :nvim-treesitter/nvim-treesitter]
         :config #(require :plugins.treesitter-textobjects))
-  (opts :dgagn/diagflow.nvim
+  (opts :crumbtoo/diagflow.nvim ; :dgagn/diagflow.nvim
         :event :LspAttach
         :opts (require :plugins.diagflow))
   ;; haskell
@@ -72,68 +72,61 @@
         :config #((. (require :telescope) :load_extension) :hoogle))
   (opts :MrcJkb/haskell-tools.nvim)
   ;; lisp
+  (opts :clojure-vim/vim-jack-in
+        :filetype :clojure)
+  (opts :radenling/vim-dispatch-neovim
+        :filetype :clojure)
+  ; (opts :eraserhd/parinfer-rust
+  ;       :build "cargo build --release")
   (opts :guns/vim-sexp
+        :init #(g! sexp_filetypes "")
+        :config #(require :plugins.vim-sexp))
+  (opts :Olical/conjure
         :init (fn []
-                (g! vim.g.sexp_filetypes "fennel,lisp,clojure,scheme"))
-        :config (fn []
-                  (fn vim-sexp-mappings []
-                    ;; word maps
-                    (map! [nxo] :B "<Plug>(sexp_move_to_prev_element_head)"
-                          "move to prev element head")
-                    (map! [nxo] :W "<Plug>(sexp_move_to_next_element_head)"
-                          "move to next element head")
-                    (map! [nxo] :gE "<Plug>(sexp_move_to_prev_element_tail)"
-                          "move to prev element tail")
-                    (map! [nxo] :E "<Plug>(sexp_move_to_next_element_tail)"
-                          "move to next element tail")
-                    ;; insert
-                    (map! [n] :<I "<Plug>(sexp_insert_at_list_head)"
-                          "insert at list head")
-                    (map! [n] :>I "<Plug>(sexp_insert_at_list_tail)"
-                          "insert at list tail")
-                    ;; move/swap
-                    (map! [n] :<f "<Plug>(sexp_swap_list_backward)"
-                          "swap form backwards")
-                    (map! [n] :>f "<Plug>(sexp_swap_list_forward)"
-                          "swap form backwards")
-                    (map! [n] :<e "<Plug>(sexp_swap_element_backward)"
-                          "swap atom backwards")
-                    (map! [n] :>e "<Plug>(sexp_swap_element_forward)"
-                          "swap atom forward")
-                    ;; slurp/barf
-                    (map! [n] ">(" "<Plug>(sexp_emit_head_element)"
-                          "barf forwards")
-                    (map! [n] "<)" "<Plug>(sexp_emit_tail_element)"
-                          "barf backwards")
-                    (map! [n] ">)" "<Plug>(sexp_capture_prev_element)"
-                          "slurp forwards")
-                    (map! [n] "<(" "<Plug>(sexp_capture_next_element)"
-                          "slurp backwards"))
-                    (augroup! :vim_sexp_mapping
-                      [[FileType] [fennel lisp clojure scheme]
-                                  `vim-sexp-mappings])))
-  ; (opts :tpope/vim-sexp-mappings-for-regular-people
-  ;       :priority 50)
+                (g! conjure#mapping#prefix "'")
+                ; (g! conjure#filetype#haskell :conjure.client.haskell.stdio)
+                (g! conjure#client#scheme#stdio#command "csi -quiet -:c")
+                (g! conjure#client#scheme#stdio#prompt_pattern "\n-#;%d-> ")))
+  (opts :kovisoft/slimv
+        :config #(require :plugins.slimv)
+        :lazy false
+        ; load before nvim-autopairs
+        :priority 60)
+  :Olical/nfnl
   ;; agda
   ; :msuperdock/vim-agda
+  ;; markdown
+  ; (opts :iamcco/markdown-preview.nvim
+  ;       :cmd [:MarkdownPreviewToggle :MarkdownPreview :MarkdownPreviewStop]
+  ;       :ft [:markdown]
+  ;       :build #((. vim.fn :mkdp#util#install))
+  ;       :init (fn []
+  ;               (g! mkdp_refresh_slow 1)))
 
   ;;; vim-fu
   (opts :windwp/nvim-autopairs
         :config #(require :plugins.autopairs))
-  ; :jiangmiao/auto-pairs
+  ; (opts :jiangmiao/auto-pairs
+  ;       :config #(require :plugins.auto-pairs))
+  :andymass/vim-matchup
   :ggandor/leap.nvim
   (opts :kylechui/nvim-surround
         :config true)
   :tpope/vim-commentary
   (opts :L3MON4D3/LuaSnip
         ; :build "make install_jsregexp"
+        :opts
+          { :link_roots false
+            :keep_roots false}
+          
         :version :v2.2
         :config
           (fn []
             (let [ls (require :luasnip.loaders.from_lua)
                   data (.. (vim.fn.stdpath :data) :/luatarget/snippets)]
-              (ls.load { :paths data }))))
+              (ls.load { :paths data}))))
   ;;; misc
   :tpope/vim-fugitive
-]
+  :dbakker/vim-paragraph-motion]
+
 

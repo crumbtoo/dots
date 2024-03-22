@@ -13,36 +13,42 @@
              (gnu home services symlink-manager)
              (gnu home services shells))
 
+(define (service-dotfile . rest)
+  (apply string-append "./service-dots" rest))
+
 (home-environment
   ;; Below is the list of packages that will show up in your
   ;; Home profile, under ~/.guix-home/profile.
   (packages
     (specifications->packages
-      (list "neovim")))
+      (list "neovim" "zsh" "zsh-syntax-highlighting")))
 
   ;; Below is the list of Home services.  To search for available
   ;; services, run 'guix home search KEYWORD' in a terminal.
   (services
     (list
       (service home-symlink-manager-service-type)
-      ; (service home-dotfiles-service-type
-      ;        (home-dotfiles-configuration
-      ;          (directories (list "./dots"))))
-      ; (service home-xdg-configuration-files-service-type
-      ;          `(("nvim" ,(local-file "dots/.config/nvim" #:recursive? #t))))
       (service home-dotfiles-service-type
                (home-dotfiles-configuration
                  (directories '("./dots"))
                  (layout 'stow)))
-      (service home-bash-service-type
-               (home-bash-configuration
-                 (aliases '(("ls" . "ls --color=auto")
-                            ("l"  . "ls -la --color=auto")
-                            ("v"  . "nvim")))
-                 (bashrc
-                   (list (local-file ".bashrc"
-                                     "bashrc")))
-                 (bash-logout
-                   (list (local-file ".bash_logout"
-                                     "bash_logout"))))))))
+      #; (service home-zsh-service-type
+               (home-zsh-configuration
+                 (zshrc
+                   (list (local-file (service-dotfile "/zsh/zshrc"))
+                         (local-file (service-dotfile "/zsh/zsh-aliases"))
+                         (local-file (service-dotfile "/zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh"))))
+                 (zlogout
+                   (list (local-file (service-dotfile "/zsh/zsh-logout"))))
+                 (zshenv
+                   (list (local-file (service-dotfile "/zsh/zshenv"))))))
+      (service home-inputrc-service-type
+               (home-inputrc-configuration
+                 (variables
+                   `(("bell-style" . "none")
+                     ("colored-completion-prefix" . #t)
+                     ("editing-mode" . "vi")
+                     ("show-mode-in-prompt" . #t)
+                     ("completion-ignore-case" . #t)
+                     ("blink-matching-paren" . #t))))))))
 

@@ -27,6 +27,10 @@
 ;------------------------------------------------------------------------------;
 ; formatting
 
+;; indentation
+(set! autoindent)
+(set! smartindent)
+
 ;; whitespace
 (set! tabstop 4)
 (set! shiftwidth 4)
@@ -45,9 +49,27 @@
 (exec!
   [filetype on]
   [filetype plugin indent on]
+  [syntax on]
   [syntax enable])
 
 ;------------------------------------------------------------------------------;
 ; control
 (set! timeoutlen 500) ; timeout multi-key commands after 500ms
+
+;------------------------------------------------------------------------------;
+; abbreviations
+
+(exec!
+  ; open help windows in a vertical split
+  [cabbrev h vert bo h])
+
+(command! [:range true] :CopyAsCodeBlock
+  (fn [opts]
+    (let [lines (table.concat
+                  (vim.api.nvim_buf_get_lines 0 (- opts.line1 1) opts.line2 false)
+                  "\n")]
+      (vim.fn.setreg "+"
+                     (.. "```" (or vim.o.filetype "") "\n"
+                         lines
+                         "\n```")))))
 

@@ -26,24 +26,20 @@ bootstrap("https://github.com/folke/lazy.nvim.git", { ref = "stable", adjust_rtp
 bootstrap("https://github.com/udayvir-singh/tangerine.nvim.git", { ref = "v2.8", adjust_rtp = true })
 bootstrap("https://github.com/udayvir-singh/hibiscus.nvim.git", { ref = "v1.7", adjust_rtp = true })
 
--- vim.opt.rtp:prepend(lazy_path)
-
 local fennel_target_dir = vim.fn.stdpath "data" .. "/luatarget"
 local data_dir = vim.fn.stdpath [[data]]
 local nvim_dir = vim.fn.stdpath [[config]]
+
+vim.opt.rtp:prepend(fennel_target_dir)
 
 require("tangerine").setup {
   vimrc   = nvim_dir .. "/init.fnl",
   source  = nvim_dir,
   target  = fennel_target_dir,
 
-  -- rtpdirs = {
-  --   "ftplugin"
-  -- },
-
   compiler = {
-    verbose = true,
-    hooks = { "oninit" },
+    verbose = false,
+    hooks = { "onsave" },
     -- adviser = function(fennel)
     --   fennel["macro-path"] = fennel["macro-path"] .. ";" .. nvim_dir .. "/?.fnl"
     --   return fennel

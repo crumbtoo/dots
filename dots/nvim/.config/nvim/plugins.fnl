@@ -40,10 +40,10 @@
         :opts { :scope {:enabled false}})
   (opts :nvim-telescope/telescope.nvim
         :main :telescope)
-  (opts :crumbtoo/nvim-window-mode
-        :dev true
-        :main :nfnl-plugin-example
-        :opts {})
+  ; (opts :crumbtoo/nvim-window-mode
+  ;       :dev true
+  ;       :main :nfnl-plugin-example
+  ;       :opts {})
   :mbbill/undotree
 
   ;;; language tools

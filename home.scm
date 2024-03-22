@@ -8,9 +8,9 @@
              (gnu packages)
              (gnu services)
              (guix gexp)
-	     (gnu home services)
-	     (gnu home services dotfiles)
-	     (gnu home services symlink-manager)
+             (gnu home services)
+             (gnu home services dotfiles)
+             (gnu home services symlink-manager)
              (gnu home services shells))
 
 (home-environment
@@ -18,7 +18,7 @@
   ;; Home profile, under ~/.guix-home/profile.
   (packages
     (specifications->packages
-      (list "sbcl" "glibc-locales" "neovim")))
+      (list "neovim")))
 
   ;; Below is the list of Home services.  To search for available
   ;; services, run 'guix home search KEYWORD' in a terminal.
@@ -28,17 +28,21 @@
       ; (service home-dotfiles-service-type
       ;        (home-dotfiles-configuration
       ;          (directories (list "./dots"))))
-      (service home-xdg-configuration-files-service-type
-               `(("config" ,(local-file "dots/.config/nvim" #:recursive? #t))))
+      ; (service home-xdg-configuration-files-service-type
+      ;          `(("nvim" ,(local-file "dots/.config/nvim" #:recursive? #t))))
+      (service home-dotfiles-service-type
+               (home-dotfiles-configuration
+                 (directories '("./dots"))
+                 (layout 'stow)))
       (service home-bash-service-type
-	       (home-bash-configuration
-		 (aliases '(("ls" . "ls --color=auto")
-			    ("l"  . "ls -la --color=auto")
-			    ("v"  . "nvim")))
-		 (bashrc
-		   (list (local-file ".bashrc"
-				     "bashrc")))
-		 (bash-logout
-		   (list (local-file ".bash_logout"
-				     "bash_logout"))))))))
+               (home-bash-configuration
+                 (aliases '(("ls" . "ls --color=auto")
+                            ("l"  . "ls -la --color=auto")
+                            ("v"  . "nvim")))
+                 (bashrc
+                   (list (local-file ".bashrc"
+                                     "bashrc")))
+                 (bash-logout
+                   (list (local-file ".bash_logout"
+                                     "bash_logout"))))))))
 

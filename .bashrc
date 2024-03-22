@@ -112,6 +112,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+if [ -n "$GUIX_ENVIRONMENT" ]
+then
+    export PS1="\u@\h \w [dev]\$ "
+fi
+
 # source guix profile
 export GUIX_PROFILE="$HOME/.guix-profile"
 . "$GUIX_PROFILE/etc/profile"

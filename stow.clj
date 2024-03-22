@@ -4,14 +4,14 @@
          '[babashka.fs :as fs])
 
 (def dots-dir "dots")
+(def home (System/getenv "HOME"))
 
 (defn stow [& packages]
-  (let [home (System/getenv "HOME") ]
-    (apply shell
-           "stow -v2"
-           "-d" dots-dir
-           "-t" home
-           "-S" packages)))
+  (apply shell
+         "stow -v2"
+         "-d" dots-dir
+         "-t" home
+         "-S" packages))
 
 (if (empty *command-line-args*)
     (stow (map str (fs/glob dots-dir "*")))

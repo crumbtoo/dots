@@ -4,6 +4,8 @@ case $- in
       *) return;;
 esac
 
+setopt autocd
+
 # The meaning of these options can be found in man page of `zshoptions`.
 setopt HIST_IGNORE_ALL_DUPS  # do not put duplicated command into history list
 setopt HIST_SAVE_NO_DUPS  # do not save duplicated command

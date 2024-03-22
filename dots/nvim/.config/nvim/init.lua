@@ -41,7 +41,9 @@ require("tangerine").setup {
     verbose = false,
     hooks = { "onsave" },
     -- adviser = function(fennel)
-    --   fennel["macro-path"] = fennel["macro-path"] .. ";" .. nvim_dir .. "/?.fnl"
+    --   fennel["macro-path"] = fennel["macro-path"] .. ";"
+    --                        .. nvim_dir .. "/?.fnl;"
+    --     		   .. data_dir .. "lazy/hibiscus.nvim/fnl/?.fnl"
     --   return fennel
     -- end
   },

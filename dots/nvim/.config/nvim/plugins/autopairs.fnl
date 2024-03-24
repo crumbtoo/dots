@@ -16,9 +16,9 @@
 
 ; remove '`' rule on lisp
 (-?> (npairs.get_rules "'")
-     (tset 1 :not_filetypes [ :fennel :lisp ]))
+     (tset 1 :not_filetypes [ :fennel :lisp :clojure :scheme ]))
 (-?> (npairs.get_rules "`")
-     (tset 1 :not_filetypes [ :fennel :lisp ]))
+     (tset 1 :not_filetypes [ :fennel :lisp :clojure :scheme ]))
 
 (npairs.add_rules
   [ (ft-rules [:tex :plaintex]

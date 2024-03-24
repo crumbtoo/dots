@@ -39,7 +39,7 @@ require("tangerine").setup {
 
   compiler = {
     verbose = false,
-    hooks = { "onsave" },
+    hooks = { "oninit" },
     -- adviser = function(fennel)
     --   fennel["macro-path"] = fennel["macro-path"] .. ";"
     --                        .. nvim_dir .. "/?.fnl;"

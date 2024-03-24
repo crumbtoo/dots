@@ -35,7 +35,11 @@
 
 (map! [n :silent] :<leader>ff
       ":Telescope find_files<CR>"
-      "search files")
+      "search files by name")
+
+(map! [n] :<leader>lg
+      ":Telescope live_grep<CR>"
+      "search files by content (requires ripgrep)")
 
 (map! [n] :<leader>?
       ":<C-U>Cheatsheet<CR>"

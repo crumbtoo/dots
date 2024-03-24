@@ -44,7 +44,7 @@
   ;       :dev true
   ;       :main :nfnl-plugin-example
   ;       :opts {})
-  :mbbill/undotree
+  ; :mbbill/undotree
 
   ;;; language tools
   (opts :nvim-treesitter/nvim-treesitter

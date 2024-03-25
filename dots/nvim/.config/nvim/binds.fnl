@@ -12,6 +12,12 @@
 (map! [n] :<space> ::nohl<CR>
       "hide highlighted text")
 
+;; override `f<space>` to essentially jump to the next whitespace
+(map! [nxo] :f<Space> :Wh
+      "forward before next word")
+(map! [nxo] :F<Space> :gEl
+      "back before next word")
+
 ;; escape
 (map! [ci] :jk :<Esc>
       "escape")

@@ -73,3 +73,8 @@
                          lines
                          "\n```")))))
 
+(command! [] :EditVimrc
+  (fn [opts]
+    (vim.cmd "edit ~/.config/nvim/init.fnl
+              lcd ~/.config/nvim")))
+

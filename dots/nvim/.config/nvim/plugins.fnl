@@ -106,8 +106,9 @@
   ;;; vim-fu
   (opts :windwp/nvim-autopairs
         :config #(require :plugins.autopairs))
-  ; (opts :jiangmiao/auto-pairs
-  ;       :config #(require :plugins.auto-pairs))
+  (opts :nvim-orgmode/orgmode
+        :config #(require :plugins.orgmode)
+        :dependencies [:nvim-treesitter/nvim-treesitter])
   :andymass/vim-matchup
   :ggandor/leap.nvim
   (opts :kylechui/nvim-surround
@@ -127,6 +128,7 @@
               (ls.load { :paths data}))))
   ;;; misc
   :tpope/vim-fugitive
-  :dbakker/vim-paragraph-motion]
+  :dbakker/vim-paragraph-motion
+]
 
 

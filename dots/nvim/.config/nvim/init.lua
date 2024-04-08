@@ -30,8 +30,6 @@ local fennel_target_dir = vim.fn.stdpath "data" .. "/luatarget"
 local data_dir = vim.fn.stdpath [[data]]
 local nvim_dir = vim.fn.stdpath [[config]]
 
-vim.opt.rtp:prepend(fennel_target_dir)
-
 require("tangerine").setup {
   vimrc   = nvim_dir .. "/init.fnl",
   source  = nvim_dir,
@@ -54,4 +52,7 @@ require("tangerine").setup {
     goto_output = "<Nop>"
   }
 }
+
+vim.opt.rtp:prepend(fennel_target_dir)
+vim.opt.rtp:prepend(fennel_target_dir .. "/after")
 

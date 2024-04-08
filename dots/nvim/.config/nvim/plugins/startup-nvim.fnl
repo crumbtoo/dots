@@ -27,8 +27,9 @@
           { :type           :mapping
             :content     
               [ [ "New File"        "enew"                    "e" ]
+                [ "Neovim Config"   "EditVimrc"               "v" ]
                 [ " Find File"     "Telescope find_files"    "<leader>ff" ]
-                [ "󰍉 Grep Files"    "Telescope live_greps"    "<leader>lg" ]
+                [ "󰍉 Grep Files"    "Telescope live_grep"     "<leader>lg" ]
                 [ " File Browser"  "Telescope file_browser"  "<leader>fb" ]
               ]
             :align          :center

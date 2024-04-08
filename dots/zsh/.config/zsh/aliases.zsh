@@ -30,3 +30,5 @@ fi
 alias cbuild='cabal build'
 alias crepl='cabal repl'
 
+alias '$'=":;"
+

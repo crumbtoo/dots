@@ -24,6 +24,10 @@
 ;; colours
 (color! :kanagawa)
 
+;; allow the cursor to move one character past EOL. useful for commands
+;; including `b` or `B`.
+(set! virtualedit :onemore)
+
 ;------------------------------------------------------------------------------;
 ; formatting
 
@@ -74,7 +78,7 @@
                          "\n```")))))
 
 (command! [] :EditVimrc
-  (fn [opts]
+  (fn [_]
     (vim.cmd "edit ~/.config/nvim/init.fnl
               lcd ~/.config/nvim")))
 

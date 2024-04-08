@@ -21,12 +21,14 @@
         ,(unpack body))))
 
 [ :udayvir-singh/tangerine.nvim ; fennel
+  :udayvir-singh/hibiscus.nvim
 
   ;;; themes / ui
   :rebelot/kanagawa.nvim
   (opts :nvim-lualine/lualine.nvim
         :config (require :plugins.lualine))
   (opts :startup-nvim/startup.nvim
+        :priority 100
         :config (require :plugins.startup-nvim)
         :dependencies [ :nvim-telescope/telescope.nvim
                         :nvim-lua/plenary.nvim ])
@@ -40,6 +42,7 @@
         :opts { :scope {:enabled false}})
   (opts :nvim-telescope/telescope.nvim
         :main :telescope)
+  :liuchengxu/vim-which-key
   ; (opts :crumbtoo/nvim-window-mode
   ;       :dev true
   ;       :main :nfnl-plugin-example
@@ -61,8 +64,7 @@
   (opts :lervag/vimtex
         :config #(require :plugins.vimtex))
   (opts :nvim-treesitter/nvim-treesitter-textobjects
-        :dependencies [ :nvim-treesitter/nvim-treesitter]
-        :config #(require :plugins.treesitter-textobjects))
+        :dependencies [ :nvim-treesitter/nvim-treesitter])
   (opts :crumbtoo/diagflow.nvim ; :dgagn/diagflow.nvim
         :event :LspAttach
         :opts (require :plugins.diagflow))
@@ -93,8 +95,15 @@
         ; load before nvim-autopairs
         :priority 60)
   :Olical/nfnl
+  (opts :michaelb/sniprun
+        :build "sh install.sh")
   ;; agda
-  ; :msuperdock/vim-agda
+  (opts :isovector/cornelis
+        :dependencies [:kana/vim-textobj-user
+                       :neovimhaskell/nvim-hs.vim]
+        :filetype :agda
+        :build "stack build"
+        :config #(require :plugins.cornelis))
   ;; markdown
   ; (opts :iamcco/markdown-preview.nvim
   ;       :cmd [:MarkdownPreviewToggle :MarkdownPreview :MarkdownPreviewStop]
@@ -110,7 +119,12 @@
         :config #(require :plugins.orgmode)
         :dependencies [:nvim-treesitter/nvim-treesitter])
   :andymass/vim-matchup
-  :ggandor/leap.nvim
+  (opts :ggandor/leap-spooky.nvim
+        :main :leap-spooky
+        :config true
+        :opts {:extra_text_objects [:if :af]})
+  (opts :ggandor/leap.nvim
+        :config #(require :plugins.leap))
   (opts :kylechui/nvim-surround
         :config true)
   :tpope/vim-commentary
@@ -129,6 +143,13 @@
   ;;; misc
   :tpope/vim-fugitive
   :dbakker/vim-paragraph-motion
+  :tpope/vim-repeat
+  (opts :vhyrro/luarocks.nvim
+        :priority 1000
+        :config true
+        :opts {:rocks [:luautf8 ; required for nvim-agda
+                      ]
+              })
 ]
 
 

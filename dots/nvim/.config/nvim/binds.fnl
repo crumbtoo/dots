@@ -12,12 +12,6 @@
 (map! [n] :<space> ::nohl<CR>
       "hide highlighted text")
 
-;; override `f<space>` to essentially jump to the next whitespace
-(map! [nxo] :f<Space> :Wh
-      "forward before next word")
-(map! [nxo] :F<Space> :gEl
-      "back before next word")
-
 ;; escape
 (map! [ci] :jk :<Esc>
       "escape")
@@ -33,6 +27,20 @@
   [[TermOpen] term://* "tnoremap <buffer> kj <C-\\><C-n>"])
 
 ;;; ui
+
+;; tabs
+(map! [n] :<C-t>h
+      ":tabp<CR>"
+      "previous tab")
+(map! [n] :<C-t>l
+      ":tabn<CR>"
+      "next tab")
+(map! [n] :<C-t>t
+      ":tabnew<CR>"
+      "new tab")
+(map! [n] :<C-t>x
+      ":tabclose<CR>"
+      "close tab")
 
 ;; files
 (map! [n :silent] :<leader>n

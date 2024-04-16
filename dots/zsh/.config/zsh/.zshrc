@@ -108,30 +108,25 @@ source $ZDOTDIR/completion.zsh
 
 autoload -U compinit; compinit
 
-# enable color support of ls and also add handy aliases
-if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-    alias dir='dir --color=auto'
-    alias vdir='vdir --color=auto'
-
-    alias grep='grep --color=auto'
-fi
-
 if [ -n "$GUIX_ENVIRONMENT" ]; then
     PROMPT='%B%F{14}%2~%f%b %F{8}[dev]%f %B%(?.%F{10}.%F{9})Σ%f%b '
 else
     PROMPT='%B%F{14}%2~%f%b %B%(?.%F{10}.%F{9})Σ%f%b '
 fi
 
-source $ZDOTDIR/aliases
+source $ZDOTDIR/aliases.zsh
 
 # source guix profile
-export GUIX_PROFILE="$HOME/.guix-profile"
-. "$GUIX_PROFILE/etc/profile"
+if [ -f $HOME/.guix-profile ]; then
+    export GUIX_PROFILE="$HOME/.guix-profile"
+    . "$GUIX_PROFILE/etc/profile"
+fi
 
-export GUIX_PROFILE="$HOME/.config/guix/current"
-. "$GUIX_PROFILE/etc/profile"
+if [ -f $HOME/.config/guix/current ]; then
+    export GUIX_PROFILE="$HOME/.config/guix/current"
+    . "$GUIX_PROFILE/etc/profile"
+fi
 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

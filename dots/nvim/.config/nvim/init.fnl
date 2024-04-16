@@ -1,13 +1,19 @@
-(let [lazy (require :lazy)]
+(let [lazy (require :lazy)
+      target (.. (vim.fn.stdpath :data) :/luatarget)
+      target-after (.. target :/after)]
   (lazy.setup (require :plugins)
               { :performance
                   { :reset_packpath false
+                  }
+                :rtp
+                  { :paths [target target-after]
                   }
                 :dev
                   { :path "~/git"
                     :patterns []
                     :fallback false
                   }
+                :git {:timeout 9999999999999999999999999999999999999}
               }))
 
 ; TODO: include seems to slow down opening nvim, but avoids the issues with
@@ -17,11 +23,11 @@
 (require :binds)
 (require :settings)
 
-(let [p (require :nvim-treesitter.configs)]
+(comment (let [p (require :nvim-treesitter.configs)]
   (p.setup
     { :ensure_installed [ (comment :haskell :fennel) ]
       :highlight
         { :enable true
         }
-    }))
+    })))
 

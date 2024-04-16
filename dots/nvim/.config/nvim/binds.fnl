@@ -28,6 +28,20 @@
 
 ;;; ui
 
+;; tabs
+(map! [n] :<C-t>h
+      ":tabp<CR>"
+      "previous tab")
+(map! [n] :<C-t>l
+      ":tabn<CR>"
+      "next tab")
+(map! [n] :<C-t>t
+      ":tabnew<CR>"
+      "new tab")
+(map! [n] :<C-t>x
+      ":tabclose<CR>"
+      "close tab")
+
 ;; files
 (map! [n :silent] :<leader>n
       ":NvimTreeToggle<CR>"

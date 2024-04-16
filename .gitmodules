@@ -1,0 +1,9 @@
+[submodule "dots/zsh/.config/zsh/zsh-autopair"]
+	path = dots/zsh/.config/zsh/zsh-autopair
+	url = git@github.com:hlissner/zsh-autopair.git
+[submodule "dots/zsh/.config/zsh/zsh-vi-mode"]
+	path = dots/zsh/.config/zsh/zsh-vi-mode
+	url = git@github.com:jeffreytse/zsh-vi-mode.git
+[submodule "dots/zsh/.config/zsh/zsh-syntax-highlighting"]
+	path = dots/zsh/.config/zsh/zsh-syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git

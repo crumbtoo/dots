@@ -1,0 +1,7 @@
+set bell-style none
+set colored-completion-prefix on
+set editing-mode vi
+set show-mode-in-prompt on
+set blink-matching-paren on
+set show-all-if-ambiguous on
+

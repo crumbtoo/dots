@@ -31,22 +31,33 @@
         "move to next top-level element")
 
   ;; flow
-  (map! [nxo :buffer] "<C-p>" "<Plug>(sexp_flow_to_next_open)"
+  (map! [n :buffer] "<C-p>" "<Plug>(sexp_flow_to_next_open)"
         "flow to next open")
-  (map! [nxo :buffer] "<C-o>" "<Plug>(sexp_flow_to_prev_open)"
+  (map! [n :buffer] "<C-o>" "<Plug>(sexp_flow_to_prev_open)"
         "flow to prev open")
-  (map! [nxo :buffer] "<C-]>" "<Plug>(sexp_flow_to_next_close)"
+  (map! [n :buffer] "<C-]>" "<Plug>(sexp_flow_to_next_close)"
         "flow to next close")
-  (map! [nxo :buffer] "<C-[>" "<Plug>(sexp_flow_to_prev_close)"
+  (map! [n :buffer] "<C-[>" "<Plug>(sexp_flow_to_prev_close)"
         "flow to prev close")
-  (map! [nxo :buffer] "W" "<Plug>(sexp_flow_to_next_leaf_head)"
+  (map! [n :buffer] "W" "<Plug>(sexp_flow_to_next_leaf_head)"
         "flow to next leaf head")
-  (map! [nxo :buffer] "B" "<Plug>(sexp_flow_to_prev_leaf_head)"
+  (map! [n :buffer] "B" "<Plug>(sexp_flow_to_prev_leaf_head)"
         "flow to prev leaf head")
-  (map! [nxo :buffer] "gE" "<Plug>(sexp_flow_to_prev_leaf_tail)"
+  (map! [n :buffer] "gE" "<Plug>(sexp_flow_to_prev_leaf_tail)"
         "flow to prev leaf tail")
-  (map! [nxo :buffer] "E" "<Plug>(sexp_flow_to_next_leaf_tail)"
+  (map! [n :buffer] "E" "<Plug>(sexp_flow_to_next_leaf_tail)"
         "flow to next leaf tail")
+
+  ;; flow binds are annoyingly undefined in operator-pending and visual mode, so
+  ;; we replace them with the element-wise operations
+  (map! [xo :buffer] "B" "<Plug>(sexp_move_to_prev_element_head)"
+        "move to prev element head (xo)")
+  (map! [xo :buffer] "W" "<Plug>(sexp_move_to_next_element_head)"
+        "move to next element head (xo)")
+  (map! [xo :buffer] "gE" "<Plug>(sexp_move_to_prev_element_tail)"
+        "move to prev element tail (xo)")
+  (map! [xo :buffer] "E" "<Plug>(sexp_move_to_next_element_tail)"
+        "move to next element tail (xo)")
 
   ;; align
   (map! [nxo :buffer] "==" "<Plug>(sexp_indent)"
@@ -102,7 +113,7 @@
         "slurp backwards"))
 
 (augroup! :vim_sexp_mapping
-          [[FileType] [fennel lisp clojure scheme]
+          [[FileType] [fennel lisp clojure scheme query]
            `vim-sexp-mappings])
 
 ;; we have to define some syntax rules for vim-sexp to work properly.

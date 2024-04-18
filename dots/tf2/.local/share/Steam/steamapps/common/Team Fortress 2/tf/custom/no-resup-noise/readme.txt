@@ -1,0 +1,1 @@
+Put in Program Files/Steam/SteamApps/common/Team Fortress 2/tf/custom (If you do not have a custom folder, make one)

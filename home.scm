@@ -27,8 +27,8 @@
   ;; services, run 'guix home search KEYWORD' in a terminal.
   (services
     (list
-      (service home-symlink-manager-service-type)
-      (service home-dotfiles-service-type
+      #; (service home-symlink-manager-service-type)
+      #; (service home-dotfiles-service-type
                (home-dotfiles-configuration
                  (directories '("./dots"))
                  (layout 'stow)))
@@ -42,7 +42,7 @@
                    (list (local-file (service-dotfile "/zsh/zsh-logout"))))
                  (zshenv
                    (list (local-file (service-dotfile "/zsh/zshenv"))))))
-      (service home-inputrc-service-type
+      #; (service home-inputrc-service-type
                (home-inputrc-configuration
                  (variables
                    `(("bell-style" . "none")

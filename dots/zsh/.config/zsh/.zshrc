@@ -117,12 +117,12 @@ fi
 source $ZDOTDIR/aliases.zsh
 
 # source guix profile
-if [ -f $HOME/.guix-profile ]; then
+if [ -f $HOME/.guix-profile/etc/profile ]; then
     export GUIX_PROFILE="$HOME/.guix-profile"
     . "$GUIX_PROFILE/etc/profile"
 fi
 
-if [ -f $HOME/.config/guix/current ]; then
+if [ -f $HOME/.config/guix/current/etc/profile ]; then
     export GUIX_PROFILE="$HOME/.config/guix/current"
     . "$GUIX_PROFILE/etc/profile"
 fi

@@ -28,6 +28,7 @@
             :content     
               [ [ "New File"        "enew"                    "e" ]
                 [ "Neovim Config"   "EditVimrc"               "v" ]
+                [ "Org Files"       "e ~/orgfiles/todo.org"   "r" ]
                 [ " Find File"     "Telescope find_files"    "<leader>ff" ]
                 [ "󰍉 Grep Files"    "Telescope live_grep"     "<leader>lg" ]
                 [ " File Browser"  "Telescope file_browser"  "<leader>fb" ]

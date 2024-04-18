@@ -72,13 +72,20 @@
     (let [lines (table.concat
                   (vim.api.nvim_buf_get_lines 0 (- opts.line1 1) opts.line2 false)
                   "\n")]
-      (vim.fn.setreg "+"
+      (vim.fn.setreg (or opts.reg "+")
                      (.. "```" (or vim.o.filetype "") "\n"
                          lines
                          "\n```")))))
 
+(fn edit-and-cd [file]
+  (exec! [edit `file]
+         [lcd `(vim.fs.dirname file)]))
+
+(command! [:nargs 1] :EditAndCD
+  (fn [o]
+    (edit-and-cd (. o.fargs 1))))
+
 (command! [] :EditVimrc
   (fn [_]
-    (vim.cmd "edit ~/.config/nvim/init.fnl
-              lcd ~/.config/nvim")))
+    (edit-and-cd "~/.config/nvim/init.fnl")))
 

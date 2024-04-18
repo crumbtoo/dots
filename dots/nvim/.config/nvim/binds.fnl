@@ -42,6 +42,26 @@
       ":tabclose<CR>"
       "close tab")
 
+;;; lsp
+;; TODO put these in an LspAttach autocmd
+
+(map! [n :buffer] :<leader>e
+      vim.diagnostic.open_float
+      "open diagnostic in float")
+(map! [n :buffer] "]d"
+      vim.diagnostic.goto_next
+      "goto next diagnostic")
+(map! [n :buffer] "[d"
+      vim.diagnostic.goto_prev
+      "goto prev diagnostic")
+
+(map! [n] :gd
+      #(vim.lsp.buf.definition)
+      "go to definition (lsp)")
+(map! [n] :gD
+      #(vim.lsp.buf.declaration)
+      "go to declaration (lsp)")
+
 ;; files
 (map! [n :silent] :<leader>n
       ":NvimTreeToggle<CR>"
@@ -112,15 +132,23 @@
 
 ;;; vim-fu
 
-(macro with-current-line [[ln] ...]
-  `(let [,ln (vim.fn.line ".")]
-     ,...))
+(fn with-current-line-num [f]
+  (f (vim.fn.line ".")))
+
+(fn with-current-line [f]
+  (f (vim.fn.getline (vim.fn.line "."))))
+
+(command! [] :Thing
+          #(with-current-line
+             (fn [line]
+               (let [c (string.char (vim.fn.getchar))]
+                 (print line c)))))
 
 (map! [n] :<leader><C-i>
       (fn []
-        (with-current-line [ln]
+        (with-current-line-num (fn [ln]
           (vim.fn.append ln vim.b.rulestring)
-          (vim.api.nvim_feedkeys :0j :n true)))
+          (vim.api.nvim_feedkeys :0j :n true))))
       "insert hrule comment")
 
 (map! [x] :x ":<C-U>call cursor(line(\"'}\") - empty(getline(line(\"'}\"))),col(\"'>\"))<CR>`<1v``"

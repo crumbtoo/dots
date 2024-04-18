@@ -8,5 +8,9 @@
     {:enable true
      :lookahead true
      :keymaps {:ad "@function.outer"
-               :id "@function.inner"}}}})
+               :id "@function.inner"}}
+    :move
+    {:enable true
+     :goto_next_start {"]]" "@function.outer"}
+     :goto_previous_start {"[[" "@function.outer"}}}})
 

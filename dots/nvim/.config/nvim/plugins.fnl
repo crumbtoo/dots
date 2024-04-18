@@ -43,6 +43,10 @@
   (opts :nvim-telescope/telescope.nvim
         :main :telescope)
   :liuchengxu/vim-which-key
+  (opts :crumbtoo/ft-equiv
+        :dev true
+        :main :ft-equiv
+        :opts {})
   ; (opts :crumbtoo/nvim-window-mode
   ;       :dev true
   ;       :main :nfnl-plugin-example
@@ -72,7 +76,8 @@
   (opts :luc-tielen/telescope_hoogle
         :dependencies [ :nvim-telescope/telescope.nvim ]
         :config #((. (require :telescope) :load_extension) :hoogle))
-  (opts :MrcJkb/haskell-tools.nvim)
+  (opts :MrcJkb/haskell-tools.nvim
+        :config #(require :haskell-tools))
   ;; lisp
   (opts :clojure-vim/vim-jack-in
         :filetype :clojure)
@@ -94,7 +99,8 @@
         :lazy false
         ; load before nvim-autopairs
         :priority 60)
-  :Olical/nfnl
+  (opts :Olical/nfnl
+        :ft :fennel)
   (opts :michaelb/sniprun
         :build "sh install.sh")
   ;; agda

@@ -48,7 +48,8 @@
       (bind :6 "₆")
       (bind :7 "₇")
       (bind :8 "₈")
-      (bind :9 "₉")))
+      (bind :9 "₉")
+      (bind :l "λ")))
 
 (augroup! :agda-write-load
   [[BufWritePost] *.agda `(vim.cmd ":CornelisLoad")])

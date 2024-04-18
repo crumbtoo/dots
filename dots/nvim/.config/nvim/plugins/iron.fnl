@@ -1,7 +1,6 @@
-(local haskell-repl-cmd
-  (fn [meta]
-    (let [file (vim.api.nvim_buf_get_name meta.current_bufnr)]
-      ((. (require :haskell-tools) :repl :mk_repl_cmd) file))))
+(fn haskell-repl-cmd [meta]
+  (let [file (vim.api.nvim_buf_get_name meta.current_bufnr)]
+    ((. (require :haskell-tools) :repl :mk_repl_cmd) file)))
 
 ((. (require :iron.core) :setup)
   { :config

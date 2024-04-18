@@ -35,8 +35,8 @@
    :target "~/orgfiles/project-ideas.org"})
 
 (org.setup
-  {:org_agenda_files "~/orgfiles/**/*"
-   :org_default_notes_file "~/orgfiles/refile.org"
+  {:org_agenda_files ["~/orgfiles/**/*" "./README.org"]
+   :org_default_notes_file "~/orgfiles/todo.org"
    :org_custom_exports {:f (export-solarized-html false)
                         :F (export-solarized-html true)}
    :org_capture_templates

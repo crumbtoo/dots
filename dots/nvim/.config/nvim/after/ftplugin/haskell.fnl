@@ -11,3 +11,15 @@
 
 ; (set! indentexpr "v:lua.GetHaskellIndent()")
 
+(local ht (require :haskell-tools))
+
+(map! [n :buffer] :<leader>e
+      vim.diagnostic.open_float
+      "open diagnostic in float")
+(map! [n :buffer] "]d"
+      vim.diagnostic.goto_next
+      "goto next diagnostic")
+(map! [n :buffer] "[d"
+      vim.diagnostic.goto_prev
+      "goto prev diagnostic")
+

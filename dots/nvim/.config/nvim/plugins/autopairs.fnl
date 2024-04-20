@@ -1,6 +1,7 @@
 (local npairs (require :nvim-autopairs))
 (local rule (require :nvim-autopairs.rule))
 (local ts-conds (require :nvim-autopairs.ts-conds))
+(local utils (require :lib.utils))
 
 (npairs.setup
   { :check_ts true
@@ -14,11 +15,14 @@
 (macro ft-rules [fts ...]
   `(->> ,fts ,...))
 
+(local lisps [:fennel :lisp :clojure :scheme])
+(local ml-ish [:agda :haskell])
+
 ; remove '`' rule on lisp
 (-?> (npairs.get_rules "'")
-     (tset 1 :not_filetypes [ :fennel :lisp :clojure :scheme ]))
+     (tset 1 :not_filetypes (utils.concat lisps ml-ish)))
 (-?> (npairs.get_rules "`")
-     (tset 1 :not_filetypes [ :fennel :lisp :clojure :scheme ]))
+     (tset 1 :not_filetypes (utils.concat lisps ml-ish)))
 
 (npairs.add_rules
   [ (ft-rules [:tex :plaintex]

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-stow -v2 -d ~/guix-config/dots -t ~ --ignore "sound.cache" $@
+SCRIPT_DIR=$(dirname $0)
+
+stow -v2 -d $SCRIPT_DIR/dots -t ~ --ignore "sound.cache" $@
 

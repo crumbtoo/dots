@@ -49,6 +49,7 @@
       (bind :7 "₇")
       (bind :8 "₈")
       (bind :9 "₉")
+      (bind :^* "˟")
       (bind :l "λ")))
 
 (augroup! :agda-write-load

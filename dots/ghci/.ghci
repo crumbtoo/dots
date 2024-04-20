@@ -1,0 +1,5 @@
+:set prompt " \ESC[38;2;219;131;237m\STX\ESC[1m\STXλ\ESC[0m\STX "
+:seti -XNoStarIsType
+import Data.Function ((&))
+import Data.Functor ((<&>))
+

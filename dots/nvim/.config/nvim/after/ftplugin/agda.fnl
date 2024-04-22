@@ -39,7 +39,7 @@
 (g! cornelis_agda_prefix "\\")
 
 (do (let [bind vim.fn.cornelis#bind_input]
-      (bind :0 "₀")
+      ; (bind :0 "₀")
       (bind :1 "₁")
       (bind :2 "₂")
       (bind :3 "₃")

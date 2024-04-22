@@ -36,7 +36,7 @@
   (opts :akinsho/toggleterm.nvim
         :config (require :plugins.toggleterm))
   (opts :nvim-tree/nvim-tree.lua
-        :config (require :plugins.nvim-tree))
+        :config #(require :plugins.nvim-tree))
   (opts :lukas-reineke/indent-blankline.nvim
         :main :ibl
         :opts { :scope {:enabled false}})
@@ -52,6 +52,10 @@
   ;       :main :nfnl-plugin-example
   ;       :opts {})
   ; :mbbill/undotree
+  (opts :chrishrb/gx.nvim
+        :config #(require :plugins/gx)
+        :init #(g! netrw_nogx 1)
+        :dependencies [:nvim-lua/plenary.nvim])
 
   ;;; language tools
   (opts :nvim-treesitter/nvim-treesitter

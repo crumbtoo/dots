@@ -70,9 +70,11 @@
 (command! [:range true] :CopyAsCodeBlock
   (fn [opts]
     (let [lines (table.concat
-                  (vim.api.nvim_buf_get_lines 0 (- opts.line1 1) opts.line2 false)
+                  (vim.api.nvim_buf_get_lines
+                    0 (- opts.line1 1) opts.line2 false)
                   "\n")]
-      (vim.fn.setreg (or opts.reg "+")
+      (print opts.reg)
+      (vim.fn.setreg "+"
                      (.. "```" (or vim.o.filetype "") "\n"
                          lines
                          "\n```")))))

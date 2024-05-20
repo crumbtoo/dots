@@ -7,10 +7,18 @@
    {:select
     {:enable true
      :lookahead true
-     :keymaps {:ad "@function.outer"
-               :id "@function.inner"}}
+     :keymaps {:ad "@decl"
+               :id "@decl"
+               :ac "@class.outer"
+               :ic "@class.inner"
+               :as "@signature.outer"
+               :is "@signature.inner"}}
     :move
     {:enable true
-     :goto_next_start {"]]" "@function.outer"}
-     :goto_previous_start {"[[" "@function.outer"}}}})
+     :goto_next_start {"]]" "@decl"
+                       "]s" "@signature.outer"
+                       "]f" "@function.outer"}
+     :goto_previous_start {"[[" "@decl"
+                           "[s" "@signature.outer"
+                           "[f" "@function.outer"}}}})
 

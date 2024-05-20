@@ -91,3 +91,9 @@
   (fn [_]
     (edit-and-cd "~/.config/nvim/init.fnl")))
 
+;------------------------------------------------------------------------------;
+
+;; TODO: pr to (neo)vim for this
+(vim.filetype.add
+  {:extension {:wat "wat"}})
+

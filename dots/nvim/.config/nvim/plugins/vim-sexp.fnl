@@ -113,7 +113,7 @@
         "slurp backwards"))
 
 (augroup! :vim_sexp_mapping
-          [[FileType] [fennel lisp clojure scheme query]
+          [[FileType] [fennel lisp clojure scheme query wat]
            `vim-sexp-mappings])
 
 ;; we have to define some syntax rules for vim-sexp to work properly.
@@ -127,7 +127,7 @@
   ;; fennel is special in that the `:' syntax is used for strings
   [[FileType] [fennel]
     `(vim.cmd "syntax match string /:[^()\\[\\]\\{\\}\"'\\~\\@`,;]+/")]
-  [[FileType] [fennel lisp clojure scheme] 
+  [[FileType] [fennel lisp clojure scheme wat] 
     `(do (vim.cmd "syntax region string start=/\"/ skip=/\\\\\"/ end=/\"/")
          (vim.cmd "syntax region comment start=/;/ end=/$/"))])
 

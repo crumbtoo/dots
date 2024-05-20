@@ -7,10 +7,8 @@
       { :repl_definition
           { :haskell
               { :command haskell-repl-cmd }
-            :happy
-              { :command haskell-repl-cmd }
-            :alex
-              { :command haskell-repl-cmd }
+            :idris2
+              { :command ["pack" "repl"]}
           }
         :repl_open_cmd ((. (require :iron.view) :split :botright) 12)
       }

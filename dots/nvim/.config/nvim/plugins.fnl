@@ -43,19 +43,19 @@
   (opts :nvim-telescope/telescope.nvim
         :main :telescope)
   :liuchengxu/vim-which-key
-  (opts :crumbtoo/ft-equiv
-        :dev true
-        :main :ft-equiv
-        :opts {})
+  ; (opts :crumbtoo/ft-equiv
+  ;       :dev true
+  ;       :main :ft-equiv
+  ;       :opts {})
   ; (opts :crumbtoo/nvim-window-mode
   ;       :dev true
   ;       :main :nfnl-plugin-example
   ;       :opts {})
   ; :mbbill/undotree
-  (opts :chrishrb/gx.nvim
-        :config #(require :plugins/gx)
-        :init #(g! netrw_nogx 1)
-        :dependencies [:nvim-lua/plenary.nvim])
+  ; (opts :chrishrb/gx.nvim
+  ;       :config #(require :plugins/gx)
+  ;       :init #(g! netrw_nogx 1)
+  ;       :dependencies [:nvim-lua/plenary.nvim])
 
   ;;; language tools
   (opts :nvim-treesitter/nvim-treesitter
@@ -90,6 +90,8 @@
   ; (opts :eraserhd/parinfer-rust
   ;       :build "cargo build --release")
   (opts :guns/vim-sexp
+        ; load after treesitter
+        :priority 40
         :init #(g! sexp_filetypes "")
         :config #(require :plugins.vim-sexp))
   (opts :Olical/conjure
@@ -107,6 +109,8 @@
         :ft :fennel)
   (opts :michaelb/sniprun
         :build "sh install.sh")
+  :aznhe21/actions-preview.nvim
+  :neovim/nvim-lspconfig
   ;; agda
   (opts :isovector/cornelis
         :dependencies [:kana/vim-textobj-user
@@ -114,6 +118,14 @@
         :filetype :agda
         :build "stack build"
         :config #(require :plugins.cornelis))
+  ;; idris 2
+  (opts :SlayerOfTheBad/idris2-nvim
+        :filetype :idris2
+        :dependencies [:neovim/nvim-lspconfig
+                       :MunifTanjim/nui.nvim]
+        :main :idris2
+        :opts {:code_action_post_hook #(exec! [silent write])}
+        :config true)
   ;; markdown
   ; (opts :iamcco/markdown-preview.nvim
   ;       :cmd [:MarkdownPreviewToggle :MarkdownPreview :MarkdownPreviewStop]
@@ -140,9 +152,8 @@
   :tpope/vim-commentary
   (opts :L3MON4D3/LuaSnip
         ; :build "make install_jsregexp"
-        :opts
-          { :link_roots false
-            :keep_roots false}
+        :opts {:link_roots false
+               :keep_roots false}
           
         :version :v2.2
         :config

@@ -43,19 +43,19 @@
   (opts :nvim-telescope/telescope.nvim
         :main :telescope)
   :liuchengxu/vim-which-key
-  (opts :crumbtoo/ft-equiv
-        :dev true
-        :main :ft-equiv
-        :opts {})
+  ; (opts :crumbtoo/ft-equiv
+  ;       :dev true
+  ;       :main :ft-equiv
+  ;       :opts {})
   ; (opts :crumbtoo/nvim-window-mode
   ;       :dev true
   ;       :main :nfnl-plugin-example
   ;       :opts {})
   ; :mbbill/undotree
-  (opts :chrishrb/gx.nvim
-        :config #(require :plugins/gx)
-        :init #(g! netrw_nogx 1)
-        :dependencies [:nvim-lua/plenary.nvim])
+  ; (opts :chrishrb/gx.nvim
+  ;       :config #(require :plugins/gx)
+  ;       :init #(g! netrw_nogx 1)
+  ;       :dependencies [:nvim-lua/plenary.nvim])
 
   ;;; language tools
   (opts :nvim-treesitter/nvim-treesitter
@@ -76,6 +76,17 @@
   (opts :crumbtoo/diagflow.nvim ; :dgagn/diagflow.nvim
         :event :LspAttach
         :opts (require :plugins.diagflow))
+  ;; typst
+  (opts :kaarmu/typst.vim
+        :ft :typst
+        :config #(do (g! typst_conceal 1)
+                     (g! typst_conceal_math 1)
+                     (g! typst_conceal_emoji 1)
+                     (g! typst_auto_close_toc 1)
+                     (g! typst_embedded_languages [:haskell :scheme])
+                     (g! typst_pdf_viewer :sioyek)
+                     ; use treesitter
+                     (g! typst_syntax_highlight 1)))
   ;; haskell
   (opts :luc-tielen/telescope_hoogle
         :dependencies [ :nvim-telescope/telescope.nvim ]
@@ -90,6 +101,8 @@
   ; (opts :eraserhd/parinfer-rust
   ;       :build "cargo build --release")
   (opts :guns/vim-sexp
+        ; load after treesitter
+        :priority 40
         :init #(g! sexp_filetypes "")
         :config #(require :plugins.vim-sexp))
   (opts :Olical/conjure
@@ -107,6 +120,8 @@
         :ft :fennel)
   (opts :michaelb/sniprun
         :build "sh install.sh")
+  :aznhe21/actions-preview.nvim
+  :neovim/nvim-lspconfig
   ;; agda
   (opts :isovector/cornelis
         :dependencies [:kana/vim-textobj-user
@@ -114,6 +129,14 @@
         :filetype :agda
         :build "stack build"
         :config #(require :plugins.cornelis))
+  ;; idris 2
+  (opts :SlayerOfTheBad/idris2-nvim
+        :filetype :idris2
+        :dependencies [:neovim/nvim-lspconfig
+                       :MunifTanjim/nui.nvim]
+        :main :idris2
+        :opts {:code_action_post_hook #(exec! [silent write])}
+        :config true)
   ;; markdown
   ; (opts :iamcco/markdown-preview.nvim
   ;       :cmd [:MarkdownPreviewToggle :MarkdownPreview :MarkdownPreviewStop]
@@ -140,9 +163,8 @@
   :tpope/vim-commentary
   (opts :L3MON4D3/LuaSnip
         ; :build "make install_jsregexp"
-        :opts
-          { :link_roots false
-            :keep_roots false}
+        :opts {:link_roots false
+               :keep_roots false}
           
         :version :v2.2
         :config

@@ -6,7 +6,15 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=1000000   # the number of items for the internal history list
 export SAVEHIST=1000000   # maximum number of items for the history file
 
-export PATH=~/src/scripts:~/.local/bin:$PATH
+TEMP_GHCUP_PATH="~/.ghcup/hls/2.7.0.0/bin"
 
-[ -f "/home/crumb/.ghcup/env" ] && . "/home/crumb/.ghcup/env" # ghcup-env
+export PATH=~/src/scripts:~/.local/bin:~/.pack/bin:~/.ghcup/bin:$TEMP_GHCUP_PATH:$PATH
+export PATH="$PATH:/Users/crumble/Library/Application Support/Coursier/bin"
+
+[ -f "~/.ghcup/env" ] && . "~/.ghcup/env" # ghcup-env
+
+# guile
+export GUILE_LOAD_PATH="/usr/local/share/guile/site/3.0"
+export GUILE_LOAD_COMPILED_PATH="/usr/local/lib/guile/3.0/site-ccache"
+export GUILE_SYSTEM_EXTENSIONS_PATH="/usr/local/lib/guile/3.0/extensions"
 

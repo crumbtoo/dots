@@ -23,3 +23,13 @@
       vim.diagnostic.goto_prev
       "goto prev diagnostic")
 
+;;; whitespace
+(set! tabstop 2)
+(set! shiftwidth 2)
+(set! softtabstop 2)
+(set! expandtab)
+
+;;; concealment
+; (let [syn (require :lib.common-syntax)]
+;   (syn.forall))
+

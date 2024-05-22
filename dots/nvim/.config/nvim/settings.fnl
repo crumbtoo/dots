@@ -21,6 +21,11 @@
 (set! relativenumber)
 (set! signcolumn :yes)
 
+;; enable text concealing
+(set! conceallevel 1)
+;; conceal text even when the cursor is over its line
+(set! concealcursor "nc")
+
 ;; colours
 (color! :kanagawa)
 
@@ -70,9 +75,11 @@
 (command! [:range true] :CopyAsCodeBlock
   (fn [opts]
     (let [lines (table.concat
-                  (vim.api.nvim_buf_get_lines 0 (- opts.line1 1) opts.line2 false)
+                  (vim.api.nvim_buf_get_lines
+                    0 (- opts.line1 1) opts.line2 false)
                   "\n")]
-      (vim.fn.setreg (or opts.reg "+")
+      (print opts.reg)
+      (vim.fn.setreg "+"
                      (.. "```" (or vim.o.filetype "") "\n"
                          lines
                          "\n```")))))
@@ -88,4 +95,14 @@
 (command! [] :EditVimrc
   (fn [_]
     (edit-and-cd "~/.config/nvim/init.fnl")))
+
+;------------------------------------------------------------------------------;
+
+;; TODO: pr to (neo)vim for this
+(vim.filetype.add
+  {:extension {:wat "wat"}})
+
+;; prefer typst over sql
+(vim.filetype.add
+  {:extension {:typ "typst"}})
 

@@ -2,8 +2,6 @@
 (require-macros :hibiscus.vim)
 (require-macros :hibiscus.core)
 
-(org.setup_ts_grammar)
-
 (macro with-source/target [[source target] ...]
   `(let [,source (vim.api.nvim_buf_get_name 0)
          ,target (vim.fn.fnamemodify source ":p:r")]

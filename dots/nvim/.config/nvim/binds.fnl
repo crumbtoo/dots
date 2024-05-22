@@ -43,15 +43,27 @@
       "close tab")
 
 ;;; lsp
+; (map! [nv :buffer] "<leader>ca"
+;       vim.lsp.buf.code_action
+;       "lsp code action")
+
+(map! [n] "<leader>rn"
+      #(vim.lsp.buf.rename)
+      "lsp renamed symbol under cursor")
+
+(map! [nv] "<leader>ca"
+      (. (require :actions-preview) :code_actions)
+      "lsp code action preview")
+
 ;; TODO put these in an LspAttach autocmd
 
-(map! [n :buffer] :<leader>e
+(map! [n :buffer] :<leader>E
       vim.diagnostic.open_float
       "open diagnostic in float")
-(map! [n :buffer] "]d"
+(map! [n :buffer] "]e"
       vim.diagnostic.goto_next
       "goto next diagnostic")
-(map! [n :buffer] "[d"
+(map! [n :buffer] "[e"
       vim.diagnostic.goto_prev
       "goto prev diagnostic")
 

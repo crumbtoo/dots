@@ -76,6 +76,17 @@
   (opts :crumbtoo/diagflow.nvim ; :dgagn/diagflow.nvim
         :event :LspAttach
         :opts (require :plugins.diagflow))
+  ;; typst
+  (opts :kaarmu/typst.vim
+        :ft :typst
+        :config #(do (g! typst_conceal 1)
+                     (g! typst_conceal_math 1)
+                     (g! typst_conceal_emoji 1)
+                     (g! typst_auto_close_toc 1)
+                     (g! typst_embedded_languages [:haskell :scheme])
+                     (g! typst_pdf_viewer :sioyek)
+                     ; use treesitter
+                     (g! typst_syntax_highlight 1)))
   ;; haskell
   (opts :luc-tielen/telescope_hoogle
         :dependencies [ :nvim-telescope/telescope.nvim ]

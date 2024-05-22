@@ -21,6 +21,11 @@
 (set! relativenumber)
 (set! signcolumn :yes)
 
+;; enable text concealing
+(set! conceallevel 1)
+;; conceal text even when the cursor is over its line
+(set! concealcursor "nc")
+
 ;; colours
 (color! :kanagawa)
 
@@ -96,4 +101,8 @@
 ;; TODO: pr to (neo)vim for this
 (vim.filetype.add
   {:extension {:wat "wat"}})
+
+;; prefer typst over sql
+(vim.filetype.add
+  {:extension {:typ "typst"}})
 

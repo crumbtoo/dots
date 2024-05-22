@@ -17,8 +17,10 @@
     {:enable true
      :goto_next_start {"]]" "@decl"
                        "]s" "@signature.outer"
-                       "]f" "@function.outer"}
+                       "]f" "@function.outer"
+                       "]n" "@hole"}
      :goto_previous_start {"[[" "@decl"
                            "[s" "@signature.outer"
-                           "[f" "@function.outer"}}}})
+                           "[f" "@function.outer"
+                           "[n" "@hole"}}}})
 

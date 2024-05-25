@@ -21,7 +21,8 @@
         ,(unpack body))))
 
 [ :udayvir-singh/tangerine.nvim ; fennel
-  :udayvir-singh/hibiscus.nvim
+  (opts :udayvir-singh/hibiscus.nvim
+        :dev true)
 
   ;;; themes / ui
   :rebelot/kanagawa.nvim
@@ -151,7 +152,8 @@
   (opts :nvim-orgmode/orgmode
         :config #(require :plugins.orgmode)
         :dependencies [:nvim-treesitter/nvim-treesitter])
-  :andymass/vim-matchup
+  ;; re-enable once the TS fix is merged
+  ; :andymass/vim-matchup
   (opts :ggandor/leap-spooky.nvim
         :main :leap-spooky
         :config true

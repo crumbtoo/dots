@@ -24,7 +24,8 @@ end
 
 bootstrap("https://github.com/folke/lazy.nvim.git", { ref = "stable", adjust_rtp = true })
 bootstrap("https://github.com/udayvir-singh/tangerine.nvim.git", { ref = "v2.8", adjust_rtp = true })
-bootstrap("https://github.com/udayvir-singh/hibiscus.nvim.git", { ref = "v1.7", adjust_rtp = true })
+-- bootstrap("https://github.com/udayvir-singh/hibiscus.nvim.git", { ref = "v1.7", adjust_rtp = true })
+bootstrap("/Users/crumble/git/hibiscus.nvim", {adjust_rtp = true})
 
 local fennel_target_dir = vim.fn.stdpath "data" .. "/luatarget"
 local data_dir = vim.fn.stdpath [[data]]

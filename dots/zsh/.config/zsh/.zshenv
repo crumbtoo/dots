@@ -8,7 +8,7 @@ export SAVEHIST=1000000   # maximum number of items for the history file
 
 TEMP_GHCUP_PATH="~/.ghcup/hls/2.7.0.0/bin"
 
-export PATH=~/src/scripts:~/.local/bin:~/.pack/bin:~/.ghcup/bin:$TEMP_GHCUP_PATH:$PATH
+export PATH=~/.cabal/bin:~/src/scripts:~/.local/bin:~/.pack/bin:~/.ghcup/bin:$TEMP_GHCUP_PATH:$PATH
 export PATH="$PATH:/Users/crumble/Library/Application Support/Coursier/bin"
 
 [ -f "~/.ghcup/env" ] && . "~/.ghcup/env" # ghcup-env

@@ -94,6 +94,8 @@
         :config #((. (require :telescope) :load_extension) :hoogle))
   (opts :MrcJkb/haskell-tools.nvim
         :config #(require :haskell-tools))
+  :mrcjkb/haskell-snippets.nvim
+  :itchyny/vim-haskell-indent
   ;; lisp
   (opts :clojure-vim/vim-jack-in
         :filetype :clojure)
@@ -167,23 +169,15 @@
         ; :build "make install_jsregexp"
         :opts {:link_roots false
                :keep_roots false}
-          
         :version :v2.2
         :config
           (fn []
             (let [ls (require :luasnip.loaders.from_lua)
                   data (.. (vim.fn.stdpath :data) :/luatarget/snippets)]
-              (ls.load { :paths data}))))
+              (ls.load {:paths data}))))
   ;;; misc
-  :tpope/vim-fugitive
-  :dbakker/vim-paragraph-motion
+  :dbakker/vim-paragraph-motion ; paragraph motion includes lines of whitespace
   :tpope/vim-repeat
-  (opts :vhyrro/luarocks.nvim
-        :priority 1000
-        :config true
-        :opts {:rocks [:luautf8 ; required for nvim-agda
-                      ]
-              })
 ]
 
 

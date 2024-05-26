@@ -140,13 +140,6 @@
         :main :idris2
         :opts {:code_action_post_hook #(exec! [silent write])}
         :config true)
-  ;; markdown
-  ; (opts :iamcco/markdown-preview.nvim
-  ;       :cmd [:MarkdownPreviewToggle :MarkdownPreview :MarkdownPreviewStop]
-  ;       :ft [:markdown]
-  ;       :build #((. vim.fn :mkdp#util#install))
-  ;       :init (fn []
-  ;               (g! mkdp_refresh_slow 1)))
 
   ;;; vim-fu
   (opts :windwp/nvim-autopairs
@@ -178,6 +171,7 @@
   ;;; misc
   :dbakker/vim-paragraph-motion ; paragraph motion includes lines of whitespace
   :tpope/vim-repeat
+  :tpope/vim-fugitive ; mergetool
 ]
 
 

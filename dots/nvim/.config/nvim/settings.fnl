@@ -4,6 +4,10 @@
 ;------------------------------------------------------------------------------;
 ; ui
 
+;; when tab-completing, first complete the longest common match, then list other
+;; matches before cycling through them.
+(set! wildmode "longest,list,full")
+
 (set! splitright)
 
 ;; disable netrw in favour of nvim-tree
@@ -97,12 +101,19 @@
     (edit-and-cd "~/.config/nvim/init.fnl")))
 
 ;------------------------------------------------------------------------------;
+; filetypes
 
 ;; TODO: pr to (neo)vim for this
 (vim.filetype.add
-  {:extension {:wat "wat"}})
+  {:extension {:wat "wat"
+               ;; prefer typst over sql
+               :typ "typst"}})
 
-;; prefer typst over sql
-(vim.filetype.add
-  {:extension {:typ "typst"}})
+;; i'd prefer this to be in after/ftplugin/agda.fnl, but for
+;; unknown reasons, it does not work there. :D
+(augroup! :agda-refine-lagda
+  [[BufRead BufNewFile] *.lagda.org `(setlocal! ft "agda.org")])
+
+;; ditto.
+(vim.treesitter.language.register :org :agda.org)
 

@@ -12,7 +12,8 @@
                :ir "@assignment.rhs"
                :il "@assignment.lhs"
                :as "@signature.outer"
-               :is "@signature.inner"}}
+               :is "@signature.inner"
+               :ik "@kv_pair.outer"}}
     :move
     {:enable true
      :goto_next_start {"]]" "@decl.outer"
@@ -24,9 +25,12 @@
                            "[s" "@signature.outer"
                            "[f" "@function.outer"
                            "[n" "@hole"
-                           "<leader>o" "@pat"}}
+                           "<leader>o" "@pat"
+                           "[k" "@kv_pair.outer"}}
     :swap
     {:enable true
-     :swap_next {:>d "@toplevel"}
-     :swap_previous {:<d "@toplevel"}}}})
+     :swap_next {:>d "@toplevel"
+                 :>k "@kv_pair.outer"}
+     :swap_previous {:<d "@toplevel"
+                     :<k "@kv_pair.outer"}}}})
 

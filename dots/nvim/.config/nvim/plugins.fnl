@@ -22,6 +22,7 @@
 
 [ :udayvir-singh/tangerine.nvim ; fennel
   (opts :udayvir-singh/hibiscus.nvim
+        ; until `(setlocal! ...)` is added upstream
         :dev true)
 
   ;;; themes / ui
@@ -31,8 +32,8 @@
   (opts :startup-nvim/startup.nvim
         :priority 100
         :config (require :plugins.startup-nvim)
-        :dependencies [ :nvim-telescope/telescope.nvim
-                        :nvim-lua/plenary.nvim ])
+        :dependencies [:nvim-telescope/telescope.nvim
+                       :nvim-lua/plenary.nvim])
   :https://gitlab.com/yorickpeterse/nvim-window.git
   (opts :akinsho/toggleterm.nvim
         :config (require :plugins.toggleterm))
@@ -40,7 +41,7 @@
         :config #(require :plugins.nvim-tree))
   (opts :lukas-reineke/indent-blankline.nvim
         :main :ibl
-        :opts { :scope {:enabled false}})
+        :opts {:scope {:enabled false}})
   (opts :nvim-telescope/telescope.nvim
         :main :telescope)
   :liuchengxu/vim-which-key
@@ -112,17 +113,12 @@
         :init (fn []
                 (g! conjure#mapping#prefix "'")
                 ; (g! conjure#filetype#haskell :conjure.client.haskell.stdio)
+                (g! conjure#client#clojure#nrepl#connection#port_files
+                    [".shadow-cljs/nrepl.port" ".nrepl-port"])
                 (g! conjure#client#scheme#stdio#command "csi -quiet -:c")
                 (g! conjure#client#scheme#stdio#prompt_pattern "\n-#;%d-> ")))
-  (opts :kovisoft/slimv
-        :config #(require :plugins.slimv)
-        :lazy false
-        ; load before nvim-autopairs
-        :priority 60)
   (opts :Olical/nfnl
         :ft :fennel)
-  (opts :michaelb/sniprun
-        :build "sh install.sh")
   :aznhe21/actions-preview.nvim
   :neovim/nvim-lspconfig
   ;; agda
@@ -140,6 +136,8 @@
         :main :idris2
         :opts {:code_action_post_hook #(exec! [silent write])}
         :config true)
+  (opts :crumbtoo/idris2-snippets.nvim
+        :dev true)
 
   ;;; vim-fu
   (opts :windwp/nvim-autopairs
@@ -147,8 +145,7 @@
   (opts :nvim-orgmode/orgmode
         :config #(require :plugins.orgmode)
         :dependencies [:nvim-treesitter/nvim-treesitter])
-  ;; re-enable once the TS fix is merged
-  ; :andymass/vim-matchup
+  :andymass/vim-matchup
   (opts :ggandor/leap-spooky.nvim
         :main :leap-spooky
         :config true

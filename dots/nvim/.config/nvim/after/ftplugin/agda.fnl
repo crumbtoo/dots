@@ -51,8 +51,14 @@
   (bind :9 "₉")
   (bind :^* "˟")
   (bind :l "λ")
+  (bind :for "∀")
   (bind :inv "⁻¹"))
 
+; (augroup! :agda-refine-lagda
+;   [[BufRead BufNewFile] *.lagda.org `(print "hi")])
+
 (augroup! :agda-write-load
-  [[BufWritePost] *.agda `(vim.cmd ":CornelisLoad")])
+  [[BufWritePost] [*.agda *.lagda.*] `(vim.cmd ":CornelisLoad")])
+
+; (vim.treesitter.language.register :org :agda.org)
 

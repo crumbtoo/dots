@@ -5,6 +5,8 @@
   (lisp.set-whitespace)
   (lisp.set-rulestring))
 
-; (vim.cmd "setl lispwords+=def,defn,fn,comment,match")
 (setlocal+ lispwords "def,defn,fn,comment,match")
+(rem! lispwords [:if])
+; (vim.cmd "setl lispwords+=def,defn,fn,comment,match")
+; (vim.cmd "setl lispwords-=if")
 

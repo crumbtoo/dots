@@ -16,8 +16,8 @@
                 :git {:timeout 9999999999999999999999999999999999999}
               }))
 
-; TODO: include seems to slow down opening nvim, but avoids the issues with
-; require
+;; TODO: include seems to slow down opening nvim, but avoids the issues with
+;; require
 ; (include :binds)
 ; (include :settings)
 (require :binds)

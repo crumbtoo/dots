@@ -4,6 +4,10 @@
 (g! mapleader " ")
 (g! maplocalleader "  ")
 
+;;; unmaps
+(vim.cmd "nunmap <C-w>d")
+(vim.cmd "nunmap <C-w><C-D>")
+
 ;;; general
 
 (map! [n :verbose] :<C-\> "/\\<\\><Left><Left>"
@@ -57,13 +61,13 @@
 
 ;; TODO put these in an LspAttach autocmd
 
-(map! [n :buffer] :<leader>E
+(map! [n] :<leader>E
       vim.diagnostic.open_float
       "open diagnostic in float")
-(map! [n :buffer] "]e"
+(map! [n] "]e"
       vim.diagnostic.goto_next
       "goto next diagnostic")
-(map! [n :buffer] "[e"
+(map! [n] "[e"
       vim.diagnostic.goto_prev
       "goto prev diagnostic")
 
@@ -141,6 +145,10 @@
 (map! [n] :K
       #(vim.lsp.buf.hover)
       "lsp hover")
+
+(map! [nx] :<leader>ssr
+      #((. (require :ssr) :open))
+      "open SSR")
 
 ;;; vim-fu
 

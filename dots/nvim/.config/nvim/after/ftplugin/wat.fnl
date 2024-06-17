@@ -5,14 +5,13 @@
   (lisp.set-whitespace)
   (lisp.set-rulestring))
 
-(setlocal! commentstring ";; %s")
-(setlocal! lisp)
-(setlocal! iskeyword "33,35-39,42-43,45-58,60-90,94,95,97-122,126")
+; (setlocal! commentstring ";; %s")
+(vim.cmd "setlocal commentstring=;;\\ %s")
 
-(vim.cmd "
-setl lispwords+=module
-setl lispwords+=func
-setl lispwords+=sub
-setl lispwords+=type
-")
-
+; do
+;   local lisp = require("lib.lisp-family")
+;   lisp["set-whitespace"]()
+;   lisp["set-rulestring"]()
+; end
+; vim.opt_local["commentstring"] = ";; %s"
+; return print("hi")

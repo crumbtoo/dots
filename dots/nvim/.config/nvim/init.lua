@@ -55,5 +55,5 @@ require("tangerine").setup {
 }
 
 vim.opt.rtp:prepend(fennel_target_dir)
-vim.opt.rtp:prepend(fennel_target_dir .. "/after")
+vim.opt.rtp:append(fennel_target_dir .. "/after")
 

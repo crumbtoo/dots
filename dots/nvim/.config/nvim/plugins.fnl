@@ -129,7 +129,7 @@
         :build "stack build"
         :config #(require :plugins.cornelis))
   ;; idris 2
-  (opts :SlayerOfTheBad/idris2-nvim
+  (opts :SlayerOfTheBad/idris2-nvim ; why am i using this fork???
         :filetype :idris2
         :dependencies [:neovim/nvim-lspconfig
                        :MunifTanjim/nui.nvim]

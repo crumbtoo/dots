@@ -1,19 +1,19 @@
 ;; inherits: haskell
 ;; extends
 
-("forall" @keyword.repeat
- (#set! conceal "∀")) @_forall
+("forall"
+ (#set! conceal "∀")) @keyword.repeat
 
-("\\" @operator
- (#set! conceal "λ")) @_lambda
+("\\"
+ (#set! conceal "λ")) @operator
 
 ((operator) @_op
  (#eq? @_op "||")
- (#set! conceal "∨")) @_or
+ (#set! conceal "∨")) @operator
 
 ((operator) @_op
  (#eq? @_op "&&")
- (#set! conceal "∧")) @_and
+ (#set! conceal "∧")) @operator
 
 ; ((name) @_name
 ;  (#eq? @_name "𝔹")) @_Bool

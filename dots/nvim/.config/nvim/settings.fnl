@@ -105,8 +105,7 @@
 
 ;; TODO: pr to (neo)vim for this
 (vim.filetype.add
-  {:extension {:wat "wat"
-               ;; prefer typst over sql
+  {:extension {;; prefer typst over sql
                :typ "typst"}})
 
 ;; i'd prefer this to be in after/ftplugin/agda.fnl, but for

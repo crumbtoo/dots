@@ -17,6 +17,12 @@ alias grs='git remote show'
 alias glo='git log --pretty="oneline"'
 alias glol='git log --graph --oneline --decorate'
 
+alias js='jj st'
+alias jn='jj new'
+alias jd='jj describe'
+alias je='jj edit'
+alias jl='jj log'
+
 alias v='nvim'
 
 if command -v lsd &> /dev/null; then

@@ -49,10 +49,10 @@
   ;       :dev true
   ;       :main :ft-equiv
   ;       :opts {})
-  ; (opts :crumbtoo/nvim-window-mode
-  ;       :dev true
-  ;       :main :nfnl-plugin-example
-  ;       :opts {})
+  (opts :crumbtoo/nvim-window-mode
+        :dev true
+        :main :nfnl-plugin-example
+        :opts {})
   ; :mbbill/undotree
   ; (opts :chrishrb/gx.nvim
   ;       :config #(require :plugins/gx)
@@ -63,7 +63,9 @@
   (opts :nvim-treesitter/nvim-treesitter
         :config #(require :plugins.treesitter))
   :nvim-treesitter/playground
-  (opts :jaawerth/fennel.vim)
+  (opts :jaawerth/fennel.vim
+        :lazy true
+        :ft :fennel)
   (opts :Vigemus/iron.nvim
         :config #(require :plugins.iron))
   (opts :sudormrfbin/cheatsheet.nvim
@@ -72,14 +74,21 @@
   (opts :junegunn/vim-easy-align
         :config #(require :plugins.easy-align))
   (opts :lervag/vimtex
+        :lazy true
+        :ft [:tex :latex]
         :config #(require :plugins.vimtex))
   (opts :nvim-treesitter/nvim-treesitter-textobjects
         :dependencies [ :nvim-treesitter/nvim-treesitter])
   (opts :crumbtoo/diagflow.nvim ; :dgagn/diagflow.nvim
         :event :LspAttach
         :opts (require :plugins.diagflow))
+  ;; mercury
+  (opts :Mercury-Language/mercury
+        :dir :/Users/crumble/git/mercury-srcdist-22.01.8/vim
+        :ft :mercury)
   ;; typst
   (opts :kaarmu/typst.vim
+        :lazy true
         :ft :typst
         :config #(do (g! typst_conceal 1)
                      (g! typst_conceal_math 1)
@@ -99,9 +108,9 @@
   :itchyny/vim-haskell-indent
   ;; lisp
   (opts :clojure-vim/vim-jack-in
-        :filetype :clojure)
+        :ft :clojure)
   (opts :radenling/vim-dispatch-neovim
-        :filetype :clojure)
+        :ft :clojure)
   ; (opts :eraserhd/parinfer-rust
   ;       :build "cargo build --release")
   (opts :guns/vim-sexp
@@ -125,12 +134,13 @@
   (opts :isovector/cornelis
         :dependencies [:kana/vim-textobj-user
                        :neovimhaskell/nvim-hs.vim]
-        :filetype :agda
+        :ft :agda
         :build "stack build"
         :config #(require :plugins.cornelis))
   ;; idris 2
   (opts :SlayerOfTheBad/idris2-nvim ; why am i using this fork???
-        :filetype :idris2
+        :lazy true
+        :ft :idris2
         :dependencies [:neovim/nvim-lspconfig
                        :MunifTanjim/nui.nvim]
         :main :idris2

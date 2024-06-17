@@ -5,6 +5,7 @@
   (lisp.set-whitespace)
   (lisp.set-rulestring))
 
+(g! clojure_fuzzy_indent_patterns ["^with" "^def" "^let" "^match"])
 (setlocal+ lispwords "def,defn,fn,comment,match")
 (rem! lispwords [:if])
 ; (vim.cmd "setl lispwords+=def,defn,fn,comment,match")

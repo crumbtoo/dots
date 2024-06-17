@@ -10,6 +10,9 @@
 (set vim.b.rulestring
      "--------------------------------------------------------------------------------")
 
+;; idris2.nvim sets this to "--%s", without a space.
+(setlocal! commenstring "-- %s")
+
 (map! [n] :<Leader>d
       #(ca.case_split)
       "idris2: split case")

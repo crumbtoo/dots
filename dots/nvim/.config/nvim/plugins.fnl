@@ -124,8 +124,8 @@
                 ; (g! conjure#filetype#haskell :conjure.client.haskell.stdio)
                 (g! conjure#client#clojure#nrepl#connection#port_files
                     [".shadow-cljs/nrepl.port" ".nrepl-port"])
-                (g! conjure#client#scheme#stdio#command "csi -quiet -:c")
-                (g! conjure#client#scheme#stdio#prompt_pattern "\n-#;%d-> ")))
+                (g! conjure#filetype#scheme "conjure.client.guile.socket")
+                (g! conjure#client#guile#socket#pipename ".guile-repl.socket")))
   (opts :Olical/nfnl
         :ft :fennel)
   :aznhe21/actions-preview.nvim
@@ -139,10 +139,10 @@
         :config #(require :plugins.cornelis))
   ;; idris 2
   (opts :SlayerOfTheBad/idris2-nvim ; why am i using this fork???
-        :lazy true
-        :ft :idris2
         :dependencies [:neovim/nvim-lspconfig
                        :MunifTanjim/nui.nvim]
+        :lazy true
+        :ft [:idris2 :ipkg]
         :main :idris2
         :opts {:code_action_post_hook #(exec! [silent write])}
         :config true)

@@ -10,8 +10,11 @@
 (set vim.b.rulestring
      "--------------------------------------------------------------------------------")
 
+;; hacky workaround to fix the lsp not starting when idris2.nvim is lazy-loaded.
+(exec! [LspStart])
+
 ;; idris2.nvim sets this to "--%s", without a space.
-(setlocal! commenstring "-- %s")
+(setlocal! commentstring "-- %s")
 
 (map! [n] :<Leader>d
       #(ca.case_split)

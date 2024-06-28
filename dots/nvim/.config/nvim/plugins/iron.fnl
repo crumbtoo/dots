@@ -5,7 +5,8 @@
 ((. (require :iron.core) :setup)
  {:config {:repl_definition
            {:haskell {:command haskell-repl-cmd }
-            :idris2 {:command ["rlwrap" "pack" "repl"]}}
+            :idris2 {:command [:rlwrap :pack :repl]}
+            :scheme {:command [:rlwrap :guile]}}
            :repl_open_cmd
            ((. (require :iron.view) :split :botright) 12)}
   :scratch_repl true

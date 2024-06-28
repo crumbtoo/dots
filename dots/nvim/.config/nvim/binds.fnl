@@ -21,9 +21,9 @@
       "escape")
 (map! [ci] :kj :<Esc>
       "escape")
-(map! [x] :JK :<Esc>
+(map! [v] :JK :<Esc>
       "escape visual mode")
-(map! [x] :KJ :<Esc>
+(map! [v] :KJ :<Esc>
       "escape visual mode")
 ; can i just use (map! [t] :jk :<C-\><C-n>)?
 (augroup! :termesc
@@ -166,9 +166,10 @@
 
 (map! [n] :<leader><C-i>
       (fn []
-        (with-current-line-num (fn [ln]
-          (vim.fn.append ln vim.b.rulestring)
-          (vim.api.nvim_feedkeys :0j :n true))))
+        (with-current-line-num
+          (fn [ln]
+            (vim.fn.append ln vim.b.rulestring)
+            (vim.api.nvim_feedkeys :0j :n true))))
       "insert hrule comment")
 
 (map! [x] :x ":<C-U>call cursor(line(\"'}\") - empty(getline(line(\"'}\"))),col(\"'>\"))<CR>`<1v``"

@@ -1,0 +1,76 @@
+#!/bin/zsh
+#
+# .aliases - Set whatever shell aliases you want.
+#
+
+### ls
+if command -v lsd &> /dev/null; then
+    LS='lsd'
+    alias l='lsd -l'
+    alias ll='lsd -la'
+else
+    LS='ls --colour=auto'
+fi
+
+alias l="$LS -l"
+alias ll="$LS -la"
+
+### git
+alias gs='git status'
+alias ga='git add'
+alias gp='git push'
+alias gpo='git push origin'
+alias gtd='git tag --delete'
+alias gtdr='git tag --delete origin'
+alias gr='git branch -r'
+alias gplo='git pull origin'
+alias gb='git branch '
+alias gc='git commit'
+alias gcl='git clone'
+alias gd='git diff'
+alias gco='git checkout'
+alias gl='git log'
+alias gr='git remote'
+alias grs='git remote show'
+alias glo='git log --pretty="oneline"'
+alias glol='git log --graph --oneline --decorate'
+
+### jj
+alias jgp='jj git push'
+alias jgr='jj git remote'
+alias jgcl='jj git clone'
+alias js='jj st'
+alias jn='jj new'
+alias jd='jj describe'
+alias jdi='jj diff'
+alias jb='jj branch'
+alias je='jj edit'
+alias jl='jj log'
+
+### directory stack
+
+alias d='dirs -v'
+
+# alias 1..9 to jump to the nth entry on the directory stack
+for index in {1..9}; do
+    alias "$index"="cd +${index}"
+done
+
+### common typos
+alias ':q'='exit'
+
+### find
+alias fd='find . -type d -name'
+alias ff='find . -type f -name'
+
+# url encode/decode
+# alias urldecode='python3 -c "import sys, urllib.parse as ul; \
+#     print(ul.unquote_plus(sys.argv[1]))"'
+# alias urlencode='python3 -c "import sys, urllib.parse as ul; \
+#     print (ul.quote_plus(sys.argv[1]))"'
+
+### misc
+alias v='nvim'
+alias please=sudo
+alias '$'=":;"
+

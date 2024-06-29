@@ -125,7 +125,8 @@
                 (g! conjure#client#clojure#nrepl#connection#port_files
                     [".shadow-cljs/nrepl.port" ".nrepl-port"])
                 (g! conjure#filetype#scheme "conjure.client.guile.socket")
-                (g! conjure#client#guile#socket#pipename ".guile-repl.socket")))
+                (g! conjure#client#guile#socket#pipename
+                    "/tmp/guile-repl.socket")))
   (opts :Olical/nfnl
         :ft :fennel)
   :aznhe21/actions-preview.nvim

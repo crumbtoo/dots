@@ -82,6 +82,9 @@
   (opts :crumbtoo/diagflow.nvim ; :dgagn/diagflow.nvim
         :event :LspAttach
         :opts (require :plugins.diagflow))
+  ;; dale
+  (opts :crumbtoo/dale.vim
+        :dev true)
   ;; mercury
   (opts :Mercury-Language/mercury
         :dir :/Users/crumble/git/mercury-srcdist-22.01.8/vim
@@ -181,5 +184,4 @@
   :tpope/vim-repeat
   :tpope/vim-fugitive ; mergetool
 ]
-
 

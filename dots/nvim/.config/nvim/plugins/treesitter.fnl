@@ -34,3 +34,13 @@
      :swap_previous {:<d "@toplevel"
                      :<k "@kv_pair.outer"}}}})
 
+(let [parser-config
+      ((. (require :nvim-treesitter.parsers) :get_parser_configs))]
+  (set parser-config.dale
+       {:filetype :dale
+        :install_info {:branch :main
+                       :files [:src/parser.c]
+                       :generate_requires_npm false
+                       :requires_generate_from_grammar false
+                       :url "~/git/tree-sitter-dale"}}))
+

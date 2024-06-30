@@ -1,3 +1,11 @@
+## regex @language
+positive lookahead | \ze atom
+positive lookbehind | \zs atom
+positive lookahead | \(atom\)\@=
+positive lookbehind | \(atom\)\@<=
+negative lookahead | \(atom\)\@!
+negative lookbehind | \(atom\)\@<!
+
 ## vim-sexp @language @lisp @parens
 Move to prev element head        | B
 Move to next element head        | W

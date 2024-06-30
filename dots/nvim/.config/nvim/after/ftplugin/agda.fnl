@@ -1,6 +1,8 @@
 (require-macros :hibiscus.core)
 (require-macros :hibiscus.vim)
 
+(g! cornelis_agda_prefix "\\")
+
 (map! [i :buffer] :<C-\>
       #(vim.fn.cornelis#prompt_input)
       "agda prompt input")
@@ -35,8 +37,6 @@
 ; (map! [n :buffer] "]n"       ::CornelisNextGoal<CR>)
 (map! [n :buffer] :<C-A>     ::CornelisInc<CR>)
 (map! [n :buffer] :<C-X>     ::CornelisDec<CR>)
-
-(g! cornelis_agda_prefix "\\")
 
 (let [bind vim.fn.cornelis#bind_input]
   ; (bind :0 "₀")

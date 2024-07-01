@@ -42,6 +42,17 @@ set_prompt() {
 }
 set_prompt
 
+# source guix profile
+if [ -f $HOME/.guix-profile/etc/profile ]; then
+    export GUIX_PROFILE="$HOME/.guix-profile"
+    . "$GUIX_PROFILE/etc/profile"
+fi
+
+if [ -f $HOME/.config/guix/current/etc/profile ]; then
+    export GUIX_PROFILE="$HOME/.config/guix/current"
+    . "$GUIX_PROFILE/etc/profile"
+fi
+
 # Autoload functions you might want to use with antidote.
 ZFUNCDIR=${ZFUNCDIR:-$ZDOTDIR/functions}
 fpath=($ZFUNCDIR $fpath)

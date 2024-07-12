@@ -13,3 +13,6 @@
   (fn [_]
     (start-guile)))
 
+(setlocal^ lispwords "if")
+(setlocal+ lispwords "define-public")
+

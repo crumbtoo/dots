@@ -14,5 +14,5 @@
     (start-guile)))
 
 (setlocal^ lispwords "if")
-(setlocal+ lispwords "define-public")
+(setlocal+ lispwords "define-public,match")
 

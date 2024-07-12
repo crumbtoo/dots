@@ -183,5 +183,6 @@
   :dbakker/vim-paragraph-motion ; paragraph motion includes lines of whitespace
   :tpope/vim-repeat
   :tpope/vim-fugitive ; mergetool
+  "https://git.sr.ht/~vigoux/architext.nvim"
 ]
 

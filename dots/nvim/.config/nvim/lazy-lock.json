@@ -1,6 +1,7 @@
 {
   "LuaSnip": { "branch": "master", "commit": "8ae1dedd988eb56441b7858bd1e8554dfadaa46d" },
   "actions-preview.nvim": { "branch": "master", "commit": "9f52a01c374318e91337697ebed51c6fae57f8a4" },
+  "architext.nvim": { "branch": "master", "commit": "d8e56be4afd8d30a01da7a088c97dc97d1451cf4" },
   "cheatsheet.nvim": { "branch": "master", "commit": "9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef" },
   "conjure": { "branch": "master", "commit": "a81977726f726b21d4bd75cea5bbbb7022005507" },
   "cornelis": { "branch": "master", "commit": "06d6020eed1a3520bb2887337dd5b27b1755968b" },

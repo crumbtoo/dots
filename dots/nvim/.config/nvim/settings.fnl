@@ -67,7 +67,17 @@
 
 ;------------------------------------------------------------------------------;
 ; control
+
 (set! timeoutlen 500) ; timeout multi-key commands after 500ms
+
+;;; Exrc
+;; * exrc: Automatically execute .nvim.lua, .nvimrc, and .exrc files in the
+;;   current directory, if the file is in the trust list. Use :trust to
+;;   manage trusted files.
+;; * secure: Everything is allowed in 'exrc' files, because they must be
+;;   explicitly marked as "trusted".
+(set! exrc)
+(set! secure)
 
 ;------------------------------------------------------------------------------;
 ; abbreviations

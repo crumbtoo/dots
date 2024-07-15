@@ -172,11 +172,21 @@
                (let [c (string.char (vim.fn.getchar))]
                  (print line c)))))
 
+(fn get-rulestring []
+  (or vim.b.rulestring
+      ;; compute a default rulestring and cache it.
+      (let [s vim.o.commentstring
+            s^ (string.format
+                 s
+                 (string.rep "-" (- (or vim.o.textwidth 80) (length s))))]
+        (set vim.b.rulestring s^)
+        s^)))
+
 (map! [n] :<leader><C-i>
       (fn []
         (with-current-line-num
           (fn [ln]
-            (vim.fn.append ln vim.b.rulestring)
+            (vim.fn.append ln (get-rulestring))
             (vim.api.nvim_feedkeys :0j :n true))))
       "insert hrule comment")
 

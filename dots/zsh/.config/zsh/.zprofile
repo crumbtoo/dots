@@ -66,6 +66,12 @@ guile_system_extensions_path=(
 # Ensure path arrays do not contain duplicates.
 typeset -gU path fpath
 
+# In normal operation, opam only alters files within ~/.opam. However, to best
+# integrate with your system, some environment variables should be set:
+[[ ! -r '/Users/crumble/.opam/opam-init/init.zsh' ]] \
+    || source '/Users/crumble/.opam/opam-init/init.zsh' \
+    > /dev/null 2> /dev/null
+
 # Set the list of directories that zsh searches for commands.
 path=(
   $HOME/{,s}bin(N)

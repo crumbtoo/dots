@@ -5,6 +5,9 @@
 (local fmta (. (require :luasnip.extras.fmt) :fmta))
 (import-macros {: s : s*} :lib.snippet-macros)
 
+(let [hs-snippets (. (require :haskell-snippets) :all)]
+  (ls.add_snippets :haskell hs-snippets {:key :haskell}))
+
 [
  ; (s :lang
  ;    "{-# LANGUAGE <...> #-}"
@@ -42,10 +45,4 @@
  ;    (fmta "{-# <> #-}"
  ;          [(i 1)]))
 ]
-
-; local haskell_snippets = require('haskell-snippets').all
-; ls.add_snippets('haskell', haskell_snippets, { key = 'haskell' })
-
-(let [hs-snippets (. (require :haskell-snippets) :all)]
-  (ls.add_snippets :haskell hs-snippets {:key :haskell}))
 

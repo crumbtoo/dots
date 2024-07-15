@@ -47,9 +47,14 @@
       "close tab")
 
 ;;; lsp
+
 ; (map! [nv :buffer] "<leader>ca"
 ;       vim.lsp.buf.code_action
 ;       "lsp code action")
+
+(map! [nv] "<leader>fmt"
+      (fn [_] (vim.lsp.buf.format {:async true}))
+      "lsp format")
 
 (map! [n] "<leader>rn"
       #(vim.lsp.buf.rename)

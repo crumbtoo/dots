@@ -103,20 +103,23 @@
 (map! [n :silent] :<leader>t "<Cmd>exe v:count1 . \"ToggleTerm\"<CR>"
       "toggle shell window")
 
-(map! [n :silent] :<leader>G
-      (let [term (. (require :toggleterm.terminal) :Terminal)
-            lazygit (term:new { :cmd          "lazygit"
-                                :hidden       true
-                                :dir          :git_dir
-                                :direction    :float
-                                :float_opts   { :border :curved }
-                                :on_create
-                                  (fn []
-                                    (vim.keymap.del :t :jk {:buffer 0})
-                                    (vim.keymap.del :t :kj {:buffer 0}))
-                              })]
-        (fn [] (lazygit:toggle)))
-      "toggle lazygit window")
+(let [term (. (require :toggleterm.terminal) :Terminal)
+      make-lazy
+      (fn [cmd]
+        (term:new {:cmd cmd
+                   :hidden true
+                   :dir :git_dir
+                   :direction :float
+                   :float_opts { :border :curved }
+                   :on_create #(do (vim.keymap.del :t :jk {:buffer 0})
+                                   (vim.keymap.del :t :kj {:buffer 0}))}))]
+  (map! [n :silent] :<leader>G
+        (let [lazygit (make-lazy "lazygit")]
+          #(lazygit:toggle))
+        "toggle lazygit window")
+  (map! [n :silent] :<leader>GJ
+        (let [lazyjj (make-lazy "lazyjj")]
+          #(lazyjj:toggle))))
 
 ;; iron.nvim
 (map! [n] :<leader>rr

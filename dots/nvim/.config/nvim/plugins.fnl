@@ -133,7 +133,8 @@
   (opts :Olical/nfnl
         :ft :fennel)
   :aznhe21/actions-preview.nvim
-  :neovim/nvim-lspconfig
+  (opts :neovim/nvim-lspconfig
+        :config #(require :plugins.lspconfig))
   ;; agda
   (opts :isovector/cornelis
         :dependencies [:kana/vim-textobj-user

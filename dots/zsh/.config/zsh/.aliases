@@ -9,7 +9,7 @@ if command -v lsd &> /dev/null; then
     alias l='lsd -l'
     alias ll='lsd -la'
 else
-    LS='ls --colour=auto'
+    LS='ls --color=auto'
 fi
 
 alias l="$LS -l"

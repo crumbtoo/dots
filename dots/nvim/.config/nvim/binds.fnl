@@ -52,9 +52,10 @@
 ;       vim.lsp.buf.code_action
 ;       "lsp code action")
 
-(map! [nv] "<leader>fmt"
-      (fn [_] (vim.lsp.buf.format {:async true}))
-      "lsp format")
+;; just use `gq`
+; (map! [nv] "<leader>fmt"
+;       (fn [_] (vim.lsp.buf.format {:async true}))
+;       "lsp format")
 
 (map! [n] "<leader>rn"
       #(vim.lsp.buf.rename)
@@ -63,6 +64,15 @@
 (map! [nv] "<leader>ca"
       (. (require :actions-preview) :code_actions)
       "lsp code action preview")
+
+(map! [n] "<leader>fr"
+      #(vim.lsp.buf.references)
+      "lsp find references")
+
+(map! [n] "<leader>ta"
+      #((. (require :telescope.builtin) :tags)
+        {:only_sort_tags true})
+      "telescope tags")
 
 ;; TODO put these in an LspAttach autocmd
 
@@ -89,11 +99,11 @@
       "toggle nvim-tree")
 
 (map! [n :silent] :<leader>ff
-      ":Telescope find_files<CR>"
+      #((. (require :telescope.builtin) :find_files))
       "search files by name")
 
 (map! [n] :<leader>lg
-      ":Telescope live_grep<CR>"
+      #((. (require :telescope.builtin) :live_grep))
       "search files by content (requires ripgrep)")
 
 (map! [n] :<leader>?

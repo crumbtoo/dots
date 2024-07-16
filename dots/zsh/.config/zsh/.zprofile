@@ -63,6 +63,10 @@ guile_system_extensions_path=(
   {/usr/local,/opt/homebrew}/lib/guile/3.0/extensions
 )
 
+export SSL_CERT_DIR="$HOME/.guix-profile/etc/ssl/certs"
+export SSL_CERT_FILE="$HOME/.guix-profile/etc/ssl/certs/ca-certificates.crt"
+export GIT_SSL_CAINFO="$SSL_CERT_FILE"
+
 # Ensure path arrays do not contain duplicates.
 typeset -gU path fpath
 

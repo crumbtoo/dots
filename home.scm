@@ -8,11 +8,12 @@
              (gnu packages)
              (gnu services)
              (guix gexp)
-             (gnu home services)
-             (gnu home services dotfiles)
-             (gnu home services symlink-manager)
-             (gnu home services ssh)
-             (gnu home services shells))
+             ; (gnu home services)
+             ; (gnu home services dotfiles)
+             ; (gnu home services symlink-manager)
+             ; (gnu home services ssh)
+             ; (gnu home services shells)
+)
 
 (define (service-dotfile . rest)
   (apply string-append "./service-dots" rest))
@@ -22,7 +23,7 @@
   ;; Home profile, under ~/.guix-home/profile.
   (packages
     (specifications->packages
-      (list "neovim" "zsh" "zsh-syntax-highlighting")))
+      (list "git" "stow" "zsh")))
 
   ;; Below is the list of Home services.  To search for available
   ;; services, run 'guix home search KEYWORD' in a terminal.
@@ -52,7 +53,7 @@
       ;                ("show-mode-in-prompt" . #t)
       ;                ("completion-ignore-case" . #t)
       ;                ("blink-matching-paren" . #t)))))
-      (service home-openssh-service-type
+      #; (service home-openssh-service-type
                (home-openssh-configuration
                  #; (hosts
                    (list (openssh-host (name "")

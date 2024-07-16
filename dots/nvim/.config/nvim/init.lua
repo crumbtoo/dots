@@ -23,36 +23,38 @@ local function bootstrap(url, opts)
 end
 
 bootstrap("https://github.com/folke/lazy.nvim.git", { ref = "stable", adjust_rtp = true })
-bootstrap("https://github.com/udayvir-singh/tangerine.nvim.git", { ref = "v2.8", adjust_rtp = true })
+bootstrap("https://github.com/udayvir-singh/tangerine.nvim.git", { ref = "v2.9", adjust_rtp = true })
 -- bootstrap("https://github.com/udayvir-singh/hibiscus.nvim.git", { ref = "v1.7", adjust_rtp = true })
-bootstrap("/Users/crumble/git/hibiscus.nvim", {adjust_rtp = true})
+bootstrap(os.getenv("HOME") .. "/git/hibiscus.nvim", {adjust_rtp = true})
 
 local fennel_target_dir = vim.fn.stdpath "data" .. "/luatarget"
 local data_dir = vim.fn.stdpath [[data]]
 local nvim_dir = vim.fn.stdpath [[config]]
 
-require("tangerine").setup {
-  vimrc   = nvim_dir .. "/init.fnl",
-  source  = nvim_dir,
-  target  = fennel_target_dir,
+pcall(function ()
+  require("tangerine").setup {
+    vimrc   = nvim_dir .. "/init.fnl",
+    source  = nvim_dir,
+    target  = fennel_target_dir,
 
-  compiler = {
-    verbose = false,
-    hooks = { "oninit" },
-    -- adviser = function(fennel)
-    --   fennel["macro-path"] = fennel["macro-path"] .. ";"
-    --                        .. nvim_dir .. "/?.fnl;"
-    --     		   .. data_dir .. "lazy/hibiscus.nvim/fnl/?.fnl"
-    --   return fennel
-    -- end
-  },
-  -- version = "latest",
-  keymaps = {
-    eval_buffer = "<Nop>",
-    peek_buffer = "<Nop>",
-    goto_output = "<Nop>"
+    compiler = {
+      verbose = false,
+      hooks = { "oninit" },
+      -- adviser = function(fennel)
+      --   fennel["macro-path"] = fennel["macro-path"] .. ";"
+      --                        .. nvim_dir .. "/?.fnl;"
+      --     		   .. data_dir .. "lazy/hibiscus.nvim/fnl/?.fnl"
+      --   return fennel
+      -- end
+    },
+    -- version = "latest",
+    keymaps = {
+      eval_buffer = "<Nop>",
+      peek_buffer = "<Nop>",
+      goto_output = "<Nop>"
+    }
   }
-}
+end)
 
 vim.opt.rtp:prepend(fennel_target_dir)
 vim.opt.rtp:append(fennel_target_dir .. "/after")

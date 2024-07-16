@@ -49,10 +49,10 @@
   ;       :dev true
   ;       :main :ft-equiv
   ;       :opts {})
-  (opts :crumbtoo/nvim-window-mode
-        :dev true
-        :main :nfnl-plugin-example
-        :opts {})
+  ; (opts :crumbtoo/nvim-window-mode
+  ;       :dev true
+  ;       :main :nfnl-plugin-example
+  ;       :opts {})
   ; :mbbill/undotree
   ; (opts :chrishrb/gx.nvim
   ;       :config #(require :plugins/gx)
@@ -83,8 +83,8 @@
         :event :LspAttach
         :opts (require :plugins.diagflow))
   ;; dale
-  (opts :crumbtoo/dale.vim
-        :dev true)
+  ; (opts :crumbtoo/dale.vim
+  ;       :dev true)
   ;; mercury
   (opts :Mercury-Language/mercury
         :dir :/Users/crumble/git/mercury-srcdist-22.01.8/vim
@@ -151,8 +151,8 @@
         :main :idris2
         :opts {:code_action_post_hook #(exec! [silent write])}
         :config true)
-  (opts :crumbtoo/idris2-snippets.nvim
-        :dev true)
+  ; (opts :crumbtoo/idris2-snippets.nvim
+  ;       :dev true)
 
   ;;; vim-fu
   (opts :windwp/nvim-autopairs

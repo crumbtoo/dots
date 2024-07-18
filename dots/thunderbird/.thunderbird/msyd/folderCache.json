@@ -1,0 +1,187 @@
+{
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 28,
+		"folderName" : "cool fee",
+		"folderSize" : -1,
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : -1,
+		"totalUnreadMsgs" : -1
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/Daily Grammar Lesson.msf" : 
+	{
+		"MRUTime" : "1721310826",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "Daily Grammar Lesson",
+		"folderSize" : 3709,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 3,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/Hacker News Front Page.msf" : 
+	{
+		"MRUTime" : "1721311890",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "Hacker News Front Page",
+		"folderSize" : 26658,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 20,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/Haskell Planetarium.msf" : 
+	{
+		"MRUTime" : "1721311847",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "Haskell Planetarium",
+		"folderSize" : 64934,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 70,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/Idiom of the Day.msf" : 
+	{
+		"MRUTime" : "1721310765",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "Idiom of the Day",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 3,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/Journal of Functional Programming.msf" : 
+	{
+		"MRUTime" : "1721310765",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "Journal of Functional Programming",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 7,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/Richard Stallman's Political Notes.msf" : 
+	{
+		"MRUTime" : "1721310775",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "Richard Stallman's Political Notes",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 200,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/TF2 Official Blog.msf" : 
+	{
+		"MRUTime" : "1721310766",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "TF2 Official Blog",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 25,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/Trash.msf" : 
+	{
+		"MRUTime" : "1721310446",
+		"expungedBytes" : 0,
+		"flags" : 260,
+		"folderName" : "Trash",
+		"folderSize" : 0,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/Word of the Day.msf" : 
+	{
+		"MRUTime" : "1721311845",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "Word of the Day",
+		"folderSize" : 3384,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 3,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/e621 deerkid.msf" : 
+	{
+		"MRUTime" : "1721310816",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "e621 deerkid",
+		"folderSize" : 140367,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 75,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/home/crumb/.thunderbird/pgte5db0.default-release/Mail/Feeds/xkcdcom.msf" : 
+	{
+		"MRUTime" : "1721310840",
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"dobayes.mailnews@mozilla.org#junk.empty" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "xkcdcom",
+		"folderSize" : 4141,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 4,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	}
+}

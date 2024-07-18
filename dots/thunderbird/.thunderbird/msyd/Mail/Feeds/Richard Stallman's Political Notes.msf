@@ -1,0 +1,2607 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=gloda-dirty)(B9=junkscore)(BA=keywords)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=folderName)(AF=indexingPriority)
+  (B0=storeToken)(B1=dateReceived)(B2=content-base)(B3=ProtoThreadFlags)
+  (B4=MRUTime)(B5=dobayes.mailnews@mozilla.org#junk.empty)
+  (B6=dobayes.mailnews@mozilla.org#junk)(B7=gloda-id)>
+<(92=40)(27B=6690a7f8)(81=0)(80=1)>
+[40:m(^9B=40)(^8F=40)(^91^27B)(^90=0)(^92=1)(^93=0)]
+<(285=41)(282=6690a7f7)>[41:m(^9B=41)(^8F=41)(^91^282)(^90=0)(^92=1)
+    (^93=0)]
+<(28D=42)(28A=6690a7f5)>[42:m(^9B=42)(^8F=42)(^91^28A)(^90=0)(^92=1)
+    (^93=0)]
+<(295=43)(292=6690a7f2)>[43:m(^9B=43)(^8F=43)(^91^292)(^90=0)(^92=1)
+    (^93=0)]
+<(29D=44)(29A=6690a7f1)>[44:m(^9B=44)(^8F=44)(^91^29A)(^90=0)(^92=1)
+    (^93=0)]
+<(2A5=45)(2A2=6690a7ee)>[45:m(^9B=45)(^8F=45)(^91^2A2)(^90=0)(^92=1)
+    (^93=0)]
+<(2AD=46)(2AA=6690a7ea)>[46:m(^9B=46)(^8F=46)(^91^2AA)(^90=0)(^92=1)
+    (^93=0)]
+<(2B5=47)(2B2=668e9f47)>[47:m(^9B=47)(^8F=47)(^91^2B2)(^90=0)(^92=1)
+    (^93=0)]
+<(2BD=48)(2BA=668e9f46)>[48:m(^9B=48)(^8F=48)(^91^2BA)(^90=0)(^92=1)
+    (^93=0)]
+<(2C5=49)(2C2=668e9f45)>[49:m(^9B=49)(^8F=49)(^91^2C2)(^90=0)(^92=1)
+    (^93=0)]
+<(2CD=4a)(2CA=668df6b7)>[4A:m(^9B=4a)(^8F=4a)(^91^2CA)(^90=0)(^92=1)
+    (^93=0)]
+<(2D5=4b)(2D2=668df6b5)>[4B:m(^9B=4b)(^8F=4b)(^91^2D2)(^90=0)(^92=1)
+    (^93=0)]
+<(2DD=4c)(2DA=668df6b4)>[4C:m(^9B=4c)(^8F=4c)(^91^2DA)(^90=0)(^92=1)
+    (^93=0)]
+<(2E5=4d)(2E2=668df6b2)>[4D:m(^9B=4d)(^8F=4d)(^91^2E2)(^90=0)(^92=1)
+    (^93=0)]
+<(2ED=4e)(2EA=668df6b1)>[4E:m(^9B=4e)(^8F=4e)(^91^2EA)(^90=0)(^92=1)
+    (^93=0)]
+<(2F5=4f)(2F2=668df6af)>[4F:m(^9B=4f)(^8F=4f)(^91^2F2)(^90=0)(^92=1)
+    (^93=0)]
+<(2FD=50)(2FA=668d4dc7)>[50:m(^9B=50)(^8F=50)(^91^2FA)(^90=0)(^92=1)
+    (^93=0)]
+<(305=51)>[51:m(^9B=51)(^8F=51)(^91^2FA)(^90=0)(^92=1)(^93=0)]
+<(30C=52)(30A=668d4dc6)>[52:m(^9B=52)(^8F=52)(^91^30A)(^90=0)(^92=1)
+    (^93=0)]
+<(314=53)(311=668d4dc3)>[53:m(^9B=53)(^8F=53)(^91^311)(^90=0)(^92=1)
+    (^93=0)]
+<(31B=54)(319=668d4dc2)>[54:m(^9B=54)(^8F=54)(^91^319)(^90=0)(^92=1)
+    (^93=0)]
+<(323=55)(320=668d4dc1)>[55:m(^9B=55)(^8F=55)(^91^320)(^90=0)(^92=1)
+    (^93=0)]
+<(32A=56)>[56:m(^9B=56)(^8F=56)(^91^320)(^90=0)(^92=1)(^93=0)]
+<(331=57)(32F=668d4dc0)>[57:m(^9B=57)(^8F=57)(^91^32F)(^90=0)(^92=1)
+    (^93=0)]
+<(339=58)(336=668bfc3f)>[58:m(^9B=58)(^8F=58)(^91^336)(^90=0)(^92=1)
+    (^93=0)]
+<(341=59)(33E=668bfc3e)>[59:m(^9B=59)(^8F=59)(^91^33E)(^90=0)(^92=1)
+    (^93=0)]
+<(349=5a)(346=668bfc3b)>[5A:m(^9B=5a)(^8F=5a)(^91^346)(^90=0)(^92=1)
+    (^93=0)]
+<(351=5b)(34E=668bfc3a)>[5B:m(^9B=5b)(^8F=5b)(^91^34E)(^90=0)(^92=1)
+    (^93=0)]
+<(359=5c)(356=668bfc39)>[5C:m(^9B=5c)(^8F=5c)(^91^356)(^90=0)(^92=1)
+    (^93=0)]
+<(361=5d)(35E=668bfc37)>[5D:m(^9B=5d)(^8F=5d)(^91^35E)(^90=0)(^92=1)
+    (^93=0)]
+<(369=5e)(366=668bfc36)>[5E:m(^9B=5e)(^8F=5e)(^91^366)(^90=0)(^92=1)
+    (^93=0)]
+<(371=5f)(36E=668bfc31)>[5F:m(^9B=5f)(^8F=5f)(^91^36E)(^90=0)(^92=1)
+    (^93=0)]
+<(379=60)(376=668a565c)>[60:m(^9B=60)(^8F=60)(^91^376)(^90=0)(^92=1)
+    (^93=0)]
+<(380=61)>[61:m(^9B=61)(^8F=61)(^91^376)(^90=0)(^92=1)(^93=0)]
+<(388=62)(385=668a565b)>[62:m(^9B=62)(^8F=62)(^91^385)(^90=0)(^92=1)
+    (^93=0)]
+<(390=63)(38D=668a565a)>[63:m(^9B=63)(^8F=63)(^91^38D)(^90=0)(^92=1)
+    (^93=0)]
+<(399=64)(396=668a5659)>[64:m(^9B=64)(^8F=64)(^91^396)(^90=0)(^92=1)
+    (^93=0)]
+<(3A0=65)(39E=668a01f6)>[65:m(^9B=65)(^8F=65)(^91^39E)(^90=0)(^92=1)
+    (^93=0)]
+<(3A7=66)>[66:m(^9B=66)(^8F=66)(^91^39E)(^90=0)(^92=1)(^93=0)]
+<(3AF=67)(3AC=668a01f3)>[67:m(^9B=67)(^8F=67)(^91^3AC)(^90=0)(^92=1)
+    (^93=0)]
+<(3B7=68)(3B4=66895903)>[68:m(^9B=68)(^8F=68)(^91^3B4)(^90=0)(^92=1)
+    (^93=0)]
+<(3BF=69)(3BC=66895902)>[69:m(^9B=69)(^8F=69)(^91^3BC)(^90=0)(^92=1)
+    (^93=0)]
+<(3C6=6a)>[6A:m(^9B=6a)(^8F=6a)(^91^3BC)(^90=0)(^92=1)(^93=0)]
+<(3CE=6b)(3CB=6687e614)>[6B:m(^9B=6b)(^8F=6b)(^91^3CB)(^90=0)(^92=1)
+    (^93=0)]
+<(3D5=6c)>[6C:m(^9B=6c)(^8F=6c)(^91^3CB)(^90=0)(^92=1)(^93=0)]
+<(3DC=6d)(3DA=6687e613)>[6D:m(^9B=6d)(^8F=6d)(^91^3DA)(^90=0)(^92=1)
+    (^93=0)]
+<(3E4=6e)(3E1=6687e612)>[6E:m(^9B=6e)(^8F=6e)(^91^3E1)(^90=0)(^92=1)
+    (^93=0)]
+<(3EB=6f)(3E9=6687e611)>[6F:m(^9B=6f)(^8F=6f)(^91^3E9)(^90=0)(^92=1)
+    (^93=0)]
+<(3F3=70)(3F0=6687e610)>[70:m(^9B=70)(^8F=70)(^91^3F0)(^90=0)(^92=1)
+    (^93=0)]
+<(3FA=71)>[71:m(^9B=71)(^8F=71)(^91^3F0)(^90=0)(^92=1)(^93=0)]
+<(402=72)(3FF=6687e60f)>[72:m(^9B=72)(^8F=72)(^91^3FF)(^90=0)(^92=1)
+    (^93=0)]
+<(40A=73)(407=6687e60e)>[73:m(^9B=73)(^8F=73)(^91^407)(^90=0)(^92=1)
+    (^93=0)]
+<(411=74)(40F=6687e60d)>[74:m(^9B=74)(^8F=74)(^91^40F)(^90=0)(^92=1)
+    (^93=0)]
+<(419=75)(416=6687e60c)>[75:m(^9B=75)(^8F=75)(^91^416)(^90=0)(^92=1)
+    (^93=0)]
+<(420=76)>[76:m(^9B=76)(^8F=76)(^91^416)(^90=0)(^92=1)(^93=0)]
+<(429=77)(426=6687e60b)>[77:m(^9B=77)(^8F=77)(^91^426)(^90=0)(^92=1)
+    (^93=0)]
+<(430=78)>[78:m(^9B=78)(^8F=78)(^91^426)(^90=0)(^92=1)(^93=0)]
+<(438=79)(435=6687e609)>[79:m(^9B=79)(^8F=79)(^91^435)(^90=0)(^92=1)
+    (^93=0)]
+<(440=7a)(43D=6687e608)>[7A:m(^9B=7a)(^8F=7a)(^91^43D)(^90=0)(^92=1)
+    (^93=0)]
+<(448=7b)(445=6687e607)>[7B:m(^9B=7b)(^8F=7b)(^91^445)(^90=0)(^92=1)
+    (^93=0)]
+<(450=7c)(44D=6687e606)>[7C:m(^9B=7c)(^8F=7c)(^91^44D)(^90=0)(^92=1)
+    (^93=0)]
+<(458=7d)(455=6687e605)>[7D:m(^9B=7d)(^8F=7d)(^91^455)(^90=0)(^92=1)
+    (^93=0)]
+<(45F=7e)(45D=6687e604)>[7E:m(^9B=7e)(^8F=7e)(^91^45D)(^90=0)(^92=1)
+    (^93=0)]
+<(467=7f)(464=6687e603)>[7F:m(^9B=7f)(^8F=7f)(^91^464)(^90=0)(^92=1)
+    (^93=0)]
+<(46E=80)(46C=6687e602)>[80:m(^9B=80)(^8F=80)(^91^46C)(^90=0)(^92=1)
+    (^93=0)]
+<(476=81)(473=6687e600)>[81:m(^9B=81)(^8F=81)(^91^473)(^90=0)(^92=1)
+    (^93=0)]
+<(47E=82)(47B=6687e5ff)>[82:m(^9B=82)(^8F=82)(^91^47B)(^90=0)(^92=1)
+    (^93=0)]
+<(486=83)(483=66869606)>[83:m(^9B=83)(^8F=83)(^91^483)(^90=0)(^92=1)
+    (^93=0)]
+<(48D=84)>[84:m(^9B=84)(^8F=84)(^91^483)(^90=0)(^92=1)(^93=0)]
+<(495=85)(492=66869605)>[85:m(^9B=85)(^8F=85)(^91^492)(^90=0)(^92=1)
+    (^93=0)]
+<(49D=86)(49A=66869604)>[86:m(^9B=86)(^8F=86)(^91^49A)(^90=0)(^92=1)
+    (^93=0)]
+<(4A4=87)(4A2=66869603)>[87:m(^9B=87)(^8F=87)(^91^4A2)(^90=0)(^92=1)
+    (^93=0)]
+<(4AB=88)>[88:m(^9B=88)(^8F=88)(^91^4A2)(^90=0)(^92=1)(^93=0)]
+<(4B3=89)(4B0=66869602)>[89:m(^9B=89)(^8F=89)(^91^4B0)(^90=0)(^92=1)
+    (^93=0)]
+<(4BC=8a)(4B9=66869601)>[8A:m(^9B=8a)(^8F=8a)(^91^4B9)(^90=0)(^92=1)
+    (^93=0)]
+<(4C4=8b)(4C1=66869600)>[8B:m(^9B=8b)(^8F=8b)(^91^4C1)(^90=0)(^92=1)
+    (^93=0)]
+<(4CB=8c)(4C9=668695ff)>[8C:m(^9B=8c)(^8F=8c)(^91^4C9)(^90=0)(^92=1)
+    (^93=0)]
+<(4D3=8d)(4D0=668695fe)>[8D:m(^9B=8d)(^8F=8d)(^91^4D0)(^90=0)(^92=1)
+    (^93=0)]
+<(4DB=8e)(4D8=668695fd)>[8E:m(^9B=8e)(^8F=8e)(^91^4D8)(^90=0)(^92=1)
+    (^93=0)]
+<(4E3=8f)(4E0=668695fc)>[8F:m(^9B=8f)(^8F=8f)(^91^4E0)(^90=0)(^92=1)
+    (^93=0)]
+<(4EB=90)(4E8=66853d59)>[90:m(^9B=90)(^8F=90)(^91^4E8)(^90=0)(^92=1)
+    (^93=0)]
+<(4F3=91)(4F0=66853d58)>[91:m(^9B=91)(^8F=91)(^91^4F0)(^90=0)(^92=1)
+    (^93=0)]
+<(4FB=92)(4F8=66853d57)>[92:m(^9B=92)(^8F=92)(^91^4F8)(^90=0)(^92=1)
+    (^93=0)]
+<(503=93)(500=66853d56)>[93:m(^9B=93)(^8F=93)(^91^500)(^90=0)(^92=1)
+    (^93=0)]
+<(50B=94)(508=66853d55)>[94:m(^9B=94)(^8F=94)(^91^508)(^90=0)(^92=1)
+    (^93=0)]
+<(513=95)(510=66853d52)>[95:m(^9B=95)(^8F=95)(^91^510)(^90=0)(^92=1)
+    (^93=0)]
+<(51B=96)(518=66853d4f)>[96:m(^9B=96)(^8F=96)(^91^518)(^90=0)(^92=1)
+    (^93=0)]
+<(523=97)(520=6683eb0b)>[97:m(^9B=97)(^8F=97)(^91^520)(^90=0)(^92=1)
+    (^93=0)]
+<(52B=98)(528=6683eb0a)>[98:m(^9B=98)(^8F=98)(^91^528)(^90=0)(^92=1)
+    (^93=0)]
+<(531=99)>[99:m(^9B=99)(^8F=99)(^91^528)(^90=0)(^92=1)(^93=0)]
+<(539=9a)(536=6683eb09)>[9A:m(^9B=9a)(^8F=9a)(^91^536)(^90=0)(^92=1)
+    (^93=0)]
+<(541=9b)(53E=6683eb08)>[9B:m(^9B=9b)(^8F=9b)(^91^53E)(^90=0)(^92=1)
+    (^93=0)]
+<(549=9c)>[9C:m(^9B=9c)(^8F=9c)(^91^53E)(^90=0)(^92=1)(^93=0)]
+<(551=9d)(54E=6683eb07)>[9D:m(^9B=9d)(^8F=9d)(^91^54E)(^90=0)(^92=1)
+    (^93=0)]
+<(559=9e)(556=6683eb06)>[9E:m(^9B=9e)(^8F=9e)(^91^556)(^90=0)(^92=1)
+    (^93=0)]
+<(560=9f)(55E=6683eb05)>[9F:m(^9B=9f)(^8F=9f)(^91^55E)(^90=0)(^92=1)
+    (^93=0)]
+<(567=a0)(565=6683eb04)>[A0:m(^9B=a0)(^8F=a0)(^91^565)(^90=0)(^92=1)
+    (^93=0)]
+<(56D=a1)>[A1:m(^9B=a1)(^8F=a1)(^91^565)(^90=0)(^92=1)(^93=0)]
+<(575=a2)(572=6683eb03)>[A2:m(^9B=a2)(^8F=a2)(^91^572)(^90=0)(^92=1)
+    (^93=0)]
+<(57C=a3)>[A3:m(^9B=a3)(^8F=a3)(^91^572)(^90=0)(^92=1)(^93=0)]
+<(584=a4)(581=6683eb02)>[A4:m(^9B=a4)(^8F=a4)(^91^581)(^90=0)(^92=1)
+    (^93=0)]
+<(58C=a5)(589=6683eb01)>[A5:m(^9B=a5)(^8F=a5)(^91^589)(^90=0)(^92=1)
+    (^93=0)]
+<(594=a6)(591=6683eb00)>[A6:m(^9B=a6)(^8F=a6)(^91^591)(^90=0)(^92=1)
+    (^93=0)]
+<(59B=a7)>[A7:m(^9B=a7)(^8F=a7)(^91^591)(^90=0)(^92=1)(^93=0)]
+<(5A3=a8)(5A0=6683eaff)>[A8:m(^9B=a8)(^8F=a8)(^91^5A0)(^90=0)(^92=1)
+    (^93=0)]
+<(5A9=a9)>[A9:m(^9B=a9)(^8F=a9)(^91^5A0)(^90=0)(^92=1)(^93=0)]
+<(5B1=aa)(5AE=6683eafe)>[AA:m(^9B=aa)(^8F=aa)(^91^5AE)(^90=0)(^92=1)
+    (^93=0)]
+<(5B8=ab)(5B5=6683eafd)>[AB:m(^9B=ab)(^8F=ab)(^91^5B5)(^90=0)(^92=1)
+    (^93=0)]
+<(5C0=ac)(5BD=6683eafc)>[AC:m(^9B=ac)(^8F=ac)(^91^5BD)(^90=0)(^92=1)
+    (^93=0)]
+<(5C8=ad)(5C6=668189b0)>[AD:m(^9B=ad)(^8F=ad)(^91^5C6)(^90=0)(^92=1)
+    (^93=0)]
+<(5CF=ae)>[AE:m(^9B=ae)(^8F=ae)(^91^5C6)(^90=0)(^92=1)(^93=0)]
+<(5D7=af)(5D4=668189ae)>[AF:m(^9B=af)(^8F=af)(^91^5D4)(^90=0)(^92=1)
+    (^93=0)]
+<(5DE=b0)>[B0:m(^9B=b0)(^8F=b0)(^91^5D4)(^90=0)(^92=1)(^93=0)]
+<(5E6=b1)(5E3=668021aa)>[B1:m(^9B=b1)(^8F=b1)(^91^5E3)(^90=0)(^92=1)
+    (^93=0)]
+<(5EE=b2)(5EB=668021a8)>[B2:m(^9B=b2)(^8F=b2)(^91^5EB)(^90=0)(^92=1)
+    (^93=0)]
+<(5F6=b3)(5F3=668021a6)>[B3:m(^9B=b3)(^8F=b3)(^91^5F3)(^90=0)(^92=1)
+    (^93=0)]
+<(5FD=b4)(5FB=668021a4)>[B4:m(^9B=b4)(^8F=b4)(^91^5FB)(^90=0)(^92=1)
+    (^93=0)]
+<(605=b5)(602=668021a2)>[B5:m(^9B=b5)(^8F=b5)(^91^602)(^90=0)(^92=1)
+    (^93=0)]
+<(60D=b6)(60A=668021a0)>[B6:m(^9B=b6)(^8F=b6)(^91^60A)(^90=0)(^92=1)
+    (^93=0)]
+<(615=b7)(612=6680219d)>[B7:m(^9B=b7)(^8F=b7)(^91^612)(^90=0)(^92=1)
+    (^93=0)]
+<(61D=b8)(61A=66802195)>[B8:m(^9B=b8)(^8F=b8)(^91^61A)(^90=0)(^92=1)
+    (^93=0)]
+<(625=b9)(622=667fcd32)>[B9:m(^9B=b9)(^8F=b9)(^91^622)(^90=0)(^92=1)
+    (^93=0)]
+<(62D=ba)(62A=667fcd2e)>[BA:m(^9B=ba)(^8F=ba)(^91^62A)(^90=0)(^92=1)
+    (^93=0)]
+<(635=bb)(632=667fcd2d)>[BB:m(^9B=bb)(^8F=bb)(^91^632)(^90=0)(^92=1)
+    (^93=0)]
+<(63D=bc)(63A=667fcd2c)>[BC:m(^9B=bc)(^8F=bc)(^91^63A)(^90=0)(^92=1)
+    (^93=0)]
+<(644=bd)(642=667fcd2b)>[BD:m(^9B=bd)(^8F=bd)(^91^642)(^90=0)(^92=1)
+    (^93=0)]
+<(64D=be)(64A=667fcd29)>[BE:m(^9B=be)(^8F=be)(^91^64A)(^90=0)(^92=1)
+    (^93=0)]
+<(655=bf)(652=667fcd27)>[BF:m(^9B=bf)(^8F=bf)(^91^652)(^90=0)(^92=1)
+    (^93=0)]
+<(65D=c0)(65A=667fcd26)>[C0:m(^9B=c0)(^8F=c0)(^91^65A)(^90=0)(^92=1)
+    (^93=0)]
+<(665=c1)(662=667fcd25)>[C1:m(^9B=c1)(^8F=c1)(^91^662)(^90=0)(^92=1)
+    (^93=0)]
+<(66D=c2)(66A=667fcd24)>[C2:m(^9B=c2)(^8F=c2)(^91^66A)(^90=0)(^92=1)
+    (^93=0)]
+<(674=c3)(672=667fcd23)>[C3:m(^9B=c3)(^8F=c3)(^91^672)(^90=0)(^92=1)
+    (^93=0)]
+<(67C=c4)(679=667fcd1f)>[C4:m(^9B=c4)(^8F=c4)(^91^679)(^90=0)(^92=1)
+    (^93=0)]
+<(684=c5)(681=667fcd1a)>[C5:m(^9B=c5)(^8F=c5)(^91^681)(^90=0)(^92=1)
+    (^93=0)]
+<(68C=c6)(689=667ecf52)>[C6:m(^9B=c6)(^8F=c6)(^91^689)(^90=0)(^92=1)
+    (^93=0)]
+<(694=c7)(691=667d479e)>[C7:m(^9B=c7)(^8F=c7)(^91^691)(^90=0)(^92=1)
+    (^93=0)]
+<(69B=c8)(699=667d479d)>[C8:m(^9B=c8)(^8F=c8)(^91^699)(^90=0)(^92=1)
+    (^93=0)]
+<(8F=fffffffe)(89=66990f0c)>[1:m(^9B=1)(^8F^8F)(^91^89)(^90=0)(^92=1)
+    (^93=0)]
+<(9A=2)(96=66990f0b)>[2:m(^9B=2)(^8F=2)(^91^96)(^90=0)(^92=1)(^93=0)]
+<(A2=3)>[3:m(^9B=3)(^8F=3)(^91^96)(^90=0)(^92=1)(^93=0)]
+<(82=4)(A7=66990f09)>[4:m(^9B=4)(^8F=4)(^91^A7)(^90=0)(^92=1)(^93=0)]
+<(B3=5)(AF=66990f08)>[5:m(^9B=5)(^8F=5)(^91^AF)(^90=0)(^92=1)(^93=0)]
+<(BC=6)(B8=66990f07)>[6:m(^9B=6)(^8F=6)(^91^B8)(^90=0)(^92=1)(^93=0)]
+<(C5=7)(C1=66990f06)>[7:m(^9B=7)(^8F=7)(^91^C1)(^90=0)(^92=1)(^93=0)]
+<(CD=8)(CA=66990f05)>[8:m(^9B=8)(^8F=8)(^91^CA)(^90=0)(^92=1)(^93=0)]
+<(D6=9)(D2=66990f04)>[9:m(^9B=9)(^8F=9)(^91^D2)(^90=0)(^92=1)(^93=0)]
+<(DE=a)(DB=66990f03)>[A:m(^9B=a)(^8F=a)(^91^DB)(^90=0)(^92=1)(^93=0)]
+<(E7=b)(E3=66990f02)>[B:m(^9B=b)(^8F=b)(^91^E3)(^90=0)(^92=1)(^93=0)]
+<(F0=c)(EC=669785a4)>[C:m(^9B=c)(^8F=c)(^91^EC)(^90=0)(^92=1)(^93=0)]
+<(F8=d)(F5=669785a3)>[D:m(^9B=d)(^8F=d)(^91^F5)(^90=0)(^92=1)(^93=0)]
+<(EF=e)>[E:m(^9B=e)(^8F=e)(^91^F5)(^90=0)(^92=1)(^93=0)]
+<(106=f)(103=669785a1)>[F:m(^9B=f)(^8F=f)(^91^103)(^90=0)(^92=1)(^93=0)]
+<(BB=10)(10B=669785a0)>[10:m(^9B=10)(^8F=10)(^91^10B)(^90=0)(^92=1)
+    (^93=0)]
+<(AA=11)(114=6697859d)>[11:m(^9B=11)(^8F=11)(^91^114)(^90=0)(^92=1)
+    (^93=0)]
+<(11E=12)(11B=6697859c)>[12:m(^9B=12)(^8F=12)(^91^11B)(^90=0)(^92=1)
+    (^93=0)]
+<(B2=13)(123=66966be2)>[13:m(^9B=13)(^8F=13)(^91^123)(^90=0)(^92=1)
+    (^93=0)]
+<(E6=14)>[14:m(^9B=14)(^8F=14)(^91^123)(^90=0)(^92=1)(^93=0)]
+<(C4=15)(130=66966be1)>[15:m(^9B=15)(^8F=15)(^91^130)(^90=0)(^92=1)
+    (^93=0)]
+<(13A=16)(137=66966bdf)>[16:m(^9B=16)(^8F=16)(^91^137)(^90=0)(^92=1)
+    (^93=0)]
+<(A1=17)>[17:m(^9B=17)(^8F=17)(^91^137)(^90=0)(^92=1)(^93=0)]
+<(148=18)(145=66966bde)>[18:m(^9B=18)(^8F=18)(^91^145)(^90=0)(^92=1)
+    (^93=0)]
+<(14F=19)>[19:m(^9B=19)(^8F=19)(^91^145)(^90=0)(^92=1)(^93=0)]
+<(D5=1a)(154=66966bdd)>[1A:m(^9B=1a)(^8F=1a)(^91^154)(^90=0)(^92=1)
+    (^93=0)]
+<(15E=1b)(15B=66966bdc)>[1B:m(^9B=1b)(^8F=1b)(^91^15B)(^90=0)(^92=1)
+    (^93=0)]
+<(166=1c)(163=66948e59)>[1C:m(^9B=1c)(^8F=1c)(^91^163)(^90=0)(^92=1)
+    (^93=0)]
+<(16E=1d)(16B=66948e58)>[1D:m(^9B=1d)(^8F=1d)(^91^16B)(^90=0)(^92=1)
+    (^93=0)]
+<(10E=1e)(173=66948e57)>[1E:m(^9B=1e)(^8F=1e)(^91^173)(^90=0)(^92=1)
+    (^93=0)]
+<(17E=1f)(17B=66948e56)>[1F:m(^9B=1f)(^8F=1f)(^91^17B)(^90=0)(^92=1)
+    (^93=0)]
+<(186=20)(183=66948e55)>[20:m(^9B=20)(^8F=20)(^91^183)(^90=0)(^92=1)
+    (^93=0)]
+<(18E=21)(18B=66948e54)>[21:m(^9B=21)(^8F=21)(^91^18B)(^90=0)(^92=1)
+    (^93=0)]
+<(196=22)(193=66948e53)>[22:m(^9B=22)(^8F=22)(^91^193)(^90=0)(^92=1)
+    (^93=0)]
+<(99=23)(19C=669349ba)>[23:m(^9B=23)(^8F=23)(^91^19C)(^90=0)(^92=1)
+    (^93=0)]
+<(1A6=24)(1A3=669349b9)>[24:m(^9B=24)(^8F=24)(^91^1A3)(^90=0)(^92=1)
+    (^93=0)]
+<(1AE=25)(1AB=669349b8)>[25:m(^9B=25)(^8F=25)(^91^1AB)(^90=0)(^92=1)
+    (^93=0)]
+<(8D=26)(1B2=669349b7)>[26:m(^9B=26)(^8F=26)(^91^1B2)(^90=0)(^92=1)
+    (^93=0)]
+<(1BC=27)(1B9=669349b6)>[27:m(^9B=27)(^8F=27)(^91^1B9)(^90=0)(^92=1)
+    (^93=0)]
+<(1C4=28)(1C1=669349b5)>[28:m(^9B=28)(^8F=28)(^91^1C1)(^90=0)(^92=1)
+    (^93=0)]
+<(1CC=29)(1C9=669349b4)>[29:m(^9B=29)(^8F=29)(^91^1C9)(^90=0)(^92=1)
+    (^93=0)]
+<(1D4=2a)(1D1=669349ae)>[2A:m(^9B=2a)(^8F=2a)(^91^1D1)(^90=0)(^92=1)
+    (^93=0)]
+<(1DC=2b)(1D9=669349ad)>[2B:m(^9B=2b)(^8F=2b)(^91^1D9)(^90=0)(^92=1)
+    (^93=0)]
+<(176=2c)>[2C:m(^9B=2c)(^8F=2c)(^91^1D9)(^90=0)(^92=1)(^93=0)]
+<(1EA=2d)(1E7=669349ac)>[2D:m(^9B=2d)(^8F=2d)(^91^1E7)(^90=0)(^92=1)
+    (^93=0)]
+<(1F3=2e)(1F0=669349ab)>[2E:m(^9B=2e)(^8F=2e)(^91^1F0)(^90=0)(^92=1)
+    (^93=0)]
+<(1FB=2f)(1F8=669349aa)>[2F:m(^9B=2f)(^8F=2f)(^91^1F8)(^90=0)(^92=1)
+    (^93=0)]
+<(201=30)>[30:m(^9B=30)(^8F=30)(^91^1F8)(^90=0)(^92=1)(^93=0)]
+<(209=31)(206=669349a9)>[31:m(^9B=31)(^8F=31)(^91^206)(^90=0)(^92=1)
+    (^93=0)]
+<(211=32)(20E=669293e6)>[32:m(^9B=32)(^8F=32)(^91^20E)(^90=0)(^92=1)
+    (^93=0)]
+<(219=33)(216=669293e5)>[33:m(^9B=33)(^8F=33)(^91^216)(^90=0)(^92=1)
+    (^93=0)]
+<(220=34)>[34:m(^9B=34)(^8F=34)(^91^216)(^90=0)(^92=1)(^93=0)]
+<(228=35)(225=669293e4)>[35:m(^9B=35)(^8F=35)(^91^225)(^90=0)(^92=1)
+    (^93=0)]
+<(230=36)(22D=669293e2)>[36:m(^9B=36)(^8F=36)(^91^22D)(^90=0)(^92=1)
+    (^93=0)]
+<(237=37)>[37:m(^9B=37)(^8F=37)(^91^22D)(^90=0)(^92=1)(^93=0)]
+<(23F=38)(23C=669293e0)>[38:m(^9B=38)(^8F=38)(^91^23C)(^90=0)(^92=1)
+    (^93=0)]
+<(247=39)(244=6690ee00)>[39:m(^9B=39)(^8F=39)(^91^244)(^90=0)(^92=1)
+    (^93=0)]
+<(24E=3a)>[3A:m(^9B=3a)(^8F=3a)(^91^244)(^90=0)(^92=1)(^93=0)]
+<(256=3b)(253=6690edfe)>[3B:m(^9B=3b)(^8F=3b)(^91^253)(^90=0)(^92=1)
+    (^93=0)]
+<(25D=3c)>[3C:m(^9B=3c)(^8F=3c)(^91^253)(^90=0)(^92=1)(^93=0)]
+<(265=3d)(262=6690edfc)>[3D:m(^9B=3d)(^8F=3d)(^91^262)(^90=0)(^92=1)
+    (^93=0)]
+<(26D=3e)(26A=6690a7fb)>[3E:m(^9B=3e)(^8F=3e)(^91^26A)(^90=0)(^92=1)
+    (^93=0)]
+<(276=3f)(273=6690a7fa)>[3F:m(^9B=3f)(^8F=3f)(^91^273)(^90=0)(^92=1)
+    (^93=0)]
+
+<(85=<Richard Stallman>)(86=Biden housing plan, rent-control)(87
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Biden_housi\
+ng_plan,_rent-control\)@localhost.localdomain)(88=66991e2c)(8A
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Biden_housi\
+ng_plan,_rent-control\))(8B=UTF-8)(8C=9f3)(8E=ffffffff)(69E=f2)(93=2548)
+  (91=9f4)(94=Reality-rejector distraction campaign)(95
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Reality-rej\
+ector_distraction_campaign\)@localhost.localdomain)(97
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Reality-rej\
+ector_distraction_campaign\))(98=95d)(69F=f3)(9C=4946)(9B=1352)(9D
+    =Brute-factual aftermaths, Gaza)(9E
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Brute-factu\
+al_aftermaths,_Gaza\)@localhost.localdomain)(9F
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Brute-factu\
+al_aftermaths,_Gaza\))(A0=5e3)(6A0=f4)(A4=6454)(A3=1936)(A5
+    =Urgent: Mainstream media on Project 2025)(A6
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Mai\
+nstream_media_on_Project_2025\)@localhost.localdomain)(A8
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Mai\
+nstream_media_on_Project_2025\))(A9=65a)(6A1=f5)(AC=8081)(AB=1f91)(AD
+    =Urgent: Politico-monopoly, -utility cos.)(AE
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Pol\
+itico-monopoly,_-utility_cos.\)@localhost.localdomain)(B0
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Pol\
+itico-monopoly,_-utility_cos.\))(B1=5a0)(6A2=f6)(B5=9522)(B4=2532)(B6
+    =Urgent: Republican squeeze on public edu)(B7
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Rep\
+ublican_squeeze_on_public_edu\)@localhost.localdomain)(B9
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Rep\
+ublican_squeeze_on_public_edu\))(BA=4e2)(6A3=f7)(BE=10773)(BD=2a15)
+  (BF=RR infrastructure, DEU)(C0
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(RR_infrastr\
+ucture,_DEU\)@localhost.localdomain)(C2
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(RR_infrastr\
+ucture,_DEU\))(C3=5d4)(6A4=f8)(C7=12266)(C6=2fea)(C8
+    =Puberty-blockers ban, UK)(C9
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Puberty-blo\
+ckers_ban,_UK\)@localhost.localdomain)(CB
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Puberty-blo\
+ckers_ban,_UK\))(CC=658)(6A5=f9)(CF=13891)(CE=3643)(D0
+    =Urgent: Taxpayer-funded drug patents)(D1
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Tax\
+payer-funded_drug_patents\)@localhost.localdomain)(D3
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Tax\
+payer-funded_drug_patents\))(D4=71e)(6A6=fa)(D8=15714)(D7=3d62)(D9
+    =Urgent: Avert a war in Lebanon)(DA
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Ave\
+rt_a_war_in_Lebanon\)@localhost.localdomain)(DC
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_(Urgent:_Ave\
+rt_a_war_in_Lebanon\))(DD=4f8)(6A7=fb)(E0=16987)(DF=425b)(E1
+    =(Satire\) Orthodox Prime)(E2
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_((Satire\)_O\
+rthodox_Prime\)@localhost.localdomain)(E4
+    =https://stallman.org/archives/2024-may-aug.html#17_July_2024_((Satire\)_O\
+rthodox_Prime\))(E5=4c9)(6A8=fc)(E9=18213)(E8=4725)(EA
+    =Climate catastrophe in US)(EB
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Climate_cat\
+astrophe_in_US\)@localhost.localdomain)(ED
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Climate_cat\
+astrophe_in_US\))(EE=480)(6A9=fd)(F2=19366)(F1=4ba6)(F3
+    =Indignation on behalf of the corrupter)(F4
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Indignation\
+_on_behalf_of_the_corrupter\)@localhost.localdomain)(F6
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Indignation\
+_on_behalf_of_the_corrupter\))(F7=65e)(6AA=fe)(FA=20997)(F9=5205)(FB
+    =Ending UK austerity)(FC
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Ending_UK_a\
+usterity\)@localhost.localdomain)(FD
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Ending_UK_a\
+usterity\))(FE=5ca)(6AB=ff)(100=22480)(FF=57d0)(101
+    =Biden denounces [corrupter] rally shooting)(102
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Biden_denou\
+nces_[corrupter]_rally_shooting\)@localhost.localdomain)(104
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Biden_denou\
+nces_[corrupter]_rally_shooting\))(105=5f0)(6AC=100)(108=24001)(107=5dc1)
+  (109=Science Museum cut ties with Equinor)(10A
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Science_Mus\
+eum_cut_ties_with_Equinor\)@localhost.localdomain)(10C
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Science_Mus\
+eum_cut_ties_with_Equinor\))(10D=81c)(6AD=101)(110=26078)(10F=65de)
+  (111=Hurricane Beryl)(112
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Hurricane_B\
+eryl\)@localhost.localdomain)(113=66991e2d)(115
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Hurricane_B\
+eryl\))(116=478)(6AE=102)(118=27223)(117=6a57)(119
+    =Nonfree computer "games" manipulation)(11A
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Nonfree_com\
+puter_games_manipulation\)@localhost.localdomain)(11C
+    =https://stallman.org/archives/2024-may-aug.html#16_July_2024_(Nonfree_com\
+puter_games_manipulation\))(11D=5a7)(6AF=103)(120=28671)(11F=6fff)(121
+    =A many-names sea, floating hostilities)(122
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(A_many-name\
+s_sea_floating_hostilities\)@localhost.localdomain)(124
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(A_many-name\
+s_sea_floating_hostilities\))(125=511)(6B0=104)(127=29969)(126=7511)
+  (128=Air pollution, demise of the aged)(129
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Air_polluti\
+on,_the_aged_demise\)@localhost.localdomain)(12A
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Air_polluti\
+on,_the_aged_demise\))(12B=4d1)(6B1=105)(12D=31203)(12C=79e3)(12E
+    =Rightwing risk, FRA)(12F
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Rightwing_r\
+isk,_FRA\)@localhost.localdomain)(131
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Rightwing_r\
+isk,_FRA\))(132=469)(765=1b9)(134=32333)(133=7e4d)(135
+    =Sen. Susan Collins won't vote her party)(136
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Sen._Susan_\
+Collins_won't_vote_her_party\)@localhost.localdomain)(138
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Sen._Susan_\
+Collins_won't_vote_her_party\))(139=4a4)(764=1b8)(13C=33522)(13B=82f2)
+  (13D=Public sympathy for the hater bodes ill)(13E
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Public_symp\
+athy_for_the_hater_bodes_ill\)@localhost.localdomain)(13F
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Public_symp\
+athy_for_the_hater_bodes_ill\))(140=5da)(763=1b7)(142=35021)(141=88cd)
+  (143=Sanders, Cortez, back Biden)(144
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Sanders,_Co\
+rtez,_back_Biden\)@localhost.localdomain)(146
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Sanders,_Co\
+rtez,_back_Biden\))(147=53e)(762=1b6)(14A=36364)(149=8e0c)(14B
+    =HAMAS "leaders" targeted by bombing)(14C
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(HAMAS_leade\
+rs_targeted_by_bombing\)@localhost.localdomain)(14D
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(HAMAS_leade\
+rs_targeted_by_bombing\))(14E=664)(761=1b5)(151=38001)(150=9471)(152
+    =Death re-tolled, Gaza)(153
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Death_re-to\
+lled,_Gaza\)@localhost.localdomain)(155
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Death_re-to\
+lled,_Gaza\))(156=54a)(760=1b4)(158=39356)(157=99bc)(159
+    =Principles, not mightiness, to fight for)(15A
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Principles,\
+_not_mightiness,_to_fight_for\)@localhost.localdomain)(15C
+    =https://stallman.org/archives/2024-may-aug.html#15_July_2024_(Principles,\
+_not_mightiness,_to_fight_for\))(15D=6c6)(75F=1b3)(160=41091)(15F=a083)
+  (161=Land-grab sanctions, ISR)(162
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Land_grab_s\
+anctions,_ISR\)@localhost.localdomain)(164
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Land_grab_s\
+anctions,_ISR\))(165=57c)(75E=1b2)(168=42496)(167=a600)(169
+    =UN: US on recent war crimes in ISR, UKR)(16A
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(UN:_US_on_r\
+ecent_war_crimes_in_ISR,_UKR\)@localhost.localdomain)(16C
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(UN:_US_on_r\
+ecent_war_crimes_in_ISR,_UKR\))(16D=4bf)(75D=1b1)(170=43712)(16F=aac0)
+  (171=Soldier's perspectives from inside Gaza)(172
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(IDF_soldier\
+s'_perspectives_inside_Gaza\)@localhost.localdomain)(174
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(IDF_soldier\
+s'_perspectives_inside_Gaza\))(175=b59)(75C=1b0)(178=46618)(177=b61a)
+  (179=Travel-oppression injustices)(17A
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Travel-oppr\
+ession_injustices\)@localhost.localdomain)(17C
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Travel-oppr\
+ession_injustices\))(17D=788)(75B=1af)(180=48547)(17F=bda3)(181
+    =Activist suppression judicial persecution)(182
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Activist_su\
+ppression_judicial_persecution\)@localhost.localdomain)(184
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Activist_su\
+ppression_judicial_persecution\))(185=7d0)(75A=1ae)(188=50548)(187=c574)
+  (189=Extreme capitalism as Social Darwinism)(18A
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Extreme_cap\
+italism_as_Social_Darwinism\)@localhost.localdomain)(18C
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Extreme_cap\
+italism_as_Social_Darwinism\))(18D=7ce)(759=1ad)(190=52547)(18F=cd43)
+  (191=Gaza death toll)(192
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Gaza_death_\
+toll\)@localhost.localdomain)(194
+    =https://stallman.org/archives/2024-may-aug.html#14_July_2024_(Gaza_death_\
+toll\))(195=5df)(758=1ac)(198=54051)(197=d323)(199
+    =Defeating right-wing extremism)(19A
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Defeating_r\
+ight-wing_extremism\)@localhost.localdomain)(19B=66991e2e)(19D
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Defeating_r\
+ight-wing_extremism\))(19E=505)(757=1ab)(1A0=55337)(19F=d829)(1A1
+    =Pantanal fires worse than ever)(1A2
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Pantanal_fi\
+res_worse_than_ever\)@localhost.localdomain)(1A4
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Pantanal_fi\
+res_worse_than_ever\))(1A5=4e7)(756=1aa)(1A8=56593)(1A7=dd11)(1A9
+    =Everyone has a price)(1AA
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Everyone_ha\
+s_a_price\)@localhost.localdomain)(1AC
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Everyone_ha\
+s_a_price\))(1AD=4ef)(755=1a9)(1B0=57857)(1AF=e201)(1B1
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Hurricane_B\
+eryl\)@localhost.localdomain)(1B3
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Hurricane_B\
+eryl\))(1B4=427)(754=1a8)(1B6=58921)(1B5=e629)(1B7
+    =IMF's draconian austerity measures)(1B8
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(IMF's_draco\
+nian_austerity_measures\)@localhost.localdomain)(1BA
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(IMF's_draco\
+nian_austerity_measures\))(1BB=588)(753=1a7)(1BE=60338)(1BD=ebb2)(1BF
+    =Biden and the "elite")(1C0
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Biden_and_t\
+he_elite\)@localhost.localdomain)(1C2
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Biden_and_t\
+he_elite\))(1C3=696)(752=1a6)(1C6=62025)(1C5=f249)(1C7=Biden answered well)
+  (1C8
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Biden_answe\
+red_well\)@localhost.localdomain)(1CA
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Biden_answe\
+red_well\))(1CB=95e)(751=1a5)(1CE=64424)(1CD=fba8)(1CF
+    =Free range childhood normal in Norway)(1D0
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Free_range_\
+childhood_normal_in_Norway\)@localhost.localdomain)(1D2
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Free_range_\
+childhood_normal_in_Norway\))(1D3=6f9)(750=1a4)(1D6=66210)(1D5=102a2)
+  (1D7=(Satire\) Megachurch nuclear test)(1D8
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_((Satire\)_M\
+egachurch_nuclear_test\)@localhost.localdomain)(1DA
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_((Satire\)_M\
+egachurch_nuclear_test\))(1DB=470)(74F=1a3)(1DE=67347)(1DD=10713)(1DF
+    =Labour's prison reformer as minister)(1E0
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Labour's_pr\
+ison_reformer_as_minister\)@localhost.localdomain)(1E1
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Labour's_pr\
+ison_reformer_as_minister\))(1E2=4de)(74E=1a2)(1E4=68594)(1E3=10bf2)
+  (1E5=Privatization of UK water and sewers)(1E6
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Privatizati\
+on_of_UK_water_and_sewers\)@localhost.localdomain)(1E8
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Privatizati\
+on_of_UK_water_and_sewers\))(1E9=7bd)(74D=1a1)(1EC=70576)(1EB=113b0)
+  (1ED=Poison pills in Republican spending bills)(1EE
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Poison_pill\
+s_in_Republican_spending_bills\)@localhost.localdomain)(1EF=66991e2f)
+  (1F1
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Poison_pill\
+s_in_Republican_spending_bills\))(1F2=4a2)(74C=1a0)(1F5=71763)(1F4=11853)
+  (1F6=D$E2$80$99Vontaye Mitchell)(1F7
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(D$E2$80$99V\
+ontaye_Mitchell\)@localhost.localdomain)(1F9
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(D%E2%80%99V\
+ontaye_Mitchell\))(1FA=4f4)(74B=19f)(1FD=73032)(1FC=11d48)(1FE
+    =Asbestos poisoning investments)(1FF
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Asbestos_po\
+isoning_investments\)@localhost.localdomain)(200
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(Asbestos_po\
+isoning_investments\))(74A=19e)(203=74318)(202=1224e)(204
+    =China's wind and solar power)(205
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(China's_win\
+d_and_solar_power\)@localhost.localdomain)(207
+    =https://stallman.org/archives/2024-may-aug.html#13_July_2024_(China's_win\
+d_and_solar_power\))(208=50e)(749=19d)(20B=75613)(20A=1275d)(20C
+    =New, large oil-fields, LATAM, CARICOM)(20D
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(New,_large_\
+oil-fields,_LATAM,_CARICOM\)@localhost.localdomain)(20F
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(New,_large_\
+oil-fields,_LATAM,_CARICOM\))(210=c18)(748=19c)(213=78710)(212=13376)
+  (214=How emissions-cuts requires paying poor)(215
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(How_emmissi\
+ons-cuts_requires_paying_poor\)@localhost.localdomain)(217
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(How_emmissi\
+ons-cuts_requires_paying_poor\))(218=688)(747=19b)(21B=80383)(21A=139ff)
+  (21C=Netanyahu arrest-warrant US-blockage, UK)(21D
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(Netanyahu_a\
+rrest-warrant_US-blockage,_UK\)@localhost.localdomain)(21E
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(Netanyahu_a\
+rrest-warrant_US-blockage,_UK\))(21F=561)(746=19a)(222=81761)(221=13f61)
+  (223=(Satire\) Robot-dogs creator orders "put down")(224
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_((Satire\)_R\
+obot-dogs_creator_orders_put_down\)@localhost.localdomain)(226
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_((Satire\)_R\
+obot-dogs_creator_orders_put_down\))(227=4c0)(745=199)(22A=82978)(229
+    =14422)(22B=Climate defense activist jailed, AUS)(22C
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(Climate_def\
+ense_activist_jailed,_AUS\)@localhost.localdomain)(22E
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(Climate_def\
+ense_activist_jailed,_AUS\))(22F=69b)(744=198)(232=84670)(231=14abe)
+  (233=Greenwashing disguised as carbon offsets)(234
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(Greenwashin\
+g_disguised_as_carbon_offsets\)@localhost.localdomain)(235
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(Greenwashin\
+g_disguised_as_carbon_offsets\))(236=720)(743=197)(239=86495)(238=151df)
+  (23A=Historical, European, antisemitism)(23B
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(Historical,\
+_European,_antisemitism\)@localhost.localdomain)(23D
+    =https://stallman.org/archives/2024-may-aug.html#12_July_2024_(Historical,\
+_European,_antisemitism\))(23E=4b3)(742=196)(241=87699)(240=15693)(242
+    =Presidential immunity unconstitutional)(243
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Presidentia\
+l_immunity_unconstitutional\)@localhost.localdomain)(245
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Presidentia\
+l_immunity_unconstitutional\))(246=5d1)(741=195)(249=89189)(248=15c65)
+  (24A=Christian then Satanist school-chaplains)(24B
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Christian_t\
+hen_Satanist_school-chaplains\)@localhost.localdomain)(24C
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Christian_t\
+hen_Satanist_school-chaplains\))(24D=516)(740=194)(250=90492)(24F=1617c)
+  (251=Progressives back Biden)(252
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Progressive\
+s_back_Biden\)@localhost.localdomain)(254
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Progressive\
+s_back_Biden\))(255=681)(73F=193)(258=92158)(257=167fe)(259
+    =Small army of lawyers fight for the seas)(25A
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Small_army_\
+of_lawyers_fight_for_the_seas\)@localhost.localdomain)(25B
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Small_army_\
+of_lawyers_fight_for_the_seas\))(25C=4d6)(73E=192)(25F=93397)(25E=16cd5)
+  (260=Intensified revenge+rescue strategy, ISR)(261
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Revenge-plu\
+s-rescue_strategy,_ISR\)@localhost.localdomain)(263
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Revenge-plu\
+s-rescue_strategy,_ISR\))(264=531)(73D=191)(267=94727)(266=17207)(268
+    =Sucralose)(269
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Sucralose\)\
+@localhost.localdomain)(26B
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Sucralose\))
+  (26C=446)(73C=190)(26F=95822)(26E=1764e)(270=Effective high-sugar tax)
+  (271
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Effective_h\
+igh-sugar_tax\)@localhost.localdomain)(272=66991e30)(274
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Effective_h\
+igh-sugar_tax\))(275=495)(73B=18f)(278=96996)(277=17ae4)(279
+    =Republicans and "climate")(27A
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Republicans\
+_and_climate\)@localhost.localdomain)(27C
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Republicans\
+_and_climate\))(27D=4a8)(73A=18e)(27F=98189)(27E=17f8d)(280
+    =Biden suffered less polling damage than expected)(281
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Biden_suffe\
+red_less_polling_damage_than_expected\)@localhost.localdomain)(283
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Biden_suffe\
+red_less_polling_damage_than_expected\))(284=791)(739=18d)(287=100127)
+  (286=1871f)(288=Four-day work week benefits)(289
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Four-day_wo\
+rk_week_benefits\)@localhost.localdomain)(28B
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Four-day_wo\
+rk_week_benefits\))(28C=554)(738=18c)(28F=101492)(28E=18c74)(290
+    =Bullshitter tries to distance himself Project 2025)(291
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Bullshitter\
+_tries_to_distance_himself_Project_2025\)@localhost.localdomain)(293
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Bullshitter\
+_tries_to_distance_himself_Project_2025\))(294=6b2)(737=18b)(297=103207)
+  (296=19327)(298=US's Gaza pier getting disassembled)(299
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(US's_Gaza_p\
+ier_getting_disassembled\)@localhost.localdomain)(29B
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(US's_Gaza_p\
+ier_getting_disassembled\))(29C=4ea)(736=18a)(29F=104466)(29E=19812)
+  (2A0=Urgent: Census funding)(2A1
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Urgent:_Cen\
+sus_funding\)@localhost.localdomain)(2A3
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Urgent:_Cen\
+sus_funding\))(2A4=485)(735=189)(2A7=105624)(2A6=19c98)(2A8
+    =Urgent: Restore former presidents' criminal liability)(2A9
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Urgent:_Res\
+tore_former_presidents'_criminal_liability\)@localhost.localdomain)
+  (2AB
+    =https://stallman.org/archives/2024-may-aug.html#11_July_2024_(Urgent:_Res\
+tore_former_presidents'_criminal_liability\))(2AC=77b)(734=188)(2AF=107540)
+  (2AE=1a414)(2B0=UK voter ID laws stopped around 3.5% voters)(2B1
+    =https://stallman.org/archives/2024-may-aug.html#10_July_2024_(UK_voter_ID\
+_laws_stopped_around_3.5%25_voters\)@localhost.localdomain)(2B3
+    =https://stallman.org/archives/2024-may-aug.html#10_July_2024_(UK_voter_ID\
+_laws_stopped_around_3.5%25_voters\))(2B4=51d)(733=187)(2B7=108850)
+  (2B6=1a932)(2B8=Average temperatures)(2B9
+    =https://stallman.org/archives/2024-may-aug.html#10_July_2024_(Average_tem\
+peratures\)@localhost.localdomain)(2BB
+    =https://stallman.org/archives/2024-may-aug.html#10_July_2024_(Average_tem\
+peratures\))(2BC=4e0)(732=186)(2BF=110099)(2BE=1ae13)(2C0=Social conflict)
+  (2C1
+    =https://stallman.org/archives/2024-may-aug.html#10_July_2024_(Social_conf\
+lict\)@localhost.localdomain)(2C3
+    =https://stallman.org/archives/2024-may-aug.html#10_July_2024_(Social_conf\
+lict\))(2C4=899)(731=185)(2C7=112301)(2C6=1b6ad)(2C8
+    =Labour ministers who aren't MPs)(2C9
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(Labour_minis\
+ters_who_aren't_MPs\)@localhost.localdomain)(2CB
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(Labour_minis\
+ters_who_aren't_MPs\))(2CC=55d)(730=184)(2CF=113675)(2CE=1bc0b)(2D0
+    =British thug investigation)(2D1
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(British_thug\
+_investigation\)@localhost.localdomain)(2D3
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(British_thug\
+_investigation\))(2D4=49a)(72F=183)(2D7=114854)(2D6=1c0a6)(2D8
+    =Italy silencing critics)(2D9
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(Italy_silenc\
+ing_critics\)@localhost.localdomain)(2DB
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(Italy_silenc\
+ing_critics\))(2DC=47d)(72E=182)(2DF=116004)(2DE=1c524)(2E0
+    =Mainstream media wants Biden to resign)(2E1
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(Mainstream_m\
+edia_wants_Biden_to_resign\)@localhost.localdomain)(2E3
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(Mainstream_m\
+edia_wants_Biden_to_resign\))(2E4=638)(72D=181)(2E7=117597)(2E6=1cb5d)
+  (2E8=<i>The Longest Con</i> book)(2E9
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(The_Longest_\
+Con_book\)@localhost.localdomain)(2EB
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(The_Longest_\
+Con_book\))(2EC=53c)(72C=180)(2EF=118938)(2EE=1d09a)(2F0
+    =Starmer Labour appointing former Tory minister)(2F1
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(Starmer_Labo\
+ur_appointing_former_Tory_minister\)@localhost.localdomain)(2F3
+    =https://stallman.org/archives/2024-may-aug.html#9_July_2024_(Starmer_Labo\
+ur_appointing_former_Tory_minister\))(2F4=8ca)(72B=17f)(2F7=121189)
+  (2F6=1d965)(2F8=Tactical voting to down Le Penn, FRA)(2F9
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Tactical_vot\
+ing_to_down_Le_Penn,_FRA\)@localhost.localdomain)(2FB
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Tactical_vot\
+ing_to_down_Le_Penn,_FRA\))(2FC=4c8)(72A=17e)(2FF=122414)(2FE=1de2e)
+  (300=Standard, presidential cognitive testing)(301
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Standard,_pr\
+esidential_cognitive_testing\)@localhost.localdomain)(302=66991e31)
+  (303
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Standard,_pr\
+esidential_cognitive_testing\))(304=5d5)(729=17d)(307=123908)(306=1e404)
+  (308=Redesigning-democracy experiment, VEN)(309
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Redesigning-\
+democracy_experiment,_VEN\)@localhost.localdomain)(30B
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Redesigning-\
+democracy_experiment,_VEN\))(728=17c)(30E=125172)(30D=1e8f4)(30F
+    =Scambaiting)(310
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Scambaiting\)\
+@localhost.localdomain)(312
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Scambaiting\))
+  (313=46c)(727=17b)(316=126305)(315=1ed61)(317
+    =Detailed Israel, HAMAS, illegalities)(318
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Detailed_Isr\
+ael,_HAMAS,_illegalities\)@localhost.localdomain)(31A
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Detailed_Isr\
+ael,_HAMAS,_illegalities\))(726=17a)(31D=127564)(31C=1f24c)(31E
+    =Historical opposition to slavery, US)(31F
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Historical_o\
+pposition_to_slavery,_US\)@localhost.localdomain)(321
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Historical_o\
+pposition_to_slavery,_US\))(322=7c2)(725=179)(325=129551)(324=1fa0f)
+  (326=Extreme, Supreme Court, legal decision)(327
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Extreme,_Sup\
+reme_Court,_legal_decision\)@localhost.localdomain)(328
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Extreme,_Sup\
+reme_Court,_legal_decision\))(329=58f)(724=178)(32C=130975)(32B=1ff9f)
+  (32D=Prison conditions amid cuts, England)(32E
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Prison_condi\
+tions_amid_cuts,_England\)@localhost.localdomain)(330
+    =https://stallman.org/archives/2024-may-aug.html#8_July_2024_(Prison_condi\
+tions_amid_cuts,_England\))(723=177)(333=132316)(332=204dc)(334
+    =Hurricane earliest category 5 ever)(335
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Hurricane_ea\
+rliest_category_5_ever\)@localhost.localdomain)(337
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Hurricane_ea\
+rliest_category_5_ever\))(338=bba)(722=176)(33B=135319)(33A=21097)(33C
+    =Israel strikes Gaza school/shelter)(33D
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Israel_strik\
+es_Gaza_school%2Fshelter\)@localhost.localdomain)(33F
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Israel_strik\
+es_Gaza_school%2Fshelter\))(340=507)(721=175)(343=136607)(342=2159f)
+  (344=Global trade myth)(345
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Global_trade\
+_myth\)@localhost.localdomain)(347
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Global_trade\
+_myth\))(348=422)(720=174)(34B=137666)(34A=219c2)(34C
+    =Cease-Fire deal, Gaza)(34D
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Cease-Fire_d\
+eal,_Gaza\)@localhost.localdomain)(34F
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Cease-Fire_d\
+eal,_Gaza\))(350=508)(71F=173)(353=138955)(352=21ecb)(354
+    =Labour and Green party takes, UK)(355
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Labour_and_G\
+reens,_UK\)@localhost.localdomain)(357
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Labour_and_G\
+reens,_UK\))(358=642)(71E=172)(35B=140558)(35A=2250e)(35C
+    =Project 2025 aloofness)(35D
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Project_2025\
+_aloofness\)@localhost.localdomain)(35F
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Project_2025\
+_aloofness\))(360=559)(71D=171)(363=141928)(362=22a68)(364
+    =Peace Now reports another land grab)(365
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Peace_Now_re\
+porta_another_land_grab\)@localhost.localdomain)(367
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Peace_Now_re\
+porta_another_land_grab\))(368=6b7)(71C=170)(36B=143648)(36A=23120)
+  (36C=Ranked-choice voting push, Boston)(36D
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Ranked-choic\
+e_voting_push,_Boston\)@localhost.localdomain)(36F
+    =https://stallman.org/archives/2024-may-aug.html#7_July_2024_(Ranked-choic\
+e_voting_push,_Boston\))(370=4ae)(71B=16f)(373=144847)(372=235cf)(374
+    =Ten activists, prison sentences, KHM)(375
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(Ten_activist\
+s,_prison_sentences,_KHM\)@localhost.localdomain)(377
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(Ten_activist\
+s,_prison_sentences,_KHM\))(378=5d3)(71A=16e)(37B=146339)(37A=23ba3)
+  (37C=(Satire\) Right v. Wrong)(37D
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_((Satire\)_Ri\
+ght_v._Wrong\)@localhost.localdomain)(37E
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_((Satire\)_Ri\
+ght_v._Wrong\))(37F=437)(719=16d)(382=147419)(381=23fdb)(383
+    =(Satire\) Daily crime-spree window)(384
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_((Satire\)_Da\
+ily_crime-spree_window\)@localhost.localdomain)(386
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_((Satire\)_Da\
+ily_crime-spree_window\))(387=580)(718=16c)(38A=148828)(389=2455c)(38B
+    =(Satire\) Chief Justice graft benefits)(38C
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_((Satire\)_Ch\
+ief_Justice_graft_benefits\)@localhost.localdomain)(38E
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_((Satire\)_Ch\
+ief_Justice_graft_benefits\))(38F=4a3)(717=16b)(392=150016)(391=24a00)
+  (393=Activist counter-punch, AFG)(394
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(Activist_cou\
+nter-punch,_AFG\)@localhost.localdomain)(395=66991e32)(397
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(Activist_cou\
+nter-punch,_AFG\))(398=69c)(716=16a)(39B=151709)(39A=2509d)(39C
+    =A human-oriented vs a GDP-based economy)(39D
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(A_human-orie\
+nted_vs_a_GDP-based_economy\)@localhost.localdomain)(39F
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(A_human-orie\
+nted_vs_a_GDP-based_economy\))(715=169)(3A2=153444)(3A1=25764)(3A3
+    =Spending needed, UK, US)(3A4
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(Spending_nee\
+ded,_UK,_US\)@localhost.localdomain)(3A5
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(Spending_nee\
+ded,_UK,_US\))(3A6=6e4)(714=168)(3A9=155209)(3A8=25e49)(3AA
+    =Parents' fears mislead)(3AB
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(Parents'_fea\
+rs_mislead\)@localhost.localdomain)(3AD
+    =https://stallman.org/archives/2024-may-aug.html#6_July_2024_(Parents'_fea\
+rs_mislead\))(3AE=471)(713=167)(3B1=156347)(3B0=262bb)(3B2
+    =Jeremy Corbyn stands, UK MP)(3B3
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Jeremy_Corby\
+n_stands,_UK_MP\)@localhost.localdomain)(3B5
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Jeremy_Corby\
+n_stands,_UK_MP\))(3B6=4aa)(712=166)(3B9=157542)(3B8=26766)(3BA
+    =Top election-candidacy story in VEN)(3BB
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Top_election\
+-candidacy_story_in_VEN\)@localhost.localdomain)(3BD
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Top_election\
+-candidacy_story_in_VEN\))(3BE=836)(711=165)(3C1=159645)(3C0=26f9d)
+  (3C2="Yes Your Innocency" presidency, US)(3C3
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Yes_Your_Inn\
+ocency_presidency,_US\)@localhost.localdomain)(3C4
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Yes_Your_Inn\
+ocency_presidency,_US\))(3C5=4e1)(710=164)(3C8=160895)(3C7=2747f)(3C9
+    =Regulations in an administrative state)(3CA
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Regulations_\
+in_an_administrative_state\)@localhost.localdomain)(3CC
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Regulations_\
+in_an_administrative_state\))(3CD=5f8)(70F=163)(3D0=162424)(3CF=27a78)
+  (3D1=An ISR-LBN war scenario)(3D2
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(An_ISR-LBN_w\
+ar_scenario\)@localhost.localdomain)(3D3
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(An_ISR-LBN_w\
+ar_scenario\))(3D4=4f9)(70E=162)(3D7=163698)(3D6=27f72)(3D8
+    =Extreme heat protection, US workers)(3D9
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Heat_protect\
+ion,_US_workers\)@localhost.localdomain)(3DB
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Heat_protect\
+ion,_US_workers\))(70D=161)(3DE=164957)(3DD=2845d)(3DF
+    =Costly slow-mail failures, UK ballots)(3E0
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Costly_slow-\
+mail_failures,_UK_ballots\)@localhost.localdomain)(3E2
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Costly_slow-\
+mail_failures,_UK_ballots\))(3E3=6c7)(70C=160)(3E6=166693)(3E5=28b25)
+  (3E7=Predator culls, NZL)(3E8
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Predator_cul\
+ls,_NZL\)@localhost.localdomain)(3EA
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Predator_cul\
+ls,_NZL\))(70B=15f)(3ED=167981)(3EC=2902d)(3EE=Internet user-ID, AUS)
+  (3EF
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Internet_use\
+r-ID,_AUS\)@localhost.localdomain)(3F1
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Internet_use\
+r-ID,_AUS\))(3F2=710)(70A=15e)(3F5=169790)(3F4=2973e)(3F6
+    =Presidential immunity, US Supreme Court)(3F7
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Presidental_\
+immunity,_US_Supreme_Court\)@localhost.localdomain)(3F8
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Presidental_\
+immunity,_US_Supreme_Court\))(3F9=6f5)(709=15d)(3FC=171572)(3FB=29e34)
+  (3FD=Gaza hospital head capture, torture, ISR)(3FE
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Gaza_hospita\
+l_chief_capure,_torture,_ISR\)@localhost.localdomain)(400
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Gaza_hospita\
+l_chief_capure,_torture,_ISR\))(401=4dd)(708=15c)(404=172818)(403=2a312)
+  (405=Nazi verses as prizewinning poetry, RUS)(406
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Nazi_verses:\
+_prizewinning_poetry,_RUS\)@localhost.localdomain)(408
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Nazi_verses:\
+_prizewinning_poetry,_RUS\))(409=51e)(707=15b)(40C=174129)(40B=2a831)
+  (40D=Explosions and brain damage)(40E
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Explosions_a\
+nd_brain_damage\)@localhost.localdomain)(410
+    =https://stallman.org/archives/2024-may-aug.html#5_July_2024_(Explosions_a\
+nd_brain_damage\))(706=15a)(413=175546)(412=2adba)(414=New article)
+  (415
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(New_article\)\
+@localhost.localdomain)(417
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(New_article\))
+  (418=3b9)(705=159)(41B=176500)(41A=2b174)(41C=90% Gazans displaced)
+  (41D
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(90%25_Gazans\
+_displaced\)@localhost.localdomain)(41E
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(90%25_Gazans\
+_displaced\))(41F=49f)(704=158)(422=177684)(421=2b614)(423
+    =Boeing and Spirit AeroSystems)(424
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Boeing_and_S\
+pirit_AeroSystems\)@localhost.localdomain)(425=66991e33)(427
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Boeing_and_S\
+pirit_AeroSystems\))(428=683)(703=157)(42B=179352)(42A=2bc98)(42C
+    =Feiglin on Palestinians)(42D
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Feiglin_on_P\
+alestinians\)@localhost.localdomain)(42E
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Feiglin_on_P\
+alestinians\))(42F=59c)(702=156)(432=180789)(431=2c235)(433
+    =Democratic Party convention)(434
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Democratic_P\
+arty_convention\)@localhost.localdomain)(436
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Democratic_P\
+arty_convention\))(437=639)(701=155)(43A=182383)(439=2c86f)(43B
+    =Light pollution luring fish)(43C
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Light_pollut\
+ion_luring_fish\)@localhost.localdomain)(43E
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Light_pollut\
+ion_luring_fish\))(43F=4a1)(700=154)(442=183569)(441=2cd11)(443
+    =Magna Carta and Declaration of Independence)(444
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Magna_Carta_\
+and_Declaration_of_Independence\)@localhost.localdomain)(446
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Magna_Carta_\
+and_Declaration_of_Independence\))(447=502)(6FF=153)(44A=184852)(449=2d214)
+  (44B=Addressing the housing shortage)(44C
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Addressing_t\
+he_housing_shortage\)@localhost.localdomain)(44E
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Addressing_t\
+he_housing_shortage\))(44F=568)(6FE=152)(452=186237)(451=2d77d)(453
+    =Urgent: Reject military conscription)(454
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Urgent:_Reje\
+ct_military_conscription\)@localhost.localdomain)(456
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Urgent:_Reje\
+ct_military_conscription\))(457=494)(6FD=151)(45A=187410)(459=2dc12)
+  (45B=Urgent: Stop the pharma lawsuits)(45C
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Urgent:_Stop\
+_the_pharma_lawsuits\)@localhost.localdomain)(45E
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Urgent:_Stop\
+_the_pharma_lawsuits\))(6FC=150)(461=188679)(460=2e107)(462
+    =Urgent: Social Security Expansion bill)(463
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Urgent:_Soci\
+al_Security_Expansion_bill\)@localhost.localdomain)(465
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Urgent:_Soci\
+al_Security_Expansion_bill\))(466=493)(6FB=14f)(469=189851)(468=2e59b)
+  (46A=Prison-like asylum conditions)(46B
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Prison-like_\
+asylum_conditions\)@localhost.localdomain)(46D
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Prison-like_\
+asylum_conditions\))(6FA=14e)(470=191674)(46F=2ecba)(471
+    =Boeing prosecuted with reported plea deal)(472
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Boeing_prose\
+cuted_with_reported_plea_deal\)@localhost.localdomain)(474
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Boeing_prose\
+cuted_with_reported_plea_deal\))(475=5f7)(6F9=14d)(478=193202)(477=2f2b2)
+  (479=Presidential immunity)(47A
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Presidential\
+_immunity\)@localhost.localdomain)(47C
+    =https://stallman.org/archives/2024-may-aug.html#4_July_2024_(Presidential\
+_immunity\))(47D=874)(6F8=14c)(480=195367)(47F=2fb27)(481
+    =Slovakia repolarizing like Hungary, EU)(482
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Slovakia_rep\
+olarizing_like_Hungary,_EU\)@localhost.localdomain)(484
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Slovakia_rep\
+olarizing_like_Hungary,_EU\))(485=4fa)(6F7=14b)(488=196642)(487=30022)
+  (489=Urgent: No military draft)(48A
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Urgent:_No_m\
+ilitary_draft\)@localhost.localdomain)(48B
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Urgent:_No_m\
+ilitary_draft\))(48C=4ee)(6F6=14a)(48F=197905)(48E=30511)(490
+    =Plutocracy's historical mechanics, USA)(491
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Plutocracy's\
+_historical_mechanics,_USA\)@localhost.localdomain)(493
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Plutocracy's\
+_historical_mechanics,_USA\))(494=607)(6F5=149)(497=199449)(496=30b19)
+  (498=Urgent: Corporations funding RAGA)(499
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Urgent:_Corp\
+orations_funding_RAGA\)@localhost.localdomain)(49B
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Urgent:_Corp\
+orations_funding_RAGA\))(49C=492)(6F4=148)(49F=200620)(49E=30fac)(4A0
+    =Oil well profits unafforded cleanup, CO)(4A1
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Oil_well_pro\
+fits_unafforded_cleanup,_CO\)@localhost.localdomain)(4A3
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Oil_well_pro\
+fits_unafforded_cleanup,_CO\))(6F3=147)(4A6=202149)(4A5=315a5)(4A7
+    =Labour is now a conservative party)(4A8
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Labour_is_no\
+w_a_conservative_party\)@localhost.localdomain)(4A9
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Labour_is_no\
+w_a_conservative_party\))(4AA=5d8)(6F2=146)(4AD=203646)(4AC=31b7e)(4AE
+    =Wikileaks fathered today's journalism)(4AF
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Wikileaks_is\
+_now_normal_journalism\)@localhost.localdomain)(4B1
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Wikileaks_is\
+_now_normal_journalism\))(4B2=595)(6F1=145)(4B5=205076)(4B4=32114)(4B6
+    =Street dogs in Turkey)(4B7
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Street_dogs_\
+in_Turkey\)@localhost.localdomain)(4B8=66991e34)(4BA
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Street_dogs_\
+in_Turkey\))(4BB=6b3)(6F0=144)(4BE=206792)(4BD=327c8)(4BF
+    =Republican subterfuge targets President)(4C0
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Republican_s\
+ubterfuge_targets_President\)@localhost.localdomain)(4C2
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Republican_s\
+ubterfuge_targets_President\))(4C3=5ce)(6EF=143)(4C6=208279)(4C5=32d97)
+  (4C7=Meticulous electronic voting, IND)(4C8
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Meticulous_e\
+lectronic_voting,_IND\)@localhost.localdomain)(4CA
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Meticulous_e\
+lectronic_voting,_IND\))(6EE=142)(4CD=209543)(4CC=33287)(4CE
+    =Urgent: All citizens should vote)(4CF
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Urgent:_All_\
+felons_should_vote\)@localhost.localdomain)(4D1
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Urgent:_All_\
+felons_should_vote\))(4D2=565)(6ED=141)(4D5=210925)(4D4=337ed)(4D6
+    =Activists' disruption tactics, UK)(4D7
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Activists'_d\
+isruption_tactics,_UK\)@localhost.localdomain)(4D9
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Activists'_d\
+isruption_tactics,_UK\))(4DA=65c)(6EC=140)(4DD=212554)(4DC=33e4a)(4DE
+    =Urgent: One man's US\$8tn investment plan)(4DF
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Urgent:_One_\
+man's_US\$8tn_investment_plan\)@localhost.localdomain)(4E1
+    =https://stallman.org/archives/2024-may-aug.html#3_July_2024_(Urgent:_One_\
+man's_US\$8tn_investment_plan\))(4E2=4bb)(6EB=13f)(4E5=213766)(4E4=34306)
+  (4E6=COP29 territory journalist-hostile, AZE)(4E7
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(COP29_territ\
+ory_journalist-hostile,_AZE\)@localhost.localdomain)(4E9
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(COP29_territ\
+ory_journalist-hostile,_AZE\))(4EA=610)(6EA=13e)(4ED=215319)(4EC=34917)
+  (4EE=Uber and Lyft driver compensation, US)(4EF
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(Uber_and_Lyf\
+t_driver_compensation,_US\)@localhost.localdomain)(4F1
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(Uber_and_Lyf\
+t_driver_compensation,_US\))(4F2=6a0)(6E9=13d)(4F5=217016)(4F4=34fb8)
+  (4F6=BP profits by shedding climate efforts)(4F7
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(BP_profits_b\
+y_shedding_climate_efforts\)@localhost.localdomain)(4F9
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(BP_profits_b\
+y_shedding_climate_efforts\))(4FA=547)(6E8=13c)(4FD=218368)(4FC=35500)
+  (4FE=Homelessness now potentially a crime, US)(4FF
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(Homelessness\
+_is_now_a_crime,_US\)@localhost.localdomain)(501
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(Homelessness\
+_is_now_a_crime,_US\))(502=6c4)(6E7=13b)(505=220101)(504=35bc5)(506
+    =Presidential debate analysis)(507
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(Biden_vs_Tru\
+mp_presidency\)@localhost.localdomain)(509
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(Biden_vs_Tru\
+mp_presidency\))(50A=58a)(6E6=13a)(50D=221520)(50C=36150)(50E
+    =PFAS research efforts)(50F
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(PFAS_researc\
+h_efforts\)@localhost.localdomain)(511
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_(PFAS_researc\
+h_efforts\))(512=439)(6E5=139)(515=222602)(514=3658a)(516
+    =(Satire\) Museum returns fire exhibit)(517
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_((Satire\)_Me\
+useum_returns_fire_exhibit\)@localhost.localdomain)(519
+    =https://stallman.org/archives/2024-may-aug.html#2_July_2024_((Satire\)_Me\
+useum_returns_fire_exhibit\))(51A=4ad)(6E4=138)(51D=223800)(51C=36a38)
+  (51E=Urgent: SNAP benefits)(51F
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Urgent:_SNAP\
+_benefits\)@localhost.localdomain)(521
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Urgent:_SNAP\
+_benefits\))(522=4eb)(6E3=137)(525=225060)(524=36f24)(526
+    =Biden's supporters turning on him)(527
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Biden's_supp\
+orters_turning_on_him\)@localhost.localdomain)(529
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Biden's_supp\
+orters_turning_on_him\))(52A=7aa)(6E2=136)(52D=227023)(52C=376cf)(52E
+    =Israel news censorship)(52F
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Israel_news_\
+censorship\)@localhost.localdomain)(530
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Israel_news_\
+censorship\))(6E1=135)(533=228173)(532=37b4d)(534=Microplastics)(535
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Microplastic\
+s\)@localhost.localdomain)(537
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Microplastic\
+s\))(538=529)(6E0=134)(53B=229495)(53A=38077)(53C
+    =US continues arming Israel)(53D
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(US_continues\
+_arming_Israel\)@localhost.localdomain)(53F
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(US_continues\
+_arming_Israel\))(540=584)(6DF=133)(543=230908)(542=385fc)(544=Perenco)
+  (545
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Perenco\)@lo\
+calhost.localdomain)(546=66991e35)(547
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Perenco\))
+  (548=49b)(6DE=132)(54B=232088)(54A=38a98)(54C=Fossil gas export increase)
+  (54D
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Fossil_gas_e\
+xport_increase\)@localhost.localdomain)(54F
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Fossil_gas_e\
+xport_increase\))(550=4db)(6DD=131)(553=233332)(552=38f74)(554
+    =Taxing billionaires)(555
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Taxing_billi\
+onaires\)@localhost.localdomain)(557
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Taxing_billi\
+onaires\))(558=4d3)(6DC=130)(55B=234568)(55A=39448)(55C
+    =Calls to rescind Netanyahu's invitations)(55D
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Calls_to_res\
+cind_Netanyahu's_invitations\)@localhost.localdomain)(55F
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Calls_to_res\
+cind_Netanyahu's_invitations\))(6DB=12f)(562=235854)(561=3994e)(563
+    =Denmark livestock taxes)(564
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Denmark_live\
+stock_taxes\)@localhost.localdomain)(566
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Denmark_live\
+stock_taxes\))(6DA=12e)(569=237157)(568=39e65)(56A=Big oil and heatwaves)
+  (56B
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Big_oil_and_\
+heatwaves\)@localhost.localdomain)(56C
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Big_oil_and_\
+heatwaves\))(6D9=12d)(56F=238287)(56E=3a2cf)(570=Film fiction)(571
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Film_fiction\
+\)@localhost.localdomain)(573
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Film_fiction\
+\))(574=4dc)(6D8=12c)(577=239532)(576=3a7ac)(578
+    =The state should not give businesses money)(579
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(The_state_sh\
+ould_not_give_businesses_money\)@localhost.localdomain)(57A
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(The_state_sh\
+ould_not_give_businesses_money\))(57B=713)(6D7=12b)(57E=241344)(57D=3aec0)
+  (57F=Freedom of Information act requesting urged)(580
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Freedom_of_I\
+nformation_act_requesting_urged\)@localhost.localdomain)(582
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Freedom_of_I\
+nformation_act_requesting_urged\))(583=596)(6D6=12a)(586=242775)(585=3b457)
+  (587=Oklahoma bible teaching)(588
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Oklahoma_bib\
+le_teaching\)@localhost.localdomain)(58A
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Oklahoma_bib\
+le_teaching\))(58B=781)(6D5=129)(58E=244697)(58D=3bbd9)(58F
+    =Bribery legalized)(590
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Bribery_lega\
+lized\)@localhost.localdomain)(592
+    =https://stallman.org/archives/2024-may-aug.html#1_July_2024_(Bribery_lega\
+lized\))(593=48d)(6D4=128)(596=245863)(595=3c067)(597
+    =Boeing's double trouble next week, DOJ)(598
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Boing's_dou\
+ble_trouble_next_week,_DOJ\)@localhost.localdomain)(599
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Boing's_dou\
+ble_trouble_next_week,_DOJ\))(59A=509)(6D3=127)(59D=247153)(59C=3c571)
+  (59E=Water riots in Algeria)(59F
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Water_riots\
+_in_Algeria\)@localhost.localdomain)(5A1
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Water_riots\
+_in_Algeria\))(5A2=4c1)(6D2=126)(5A5=248371)(5A4=3ca33)(5A6
+    =Oligarchs, a history of injustice)(5A7
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Oligarchs,_\
+a_history\)@localhost.localdomain)(5A8
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Oligarchs,_\
+a_history\))(6D1=125)(5AB=249753)(5AA=3cf99)(5AC
+    =Another Bolivia coup put down)(5AD
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Another_Bol\
+ivia_coup_put_down\)@localhost.localdomain)(5AF
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Another_Bol\
+ivia_coup_put_down\))(5B0=656)(6D0=124)(5B3=251376)(5B2=3d5f0)(5B4
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Presidentia\
+l_debate_analysis\)@localhost.localdomain)(5B6
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Presidentia\
+l_debate_analysis\))(5B7=6b5)(6CF=123)(5BA=253094)(5B9=3dca6)(5BB
+    =Urgent: Reject corporate tax breaks)(5BC
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Urgent:_Rej\
+ect_corporate_tax_breaks\)@localhost.localdomain)(5BE
+    =https://stallman.org/archives/2024-may-aug.html#30_June_2024_(Urgent:_Rej\
+ect_corporate_tax_breaks\))(5BF=65b)(6CE=122)(5C2=254722)(5C1=3e302)
+  (5C3=Nuclear reactors stats, AUS analysis)(5C4
+    =https://stallman.org/archives/2024-mar-jun.html#29_June_2024_(Nuclear_rea\
+ctors_analysis,_stats,_AUS\)@localhost.localdomain)(5C5=66991e36)(5C7
+    =https://stallman.org/archives/2024-mar-jun.html#29_June_2024_(Nuclear_rea\
+ctors_analysis,_stats,_AUS\))(6CD=121)(5CA=255939)(5C9=3e7c3)(5CB
+    =West Bank intentions covert, ISR)(5CC
+    =https://stallman.org/archives/2024-mar-jun.html#29_June_2024_(West_Bank_i\
+ntentions_covert,_ISR\)@localhost.localdomain)(5CD
+    =https://stallman.org/archives/2024-mar-jun.html#29_June_2024_(West_Bank_i\
+ntentions_covert,_ISR\))(5CE=5c6)(6CC=120)(5D1=257418)(5D0=3ed8a)(5D2
+    =Urgent: Bill a path to danger: censorship)(5D3
+    =https://stallman.org/archives/2024-mar-jun.html#29_June_2024_(Urgent:_Bil\
+l_a_path_to_danger:_censorship\)@localhost.localdomain)(5D5
+    =https://stallman.org/archives/2024-mar-jun.html#29_June_2024_(Urgent:_Bil\
+l_a_path_to_danger:_censorship\))(5D6=56f)(6CB=11f)(5D9=258810)(5D8=3f2fa)
+  (5DA=Urgent: An investment fund-mgmnt's US\$8t question)(5DB
+    =https://stallman.org/archives/2024-mar-jun.html#29_June_2024_(Urgent:_Inv\
+estment_fund-mgmnt's_US\$8t_question\)@localhost.localdomain)(5DC
+    =https://stallman.org/archives/2024-mar-jun.html#29_June_2024_(Urgent:_Inv\
+estment_fund-mgmnt's_US\$8t_question\))(5DD=680)(6CA=11e)(5E0=260475)
+  (5DF=3f97b)(5E1=Weak vs strong in political debate)(5E2
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Weak_vs_str\
+ong_in_political_debate\)@localhost.localdomain)(5E4
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Weak_vs_str\
+ong_in_political_debate\))(5E5=4fe)(6C9=11d)(5E8=261754)(5E7=3fe7a)
+  (5E9=Julian Assange plea bargain OKed)(5EA
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Julian_Assa\
+nge_plea_bargain_okayed\)@localhost.localdomain)(5EC
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Julian_Assa\
+nge_plea_bargain_okayed\))(5ED=4cd)(6C8=11c)(5F0=262984)(5EF=40348)
+  (5F1=More ICC arrest warrants: RUS war-crimes)(5F2
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(ICC's_war-c\
+riminal_arrest_warrants,_RUS\)@localhost.localdomain)(5F4
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(ICC's_war-c\
+riminal_arrest_warrants,_RUS\))(5F5=51f)(6C7=11b)(5F8=264296)(5F7=40868)
+  (5F9=Bosnian War, new book criticizing Serbia)(5FA
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Bosnian_War\
+,_new_book_criticizing_Serbia\)@localhost.localdomain)(5FC
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Bosnian_War\
+,_new_book_criticizing_Serbia\))(6C6=11a)(5FF=265726)(5FE=40dfe)(600
+    =Urgent: Climate defense measures)(601
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_Cli\
+mate_defence_measures\)@localhost.localdomain)(603
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_Cli\
+mate_defence_measures\))(604=5ad)(6C5=119)(607=267180)(606=413ac)(608
+    =Urgent: An opening to tax billionaire wealth)(609
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_An_\
+opening_to_tax_billionaire_wealth\)@localhost.localdomain)(60B
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_An_\
+opening_to_tax_billionaire_wealth\))(60C=562)(6C4=118)(60F=268559)(60E
+    =4190f)(610=Urgent: Ban machine guns)(611
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_Ban\
+_machine_guns\)@localhost.localdomain)(613
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_Ban\
+_machine_guns\))(614=648)(6C3=117)(617=270168)(616=41f58)(618
+    =Routine, coastal flooding by 2050)(619
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Freqent,_re\
+peat,_coastal_flooding,_2050\)@localhost.localdomain)(61B
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Freqent,_re\
+peat,_coastal_flooding,_2050\))(61C=594)(6C2=116)(61F=271597)(61E=424ed)
+  (620=Farage and Ukraine)(621
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Farage_and_\
+Ukraine\)@localhost.localdomain)(623
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Farage_and_\
+Ukraine\))(624=6be)(6C1=115)(627=273324)(626=42bac)(628
+    =Great Barrier Reef bleaching)(629
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Great_Barri\
+er_Reef_bleaching\)@localhost.localdomain)(62B
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Great_Barri\
+er_Reef_bleaching\))(62C=5fe)(6C0=114)(62F=274859)(62E=431ab)(630
+    =Israel anti-war movement)(631
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Israel_anti\
+-war_movement\)@localhost.localdomain)(633
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Israel_anti\
+-war_movement\))(634=61c)(6BF=113)(637=276424)(636=437c8)(638
+    =1.2% of land could save most threatened species)(639
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(1.2%25_of_l\
+and_could_save_most_threatened_species\)@localhost.localdomain)(63B
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(1.2%25_of_l\
+and_could_save_most_threatened_species\))(63C=50d)(6BE=112)(63F=277718)
+  (63E=43cd6)(640=New ice sheet tipping point)(641
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(New_ice_she\
+et_tipping_point\)@localhost.localdomain)(643
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(New_ice_she\
+et_tipping_point\))(6BD=111)(646=279283)(645=442f3)(647
+    =EU "sustainable" funds invests in polluters)(648
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(EU_sustaina\
+ble_funds_invests_in_polluters\)@localhost.localdomain)(649=66991e37)
+  (64B
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(EU_sustaina\
+ble_funds_invests_in_polluters\))(64C=4e5)(6BC=110)(64F=280537)(64E=447d9)
+  (650=Israeli war crimes)(651
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Israeli_war\
+_crimes\)@localhost.localdomain)(653
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Israeli_war\
+_crimes\))(654=687)(6BB=10f)(657=282209)(656=44e61)(658=Julian Assange)
+  (659
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Julian_Assa\
+nge\)@localhost.localdomain)(65B
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Julian_Assa\
+nge\))(65C=481)(6BA=10e)(65F=283363)(65E=452e3)(660=Urgent: Nukes debate)
+  (661
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_Nuk\
+es_debate\)@localhost.localdomain)(663
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_Nuk\
+es_debate\))(664=4a9)(6B9=10d)(667=284557)(666=4578d)(668
+    =Urgent: declare climate emergency)(669
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_dec\
+late_climate_emergency\)@localhost.localdomain)(66B
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_dec\
+late_climate_emergency\))(66C=45b)(6B8=10c)(66F=285673)(66E=45be9)(670
+    =Urgent: Defend CFPB rules)(671
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_Def\
+end_CFPB_rules\)@localhost.localdomain)(673
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_Def\
+end_CFPB_rules\))(6B7=10b)(676=286942)(675=460de)(677
+    =Urgent: stop \$18bn sale of bombs and jets to Israel)(678
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_sto\
+p_\$18bn_sale_of_bombs_and_jets_to_Israel\)@localhost.localdomain)(67A
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Urgent:_sto\
+p_\$18bn_sale_of_bombs_and_jets_to_Israel\))(67B=51a)(6B6=10a)(67E=288249)
+  (67D=465f9)(67F=Pier failure)(680
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Pier_failur\
+e\)@localhost.localdomain)(682
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Pier_failur\
+e\))(683=90c)(6B5=109)(686=290566)(685=46f06)(687=Biden pardons)(688
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Biden_pardo\
+ns\)@localhost.localdomain)(68A
+    =https://stallman.org/archives/2024-mar-jun.html#28_June_2024_(Biden_pardo\
+ns\))(68B=46f)(6B4=108)(68E=291702)(68D=47376)(68F
+    =Julian Assange is now free)(690
+    =https://stallman.org/archives/2024-mar-jun.html#27_June_2024_(Julian_Assa\
+nge_is_now_free\)@localhost.localdomain)(692
+    =https://stallman.org/archives/2024-mar-jun.html#27_June_2024_(Julian_Assa\
+nge_is_now_free\))(693=82e)(6B3=107)(696=293797)(695=47ba5)(697
+    =Starvation days in Gaza)(698
+    =https://stallman.org/archives/2024-mar-jun.html#27_June_2024_(Starvation_\
+days_in_Gaza\)@localhost.localdomain)(69A
+    =https://stallman.org/archives/2024-mar-jun.html#27_June_2024_(Starvation_\
+days_in_Gaza\))(6B2=106)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^B0=0)(^9C=0)(^88=41)(^82^85)(^81^86)(^83^87)(^B1^88)(^86^89)(^89=1)
+    (^B2^8A)(^95^8B)(^87^8C)(^8B=26)(^9A^8E)(^8E^8F)(^B3=0)(^B7=f2)
+    (^B8=1)]
+  [2(^B0^93)(^9C^91)(^88=41)(^82^85)(^81^94)(^83^95)(^B1^88)(^86^96)
+    (^89=1)(^B2^97)(^95^8B)(^87^98)(^8B=23)(^9A^8E)(^8E=2)(^B3=0)(^B7=f3)
+    (^B8=1)]
+  [3(^B0^9C)(^9C^9B)(^88=41)(^82^85)(^81^9D)(^83^9E)(^B1^88)(^86^96)
+    (^89=1)(^B2^9F)(^95^8B)(^87^A0)(^8B=17)(^9A^8E)(^8E=3)(^B3=0)(^B7=f4)
+    (^B8=1)]
+  [4(^B0^A4)(^9C^A3)(^88=41)(^82^85)(^81^A5)(^83^A6)(^B1^88)(^86^A7)
+    (^89=1)(^B2^A8)(^95^8B)(^87^A9)(^8B=11)(^9A^8E)(^8E=4)(^B3=0)(^B7=f5)
+    (^B8=1)]
+  [5(^B0^AC)(^9C^AB)(^88=41)(^82^85)(^81^AD)(^83^AE)(^B1^88)(^86^AF)
+    (^89=1)(^B2^B0)(^95^8B)(^87^B1)(^8B=13)(^9A^8E)(^8E=5)(^B3=0)(^B7=f6)
+    (^B8=1)]
+  [6(^B0^B5)(^9C^B4)(^88=41)(^82^85)(^81^B6)(^83^B7)(^B1^88)(^86^B8)
+    (^89=1)(^B2^B9)(^95^8B)(^87^BA)(^8B=10)(^9A^8E)(^8E=6)(^B3=0)(^B7=f7)
+    (^B8=1)]
+  [7(^B0^BE)(^9C^BD)(^88=41)(^82^85)(^81^BF)(^83^C0)(^B1^88)(^86^C1)
+    (^89=1)(^B2^C2)(^95^8B)(^87^C3)(^8B=15)(^9A^8E)(^8E=7)(^B3=0)(^B7=f8)
+    (^B8=1)]
+  [8(^B0^C7)(^9C^C6)(^88=41)(^82^85)(^81^C8)(^83^C9)(^B1^88)(^86^CA)
+    (^89=1)(^B2^CB)(^95^8B)(^87^CC)(^8B=17)(^9A^8E)(^8E=8)(^B3=0)(^B7=f9)
+    (^B8=1)]
+  [9(^B0^CF)(^9C^CE)(^88=41)(^82^85)(^81^D0)(^83^D1)(^B1^88)(^86^D2)
+    (^89=1)(^B2^D3)(^95^8B)(^87^D4)(^8B=1a)(^9A^8E)(^8E=9)(^B3=0)(^B7=fa)
+    (^B8=1)]
+  [A(^B0^D8)(^9C^D7)(^88=41)(^82^85)(^81^D9)(^83^DA)(^B1^88)(^86^DB)
+    (^89=1)(^B2^DC)(^95^8B)(^87^DD)(^8B=15)(^9A^8E)(^8E=a)(^B3=0)(^B7=fb)
+    (^B8=1)]
+  [B(^B0^E0)(^9C^DF)(^88=41)(^82^85)(^81^E1)(^83^E2)(^B1^88)(^86^E3)
+    (^89=1)(^B2^E4)(^95^8B)(^87^E5)(^8B=14)(^9A^8E)(^8E=b)(^B3=0)(^B7=fc)
+    (^B8=1)]
+  [C(^B0^E9)(^9C^E8)(^88=41)(^82^85)(^81^EA)(^83^EB)(^B1^88)(^86^EC)
+    (^89=1)(^B2^ED)(^95^8B)(^87^EE)(^8B=e)(^9A^8E)(^8E=c)(^B3=0)(^B7=fd)
+    (^B8=1)]
+  [D(^B0^F2)(^9C^F1)(^88=41)(^82^85)(^81^F3)(^83^F4)(^B1^88)(^86^F5)
+    (^89=1)(^B2^F6)(^95^8B)(^87^F7)(^8B=15)(^9A^8E)(^8E=d)(^B3=0)(^B7=fe)
+    (^B8=1)]
+  [E(^B0^FA)(^9C^F9)(^88=41)(^82^85)(^81^FB)(^83^FC)(^B1^88)(^86^F5)
+    (^89=1)(^B2^FD)(^95^8B)(^87^FE)(^8B=15)(^9A^8E)(^8E=e)(^B3=0)(^B7=ff)
+    (^B8=1)]
+  [F(^B0^100)(^9C^FF)(^88=41)(^82^85)(^81^101)(^83^102)(^B1^88)(^86^103)
+    (^89=1)(^B2^104)(^95^8B)(^87=5f0)(^8B=14)(^9A^8E)(^8E=f)(^B3=0)
+    (^B7=100)(^B8=1)]
+  [10(^B0^108)(^9C^107)(^88=41)(^82^85)(^81^109)(^83^10A)(^B1^88)(^86^10B)
+    (^89=1)(^B2^10C)(^95^8B)(^87=81c)(^8B=1e)(^9A^8E)(^8E=10)(^B3=0)
+    (^B7=101)(^B8=1)]
+  [11(^B0^110)(^9C^10F)(^88=41)(^82^85)(^81^111)(^83^112)(^B1^113)(^86^114)
+    (^89=1)(^B2^115)(^95^8B)(^87=478)(^8B=11)(^9A^8E)(^8E=11)(^B3=0)
+    (^B7=102)(^B8=1)]
+  [12(^B0^118)(^9C^117)(^88=41)(^82^85)(^81^119)(^83^11A)(^B1^113)(^86^11B)
+    (^89=1)(^B2^11C)(^95^8B)(^87=5a7)(^8B=13)(^9A^8E)(^8E=12)(^B3=0)
+    (^B7=103)(^B8=1)]
+  [13(^B0^120)(^9C^11F)(^88=41)(^82^85)(^81^121)(^83^122)(^B1^113)(^86^123)
+    (^89=1)(^B2^124)(^95^8B)(^87=511)(^8B=12)(^9A^8E)(^8E=13)(^B3=0)
+    (^B7=104)(^B8=1)]
+  [14(^B0^127)(^9C^126)(^88=41)(^82^85)(^81^128)(^83^129)(^B1^113)(^86^123)
+    (^89=1)(^B2^12A)(^95^8B)(^87=4d1)(^8B=10)(^9A^8E)(^8E=14)(^B3=0)
+    (^B7=105)(^B8=1)]
+  [15(^B0^12D)(^9C^12C)(^88=41)(^82^85)(^81^12E)(^83^12F)(^B1^113)(^86^130)
+    (^89=1)(^B2^131)(^95^8B)(^87=469)(^8B=10)(^9A^8E)(^8E=15)(^B3=0)
+    (^B7=1b9)(^B8=1)]
+  [16(^B0^134)(^9C^133)(^88=41)(^82^85)(^81^135)(^83^136)(^B1^113)(^86^137)
+    (^89=1)(^B2^138)(^95^8B)(^87=4a4)(^8B=10)(^9A^8E)(^8E=16)(^B3=0)
+    (^B7=1b8)(^B8=1)]
+  [17(^B0^13C)(^9C^13B)(^88=41)(^82^85)(^81^13D)(^83^13E)(^B1^113)(^86^137)
+    (^89=1)(^B2^13F)(^95^8B)(^87=5da)(^8B=14)(^9A^8E)(^8E=17)(^B3=0)
+    (^B7=1b7)(^B8=1)]
+  [18(^B0^142)(^9C^141)(^88=41)(^82^85)(^81^143)(^83^144)(^B1^113)(^86^145)
+    (^89=1)(^B2^146)(^95^8B)(^87=53e)(^8B=15)(^9A^8E)(^8E=18)(^B3=0)
+    (^B7=1b6)(^B8=1)]
+  [19(^B0^14A)(^9C^149)(^88=41)(^82^85)(^81^14B)(^83^14C)(^B1^113)(^86^145)
+    (^89=1)(^B2^14D)(^95^8B)(^87=664)(^8B=16)(^9A^8E)(^8E=19)(^B3=0)
+    (^B7=1b5)(^B8=1)]
+  [1A(^B0^151)(^9C^150)(^88=41)(^82^85)(^81^152)(^83^153)(^B1^113)(^86^154)
+    (^89=1)(^B2^155)(^95^8B)(^87=54a)(^8B=14)(^9A^8E)(^8E=1a)(^B3=0)
+    (^B7=1b4)(^B8=1)]
+  [1B(^B0^158)(^9C^157)(^88=41)(^82^85)(^81^159)(^83^15A)(^B1^113)(^86^15B)
+    (^89=1)(^B2^15C)(^95^8B)(^87=6c6)(^8B=1a)(^9A^8E)(^8E=1b)(^B3=0)
+    (^B7=1b3)(^B8=1)]
+  [1C(^B0^160)(^9C^15F)(^88=41)(^82^85)(^81^161)(^83^162)(^B1^113)(^86^163)
+    (^89=1)(^B2^164)(^95^8B)(^87=57c)(^8B=14)(^9A^8E)(^8E=1c)(^B3=0)
+    (^B7=1b2)(^B8=1)]
+  [1D(^B0^168)(^9C^167)(^88=41)(^82^85)(^81^169)(^83^16A)(^B1^113)(^86^16B)
+    (^89=1)(^B2^16C)(^95^8B)(^87=4bf)(^8B=10)(^9A^8E)(^8E=1d)(^B3=0)
+    (^B7=1b1)(^B8=1)]
+  [1E(^B0^170)(^9C^16F)(^88=41)(^82^85)(^81^171)(^83^172)(^B1^113)(^86^173)
+    (^89=1)(^B2^174)(^95^8B)(^87=b59)(^8B=2c)(^9A^8E)(^8E=1e)(^B3=0)
+    (^B7=1b0)(^B8=1)]
+  [1F(^B0^178)(^9C^177)(^88=41)(^82^85)(^81^179)(^83^17A)(^B1^113)(^86^17B)
+    (^89=1)(^B2^17C)(^95^8B)(^87=788)(^8B=1b)(^9A^8E)(^8E=1f)(^B3=0)
+    (^B7=1af)(^B8=1)]
+  [20(^B0^180)(^9C^17F)(^88=41)(^82^85)(^81^181)(^83^182)(^B1^113)(^86^183)
+    (^89=1)(^B2^184)(^95^8B)(^87=7d0)(^8B=1d)(^9A^8E)(^8E=20)(^B3=0)
+    (^B7=1ae)(^B8=1)]
+  [21(^B0^188)(^9C^187)(^88=41)(^82^85)(^81^189)(^83^18A)(^B1^113)(^86^18B)
+    (^89=1)(^B2^18C)(^95^8B)(^87=7ce)(^8B=21)(^9A^8E)(^8E=21)(^B3=0)
+    (^B7=1ad)(^B8=1)]
+  [22(^B0^190)(^9C^18F)(^88=41)(^82^85)(^81^191)(^83^192)(^B1^113)(^86^193)
+    (^89=1)(^B2^194)(^95^8B)(^87=5df)(^8B=16)(^9A^8E)(^8E=22)(^B3=0)
+    (^B7=1ac)(^B8=1)]
+  [23(^B0^198)(^9C^197)(^88=41)(^82^85)(^81^199)(^83^19A)(^B1^19B)(^86^19C)
+    (^89=1)(^B2^19D)(^95^8B)(^87=505)(^8B=12)(^9A^8E)(^8E=23)(^B3=0)
+    (^B7=1ab)(^B8=1)]
+  [24(^B0^1A0)(^9C^19F)(^88=41)(^82^85)(^81^1A1)(^83^1A2)(^B1^19B)(^86^1A3)
+    (^89=1)(^B2^1A4)(^95^8B)(^87=4e7)(^8B=f)(^9A^8E)(^8E=24)(^B3=0)
+    (^B7=1aa)(^B8=1)]
+  [25(^B0^1A8)(^9C^1A7)(^88=41)(^82^85)(^81^1A9)(^83^1AA)(^B1^19B)(^86^1AB)
+    (^89=1)(^B2^1AC)(^95^8B)(^87=4ef)(^8B=11)(^9A^8E)(^8E=25)(^B3=0)
+    (^B7=1a9)(^B8=1)]
+  [26(^B0^1B0)(^9C^1AF)(^88=41)(^82^85)(^81^111)(^83^1B1)(^B1^19B)(^86^1B2)
+    (^89=1)(^B2^1B3)(^95^8B)(^87=427)(^8B=e)(^9A^8E)(^8E=26)(^B3=0)
+    (^B7=1a8)(^B8=1)]
+  [27(^B0^1B6)(^9C^1B5)(^88=41)(^82^85)(^81^1B7)(^83^1B8)(^B1^19B)(^86^1B9)
+    (^89=1)(^B2^1BA)(^95^8B)(^87=588)(^8B=13)(^9A^8E)(^8E=27)(^B3=0)
+    (^B7=1a7)(^B8=1)]
+  [28(^B0^1BE)(^9C^1BD)(^88=41)(^82^85)(^81^1BF)(^83^1C0)(^B1^19B)(^86^1C1)
+    (^89=1)(^B2^1C2)(^95^8B)(^87=696)(^8B=1c)(^9A^8E)(^8E=28)(^B3=0)
+    (^B7=1a6)(^B8=1)]
+  [29(^B0^1C6)(^9C^1C5)(^88=41)(^82^85)(^81^1C7)(^83^1C8)(^B1^19B)(^86^1C9)
+    (^89=1)(^B2^1CA)(^95^8B)(^87=95e)(^8B=2c)(^9A^8E)(^8E=29)(^B3=0)
+    (^B7=1a5)(^B8=1)]
+  [2A(^B0^1CE)(^9C^1CD)(^88=41)(^82^85)(^81^1CF)(^83^1D0)(^B1^19B)(^86^1D1)
+    (^89=1)(^B2^1D2)(^95^8B)(^87=6f9)(^8B=17)(^9A^8E)(^8E=2a)(^B3=0)
+    (^B7=1a4)(^B8=1)]
+  [2B(^B0^1D6)(^9C^1D5)(^88=41)(^82^85)(^81^1D7)(^83^1D8)(^B1^19B)(^86^1D9)
+    (^89=1)(^B2^1DA)(^95^8B)(^87=470)(^8B=e)(^9A^8E)(^8E=2b)(^B3=0)
+    (^B7=1a3)(^B8=1)]
+  [2C(^B0^1DE)(^9C^1DD)(^88=41)(^82^85)(^81^1DF)(^83^1E0)(^B1^19B)(^86^1D9)
+    (^89=1)(^B2^1E1)(^95^8B)(^87=4de)(^8B=f)(^9A^8E)(^8E=2c)(^B3=0)
+    (^B7=1a2)(^B8=1)]
+  [2D(^B0^1E4)(^9C^1E3)(^88=41)(^82^85)(^81^1E5)(^83^1E6)(^B1^19B)(^86^1E7)
+    (^89=1)(^B2^1E8)(^95^8B)(^87=7bd)(^8B=1b)(^9A^8E)(^8E=2d)(^B3=0)
+    (^B7=1a1)(^B8=1)]
+  [2E(^B0^1EC)(^9C^1EB)(^88=41)(^82^85)(^81^1ED)(^83^1EE)(^B1^1EF)(^86^1F0)
+    (^89=1)(^B2^1F1)(^95^8B)(^87=4a2)(^8B=e)(^9A^8E)(^8E=2e)(^B3=0)
+    (^B7=1a0)(^B8=1)]
+  [2F(^B0^1F5)(^9C^1F4)(^88=41)(^82^85)(^81^1F6)(^83^1F7)(^B1^1EF)(^86^1F8)
+    (^89=1)(^B2^1F9)(^95^8B)(^87=4f4)(^8B=12)(^9A^8E)(^8E=2f)(^B3=0)
+    (^B7=19f)(^B8=1)]
+  [30(^B0^1FD)(^9C^1FC)(^88=41)(^82^85)(^81^1FE)(^83^1FF)(^B1^1EF)(^86^1F8)
+    (^89=1)(^B2^200)(^95^8B)(^87=505)(^8B=11)(^9A^8E)(^8E=30)(^B3=0)
+    (^B7=19e)(^B8=1)]
+  [31(^B0^203)(^9C^202)(^88=41)(^82^85)(^81^204)(^83^205)(^B1^1EF)(^86^206)
+    (^89=1)(^B2^207)(^95^8B)(^87=50e)(^8B=10)(^9A^8E)(^8E=31)(^B3=0)
+    (^B7=19d)(^B8=1)]
+  [32(^B0^20B)(^9C^20A)(^88=41)(^82^85)(^81^20C)(^83^20D)(^B1^1EF)(^86^20E)
+    (^89=1)(^B2^20F)(^95^8B)(^87=c18)(^8B=28)(^9A^8E)(^8E=32)(^B3=0)
+    (^B7=19c)(^B8=1)]
+  [33(^B0^213)(^9C^212)(^88=41)(^82^85)(^81^214)(^83^215)(^B1^1EF)(^86^216)
+    (^89=1)(^B2^217)(^95^8B)(^87=688)(^8B=15)(^9A^8E)(^8E=33)(^B3=0)
+    (^B7=19b)(^B8=1)]
+  [34(^B0^21B)(^9C^21A)(^88=41)(^82^85)(^81^21C)(^83^21D)(^B1^1EF)(^86^216)
+    (^89=1)(^B2^21E)(^95^8B)(^87=561)(^8B=13)(^9A^8E)(^8E=34)(^B3=0)
+    (^B7=19a)(^B8=1)]
+  [35(^B0^222)(^9C^221)(^88=41)(^82^85)(^81^223)(^83^224)(^B1^1EF)(^86^225)
+    (^89=1)(^B2^226)(^95^8B)(^87=4c0)(^8B=11)(^9A^8E)(^8E=35)(^B3=0)
+    (^B7=199)(^B8=1)]
+  [36(^B0^22A)(^9C^229)(^88=41)(^82^85)(^81^22B)(^83^22C)(^B1^1EF)(^86^22D)
+    (^89=1)(^B2^22E)(^95^8B)(^87=69b)(^8B=18)(^9A^8E)(^8E=36)(^B3=0)
+    (^B7=198)(^B8=1)]
+  [37(^B0^232)(^9C^231)(^88=41)(^82^85)(^81^233)(^83^234)(^B1^1EF)(^86^22D)
+    (^89=1)(^B2^235)(^95^8B)(^87=720)(^8B=1a)(^9A^8E)(^8E=37)(^B3=0)
+    (^B7=197)(^B8=1)]
+  [38(^B0^239)(^9C^238)(^88=41)(^82^85)(^81^23A)(^83^23B)(^B1^1EF)(^86^23C)
+    (^89=1)(^B2^23D)(^95^8B)(^87=4b3)(^8B=10)(^9A^8E)(^8E=38)(^B3=0)
+    (^B7=196)(^B8=1)]
+  [39(^B0^241)(^9C^240)(^88=41)(^82^85)(^81^242)(^83^243)(^B1^1EF)(^86^244)
+    (^89=1)(^B2^245)(^95^8B)(^87=5d1)(^8B=14)(^9A^8E)(^8E=39)(^B3=0)
+    (^B7=195)(^B8=1)]
+  [3A(^B0^249)(^9C^248)(^88=41)(^82^85)(^81^24A)(^83^24B)(^B1^1EF)(^86^244)
+    (^89=1)(^B2^24C)(^95^8B)(^87=516)(^8B=10)(^9A^8E)(^8E=3a)(^B3=0)
+    (^B7=194)(^B8=1)]
+  [3B(^B0^250)(^9C^24F)(^88=41)(^82^85)(^81^251)(^83^252)(^B1^1EF)(^86^253)
+    (^89=1)(^B2^254)(^95^8B)(^87=681)(^8B=17)(^9A^8E)(^8E=3b)(^B3=0)
+    (^B7=193)(^B8=1)]
+  [3C(^B0^258)(^9C^257)(^88=41)(^82^85)(^81^259)(^83^25A)(^B1^1EF)(^86^253)
+    (^89=1)(^B2^25B)(^95^8B)(^87=4d6)(^8B=10)(^9A^8E)(^8E=3c)(^B3=0)
+    (^B7=192)(^B8=1)]
+  [3D(^B0^25F)(^9C^25E)(^88=41)(^82^85)(^81^260)(^83^261)(^B1^1EF)(^86^262)
+    (^89=1)(^B2^263)(^95^8B)(^87=531)(^8B=12)(^9A^8E)(^8E=3d)(^B3=0)
+    (^B7=191)(^B8=1)]
+  [3E(^B0^267)(^9C^266)(^88=41)(^82^85)(^81^268)(^83^269)(^B1^1EF)(^86^26A)
+    (^89=1)(^B2^26B)(^95^8B)(^87=446)(^8B=10)(^9A^8E)(^8E=3e)(^B3=0)
+    (^B7=190)(^B8=1)]
+  [3F(^B0^26F)(^9C^26E)(^88=41)(^82^85)(^81^270)(^83^271)(^B1^272)(^86^273)
+    (^89=1)(^B2^274)(^95^8B)(^87=495)(^8B=f)(^9A^8E)(^8E=3f)(^B3=0)
+    (^B7=18f)(^B8=1)]
+  [40(^B0^278)(^9C^277)(^88=41)(^82^85)(^81^279)(^83^27A)(^B1^272)(^86^27B)
+    (^89=1)(^B2^27C)(^95^8B)(^87=4a8)(^8B=11)(^9A^8E)(^8E=40)(^B3=0)
+    (^B7=18e)(^B8=1)]
+  [41(^B0^27F)(^9C^27E)(^88=41)(^82^85)(^81^280)(^83^281)(^B1^272)(^86^282)
+    (^89=1)(^B2^283)(^95^8B)(^87=791)(^8B=1d)(^9A^8E)(^8E=41)(^B3=0)
+    (^B7=18d)(^B8=1)]
+  [42(^B0^287)(^9C^286)(^88=41)(^82^85)(^81^288)(^83^289)(^B1^272)(^86^28A)
+    (^89=1)(^B2^28B)(^95^8B)(^87=554)(^8B=12)(^9A^8E)(^8E=42)(^B3=0)
+    (^B7=18c)(^B8=1)]
+  [43(^B0^28F)(^9C^28E)(^88=41)(^82^85)(^81^290)(^83^291)(^B1^272)(^86^292)
+    (^89=1)(^B2^293)(^95^8B)(^87=6b2)(^8B=16)(^9A^8E)(^8E=43)(^B3=0)
+    (^B7=18b)(^B8=1)]
+  [44(^B0^297)(^9C^296)(^88=41)(^82^85)(^81^298)(^83^299)(^B1^272)(^86^29A)
+    (^89=1)(^B2^29B)(^95^8B)(^87=4ea)(^8B=12)(^9A^8E)(^8E=44)(^B3=0)
+    (^B7=18a)(^B8=1)]
+  [45(^B0^29F)(^9C^29E)(^88=41)(^82^85)(^81^2A0)(^83^2A1)(^B1^272)(^86^2A2)
+    (^89=1)(^B2^2A3)(^95^8B)(^87=485)(^8B=e)(^9A^8E)(^8E=45)(^B3=0)
+    (^B7=189)(^B8=1)]
+  [46(^B0^2A7)(^9C^2A6)(^88=41)(^82^85)(^81^2A8)(^83^2A9)(^B1^272)(^86^2AA)
+    (^89=1)(^B2^2AB)(^95^8B)(^87=77b)(^8B=f)(^9A^8E)(^8E=46)(^B3=0)
+    (^B7=188)(^B8=1)]
+  [47(^B0^2AF)(^9C^2AE)(^88=41)(^82^85)(^81^2B0)(^83^2B1)(^B1^272)(^86^2B2)
+    (^89=1)(^B2^2B3)(^95^8B)(^87=51d)(^8B=f)(^9A^8E)(^8E=47)(^B3=0)
+    (^B7=187)(^B8=1)]
+  [48(^B0^2B7)(^9C^2B6)(^88=41)(^82^85)(^81^2B8)(^83^2B9)(^B1^272)(^86^2BA)
+    (^89=1)(^B2^2BB)(^95^8B)(^87=4e0)(^8B=11)(^9A^8E)(^8E=48)(^B3=0)
+    (^B7=186)(^B8=1)]
+  [49(^B0^2BF)(^9C^2BE)(^88=41)(^82^85)(^81^2C0)(^83^2C1)(^B1^272)(^86^2C2)
+    (^89=1)(^B2^2C3)(^95^8B)(^87=899)(^8B=22)(^9A^8E)(^8E=49)(^B3=0)
+    (^B7=185)(^B8=1)]
+  [4A(^B0^2C7)(^9C^2C6)(^88=41)(^82^85)(^81^2C8)(^83^2C9)(^B1^272)(^86^2CA)
+    (^89=1)(^B2^2CB)(^95^8B)(^87=55d)(^8B=13)(^9A^8E)(^8E=4a)(^B3=0)
+    (^B7=184)(^B8=1)]
+  [4B(^B0^2CF)(^9C^2CE)(^88=41)(^82^85)(^81^2D0)(^83^2D1)(^B1^272)(^86^2D2)
+    (^89=1)(^B2^2D3)(^95^8B)(^87=49a)(^8B=f)(^9A^8E)(^8E=4b)(^B3=0)
+    (^B7=183)(^B8=1)]
+  [4C(^B0^2D7)(^9C^2D6)(^88=41)(^82^85)(^81^2D8)(^83^2D9)(^B1^272)(^86^2DA)
+    (^89=1)(^B2^2DB)(^95^8B)(^87=47d)(^8B=f)(^9A^8E)(^8E=4c)(^B3=0)
+    (^B7=182)(^B8=1)]
+  [4D(^B0^2DF)(^9C^2DE)(^88=41)(^82^85)(^81^2E0)(^83^2E1)(^B1^272)(^86^2E2)
+    (^89=1)(^B2^2E3)(^95^8B)(^87=638)(^8B=15)(^9A^8E)(^8E=4d)(^B3=0)
+    (^B7=181)(^B8=1)]
+  [4E(^B0^2E7)(^9C^2E6)(^88=41)(^82^85)(^81^2E8)(^83^2E9)(^B1^272)(^86^2EA)
+    (^89=1)(^B2^2EB)(^95^8B)(^87=53c)(^8B=13)(^9A^8E)(^8E=4e)(^B3=0)
+    (^B7=180)(^B8=1)]
+  [4F(^B0^2EF)(^9C^2EE)(^88=41)(^82^85)(^81^2F0)(^83^2F1)(^B1^272)(^86^2F2)
+    (^89=1)(^B2^2F3)(^95^8B)(^87=8ca)(^8B=1f)(^9A^8E)(^8E=4f)(^B3=0)
+    (^B7=17f)(^B8=1)]
+  [50(^B0^2F7)(^9C^2F6)(^88=41)(^82^85)(^81^2F8)(^83^2F9)(^B1^272)(^86^2FA)
+    (^89=1)(^B2^2FB)(^95^8B)(^87=4c8)(^8B=10)(^9A^8E)(^8E=50)(^B3=0)
+    (^B7=17e)(^B8=1)]
+  [51(^B0^2FF)(^9C^2FE)(^88=41)(^82^85)(^81^300)(^83^301)(^B1^302)(^86^2FA)
+    (^89=1)(^B2^303)(^95^8B)(^87=5d5)(^8B=15)(^9A^8E)(^8E=51)(^B3=0)
+    (^B7=17d)(^B8=1)]
+  [52(^B0^307)(^9C^306)(^88=41)(^82^85)(^81^308)(^83^309)(^B1^302)(^86^30A)
+    (^89=1)(^B2^30B)(^95^8B)(^87=4ef)(^8B=11)(^9A^8E)(^8E=52)(^B3=0)
+    (^B7=17c)(^B8=1)]
+  [53(^B0^30E)(^9C^30D)(^88=41)(^82^85)(^81^30F)(^83^310)(^B1^302)(^86^311)
+    (^89=1)(^B2^312)(^95^8B)(^87=46c)(^8B=11)(^9A^8E)(^8E=53)(^B3=0)
+    (^B7=17b)(^B8=1)]
+  [54(^B0^316)(^9C^315)(^88=41)(^82^85)(^81^317)(^83^318)(^B1^302)(^86^319)
+    (^89=1)(^B2^31A)(^95^8B)(^87=4ea)(^8B=13)(^9A^8E)(^8E=54)(^B3=0)
+    (^B7=17a)(^B8=1)]
+  [55(^B0^31D)(^9C^31C)(^88=41)(^82^85)(^81^31E)(^83^31F)(^B1^302)(^86^320)
+    (^89=1)(^B2^321)(^95^8B)(^87=7c2)(^8B=21)(^9A^8E)(^8E=55)(^B3=0)
+    (^B7=179)(^B8=1)]
+  [56(^B0^325)(^9C^324)(^88=41)(^82^85)(^81^326)(^83^327)(^B1^302)(^86^320)
+    (^89=1)(^B2^328)(^95^8B)(^87=58f)(^8B=14)(^9A^8E)(^8E=56)(^B3=0)
+    (^B7=178)(^B8=1)]
+  [57(^B0^32C)(^9C^32B)(^88=41)(^82^85)(^81^32D)(^83^32E)(^B1^302)(^86^32F)
+    (^89=1)(^B2^330)(^95^8B)(^87=53c)(^8B=12)(^9A^8E)(^8E=57)(^B3=0)
+    (^B7=177)(^B8=1)]
+  [58(^B0^333)(^9C^332)(^88=41)(^82^85)(^81^334)(^83^335)(^B1^302)(^86^336)
+    (^89=1)(^B2^337)(^95^8B)(^87=bba)(^8B=2c)(^9A^8E)(^8E=58)(^B3=0)
+    (^B7=176)(^B8=1)]
+  [59(^B0^33B)(^9C^33A)(^88=41)(^82^85)(^81^33C)(^83^33D)(^B1^302)(^86^33E)
+    (^89=1)(^B2^33F)(^95^8B)(^87=507)(^8B=11)(^9A^8E)(^8E=59)(^B3=0)
+    (^B7=175)(^B8=1)]
+  [5A(^B0^343)(^9C^342)(^88=41)(^82^85)(^81^344)(^83^345)(^B1^302)(^86^346)
+    (^89=1)(^B2^347)(^95^8B)(^87=422)(^8B=10)(^9A^8E)(^8E=5a)(^B3=0)
+    (^B7=174)(^B8=1)]
+  [5B(^B0^34B)(^9C^34A)(^88=41)(^82^85)(^81^34C)(^83^34D)(^B1^302)(^86^34E)
+    (^89=1)(^B2^34F)(^95^8B)(^87=508)(^8B=12)(^9A^8E)(^8E=5b)(^B3=0)
+    (^B7=173)(^B8=1)]
+  [5C(^B0^353)(^9C^352)(^88=41)(^82^85)(^81^354)(^83^355)(^B1^302)(^86^356)
+    (^89=1)(^B2^357)(^95^8B)(^87=642)(^8B=16)(^9A^8E)(^8E=5c)(^B3=0)
+    (^B7=172)(^B8=1)]
+  [5D(^B0^35B)(^9C^35A)(^88=41)(^82^85)(^81^35C)(^83^35D)(^B1^302)(^86^35E)
+    (^89=1)(^B2^35F)(^95^8B)(^87=559)(^8B=11)(^9A^8E)(^8E=5d)(^B3=0)
+    (^B7=171)(^B8=1)]
+  [5E(^B0^363)(^9C^362)(^88=41)(^82^85)(^81^364)(^83^365)(^B1^302)(^86^366)
+    (^89=1)(^B2^367)(^95^8B)(^87=6b7)(^8B=19)(^9A^8E)(^8E=5e)(^B3=0)
+    (^B7=170)(^B8=1)]
+  [5F(^B0^36B)(^9C^36A)(^88=41)(^82^85)(^81^36C)(^83^36D)(^B1^302)(^86^36E)
+    (^89=1)(^B2^36F)(^95^8B)(^87=4ae)(^8B=10)(^9A^8E)(^8E=5f)(^B3=0)
+    (^B7=16f)(^B8=1)]
+  [60(^B0^373)(^9C^372)(^88=41)(^82^85)(^81^374)(^83^375)(^B1^302)(^86^376)
+    (^89=1)(^B2^377)(^95^8B)(^87=5d3)(^8B=13)(^9A^8E)(^8E=60)(^B3=0)
+    (^B7=16e)(^B8=1)]
+  [61(^B0^37B)(^9C^37A)(^88=41)(^82^85)(^81^37C)(^83^37D)(^B1^302)(^86^376)
+    (^89=1)(^B2^37E)(^95^8B)(^87=437)(^8B=12)(^9A^8E)(^8E=61)(^B3=0)
+    (^B7=16d)(^B8=1)]
+  [62(^B0^382)(^9C^381)(^88=41)(^82^85)(^81^383)(^83^384)(^B1^302)(^86^385)
+    (^89=1)(^B2^386)(^95^8B)(^87=580)(^8B=13)(^9A^8E)(^8E=62)(^B3=0)
+    (^B7=16c)(^B8=1)]
+  [63(^B0^38A)(^9C^389)(^88=41)(^82^85)(^81^38B)(^83^38C)(^B1^302)(^86^38D)
+    (^89=1)(^B2^38E)(^95^8B)(^87=4a3)(^8B=10)(^9A^8E)(^8E=63)(^B3=0)
+    (^B7=16b)(^B8=1)]
+  [64(^B0^392)(^9C^391)(^88=41)(^82^85)(^81^393)(^83^394)(^B1^395)(^86^396)
+    (^89=1)(^B2^397)(^95^8B)(^87=69c)(^8B=1d)(^9A^8E)(^8E=64)(^B3=0)
+    (^B7=16a)(^B8=1)]
+  [65(^B0^39B)(^9C^39A)(^88=41)(^82^85)(^81^39C)(^83^39D)(^B1^395)(^86^39E)
+    (^89=1)(^B2^39F)(^95^8B)(^87=6c6)(^8B=15)(^9A^8E)(^8E=65)(^B3=0)
+    (^B7=169)(^B8=1)]
+  [66(^B0^3A2)(^9C^3A1)(^88=41)(^82^85)(^81^3A3)(^83^3A4)(^B1^395)(^86^39E)
+    (^89=1)(^B2^3A5)(^95^8B)(^87=6e4)(^8B=1a)(^9A^8E)(^8E=66)(^B3=0)
+    (^B7=168)(^B8=1)]
+  [67(^B0^3A9)(^9C^3A8)(^88=41)(^82^85)(^81^3AA)(^83^3AB)(^B1^395)(^86^3AC)
+    (^89=1)(^B2^3AD)(^95^8B)(^87=471)(^8B=10)(^9A^8E)(^8E=67)(^B3=0)
+    (^B7=167)(^B8=1)]
+  [68(^B0^3B1)(^9C^3B0)(^88=41)(^82^85)(^81^3B2)(^83^3B3)(^B1^395)(^86^3B4)
+    (^89=1)(^B2^3B5)(^95^8B)(^87=4aa)(^8B=10)(^9A^8E)(^8E=68)(^B3=0)
+    (^B7=166)(^B8=1)]
+  [69(^B0^3B9)(^9C^3B8)(^88=41)(^82^85)(^81^3BA)(^83^3BB)(^B1^395)(^86^3BC)
+    (^89=1)(^B2^3BD)(^95^8B)(^87=836)(^8B=1d)(^9A^8E)(^8E=69)(^B3=0)
+    (^B7=165)(^B8=1)]
+  [6A(^B0^3C1)(^9C^3C0)(^88=41)(^82^85)(^81^3C2)(^83^3C3)(^B1^395)(^86^3BC)
+    (^89=1)(^B2^3C4)(^95^8B)(^87=4e1)(^8B=11)(^9A^8E)(^8E=6a)(^B3=0)
+    (^B7=164)(^B8=1)]
+  [6B(^B0^3C8)(^9C^3C7)(^88=41)(^82^85)(^81^3C9)(^83^3CA)(^B1^395)(^86^3CB)
+    (^89=1)(^B2^3CC)(^95^8B)(^87=5f8)(^8B=14)(^9A^8E)(^8E=6b)(^B3=0)
+    (^B7=163)(^B8=1)]
+  [6C(^B0^3D0)(^9C^3CF)(^88=41)(^82^85)(^81^3D1)(^83^3D2)(^B1^395)(^86^3CB)
+    (^89=1)(^B2^3D3)(^95^8B)(^87=4f9)(^8B=12)(^9A^8E)(^8E=6c)(^B3=0)
+    (^B7=162)(^B8=1)]
+  [6D(^B0^3D7)(^9C^3D6)(^88=41)(^82^85)(^81^3D8)(^83^3D9)(^B1^395)(^86^3DA)
+    (^89=1)(^B2^3DB)(^95^8B)(^87=4ea)(^8B=12)(^9A^8E)(^8E=6d)(^B3=0)
+    (^B7=161)(^B8=1)]
+  [6E(^B0^3DE)(^9C^3DD)(^88=41)(^82^85)(^81^3DF)(^83^3E0)(^B1^395)(^86^3E1)
+    (^89=1)(^B2^3E2)(^95^8B)(^87=6c7)(^8B=19)(^9A^8E)(^8E=6e)(^B3=0)
+    (^B7=160)(^B8=1)]
+  [6F(^B0^3E6)(^9C^3E5)(^88=41)(^82^85)(^81^3E7)(^83^3E8)(^B1^395)(^86^3E9)
+    (^89=1)(^B2^3EA)(^95^8B)(^87=507)(^8B=13)(^9A^8E)(^8E=6f)(^B3=0)
+    (^B7=15f)(^B8=1)]
+  [70(^B0^3ED)(^9C^3EC)(^88=41)(^82^85)(^81^3EE)(^83^3EF)(^B1^395)(^86^3F0)
+    (^89=1)(^B2^3F1)(^95^8B)(^87=710)(^8B=1b)(^9A^8E)(^8E=70)(^B3=0)
+    (^B7=15e)(^B8=1)]
+  [71(^B0^3F5)(^9C^3F4)(^88=41)(^82^85)(^81^3F6)(^83^3F7)(^B1^395)(^86^3F0)
+    (^89=1)(^B2^3F8)(^95^8B)(^87=6f5)(^8B=1a)(^9A^8E)(^8E=71)(^B3=0)
+    (^B7=15d)(^B8=1)]
+  [72(^B0^3FC)(^9C^3FB)(^88=41)(^82^85)(^81^3FD)(^83^3FE)(^B1^395)(^86^3FF)
+    (^89=1)(^B2^400)(^95^8B)(^87=4dd)(^8B=10)(^9A^8E)(^8E=72)(^B3=0)
+    (^B7=15c)(^B8=1)]
+  [73(^B0^404)(^9C^403)(^88=41)(^82^85)(^81^405)(^83^406)(^B1^395)(^86^407)
+    (^89=1)(^B2^408)(^95^8B)(^87=51e)(^8B=12)(^9A^8E)(^8E=73)(^B3=0)
+    (^B7=15b)(^B8=1)]
+  [74(^B0^40C)(^9C^40B)(^88=41)(^82^85)(^81^40D)(^83^40E)(^B1^395)(^86^40F)
+    (^89=1)(^B2^410)(^95^8B)(^87=588)(^8B=14)(^9A^8E)(^8E=74)(^B3=0)
+    (^B7=15a)(^B8=1)]
+  [75(^B0^413)(^9C^412)(^88=41)(^82^85)(^81^414)(^83^415)(^B1^395)(^86^416)
+    (^89=1)(^B2^417)(^95^8B)(^87=3b9)(^8B=e)(^9A^8E)(^8E=75)(^B3=0)
+    (^B7=159)(^B8=1)]
+  [76(^B0^41B)(^9C^41A)(^88=41)(^82^85)(^81^41C)(^83^41D)(^B1^395)(^86^416)
+    (^89=1)(^B2^41E)(^95^8B)(^87=49f)(^8B=f)(^9A^8E)(^8E=76)(^B3=0)
+    (^B7=158)(^B8=1)]
+  [77(^B0^422)(^9C^421)(^88=41)(^82^85)(^81^423)(^83^424)(^B1^425)(^86^426)
+    (^89=1)(^B2^427)(^95^8B)(^87=683)(^8B=19)(^9A^8E)(^8E=77)(^B3=0)
+    (^B7=157)(^B8=1)]
+  [78(^B0^42B)(^9C^42A)(^88=41)(^82^85)(^81^42C)(^83^42D)(^B1^425)(^86^426)
+    (^89=1)(^B2^42E)(^95^8B)(^87=59c)(^8B=17)(^9A^8E)(^8E=78)(^B3=0)
+    (^B7=156)(^B8=1)]
+  [79(^B0^432)(^9C^431)(^88=41)(^82^85)(^81^433)(^83^434)(^B1^425)(^86^435)
+    (^89=1)(^B2^436)(^95^8B)(^87=639)(^8B=17)(^9A^8E)(^8E=79)(^B3=0)
+    (^B7=155)(^B8=1)]
+  [7A(^B0^43A)(^9C^439)(^88=41)(^82^85)(^81^43B)(^83^43C)(^B1^425)(^86^43D)
+    (^89=1)(^B2^43E)(^95^8B)(^87=4a1)(^8B=f)(^9A^8E)(^8E=7a)(^B3=0)
+    (^B7=154)(^B8=1)]
+  [7B(^B0^442)(^9C^441)(^88=41)(^82^85)(^81^443)(^83^444)(^B1^425)(^86^445)
+    (^89=1)(^B2^446)(^95^8B)(^87=502)(^8B=f)(^9A^8E)(^8E=7b)(^B3=0)
+    (^B7=153)(^B8=1)]
+  [7C(^B0^44A)(^9C^449)(^88=41)(^82^85)(^81^44B)(^83^44C)(^B1^425)(^86^44D)
+    (^89=1)(^B2^44E)(^95^8B)(^87=568)(^8B=13)(^9A^8E)(^8E=7c)(^B3=0)
+    (^B7=152)(^B8=1)]
+  [7D(^B0^452)(^9C^451)(^88=41)(^82^85)(^81^453)(^83^454)(^B1^425)(^86^455)
+    (^89=1)(^B2^456)(^95^8B)(^87=494)(^8B=e)(^9A^8E)(^8E=7d)(^B3=0)
+    (^B7=151)(^B8=1)]
+  [7E(^B0^45A)(^9C^459)(^88=41)(^82^85)(^81^45B)(^83^45C)(^B1^425)(^86^45D)
+    (^89=1)(^B2^45E)(^95^8B)(^87=4f4)(^8B=f)(^9A^8E)(^8E=7e)(^B3=0)
+    (^B7=150)(^B8=1)]
+  [7F(^B0^461)(^9C^460)(^88=41)(^82^85)(^81^462)(^83^463)(^B1^425)(^86^464)
+    (^89=1)(^B2^465)(^95^8B)(^87=493)(^8B=f)(^9A^8E)(^8E=7f)(^B3=0)
+    (^B7=14f)(^B8=1)]
+  [80(^B0^469)(^9C^468)(^88=41)(^82^85)(^81^46A)(^83^46B)(^B1^425)(^86^46C)
+    (^89=1)(^B2^46D)(^95^8B)(^87^D4)(^8B=19)(^9A^8E)(^8E=80)(^B3=0)
+    (^B7=14e)(^B8=1)]
+  [81(^B0^470)(^9C^46F)(^88=41)(^82^85)(^81^471)(^83^472)(^B1^425)(^86^473)
+    (^89=1)(^B2^474)(^95^8B)(^87=5f7)(^8B=14)(^9A^8E)(^8E=81)(^B3=0)
+    (^B7=14d)(^B8=1)]
+  [82(^B0^478)(^9C^477)(^88=41)(^82^85)(^81^479)(^83^47A)(^B1^425)(^86^47B)
+    (^89=1)(^B2^47C)(^95^8B)(^87=874)(^8B=1f)(^9A^8E)(^8E=82)(^B3=0)
+    (^B7=14c)(^B8=1)]
+  [83(^B0^480)(^9C^47F)(^88=41)(^82^85)(^81^481)(^83^482)(^B1^425)(^86^483)
+    (^89=1)(^B2^484)(^95^8B)(^87=4fa)(^8B=11)(^9A^8E)(^8E=83)(^B3=0)
+    (^B7=14b)(^B8=1)]
+  [84(^B0^488)(^9C^487)(^88=41)(^82^85)(^81^489)(^83^48A)(^B1^425)(^86^483)
+    (^89=1)(^B2^48B)(^95^8B)(^87=4ee)(^8B=13)(^9A^8E)(^8E=84)(^B3=0)
+    (^B7=14a)(^B8=1)]
+  [85(^B0^48F)(^9C^48E)(^88=41)(^82^85)(^81^490)(^83^491)(^B1^425)(^86^492)
+    (^89=1)(^B2^493)(^95^8B)(^87=607)(^8B=15)(^9A^8E)(^8E=85)(^B3=0)
+    (^B7=149)(^B8=1)]
+  [86(^B0^497)(^9C^496)(^88=41)(^82^85)(^81^498)(^83^499)(^B1^425)(^86^49A)
+    (^89=1)(^B2^49B)(^95^8B)(^87=492)(^8B=10)(^9A^8E)(^8E=86)(^B3=0)
+    (^B7=148)(^B8=1)]
+  [87(^B0^49F)(^9C^49E)(^88=41)(^82^85)(^81^4A0)(^83^4A1)(^B1^425)(^86^4A2)
+    (^89=1)(^B2^4A3)(^95^8B)(^87=5f8)(^8B=17)(^9A^8E)(^8E=87)(^B3=0)
+    (^B7=147)(^B8=1)]
+  [88(^B0^4A6)(^9C^4A5)(^88=41)(^82^85)(^81^4A7)(^83^4A8)(^B1^425)(^86^4A2)
+    (^89=1)(^B2^4A9)(^95^8B)(^87=5d8)(^8B=14)(^9A^8E)(^8E=88)(^B3=0)
+    (^B7=146)(^B8=1)]
+  [89(^B0^4AD)(^9C^4AC)(^88=41)(^82^85)(^81^4AE)(^83^4AF)(^B1^425)(^86^4B0)
+    (^89=1)(^B2^4B1)(^95^8B)(^87=595)(^8B=12)(^9A^8E)(^8E=89)(^B3=0)
+    (^B7=145)(^B8=1)]
+  [8A(^B0^4B5)(^9C^4B4)(^88=41)(^82^85)(^81^4B6)(^83^4B7)(^B1^4B8)(^86^4B9)
+    (^89=1)(^B2^4BA)(^95^8B)(^87=6b3)(^8B=1f)(^9A^8E)(^8E=8a)(^B3=0)
+    (^B7=144)(^B8=1)]
+  [8B(^B0^4BE)(^9C^4BD)(^88=41)(^82^85)(^81^4BF)(^83^4C0)(^B1^4B8)(^86^4C1)
+    (^89=1)(^B2^4C2)(^95^8B)(^87=5ce)(^8B=14)(^9A^8E)(^8E=8b)(^B3=0)
+    (^B7=143)(^B8=1)]
+  [8C(^B0^4C6)(^9C^4C5)(^88=41)(^82^85)(^81^4C7)(^83^4C8)(^B1^4B8)(^86^4C9)
+    (^89=1)(^B2^4CA)(^95^8B)(^87=4ef)(^8B=11)(^9A^8E)(^8E=8c)(^B3=0)
+    (^B7=142)(^B8=1)]
+  [8D(^B0^4CD)(^9C^4CC)(^88=41)(^82^85)(^81^4CE)(^83^4CF)(^B1^4B8)(^86^4D0)
+    (^89=1)(^B2^4D1)(^95^8B)(^87=565)(^8B=14)(^9A^8E)(^8E=8d)(^B3=0)
+    (^B7=141)(^B8=1)]
+  [8E(^B0^4D5)(^9C^4D4)(^88=41)(^82^85)(^81^4D6)(^83^4D7)(^B1^4B8)(^86^4D8)
+    (^89=1)(^B2^4D9)(^95^8B)(^87=65c)(^8B=16)(^9A^8E)(^8E=8e)(^B3=0)
+    (^B7=140)(^B8=1)]
+  [8F(^B0^4DD)(^9C^4DC)(^88=41)(^82^85)(^81^4DE)(^83^4DF)(^B1^4B8)(^86^4E0)
+    (^89=1)(^B2^4E1)(^95^8B)(^87=4bb)(^8B=10)(^9A^8E)(^8E=8f)(^B3=0)
+    (^B7=13f)(^B8=1)]
+  [90(^B0^4E5)(^9C^4E4)(^88=41)(^82^85)(^81^4E6)(^83^4E7)(^B1^4B8)(^86^4E8)
+    (^89=1)(^B2^4E9)(^95^8B)(^87=610)(^8B=16)(^9A^8E)(^8E=90)(^B3=0)
+    (^B7=13e)(^B8=1)]
+  [91(^B0^4ED)(^9C^4EC)(^88=41)(^82^85)(^81^4EE)(^83^4EF)(^B1^4B8)(^86^4F0)
+    (^89=1)(^B2^4F1)(^95^8B)(^87=6a0)(^8B=18)(^9A^8E)(^8E=91)(^B3=0)
+    (^B7=13d)(^B8=1)]
+  [92(^B0^4F5)(^9C^4F4)(^88=41)(^82^85)(^81^4F6)(^83^4F7)(^B1^4B8)(^86^4F8)
+    (^89=1)(^B2^4F9)(^95^8B)(^87=547)(^8B=10)(^9A^8E)(^8E=92)(^B3=0)
+    (^B7=13c)(^B8=1)]
+  [93(^B0^4FD)(^9C^4FC)(^88=41)(^82^85)(^81^4FE)(^83^4FF)(^B1^4B8)(^86^500)
+    (^89=1)(^B2^501)(^95^8B)(^87=6c4)(^8B=1a)(^9A^8E)(^8E=93)(^B3=0)
+    (^B7=13b)(^B8=1)]
+  [94(^B0^505)(^9C^504)(^88=41)(^82^85)(^81^506)(^83^507)(^B1^4B8)(^86^508)
+    (^89=1)(^B2^509)(^95^8B)(^87=58a)(^8B=12)(^9A^8E)(^8E=94)(^B3=0)
+    (^B7=13a)(^B8=1)]
+  [95(^B0^50D)(^9C^50C)(^88=41)(^82^85)(^81^50E)(^83^50F)(^B1^4B8)(^86^510)
+    (^89=1)(^B2^511)(^95^8B)(^87=439)(^8B=10)(^9A^8E)(^8E=95)(^B3=0)
+    (^B7=139)(^B8=1)]
+  [96(^B0^515)(^9C^514)(^88=41)(^82^85)(^81^516)(^83^517)(^B1^4B8)(^86^518)
+    (^89=1)(^B2^519)(^95^8B)(^87=4ad)(^8B=10)(^9A^8E)(^8E=96)(^B3=0)
+    (^B7=138)(^B8=1)]
+  [97(^B0^51D)(^9C^51C)(^88=41)(^82^85)(^81^51E)(^83^51F)(^B1^4B8)(^86^520)
+    (^89=1)(^B2^521)(^95^8B)(^87=4eb)(^8B=e)(^9A^8E)(^8E=97)(^B3=0)
+    (^B7=137)(^B8=1)]
+  [98(^B0^525)(^9C^524)(^88=41)(^82^85)(^81^526)(^83^527)(^B1^4B8)(^86^528)
+    (^89=1)(^B2^529)(^95^8B)(^87=7aa)(^8B=1a)(^9A^8E)(^8E=98)(^B3=0)
+    (^B7=136)(^B8=1)]
+  [99(^B0^52D)(^9C^52C)(^88=41)(^82^85)(^81^52E)(^83^52F)(^B1^4B8)(^86^528)
+    (^89=1)(^B2^530)(^95^8B)(^87=47d)(^8B=10)(^9A^8E)(^8E=99)(^B3=0)
+    (^B7=135)(^B8=1)]
+  [9A(^B0^533)(^9C^532)(^88=41)(^82^85)(^81^534)(^83^535)(^B1^4B8)(^86^536)
+    (^89=1)(^B2^537)(^95^8B)(^87=529)(^8B=13)(^9A^8E)(^8E=9a)(^B3=0)
+    (^B7=134)(^B8=1)]
+  [9B(^B0^53B)(^9C^53A)(^88=41)(^82^85)(^81^53C)(^83^53D)(^B1^4B8)(^86^53E)
+    (^89=1)(^B2^53F)(^95^8B)(^87=584)(^8B=14)(^9A^8E)(^8E=9b)(^B3=0)
+    (^B7=133)(^B8=1)]
+  [9C(^B0^543)(^9C^542)(^88=41)(^82^85)(^81^544)(^83^545)(^B1^546)(^86^53E)
+    (^89=1)(^B2^547)(^95^8B)(^87=49b)(^8B=10)(^9A^8E)(^8E=9c)(^B3=0)
+    (^B7=132)(^B8=1)]
+  [9D(^B0^54B)(^9C^54A)(^88=41)(^82^85)(^81^54C)(^83^54D)(^B1^546)(^86^54E)
+    (^89=1)(^B2^54F)(^95^8B)(^87=4db)(^8B=10)(^9A^8E)(^8E=9d)(^B3=0)
+    (^B7=131)(^B8=1)]
+  [9E(^B0^553)(^9C^552)(^88=41)(^82^85)(^81^554)(^83^555)(^B1^546)(^86^556)
+    (^89=1)(^B2^557)(^95^8B)(^87=4d3)(^8B=10)(^9A^8E)(^8E=9e)(^B3=0)
+    (^B7=130)(^B8=1)]
+  [9F(^B0^55B)(^9C^55A)(^88=41)(^82^85)(^81^55C)(^83^55D)(^B1^546)(^86^55E)
+    (^89=1)(^B2^55F)(^95^8B)(^87=505)(^8B=10)(^9A^8E)(^8E=9f)(^B3=0)
+    (^B7=12f)(^B8=1)]
+  [A0(^B0^562)(^9C^561)(^88=41)(^82^85)(^81^563)(^83^564)(^B1^546)(^86^565)
+    (^89=1)(^B2^566)(^95^8B)(^87=516)(^8B=12)(^9A^8E)(^8E=a0)(^B3=0)
+    (^B7=12e)(^B8=1)]
+  [A1(^B0^569)(^9C^568)(^88=41)(^82^85)(^81^56A)(^83^56B)(^B1^546)(^86^565)
+    (^89=1)(^B2^56C)(^95^8B)(^87=469)(^8B=f)(^9A^8E)(^8E=a1)(^B3=0)
+    (^B7=12d)(^B8=1)]
+  [A2(^B0^56F)(^9C^56E)(^88=41)(^82^85)(^81^570)(^83^571)(^B1^546)(^86^572)
+    (^89=1)(^B2^573)(^95^8B)(^87=4dc)(^8B=12)(^9A^8E)(^8E=a2)(^B3=0)
+    (^B7=12c)(^B8=1)]
+  [A3(^B0^577)(^9C^576)(^88=41)(^82^85)(^81^578)(^83^579)(^B1^546)(^86^572)
+    (^89=1)(^B2^57A)(^95^8B)(^87=713)(^8B=1c)(^9A^8E)(^8E=a3)(^B3=0)
+    (^B7=12b)(^B8=1)]
+  [A4(^B0^57E)(^9C^57D)(^88=41)(^82^85)(^81^57F)(^83^580)(^B1^546)(^86^581)
+    (^89=1)(^B2^582)(^95^8B)(^87=596)(^8B=12)(^9A^8E)(^8E=a4)(^B3=0)
+    (^B7=12a)(^B8=1)]
+  [A5(^B0^586)(^9C^585)(^88=41)(^82^85)(^81^587)(^83^588)(^B1^546)(^86^589)
+    (^89=1)(^B2^58A)(^95^8B)(^87=781)(^8B=1d)(^9A^8E)(^8E=a5)(^B3=0)
+    (^B7=129)(^B8=1)]
+  [A6(^B0^58E)(^9C^58D)(^88=41)(^82^85)(^81^58F)(^83^590)(^B1^546)(^86^591)
+    (^89=1)(^B2^592)(^95^8B)(^87=48d)(^8B=12)(^9A^8E)(^8E=a6)(^B3=0)
+    (^B7=128)(^B8=1)]
+  [A7(^B0^596)(^9C^595)(^88=41)(^82^85)(^81^597)(^83^598)(^B1^546)(^86^591)
+    (^89=1)(^B2^599)(^95^8B)(^87=509)(^8B=11)(^9A^8E)(^8E=a7)(^B3=0)
+    (^B7=127)(^B8=1)]
+  [A8(^B0^59D)(^9C^59C)(^88=41)(^82^85)(^81^59E)(^83^59F)(^B1^546)(^86^5A0)
+    (^89=1)(^B2^5A1)(^95^8B)(^87=4c1)(^8B=10)(^9A^8E)(^8E=a8)(^B3=0)
+    (^B7=126)(^B8=1)]
+  [A9(^B0^5A5)(^9C^5A4)(^88=41)(^82^85)(^81^5A6)(^83^5A7)(^B1^546)(^86^5A0)
+    (^89=1)(^B2^5A8)(^95^8B)(^87=565)(^8B=14)(^9A^8E)(^8E=a9)(^B3=0)
+    (^B7=125)(^B8=1)]
+  [AA(^B0^5AB)(^9C^5AA)(^88=41)(^82^85)(^81^5AC)(^83^5AD)(^B1^546)(^86^5AE)
+    (^89=1)(^B2^5AF)(^95^8B)(^87=656)(^8B=18)(^9A^8E)(^8E=aa)(^B3=0)
+    (^B7=124)(^B8=1)]
+  [AB(^B0^5B3)(^9C^5B2)(^88=41)(^82^85)(^81^506)(^83^5B4)(^B1^546)(^86^5B5)
+    (^89=1)(^B2^5B6)(^95^8B)(^87=6b5)(^8B=18)(^9A^8E)(^8E=ab)(^B3=0)
+    (^B7=123)(^B8=1)]
+  [AC(^B0^5BA)(^9C^5B9)(^88=41)(^82^85)(^81^5BB)(^83^5BC)(^B1^546)(^86^5BD)
+    (^89=1)(^B2^5BE)(^95^8B)(^87=65b)(^8B=13)(^9A^8E)(^8E=ac)(^B3=0)
+    (^B7=122)(^B8=1)]
+  [AD(^B0^5C2)(^9C^5C1)(^88=41)(^82^85)(^81^5C3)(^83^5C4)(^B1^5C5)(^86^5C6)
+    (^89=1)(^B2^5C7)(^95^8B)(^87=4c0)(^8B=10)(^9A^8E)(^8E=ad)(^B3=0)
+    (^B7=121)(^B8=1)]
+  [AE(^B0^5CA)(^9C^5C9)(^88=41)(^82^85)(^81^5CB)(^83^5CC)(^B1^5C5)(^86^5C6)
+    (^89=1)(^B2^5CD)(^95^8B)(^87=5c6)(^8B=14)(^9A^8E)(^8E=ae)(^B3=0)
+    (^B7=120)(^B8=1)]
+  [AF(^B0^5D1)(^9C^5D0)(^88=41)(^82^85)(^81^5D2)(^83^5D3)(^B1^5C5)(^86^5D4)
+    (^89=1)(^B2^5D5)(^95^8B)(^87=56f)(^8B=14)(^9A^8E)(^8E=af)(^B3=0)
+    (^B7=11f)(^B8=1)]
+  [B0(^B0^5D9)(^9C^5D8)(^88=41)(^82^85)(^81^5DA)(^83^5DB)(^B1^5C5)(^86^5D4)
+    (^89=1)(^B2^5DC)(^95^8B)(^87=680)(^8B=15)(^9A^8E)(^8E=b0)(^B3=0)
+    (^B7=11e)(^B8=1)]
+  [B1(^B0^5E0)(^9C^5DF)(^88=41)(^82^85)(^81^5E1)(^83^5E2)(^B1^5C5)(^86^5E3)
+    (^89=1)(^B2^5E4)(^95^8B)(^87=4fe)(^8B=10)(^9A^8E)(^8E=b1)(^B3=0)
+    (^B7=11d)(^B8=1)]
+  [B2(^B0^5E8)(^9C^5E7)(^88=41)(^82^85)(^81^5E9)(^83^5EA)(^B1^5C5)(^86^5EB)
+    (^89=1)(^B2^5EC)(^95^8B)(^87=4cd)(^8B=11)(^9A^8E)(^8E=b2)(^B3=0)
+    (^B7=11c)(^B8=1)]
+  [B3(^B0^5F0)(^9C^5EF)(^88=41)(^82^85)(^81^5F1)(^83^5F2)(^B1^5C5)(^86^5F3)
+    (^89=1)(^B2^5F4)(^95^8B)(^87=51f)(^8B=11)(^9A^8E)(^8E=b3)(^B3=0)
+    (^B7=11b)(^B8=1)]
+  [B4(^B0^5F8)(^9C^5F7)(^88=41)(^82^85)(^81^5F9)(^83^5FA)(^B1^5C5)(^86^5FB)
+    (^89=1)(^B2^5FC)(^95^8B)(^87=595)(^8B=14)(^9A^8E)(^8E=b4)(^B3=0)
+    (^B7=11a)(^B8=1)]
+  [B5(^B0^5FF)(^9C^5FE)(^88=41)(^82^85)(^81^600)(^83^601)(^B1^5C5)(^86^602)
+    (^89=1)(^B2^603)(^95^8B)(^87=5ad)(^8B=13)(^9A^8E)(^8E=b5)(^B3=0)
+    (^B7=119)(^B8=1)]
+  [B6(^B0^607)(^9C^606)(^88=41)(^82^85)(^81^608)(^83^609)(^B1^5C5)(^86^60A)
+    (^89=1)(^B2^60B)(^95^8B)(^87=562)(^8B=13)(^9A^8E)(^8E=b6)(^B3=0)
+    (^B7=118)(^B8=1)]
+  [B7(^B0^60F)(^9C^60E)(^88=41)(^82^85)(^81^610)(^83^611)(^B1^5C5)(^86^612)
+    (^89=1)(^B2^613)(^95^8B)(^87=648)(^8B=16)(^9A^8E)(^8E=b7)(^B3=0)
+    (^B7=117)(^B8=1)]
+  [B8(^B0^617)(^9C^616)(^88=41)(^82^85)(^81^618)(^83^619)(^B1^5C5)(^86^61A)
+    (^89=1)(^B2^61B)(^95^8B)(^87=594)(^8B=15)(^9A^8E)(^8E=b8)(^B3=0)
+    (^B7=116)(^B8=1)]
+  [B9(^B0^61F)(^9C^61E)(^88=41)(^82^85)(^81^620)(^83^621)(^B1^5C5)(^86^622)
+    (^89=1)(^B2^623)(^95^8B)(^87=6be)(^8B=19)(^9A^8E)(^8E=b9)(^B3=0)
+    (^B7=115)(^B8=1)]
+  [BA(^B0^627)(^9C^626)(^88=41)(^82^85)(^81^628)(^83^629)(^B1^5C5)(^86^62A)
+    (^89=1)(^B2^62B)(^95^8B)(^87=5fe)(^8B=15)(^9A^8E)(^8E=ba)(^B3=0)
+    (^B7=114)(^B8=1)]
+  [BB(^B0^62F)(^9C^62E)(^88=41)(^82^85)(^81^630)(^83^631)(^B1^5C5)(^86^632)
+    (^89=1)(^B2^633)(^95^8B)(^87=61c)(^8B=18)(^9A^8E)(^8E=bb)(^B3=0)
+    (^B7=113)(^B8=1)]
+  [BC(^B0^637)(^9C^636)(^88=41)(^82^85)(^81^638)(^83^639)(^B1^5C5)(^86^63A)
+    (^89=1)(^B2^63B)(^95^8B)(^87=50d)(^8B=e)(^9A^8E)(^8E=bc)(^B3=0)
+    (^B7=112)(^B8=1)]
+  [BD(^B0^63F)(^9C^63E)(^88=41)(^82^85)(^81^640)(^83^641)(^B1^5C5)(^86^642)
+    (^89=1)(^B2^643)(^95^8B)(^87=61c)(^8B=16)(^9A^8E)(^8E=bd)(^B3=0)
+    (^B7=111)(^B8=1)]
+  [BE(^B0^646)(^9C^645)(^88=41)(^82^85)(^81^647)(^83^648)(^B1^649)(^86^64A)
+    (^89=1)(^B2^64B)(^95^8B)(^87=4e5)(^8B=f)(^9A^8E)(^8E=be)(^B3=0)
+    (^B7=110)(^B8=1)]
+  [BF(^B0^64F)(^9C^64E)(^88=41)(^82^85)(^81^650)(^83^651)(^B1^649)(^86^652)
+    (^89=1)(^B2^653)(^95^8B)(^87=687)(^8B=1a)(^9A^8E)(^8E=bf)(^B3=0)
+    (^B7=10f)(^B8=1)]
+  [C0(^B0^657)(^9C^656)(^88=41)(^82^85)(^81^658)(^83^659)(^B1^649)(^86^65A)
+    (^89=1)(^B2^65B)(^95^8B)(^87=481)(^8B=f)(^9A^8E)(^8E=c0)(^B3=0)
+    (^B7=10e)(^B8=1)]
+  [C1(^B0^65F)(^9C^65E)(^88=41)(^82^85)(^81^660)(^83^661)(^B1^649)(^86^662)
+    (^89=1)(^B2^663)(^95^8B)(^87=4a9)(^8B=e)(^9A^8E)(^8E=c1)(^B3=0)
+    (^B7=10d)(^B8=1)]
+  [C2(^B0^667)(^9C^666)(^88=41)(^82^85)(^81^668)(^83^669)(^B1^649)(^86^66A)
+    (^89=1)(^B2^66B)(^95^8B)(^87=45b)(^8B=e)(^9A^8E)(^8E=c2)(^B3=0)
+    (^B7=10c)(^B8=1)]
+  [C3(^B0^66F)(^9C^66E)(^88=41)(^82^85)(^81^670)(^83^671)(^B1^649)(^86^672)
+    (^89=1)(^B2^673)(^95^8B)(^87=4f4)(^8B=f)(^9A^8E)(^8E=c3)(^B3=0)
+    (^B7=10b)(^B8=1)]
+  [C4(^B0^676)(^9C^675)(^88=41)(^82^85)(^81^677)(^83^678)(^B1^649)(^86^679)
+    (^89=1)(^B2^67A)(^95^8B)(^87=51a)(^8B=f)(^9A^8E)(^8E=c4)(^B3=0)
+    (^B7=10a)(^B8=1)]
+  [C5(^B0^67E)(^9C^67D)(^88=41)(^82^85)(^81^67F)(^83^680)(^B1^649)(^86^681)
+    (^89=1)(^B2^682)(^95^8B)(^87=90c)(^8B=27)(^9A^8E)(^8E=c5)(^B3=0)
+    (^B7=109)(^B8=1)]
+  [C6(^B0^686)(^9C^685)(^88=41)(^82^85)(^81^687)(^83^688)(^B1^649)(^86^689)
+    (^89=1)(^B2^68A)(^95^8B)(^87=46f)(^8B=12)(^9A^8E)(^8E=c6)(^B3=0)
+    (^B7=108)(^B8=1)]
+  [C7(^B0^68E)(^9C^68D)(^88=41)(^82^85)(^81^68F)(^83^690)(^B1^649)(^86^691)
+    (^89=1)(^B2^692)(^95^8B)(^87=82e)(^8B=1f)(^9A^8E)(^8E=c7)(^B3=0)
+    (^B7=107)(^B8=1)]
+  [C8(^B0^696)(^9C^695)(^88=41)(^82^85)(^81^697)(^83^698)(^B1^649)(^86^699)
+    (^89=1)(^B2^69A)(^95^8B)(^87=45b)(^8B=f)(^9A^8E)(^8E=c8)(^B3=0)
+    (^B7=106)(^B8=1)]}
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{4:^80 {(k^97:c)(s=9)4:m } 4 }
+{5:^80 {(k^97:c)(s=9)5:m } 5 }
+{6:^80 {(k^97:c)(s=9)6:m } 6 }
+{7:^80 {(k^97:c)(s=9)7:m } 7 }
+{8:^80 {(k^97:c)(s=9)8:m } 8 }
+{9:^80 {(k^97:c)(s=9)9:m } 9 }
+{A:^80 {(k^97:c)(s=9)A:m } A }
+{B:^80 {(k^97:c)(s=9)B:m } B }
+{C:^80 {(k^97:c)(s=9)C:m } C }
+{D:^80 {(k^97:c)(s=9)D:m } D }
+{E:^80 {(k^97:c)(s=9)E:m } E }
+{F:^80 {(k^97:c)(s=9)F:m } F }
+{10:^80 {(k^97:c)(s=9)10:m } 10 }
+{11:^80 {(k^97:c)(s=9)11:m } 11 }
+{12:^80 {(k^97:c)(s=9)12:m } 12 }
+{13:^80 {(k^97:c)(s=9)13:m } 13 }
+{14:^80 {(k^97:c)(s=9)14:m } 14 }
+{15:^80 {(k^97:c)(s=9)15:m } 15 }
+{16:^80 {(k^97:c)(s=9)16:m } 16 }
+{17:^80 {(k^97:c)(s=9)17:m } 17 }
+{18:^80 {(k^97:c)(s=9)18:m } 18 }
+{19:^80 {(k^97:c)(s=9)19:m } 19 }
+{1A:^80 {(k^97:c)(s=9)1A:m } 1A }
+{1B:^80 {(k^97:c)(s=9)1B:m } 1B }
+{1C:^80 {(k^97:c)(s=9)1C:m } 1C }
+{1D:^80 {(k^97:c)(s=9)1D:m } 1D }
+{1E:^80 {(k^97:c)(s=9)1E:m } 1E }
+{1F:^80 {(k^97:c)(s=9)1F:m } 1F }
+{20:^80 {(k^97:c)(s=9)20:m } 20 }
+{21:^80 {(k^97:c)(s=9)21:m } 21 }
+{22:^80 {(k^97:c)(s=9)22:m } 22 }
+{23:^80 {(k^97:c)(s=9)23:m } 23 }
+{24:^80 {(k^97:c)(s=9)24:m } 24 }
+{25:^80 {(k^97:c)(s=9)25:m } 25 }
+{26:^80 {(k^97:c)(s=9)26:m } 26 }
+{27:^80 {(k^97:c)(s=9)27:m } 27 }
+{28:^80 {(k^97:c)(s=9)28:m } 28 }
+{29:^80 {(k^97:c)(s=9)29:m } 29 }
+{2A:^80 {(k^97:c)(s=9)2A:m } 2A }
+{2B:^80 {(k^97:c)(s=9)2B:m } 2B }
+{2C:^80 {(k^97:c)(s=9)2C:m } 2C }
+{2D:^80 {(k^97:c)(s=9)2D:m } 2D }
+{2E:^80 {(k^97:c)(s=9)2E:m } 2E }
+{2F:^80 {(k^97:c)(s=9)2F:m } 2F }
+{30:^80 {(k^97:c)(s=9)30:m } 30 }
+{31:^80 {(k^97:c)(s=9)31:m } 31 }
+{32:^80 {(k^97:c)(s=9)32:m } 32 }
+{33:^80 {(k^97:c)(s=9)33:m } 33 }
+{34:^80 {(k^97:c)(s=9)34:m } 34 }
+{35:^80 {(k^97:c)(s=9)35:m } 35 }
+{36:^80 {(k^97:c)(s=9)36:m } 36 }
+{37:^80 {(k^97:c)(s=9)37:m } 37 }
+{38:^80 {(k^97:c)(s=9)38:m } 38 }
+{39:^80 {(k^97:c)(s=9)39:m } 39 }
+{3A:^80 {(k^97:c)(s=9)3A:m } 3A }
+{3B:^80 {(k^97:c)(s=9)3B:m } 3B }
+{3C:^80 {(k^97:c)(s=9)3C:m } 3C }
+{3D:^80 {(k^97:c)(s=9)3D:m } 3D }
+{3E:^80 {(k^97:c)(s=9)3E:m } 3E }
+{3F:^80 {(k^97:c)(s=9)3F:m } 3F }
+{40:^80 {(k^97:c)(s=9)40:m } 40 }
+{41:^80 {(k^97:c)(s=9)41:m } 41 }
+{42:^80 {(k^97:c)(s=9)42:m } 42 }
+{43:^80 {(k^97:c)(s=9)43:m } 43 }
+{44:^80 {(k^97:c)(s=9)44:m } 44 }
+{45:^80 {(k^97:c)(s=9)45:m } 45 }
+{46:^80 {(k^97:c)(s=9)46:m } 46 }
+{47:^80 {(k^97:c)(s=9)47:m } 47 }
+{48:^80 {(k^97:c)(s=9)48:m } 48 }
+{49:^80 {(k^97:c)(s=9)49:m } 49 }
+{4A:^80 {(k^97:c)(s=9)4A:m } 4A }
+{4B:^80 {(k^97:c)(s=9)4B:m } 4B }
+{4C:^80 {(k^97:c)(s=9)4C:m } 4C }
+{4D:^80 {(k^97:c)(s=9)4D:m } 4D }
+{4E:^80 {(k^97:c)(s=9)4E:m } 4E }
+{4F:^80 {(k^97:c)(s=9)4F:m } 4F }
+{50:^80 {(k^97:c)(s=9)50:m } 50 }
+{51:^80 {(k^97:c)(s=9)51:m } 51 }
+{52:^80 {(k^97:c)(s=9)52:m } 52 }
+{53:^80 {(k^97:c)(s=9)53:m } 53 }
+{54:^80 {(k^97:c)(s=9)54:m } 54 }
+{55:^80 {(k^97:c)(s=9)55:m } 55 }
+{56:^80 {(k^97:c)(s=9)56:m } 56 }
+{57:^80 {(k^97:c)(s=9)57:m } 57 }
+{58:^80 {(k^97:c)(s=9)58:m } 58 }
+{59:^80 {(k^97:c)(s=9)59:m } 59 }
+{5A:^80 {(k^97:c)(s=9)5A:m } 5A }
+{5B:^80 {(k^97:c)(s=9)5B:m } 5B }
+{5C:^80 {(k^97:c)(s=9)5C:m } 5C }
+{5D:^80 {(k^97:c)(s=9)5D:m } 5D }
+{5E:^80 {(k^97:c)(s=9)5E:m } 5E }
+{5F:^80 {(k^97:c)(s=9)5F:m } 5F }
+{60:^80 {(k^97:c)(s=9)60:m } 60 }
+{61:^80 {(k^97:c)(s=9)61:m } 61 }
+{62:^80 {(k^97:c)(s=9)62:m } 62 }
+{63:^80 {(k^97:c)(s=9)63:m } 63 }
+{64:^80 {(k^97:c)(s=9)64:m } 64 }
+{65:^80 {(k^97:c)(s=9)65:m } 65 }
+{66:^80 {(k^97:c)(s=9)66:m } 66 }
+{67:^80 {(k^97:c)(s=9)67:m } 67 }
+{68:^80 {(k^97:c)(s=9)68:m } 68 }
+{69:^80 {(k^97:c)(s=9)69:m } 69 }
+{6A:^80 {(k^97:c)(s=9)6A:m } 6A }
+{6B:^80 {(k^97:c)(s=9)6B:m } 6B }
+{6C:^80 {(k^97:c)(s=9)6C:m } 6C }
+{6D:^80 {(k^97:c)(s=9)6D:m } 6D }
+{6E:^80 {(k^97:c)(s=9)6E:m } 6E }
+{6F:^80 {(k^97:c)(s=9)6F:m } 6F }
+{70:^80 {(k^97:c)(s=9)70:m } 70 }
+{71:^80 {(k^97:c)(s=9)71:m } 71 }
+{72:^80 {(k^97:c)(s=9)72:m } 72 }
+{73:^80 {(k^97:c)(s=9)73:m } 73 }
+{74:^80 {(k^97:c)(s=9)74:m } 74 }
+{75:^80 {(k^97:c)(s=9)75:m } 75 }
+{76:^80 {(k^97:c)(s=9)76:m } 76 }
+{77:^80 {(k^97:c)(s=9)77:m } 77 }
+{78:^80 {(k^97:c)(s=9)78:m } 78 }
+{79:^80 {(k^97:c)(s=9)79:m } 79 }
+{7A:^80 {(k^97:c)(s=9)7A:m } 7A }
+{7B:^80 {(k^97:c)(s=9)7B:m } 7B }
+{7C:^80 {(k^97:c)(s=9)7C:m } 7C }
+{7D:^80 {(k^97:c)(s=9)7D:m } 7D }
+{7E:^80 {(k^97:c)(s=9)7E:m } 7E }
+{7F:^80 {(k^97:c)(s=9)7F:m } 7F }
+{80:^80 {(k^97:c)(s=9)80:m } 80 }
+{81:^80 {(k^97:c)(s=9)81:m } 81 }
+{82:^80 {(k^97:c)(s=9)82:m } 82 }
+{83:^80 {(k^97:c)(s=9)83:m } 83 }
+{84:^80 {(k^97:c)(s=9)84:m } 84 }
+{85:^80 {(k^97:c)(s=9)85:m } 85 }
+{86:^80 {(k^97:c)(s=9)86:m } 86 }
+{87:^80 {(k^97:c)(s=9)87:m } 87 }
+{88:^80 {(k^97:c)(s=9)88:m } 88 }
+{89:^80 {(k^97:c)(s=9)89:m } 89 }
+{8A:^80 {(k^97:c)(s=9)8A:m } 8A }
+{8B:^80 {(k^97:c)(s=9)8B:m } 8B }
+{8C:^80 {(k^97:c)(s=9)8C:m } 8C }
+{8D:^80 {(k^97:c)(s=9)8D:m } 8D }
+{8E:^80 {(k^97:c)(s=9)8E:m } 8E }
+{8F:^80 {(k^97:c)(s=9)8F:m } 8F }
+{90:^80 {(k^97:c)(s=9)90:m } 90 }
+{91:^80 {(k^97:c)(s=9)91:m } 91 }
+{92:^80 {(k^97:c)(s=9)92:m } 92 }
+{93:^80 {(k^97:c)(s=9)93:m } 93 }
+{94:^80 {(k^97:c)(s=9)94:m } 94 }
+{95:^80 {(k^97:c)(s=9)95:m } 95 }
+{96:^80 {(k^97:c)(s=9)96:m } 96 }
+{97:^80 {(k^97:c)(s=9)97:m } 97 }
+{98:^80 {(k^97:c)(s=9)98:m } 98 }
+{99:^80 {(k^97:c)(s=9)99:m } 99 }
+{9A:^80 {(k^97:c)(s=9)9A:m } 9A }
+{9B:^80 {(k^97:c)(s=9)9B:m } 9B }
+{9C:^80 {(k^97:c)(s=9)9C:m } 9C }
+{9D:^80 {(k^97:c)(s=9)9D:m } 9D }
+{9E:^80 {(k^97:c)(s=9)9E:m } 9E }
+{9F:^80 {(k^97:c)(s=9)9F:m } 9F }
+{A0:^80 {(k^97:c)(s=9)A0:m } A0 }
+{A1:^80 {(k^97:c)(s=9)A1:m } A1 }
+{A2:^80 {(k^97:c)(s=9)A2:m } A2 }
+{A3:^80 {(k^97:c)(s=9)A3:m } A3 }
+{A4:^80 {(k^97:c)(s=9)A4:m } A4 }
+{A5:^80 {(k^97:c)(s=9)A5:m } A5 }
+{A6:^80 {(k^97:c)(s=9)A6:m } A6 }
+{A7:^80 {(k^97:c)(s=9)A7:m } A7 }
+{A8:^80 {(k^97:c)(s=9)A8:m } A8 }
+{A9:^80 {(k^97:c)(s=9)A9:m } A9 }
+{AA:^80 {(k^97:c)(s=9)AA:m } AA }
+{AB:^80 {(k^97:c)(s=9)AB:m } AB }
+{AC:^80 {(k^97:c)(s=9)AC:m } AC }
+{AD:^80 {(k^97:c)(s=9)AD:m } AD }
+{AE:^80 {(k^97:c)(s=9)AE:m } AE }
+{AF:^80 {(k^97:c)(s=9)AF:m } AF }
+{B0:^80 {(k^97:c)(s=9)B0:m } B0 }
+{B1:^80 {(k^97:c)(s=9)B1:m } B1 }
+{B2:^80 {(k^97:c)(s=9)B2:m } B2 }
+{B3:^80 {(k^97:c)(s=9)B3:m } B3 }
+{B4:^80 {(k^97:c)(s=9)B4:m } B4 }
+{B5:^80 {(k^97:c)(s=9)B5:m } B5 }
+{B6:^80 {(k^97:c)(s=9)B6:m } B6 }
+{B7:^80 {(k^97:c)(s=9)B7:m } B7 }
+{B8:^80 {(k^97:c)(s=9)B8:m } B8 }
+{B9:^80 {(k^97:c)(s=9)B9:m } B9 }
+{BA:^80 {(k^97:c)(s=9)BA:m } BA }
+{BB:^80 {(k^97:c)(s=9)BB:m } BB }
+{BC:^80 {(k^97:c)(s=9)BC:m } BC }
+{BD:^80 {(k^97:c)(s=9)BD:m } BD }
+{BE:^80 {(k^97:c)(s=9)BE:m } BE }
+{BF:^80 {(k^97:c)(s=9)BF:m } BF }
+{C0:^80 {(k^97:c)(s=9)C0:m } C0 }
+{C1:^80 {(k^97:c)(s=9)C1:m } C1 }
+{C2:^80 {(k^97:c)(s=9)C2:m } C2 }
+{C3:^80 {(k^97:c)(s=9)C3:m } C3 }
+{C4:^80 {(k^97:c)(s=9)C4:m } C4 }
+{C5:^80 {(k^97:c)(s=9)C5:m } C5 }
+{C6:^80 {(k^97:c)(s=9)C6:m } C6 }
+{C7:^80 {(k^97:c)(s=9)C7:m } C7 }
+{C8:^80 {(k^97:c)(s=9)C8:m } C8 }
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^86)]
+  [2(^94^94)]
+  [3(^94^9D)]
+  [4(^94^A5)]
+  [5(^94^AD)]
+  [6(^94^B6)]
+  [7(^94^BF)]
+  [8(^94^C8)]
+  [9(^94^D0)]
+  [A(^94^D9)]
+  [B(^94^E1)]
+  [C(^94^EA)]
+  [D(^94^F3)]
+  [E(^94^FB)]
+  [F(^94^101)]
+  [10(^94^109)]
+  [11(^94^111)]
+  [12(^94^119)]
+  [13(^94^121)]
+  [14(^94^128)]
+  [15(^94^12E)]
+  [16(^94^135)]
+  [17(^94^13D)]
+  [18(^94^143)]
+  [19(^94^14B)]
+  [1A(^94^152)]
+  [1B(^94^159)]
+  [1C(^94^161)]
+  [1D(^94^169)]
+  [1E(^94^171)]
+  [1F(^94^179)]
+  [20(^94^181)]
+  [21(^94^189)]
+  [22(^94^191)]
+  [23(^94^199)]
+  [24(^94^1A1)]
+  [25(^94^1A9)]
+  [26(^94^111)]
+  [27(^94^1B7)]
+  [28(^94^1BF)]
+  [29(^94^1C7)]
+  [2A(^94^1CF)]
+  [2B(^94^1D7)]
+  [2C(^94^1DF)]
+  [2D(^94^1E5)]
+  [2E(^94^1ED)]
+  [2F(^94^1F6)]
+  [30(^94^1FE)]
+  [31(^94^204)]
+  [32(^94^20C)]
+  [33(^94^214)]
+  [34(^94^21C)]
+  [35(^94^223)]
+  [36(^94^22B)]
+  [37(^94^233)]
+  [38(^94^23A)]
+  [39(^94^242)]
+  [3A(^94^24A)]
+  [3B(^94^251)]
+  [3C(^94^259)]
+  [3D(^94^260)]
+  [3E(^94^268)]
+  [3F(^94^270)]
+  [40(^94^279)]
+  [41(^94^280)]
+  [42(^94^288)]
+  [43(^94^290)]
+  [44(^94^298)]
+  [45(^94^2A0)]
+  [46(^94^2A8)]
+  [47(^94^2B0)]
+  [48(^94^2B8)]
+  [49(^94^2C0)]
+  [4A(^94^2C8)]
+  [4B(^94^2D0)]
+  [4C(^94^2D8)]
+  [4D(^94^2E0)]
+  [4E(^94^2E8)]
+  [4F(^94^2F0)]
+  [50(^94^2F8)]
+  [51(^94^300)]
+  [52(^94^308)]
+  [53(^94^30F)]
+  [54(^94^317)]
+  [55(^94^31E)]
+  [56(^94^326)]
+  [57(^94^32D)]
+  [58(^94^334)]
+  [59(^94^33C)]
+  [5A(^94^344)]
+  [5B(^94^34C)]
+  [5C(^94^354)]
+  [5D(^94^35C)]
+  [5E(^94^364)]
+  [5F(^94^36C)]
+  [60(^94^374)]
+  [61(^94^37C)]
+  [62(^94^383)]
+  [63(^94^38B)]
+  [64(^94^393)]
+  [65(^94^39C)]
+  [66(^94^3A3)]
+  [67(^94^3AA)]
+  [68(^94^3B2)]
+  [69(^94^3BA)]
+  [6A(^94^3C2)]
+  [6B(^94^3C9)]
+  [6C(^94^3D1)]
+  [6D(^94^3D8)]
+  [6E(^94^3DF)]
+  [6F(^94^3E7)]
+  [70(^94^3EE)]
+  [71(^94^3F6)]
+  [72(^94^3FD)]
+  [73(^94^405)]
+  [74(^94^40D)]
+  [75(^94^414)]
+  [76(^94^41C)]
+  [77(^94^423)]
+  [78(^94^42C)]
+  [79(^94^433)]
+  [7A(^94^43B)]
+  [7B(^94^443)]
+  [7C(^94^44B)]
+  [7D(^94^453)]
+  [7E(^94^45B)]
+  [7F(^94^462)]
+  [80(^94^46A)]
+  [81(^94^471)]
+  [82(^94^479)]
+  [83(^94^481)]
+  [84(^94^489)]
+  [85(^94^490)]
+  [86(^94^498)]
+  [87(^94^4A0)]
+  [88(^94^4A7)]
+  [89(^94^4AE)]
+  [8A(^94^4B6)]
+  [8B(^94^4BF)]
+  [8C(^94^4C7)]
+  [8D(^94^4CE)]
+  [8E(^94^4D6)]
+  [8F(^94^4DE)]
+  [90(^94^4E6)]
+  [91(^94^4EE)]
+  [92(^94^4F6)]
+  [93(^94^4FE)]
+  [94(^94^506)]
+  [95(^94^50E)]
+  [96(^94^516)]
+  [97(^94^51E)]
+  [98(^94^526)]
+  [99(^94^52E)]
+  [9A(^94^534)]
+  [9B(^94^53C)]
+  [9C(^94^544)]
+  [9D(^94^54C)]
+  [9E(^94^554)]
+  [9F(^94^55C)]
+  [A0(^94^563)]
+  [A1(^94^56A)]
+  [A2(^94^570)]
+  [A3(^94^578)]
+  [A4(^94^57F)]
+  [A5(^94^587)]
+  [A6(^94^58F)]
+  [A7(^94^597)]
+  [A8(^94^59E)]
+  [A9(^94^5A6)]
+  [AA(^94^5AC)]
+  [AB(^94^506)]
+  [AC(^94^5BB)]
+  [AD(^94^5C3)]
+  [AE(^94^5CB)]
+  [AF(^94^5D2)]
+  [B0(^94^5DA)]
+  [B1(^94^5E1)]
+  [B2(^94^5E9)]
+  [B3(^94^5F1)]
+  [B4(^94^5F9)]
+  [B5(^94^600)]
+  [B6(^94^608)]
+  [B7(^94^610)]
+  [B8(^94^618)]
+  [B9(^94^620)]
+  [BA(^94^628)]
+  [BB(^94^630)]
+  [BC(^94^638)]
+  [BD(^94^640)]
+  [BE(^94^647)]
+  [BF(^94^650)]
+  [C0(^94^658)]
+  [C1(^94^660)]
+  [C2(^94^668)]
+  [C3(^94^670)]
+  [C4(^94^677)]
+  [C5(^94^67F)]
+  [C6(^94^687)]
+  [C7(^94^68F)]
+  [C8(^94^697)]}
+
+<(83=Richard Stallman's Political Notes)(69C=48001)(766=66991e77)(69D
+    =1721310775)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^88=4)(^A6^83)(^A2^69C)(^A4^766)(^A0=c8)(^A1=0)
+    (^A5=c8)(^B4^69D)]}
+
+@$${191{@
+@$$}191}@
+
+@$${192{@
+[1:^80(^B8=0)]
+[2:^80(^B8=0)]
+[3:^80(^B8=0)]
+[4:^80(^B8=0)]
+[5:^80(^B8=0)]
+[6:^80(^B8=0)]
+[7:^80(^B8=0)]
+[8:^80(^B8=0)]
+[9:^80(^B8=0)]
+[A:^80(^B8=0)]
+[B:^80(^B8=0)]
+[C:^80(^B8=0)]
+[D:^80(^B8=0)]
+[E:^80(^B8=0)]
+[F:^80(^B8=0)]
+[10:^80(^B8=0)]
+[11:^80(^B8=0)]
+[12:^80(^B8=0)]
+[13:^80(^B8=0)]
+[14:^80(^B8=0)]
+[15:^80(^B8=0)]
+[16:^80(^B8=0)]
+[17:^80(^B8=0)]
+[18:^80(^B8=0)]
+[19:^80(^B8=0)]
+[1A:^80(^B8=0)]
+[1B:^80(^B8=0)]
+[1C:^80(^B8=0)]
+[1D:^80(^B8=0)]
+[1E:^80(^B8=0)]
+[1F:^80(^B8=0)]
+[20:^80(^B8=0)]
+[21:^80(^B8=0)]
+[22:^80(^B8=0)]
+[23:^80(^B8=0)]
+[24:^80(^B8=0)]
+[25:^80(^B8=0)]
+[26:^80(^B8=0)]
+[27:^80(^B8=0)]
+[28:^80(^B8=0)]
+[29:^80(^B8=0)]
+[2A:^80(^B8=0)]
+[2B:^80(^B8=0)]
+[2C:^80(^B8=0)]
+[2D:^80(^B8=0)]
+[2E:^80(^B8=0)]
+[2F:^80(^B8=0)]
+[30:^80(^B8=0)]
+[31:^80(^B8=0)]
+[32:^80(^B8=0)]
+[33:^80(^B8=0)]
+[34:^80(^B8=0)]
+[35:^80(^B8=0)]
+[36:^80(^B8=0)]
+[37:^80(^B8=0)]
+[38:^80(^B8=0)]
+[39:^80(^B8=0)]
+[3A:^80(^B8=0)]
+[3B:^80(^B8=0)]
+[3C:^80(^B8=0)]
+[3D:^80(^B8=0)]
+[3E:^80(^B8=0)]
+[3F:^80(^B8=0)]
+[40:^80(^B8=0)]
+[41:^80(^B8=0)]
+[42:^80(^B8=0)]
+[43:^80(^B8=0)]
+[44:^80(^B8=0)]
+[45:^80(^B8=0)]
+[46:^80(^B8=0)]
+[47:^80(^B8=0)]
+[48:^80(^B8=0)]
+[49:^80(^B8=0)]
+[4A:^80(^B8=0)]
+[4B:^80(^B8=0)]
+[4C:^80(^B8=0)]
+[4D:^80(^B8=0)]
+[4E:^80(^B8=0)]
+[4F:^80(^B8=0)]
+[50:^80(^B8=0)]
+[51:^80(^B8=0)]
+[52:^80(^B8=0)]
+[53:^80(^B8=0)]
+[54:^80(^B8=0)]
+[55:^80(^B8=0)]
+[56:^80(^B8=0)]
+[57:^80(^B8=0)]
+[58:^80(^B8=0)]
+[59:^80(^B8=0)]
+[5A:^80(^B8=0)]
+[5B:^80(^B8=0)]
+[5C:^80(^B8=0)]
+[5D:^80(^B8=0)]
+[5E:^80(^B8=0)]
+[5F:^80(^B8=0)]
+[60:^80(^B8=0)]
+[61:^80(^B8=0)]
+[62:^80(^B8=0)]
+[63:^80(^B8=0)]
+[64:^80(^B8=0)]
+[65:^80(^B8=0)]
+[66:^80(^B8=0)]
+[67:^80(^B8=0)]
+[68:^80(^B8=0)]
+[69:^80(^B8=0)]
+[6A:^80(^B8=0)]
+[6B:^80(^B8=0)]
+[6C:^80(^B8=0)]
+[6D:^80(^B8=0)]
+[6E:^80(^B8=0)]
+[6F:^80(^B8=0)]
+[70:^80(^B8=0)]
+[71:^80(^B8=0)]
+[72:^80(^B8=0)]
+[73:^80(^B8=0)]
+[74:^80(^B8=0)]
+[75:^80(^B8=0)]
+[76:^80(^B8=0)]
+[77:^80(^B8=0)]
+[78:^80(^B8=0)]
+[79:^80(^B8=0)]
+[7A:^80(^B8=0)]
+[7B:^80(^B8=0)]
+[7C:^80(^B8=0)]
+[7D:^80(^B8=0)]
+[7E:^80(^B8=0)]
+[7F:^80(^B8=0)]
+[80:^80(^B8=0)]
+[81:^80(^B8=0)]
+[82:^80(^B8=0)]
+[83:^80(^B8=0)]
+[84:^80(^B8=0)]
+[85:^80(^B8=0)]
+[86:^80(^B8=0)]
+[87:^80(^B8=0)]
+[88:^80(^B8=0)]
+[89:^80(^B8=0)]
+[8A:^80(^B8=0)]
+[8B:^80(^B8=0)]
+[8C:^80(^B8=0)]
+[8D:^80(^B8=0)]
+[8E:^80(^B8=0)]
+[8F:^80(^B8=0)]
+[90:^80(^B8=0)]
+[91:^80(^B8=0)]
+[92:^80(^B8=0)]
+[93:^80(^B8=0)]
+[94:^80(^B8=0)]
+[95:^80(^B8=0)]
+[96:^80(^B8=0)]
+[97:^80(^B8=0)]
+[98:^80(^B8=0)]
+[99:^80(^B8=0)]
+[9A:^80(^B8=0)]
+[9B:^80(^B8=0)]
+[9C:^80(^B8=0)]
+[9D:^80(^B8=0)]
+[9E:^80(^B8=0)]
+[9F:^80(^B8=0)]
+[A0:^80(^B8=0)]
+[A1:^80(^B8=0)]
+[A2:^80(^B8=0)]
+[A3:^80(^B8=0)]
+[A4:^80(^B8=0)]
+[A5:^80(^B8=0)]
+[A6:^80(^B8=0)]
+[A7:^80(^B8=0)]
+[A8:^80(^B8=0)]
+[A9:^80(^B8=0)]
+[AA:^80(^B8=0)]
+[AB:^80(^B8=0)]
+[AC:^80(^B8=0)]
+[AD:^80(^B8=0)]
+[AE:^80(^B8=0)]
+[AF:^80(^B8=0)]
+[B0:^80(^B8=0)]
+[B1:^80(^B8=0)]
+[B2:^80(^B8=0)]
+[B3:^80(^B8=0)]
+[B4:^80(^B8=0)]
+[B5:^80(^B8=0)]
+[B6:^80(^B8=0)]
+[B7:^80(^B8=0)]
+[B8:^80(^B8=0)]
+[B9:^80(^B8=0)]
+[BA:^80(^B8=0)]
+[BB:^80(^B8=0)]
+[BC:^80(^B8=0)]
+[BD:^80(^B8=0)]
+[BE:^80(^B8=0)]
+[BF:^80(^B8=0)]
+[C0:^80(^B8=0)]
+[C1:^80(^B8=0)]
+[C2:^80(^B8=0)]
+[C3:^80(^B8=0)]
+[C4:^80(^B8=0)]
+[C5:^80(^B8=0)]
+[C6:^80(^B8=0)]
+[C7:^80(^B8=0)]
+[C8:^80(^B8=0)]
+@$$}192}@
+
+@$${194{@
+< <(a=c)> // (f=iso-8859-1)
+  (BB=useServerRetention)>
+@$$}194}@
+
+@$${196{@
+< <(a=c)> // (f=iso-8859-1)
+  (BC=retainBy)(BD=daysToKeepHdrs)(BE=numHdrsToKeep)(BF=daysToKeepBodies)
+  (C0=useServerDefaults)(C1=cleanupBodies)(C2=applyToFlaggedMessages)>
+[1:^9E(^BB=1)]
+@$$}196}@
+
+@$${197{@
+@$$}197}@

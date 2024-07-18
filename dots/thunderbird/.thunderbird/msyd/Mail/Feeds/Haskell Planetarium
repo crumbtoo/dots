@@ -1,0 +1,1820 @@
+From - Thu, 18 Jul 2024 12:53:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Thu, 18 Jul 2024 12:53:00 GMT
+Message-Id: <https://www.reddit.com/r/haskell/comments/1e6ap6m/win10_purging_haskell_related_stuff/@localhost.localdomain>
+From: </u/MippsTT>
+MIME-Version: 1.0
+Subject: [Win10] purging Haskell related stuff
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.reddit.com/r/haskell/comments/1e6ap6m/win10_purging_haskell_related_stuff/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>[Win10] purging Haskell related stuff</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    [Win10] purging Haskell related stuff
+  </body>
+</html>
+
+
+From - Thu, 18 Jul 2024 12:28:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Thu, 18 Jul 2024 12:28:00 GMT
+Message-Id: <https://haskell.foundation/podcast/53/@localhost.localdomain>
+From: </u/tritlo>
+MIME-Version: 1.0
+Subject: Haskell Interlude 53: Garrett Morris
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskell.foundation/podcast/53/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haskell Interlude 53: Garrett Morris</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Haskell Interlude 53: Garrett Morris
+  </body>
+</html>
+
+
+From - Wed, 17 Jul 2024 18:13:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Wed, 17 Jul 2024 18:13:00 GMT
+Message-Id: <http://github.com/Psteven5/Struct.hs@localhost.localdomain>
+From: </u/TheChief275>
+MIME-Version: 1.0
+Subject: Struct.hs - make records more like structs
+Content-Transfer-Encoding: 8bit
+Content-Base: http://github.com/Psteven5/Struct.hs
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Struct.hs - make records more like structs</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Struct.hs - make records more like structs
+  </body>
+</html>
+
+
+From - Wed, 17 Jul 2024 14:06:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Wed, 17 Jul 2024 14:06:00 GMT
+Message-Id: <https://well-typed.com/blog/2024/07/haskell-unfolder-episode-29-exceptions-annotations-and-backtraces/@localhost.localdomain>
+From: </u/kosmikus>
+MIME-Version: 1.0
+Subject: The Haskell Unfolder Episode 29: exceptions, annotations and backtraces
+Content-Transfer-Encoding: 8bit
+Content-Base: https://well-typed.com/blog/2024/07/haskell-unfolder-episode-29-exceptions-annotations-and-backtraces/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Haskell Unfolder Episode 29: exceptions, annotations and backtraces</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    The Haskell Unfolder Episode 29: exceptions, annotations and backtraces
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 22:34:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Tue, 16 Jul 2024 22:34:00 GMT
+Message-Id: <https://www.reddit.com/r/haskell/comments/1e51zf9/is_it_possible_to_map_on_the_type_level_over_a/@localhost.localdomain>
+From: </u/FluxusMagna>
+MIME-Version: 1.0
+Subject: Is it possible to 'map' on the type level over a type level list?
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.reddit.com/r/haskell/comments/1e51zf9/is_it_possible_to_map_on_the_type_level_over_a/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Is it possible to 'map' on the type level over a type level list?</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Is it possible to 'map' on the type level over a type level list?
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 15:09:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Tue, 16 Jul 2024 15:09:00 GMT
+Message-Id: <https://www.reddit.com/r/bioinformatics/comments/1e47bgs/hssamtools_a_haskell_library_striving_to_provide/@localhost.localdomain>
+From: </u/Matty_lambda>
+MIME-Version: 1.0
+Subject: hs-samtools - A Haskell library striving to provide similar functionality as samtools
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.reddit.com/r/bioinformatics/comments/1e47bgs/hssamtools_a_haskell_library_striving_to_provide/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hs-samtools - A Haskell library striving to provide similar functionality as samtools</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    hs-samtools - A Haskell library striving to provide similar functionality as samtools
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 12:33:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Tue, 16 Jul 2024 12:33:00 GMT
+Message-Id: <https://swarm-game.github.io/blog/2024-07-14-swarm-0.6-release/@localhost.localdomain>
+From: </u/byorgey>
+MIME-Version: 1.0
+Subject: Swarm 0.6 release, featuring equirecursive types, customizable keybindings, more challenge scenarios, + more
+Content-Transfer-Encoding: 8bit
+Content-Base: https://swarm-game.github.io/blog/2024-07-14-swarm-0.6-release/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Swarm 0.6 release, featuring equirecursive types, customizable keybindings, more challenge scenarios, + more</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Swarm 0.6 release, featuring equirecursive types, customizable keybindings, more challenge scenarios, + more
+  </body>
+</html>
+
+
+From - Mon, 15 Jul 2024 22:27:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Mon, 15 Jul 2024 22:27:00 GMT
+Message-Id: <https://www.reddit.com/r/haskell/comments/1e487xf/haskell_meetup_groq_hq_301_castro_st_mountain/@localhost.localdomain>
+From: </u/_query>
+MIME-Version: 1.0
+Subject: Haskell Meetup @ Groq HQ, 301 Castro St., Mountain View, Friday 6pm
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.reddit.com/r/haskell/comments/1e487xf/haskell_meetup_groq_hq_301_castro_st_mountain/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haskell Meetup @ Groq HQ, 301 Castro St., Mountain View, Friday 6pm</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Haskell Meetup @ Groq HQ, 301 Castro St., Mountain View, Friday 6pm
+  </body>
+</html>
+
+
+From - Mon, 15 Jul 2024 16:38:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Mon, 15 Jul 2024 16:38:00 GMT
+Message-Id: <https://www.reddit.com/r/haskell/comments/1e3zeto/game_diagrams_with_the_haskell_diagrams_package/@localhost.localdomain>
+From: </u/ludflu>
+MIME-Version: 1.0
+Subject: game diagrams with the Haskell Diagrams package
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.reddit.com/r/haskell/comments/1e3zeto/game_diagrams_with_the_haskell_diagrams_package/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>game diagrams with the Haskell Diagrams package</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    game diagrams with the Haskell Diagrams package
+  </body>
+</html>
+
+
+From - Sun, 14 Jul 2024 17:53:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Sun, 14 Jul 2024 17:53:00 GMT
+Message-Id: <https://www.reddit.com/r/haskell/comments/1e38ia8/haskell_for_data_analysis_processing_and_machine/@localhost.localdomain>
+From: </u/Lime_Dragonfruit4244>
+MIME-Version: 1.0
+Subject: Haskell for data analysis, processing and machine learning
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.reddit.com/r/haskell/comments/1e38ia8/haskell_for_data_analysis_processing_and_machine/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haskell for data analysis, processing and machine learning</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Haskell for data analysis, processing and machine learning
+  </body>
+</html>
+
+
+From - Mon, 15 Jul 2024 04:30:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Mon, 15 Jul 2024 04:30:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136839.html@localhost.localdomain>
+From: <Kristopher K Micinski>
+MIME-Version: 1.0
+Subject: Call for Papers: Scheme ‘24 (extended deadline: July 25th)
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136839.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Call for Papers: Scheme ‘24 (extended deadline: July 25th)</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Call for Papers: Scheme ‘24 (extended deadline: July 25th)
+  </body>
+</html>
+
+
+From - Tue, 09 Jul 2024 21:45:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Tue, 09 Jul 2024 21:45:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136837.html@localhost.localdomain>
+From: <Henning Thielemann>
+MIME-Version: 1.0
+Subject: Perl Regular Expressions
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136837.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Perl Regular Expressions</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Perl Regular Expressions
+  </body>
+</html>
+
+
+From - Tue, 09 Jul 2024 20:32:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Tue, 09 Jul 2024 20:32:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136838.html@localhost.localdomain>
+From: <Tristan Cacqueray>
+MIME-Version: 1.0
+Subject: Taking over maintenance of hsndfile package
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136838.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taking over maintenance of hsndfile package</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Taking over maintenance of hsndfile package
+  </body>
+</html>
+
+
+From - Mon, 08 Jul 2024 14:30:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Mon, 08 Jul 2024 14:30:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136836.html@localhost.localdomain>
+From: <Matthew Pickering>
+MIME-Version: 1.0
+Subject: Final Call for Talks: Haskell Implementors&apos; Workshop 2024
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136836.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final Call for Talks: Haskell Implementors&amp;apos; Workshop 2024</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Final Call for Talks: Haskell Implementors&amp;apos; Workshop 2024
+  </body>
+</html>
+
+
+From - Sun, 07 Jul 2024 00:55:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Sun, 07 Jul 2024 00:55:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136835.html@localhost.localdomain>
+From: <Mark McConnell>
+MIME-Version: 1.0
+Subject: a tribute to Haskell Curry
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136835.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>a tribute to Haskell Curry</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    a tribute to Haskell Curry
+  </body>
+</html>
+
+
+From - Sat, 06 Jul 2024 15:15:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Sat, 06 Jul 2024 15:15:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136834.html@localhost.localdomain>
+From: <Artem Pelenitsyn>
+MIME-Version: 1.0
+Subject: [ANN] cabal-install-3.12.1.0 (and accompanying libraries) released
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136834.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>[ANN] cabal-install-3.12.1.0 (and accompanying libraries) released</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    [ANN] cabal-install-3.12.1.0 (and accompanying libraries) released
+  </body>
+</html>
+
+
+From - Wed, 03 Jul 2024 15:14:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Wed, 03 Jul 2024 15:14:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136831.html@localhost.localdomain>
+From: <George Colpitts>
+MIME-Version: 1.0
+Subject: 2 optimization bugs ?
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136831.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2 optimization bugs ?</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    2 optimization bugs ?
+  </body>
+</html>
+
+
+From - Wed, 03 Jul 2024 07:50:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Wed, 03 Jul 2024 07:50:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136830.html@localhost.localdomain>
+From: <Mart Lubbers>
+MIME-Version: 1.0
+Subject: IFL 2024: Second Call for Papers
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136830.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IFL 2024: Second Call for Papers</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    IFL 2024: Second Call for Papers
+  </body>
+</html>
+
+
+From - Mon, 01 Jul 2024 15:09:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Mon, 01 Jul 2024 15:09:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136826.html@localhost.localdomain>
+From: <Zubin Duggal>
+MIME-Version: 1.0
+Subject: [ANNOUNCE] GHC 9.6.6 is now available
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136826.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>[ANNOUNCE] GHC 9.6.6 is now available</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    [ANNOUNCE] GHC 9.6.6 is now available
+  </body>
+</html>
+
+
+From - Wed, 26 Jun 2024 11:23:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Wed, 26 Jun 2024 11:23:00 GMT
+Message-Id: <https://mail.haskell.org/pipermail/haskell-cafe/2024-June/136824.html@localhost.localdomain>
+From: <ICFP Publicity>
+MIME-Version: 1.0
+Subject: ICFP 2024: Call fo Volunteers
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mail.haskell.org/pipermail/haskell-cafe/2024-June/136824.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICFP 2024: Call fo Volunteers</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    ICFP 2024: Call fo Volunteers
+  </body>
+</html>
+
+
+From - Mon, 01 Jul 2024 16:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Mon, 01 Jul 2024 16:00:00 GMT
+Message-Id: <https://mmhaskell.com/blog/2024/7/1/solvehs-module-3-summer-sale@localhost.localdomain>
+From: <N/A>
+MIME-Version: 1.0
+Subject: Monday Morning Haskell: Solve.hs Module 3 + Summer Sale!
+Content-Transfer-Encoding: 8bit
+Content-Base: https://mmhaskell.com/blog/2024/7/1/solvehs-module-3-summer-sale
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Monday Morning Haskell: Solve.hs Module 3 + Summer Sale!</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Monday Morning Haskell: Solve.hs Module 3 + Summer Sale!
+  </body>
+</html>
+
+
+From - Mon, 01 Jul 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Mon, 01 Jul 2024 00:00:00 GMT
+Message-Id: <http://haskell.org/ghc/blog/20240701-ghc-9.6.6-released.html@localhost.localdomain>
+From: <N/A>
+MIME-Version: 1.0
+Subject: GHC Developer Blog: GHC 9.6.6 is now available
+Content-Transfer-Encoding: 8bit
+Content-Base: http://haskell.org/ghc/blog/20240701-ghc-9.6.6-released.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GHC Developer Blog: GHC 9.6.6 is now available</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    GHC Developer Blog: GHC 9.6.6 is now available
+  </body>
+</html>
+
+
+From - Sun, 30 Jun 2024 23:21:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:46 -0600
+Date: Sun, 30 Jun 2024 23:21:00 GMT
+Message-Id: <https://cdsmithus.medium.com/the-semigroup-of-exponentially-weighted-moving-averages-860a3e28409d?source=rss-18bd5acaea78------2@localhost.localdomain>
+From: <N/A>
+MIME-Version: 1.0
+Subject: Chris Smith 2: The Semigroup of Exponentially Weighted Moving Averages
+Content-Transfer-Encoding: 8bit
+Content-Base: https://cdsmithus.medium.com/the-semigroup-of-exponentially-weighted-moving-averages-860a3e28409d?source=rss-18bd5acaea78------2
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chris Smith 2: The Semigroup of Exponentially Weighted Moving Averages</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Chris Smith 2: The Semigroup of Exponentially Weighted Moving Averages
+  </body>
+</html>
+
+
+From - Sun, 30 Jun 2024 13:28:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Sun, 30 Jun 2024 13:28:00 GMT
+Message-Id: <https://www.joachim-breitner.de/blog/814-Do_surprises_get_larger_@localhost.localdomain>
+From: <"mail@joachim-breitner.de (Joachim Breitner)">
+MIME-Version: 1.0
+Subject: Joachim Breitner: Do surprises get larger?
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.joachim-breitner.de/blog/814-Do_surprises_get_larger_
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Joachim Breitner: Do surprises get larger?</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Joachim Breitner: Do surprises get larger?
+  </body>
+</html>
+
+
+From - Thu, 27 Jun 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Thu, 27 Jun 2024 00:00:00 GMT
+Message-Id: <https://tweag.io/blog/2024-06-27-integration-testing/@localhost.localdomain>
+From: <N/A>
+MIME-Version: 1.0
+Subject: Tweag I/O: Integration testing: pain points and remedies
+Content-Transfer-Encoding: 8bit
+Content-Base: https://tweag.io/blog/2024-06-27-integration-testing/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tweag I/O: Integration testing: pain points and remedies</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Tweag I/O: Integration testing: pain points and remedies
+  </body>
+</html>
+
+
+From - Tue, 25 Jun 2024 14:23:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Tue, 25 Jun 2024 14:23:00 GMT
+Message-Id: <https://www.haskellforall.com/2024/06/my-spiciest-take-on-tech-hiring.html@localhost.localdomain>
+From: <"noreply@blogger.com (Gabriella Gonzalez)">
+MIME-Version: 1.0
+Subject: Gabriella Gonzalez: My spiciest take on tech hiring
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.haskellforall.com/2024/06/my-spiciest-take-on-tech-hiring.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gabriella Gonzalez: My spiciest take on tech hiring</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Gabriella Gonzalez: My spiciest take on tech hiring
+  </body>
+</html>
+
+
+From - Tue, 25 Jun 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Tue, 25 Jun 2024 00:00:00 GMT
+Message-Id: <https://www.snoyman.com/blog/manual-leptos/@localhost.localdomain>
+From: <N/A>
+MIME-Version: 1.0
+Subject: Michael Snoyman: Manual Leptos
+Content-Transfer-Encoding: 8bit
+Content-Base: https://www.snoyman.com/blog/manual-leptos/
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michael Snoyman: Manual Leptos</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Michael Snoyman: Manual Leptos
+  </body>
+</html>
+
+
+From - Tue, 25 Jun 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Tue, 25 Jun 2024 00:00:00 GMT
+Message-Id: <http://byorgey.github.io/blog/posts/2024/06/25/unordered-n-tuple-product.html@localhost.localdomain>
+From: <N/A>
+MIME-Version: 1.0
+Subject: Brent Yorgey: Products with unordered n-tuples
+Content-Transfer-Encoding: 8bit
+Content-Base: http://byorgey.github.io/blog/posts/2024/06/25/unordered-n-tuple-product.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brent Yorgey: Products with unordered n-tuples</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Brent Yorgey: Products with unordered n-tuples
+  </body>
+</html>
+
+
+From - Mon, 24 Jun 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Mon, 24 Jun 2024 00:00:00 GMT
+Message-Id: <https://oleg.fi/gists/posts/2024-06-24-hashable-arch-native.html@localhost.localdomain>
+From: <N/A>
+MIME-Version: 1.0
+Subject: Oleg Grenrus: hashable arch native
+Content-Transfer-Encoding: 8bit
+Content-Base: https://oleg.fi/gists/posts/2024-06-24-hashable-arch-native.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oleg Grenrus: hashable arch native</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Oleg Grenrus: hashable arch native
+  </body>
+</html>
+
+
+From - Sun, 23 Jun 2024 11:40:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Sun, 23 Jun 2024 11:40:00 GMT
+Message-Id: <https://blog.plover.com/lang/script-potpourri.html@localhost.localdomain>
+From: <"mjd@plover.com (Mark Dominus)">
+MIME-Version: 1.0
+Subject: Mark Jason Dominus: A potpourri of cool-looking scripts
+Content-Transfer-Encoding: 8bit
+Content-Base: https://blog.plover.com/lang/script-potpourri.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mark Jason Dominus: A potpourri of cool-looking scripts</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Mark Jason Dominus: A potpourri of cool-looking scripts
+  </body>
+</html>
+
+
+From - Thu, 18 Jul 2024 01:59:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Thu, 18 Jul 2024 01:59:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78762145/is-read-inverse-of-show-in-haskell@localhost.localdomain>
+From: <Penguino>
+MIME-Version: 1.0
+Subject: Is read inverse of show in Haskell?
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78762145/is-read-inverse-of-show-in-haskell
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Is read inverse of show in Haskell?</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Is read inverse of show in Haskell?
+  </body>
+</html>
+
+
+From - Wed, 17 Jul 2024 16:36:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Wed, 17 Jul 2024 16:36:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78760687/how-to-combine-two-maybes@localhost.localdomain>
+From: <toni057>
+MIME-Version: 1.0
+Subject: How to combine two Maybes
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78760687/how-to-combine-two-maybes
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to combine two Maybes</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    How to combine two Maybes
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 19:10:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Tue, 16 Jul 2024 19:10:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78756349/vs-powershell-wont-let-me-compile-but-using-it-externally-will@localhost.localdomain>
+From: <Joe Corps>
+MIME-Version: 1.0
+Subject: VS Powershell wont let me compile, but using it externally will
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78756349/vs-powershell-wont-let-me-compile-but-using-it-externally-will
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VS Powershell wont let me compile, but using it externally will</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    VS Powershell wont let me compile, but using it externally will
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 17:53:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Tue, 16 Jul 2024 17:53:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78756069/how-to-load-custom-dependencies-in-interactive-haskell-mode@localhost.localdomain>
+From: <user2506946>
+MIME-Version: 1.0
+Subject: How to load custom dependencies in interactive Haskell-mode?
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78756069/how-to-load-custom-dependencies-in-interactive-haskell-mode
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to load custom dependencies in interactive Haskell-mode?</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    How to load custom dependencies in interactive Haskell-mode?
+  </body>
+</html>
+
+
+From - Mon, 15 Jul 2024 21:51:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Mon, 15 Jul 2024 21:51:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78752009/how-to-use-answers-of-parsers-when-nesting-parsers-sequentially@localhost.localdomain>
+From: <user20102550>
+MIME-Version: 1.0
+Subject: How to use answers of parsers when nesting parsers (sequentially)
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78752009/how-to-use-answers-of-parsers-when-nesting-parsers-sequentially
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to use answers of parsers when nesting parsers (sequentially)</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    How to use answers of parsers when nesting parsers (sequentially)
+  </body>
+</html>
+
+
+From - Sun, 14 Jul 2024 18:25:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Sun, 14 Jul 2024 18:25:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78747154/type-nameoftype-typeclass-compiles-but-type-nameoftype-typeclass-t@localhost.localdomain>
+From: <HaveMercy>
+MIME-Version: 1.0
+Subject: `type &lt;nameOfType&gt; = Typeclass` compiles, but `type &lt;nameOfType&gt; = (Typeclass, Typeclass)` doesn&#39;t
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78747154/type-nameoftype-typeclass-compiles-but-type-nameoftype-typeclass-t
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>`type &amp;lt;nameOfType&amp;gt; = Typeclass` compiles, but `type &amp;lt;nameOfType&amp;gt; = (Typeclass, Typeclass)` doesn&amp;#39;t</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    `type &amp;lt;nameOfType&amp;gt; = Typeclass` compiles, but `type &amp;lt;nameOfType&amp;gt; = (Typeclass, Typeclass)` doesn&amp;#39;t
+  </body>
+</html>
+
+
+From - Fri, 12 Jul 2024 22:15:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Fri, 12 Jul 2024 22:15:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78742373/cabal-run-unable-to-see-packages-that-interactive-haskell-mode-can@localhost.localdomain>
+From: <IsAdisplayName>
+MIME-Version: 1.0
+Subject: Cabal run unable to see packages that interactive haskell mode can
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78742373/cabal-run-unable-to-see-packages-that-interactive-haskell-mode-can
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cabal run unable to see packages that interactive haskell mode can</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Cabal run unable to see packages that interactive haskell mode can
+  </body>
+</html>
+
+
+From - Thu, 11 Jul 2024 21:24:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Thu, 11 Jul 2024 21:24:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78737743/compiling-project-errors-within-a-docker-container-targeting-linux-amd64@localhost.localdomain>
+From: <bitmaybewise>
+MIME-Version: 1.0
+Subject: Compiling project errors within a docker container targeting linux/amd64
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78737743/compiling-project-errors-within-a-docker-container-targeting-linux-amd64
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Compiling project errors within a docker container targeting linux/amd64</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Compiling project errors within a docker container targeting linux/amd64
+  </body>
+</html>
+
+
+From - Wed, 10 Jul 2024 23:03:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Wed, 10 Jul 2024 23:03:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78732991/understanding-bracket-use-in-haskell-parser-that-depends-on-previous-parser-gi@localhost.localdomain>
+From: <user20102550>
+MIME-Version: 1.0
+Subject: Understanding bracket use in Haskell - Parser that depends on previous parser gives error when using brackets
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78732991/understanding-bracket-use-in-haskell-parser-that-depends-on-previous-parser-gi
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Understanding bracket use in Haskell - Parser that depends on previous parser gives error when using brackets</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Understanding bracket use in Haskell - Parser that depends on previous parser gives error when using brackets
+  </body>
+</html>
+
+
+From - Wed, 10 Jul 2024 10:17:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Wed, 10 Jul 2024 10:17:00 GMT
+Message-Id: <https://stackoverflow.com/questions/78729953/scan-that-splits-accumulator-and-yielded-value@localhost.localdomain>
+From: <Tom Huntington>
+MIME-Version: 1.0
+Subject: Scan that splits accumulator and yielded value
+Content-Transfer-Encoding: 8bit
+Content-Base: https://stackoverflow.com/questions/78729953/scan-that-splits-accumulator-and-yielded-value
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scan that splits accumulator and yielded value</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Scan that splits accumulator and yielded value
+  </body>
+</html>
+
+
+From - Fri, 07 Jun 2024 15:24:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:47 -0600
+Date: Fri, 07 Jun 2024 15:24:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/292456/haskell-2-player-tictactoe-terminal-game@localhost.localdomain>
+From: <Peter>
+MIME-Version: 1.0
+Subject: Haskell 2-player TicTacToe terminal game
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/292456/haskell-2-player-tictactoe-terminal-game
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haskell 2-player TicTacToe terminal game</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Haskell 2-player TicTacToe terminal game
+  </body>
+</html>
+
+
+From - Mon, 13 May 2024 21:37:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Mon, 13 May 2024 21:37:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/292048/parse-2d-cartesian-coordinates-and-output-their-polar-form@localhost.localdomain>
+From: <Miles>
+MIME-Version: 1.0
+Subject: Parse 2D Cartesian coordinates and output their Polar form
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/292048/parse-2d-cartesian-coordinates-and-output-their-polar-form
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parse 2D Cartesian coordinates and output their Polar form</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Parse 2D Cartesian coordinates and output their Polar form
+  </body>
+</html>
+
+
+From - Fri, 29 Mar 2024 23:26:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Fri, 29 Mar 2024 23:26:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/291327/last-stone-weight-problem-in-haskell-using-fold@localhost.localdomain>
+From: <WesAtWork>
+MIME-Version: 1.0
+Subject: Last Stone Weight Problem in Haskell Using `fold`
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/291327/last-stone-weight-problem-in-haskell-using-fold
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Last Stone Weight Problem in Haskell Using `fold`</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Last Stone Weight Problem in Haskell Using `fold`
+  </body>
+</html>
+
+
+From - Tue, 19 Mar 2024 17:41:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Tue, 19 Mar 2024 17:41:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/291130/last-stone-weight-problem-in-haskell-using-list-insert@localhost.localdomain>
+From: <WesAtWork>
+MIME-Version: 1.0
+Subject: Last Stone Weight Problem in Haskell using list `insert`
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/291130/last-stone-weight-problem-in-haskell-using-list-insert
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Last Stone Weight Problem in Haskell using list `insert`</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Last Stone Weight Problem in Haskell using list `insert`
+  </body>
+</html>
+
+
+From - Sun, 29 Oct 2023 17:02:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Sun, 29 Oct 2023 17:02:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/287677/haskell-code-optimization-for-short-pi-approximator@localhost.localdomain>
+From: <Tsaras>
+MIME-Version: 1.0
+Subject: Haskell code optimization for short Pi approximator
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/287677/haskell-code-optimization-for-short-pi-approximator
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haskell code optimization for short Pi approximator</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Haskell code optimization for short Pi approximator
+  </body>
+</html>
+
+
+From - Mon, 21 Aug 2023 05:02:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Mon, 21 Aug 2023 05:02:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/286616/autocomplete-system-with-prefix-tree@localhost.localdomain>
+From: <Fin H>
+MIME-Version: 1.0
+Subject: Autocomplete system with prefix tree
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/286616/autocomplete-system-with-prefix-tree
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Autocomplete system with prefix tree</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Autocomplete system with prefix tree
+  </body>
+</html>
+
+
+From - Mon, 14 Aug 2023 07:49:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Mon, 14 Aug 2023 07:49:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/286511/performance-of-haskell-prime-sieve@localhost.localdomain>
+From: <Ari Fordsham>
+MIME-Version: 1.0
+Subject: Performance of Haskell prime sieve
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/286511/performance-of-haskell-prime-sieve
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Performance of Haskell prime sieve</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Performance of Haskell prime sieve
+  </body>
+</html>
+
+
+From - Fri, 09 Jun 2023 00:43:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Fri, 09 Jun 2023 00:43:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/285417/solve-a-letter-digit-substitution-game-in-haskell@localhost.localdomain>
+From: <lanf>
+MIME-Version: 1.0
+Subject: Solve a letter digit substitution game in Haskell
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/285417/solve-a-letter-digit-substitution-game-in-haskell
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Solve a letter digit substitution game in Haskell</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Solve a letter digit substitution game in Haskell
+  </body>
+</html>
+
+
+From - Sat, 18 Mar 2023 15:09:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Sat, 18 Mar 2023 15:09:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/284040/ackermann-p%C3%A9ter-function-call-count-using-writer-monad@localhost.localdomain>
+From: <Arpad Horvath>
+MIME-Version: 1.0
+Subject: Ackermann-P&#233;ter function call count using Writer monad
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/284040/ackermann-p%C3%A9ter-function-call-count-using-writer-monad
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ackermann-P&amp;#233;ter function call count using Writer monad</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Ackermann-P&amp;#233;ter function call count using Writer monad
+  </body>
+</html>
+
+
+From - Fri, 10 Mar 2023 21:41:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Fri, 10 Mar 2023 21:41:00 GMT
+Message-Id: <https://codereview.stackexchange.com/questions/283876/tic-tac-toe-game-haskell@localhost.localdomain>
+From: <Dean Menezes>
+MIME-Version: 1.0
+Subject: Tic Tac Toe game (Haskell)
+Content-Transfer-Encoding: 8bit
+Content-Base: https://codereview.stackexchange.com/questions/283876/tic-tac-toe-game-haskell
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe game (Haskell)</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Tic Tac Toe game (Haskell)
+  </body>
+</html>
+
+
+From - Thu, 18 Jul 2024 12:55:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Thu, 18 Jul 2024 12:55:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9968@localhost.localdomain>
+From: <jaror>
+MIME-Version: 1.0
+Subject: GHC and Cabal: the big picture
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9968
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GHC and Cabal: the big picture</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    GHC and Cabal: the big picture
+  </body>
+</html>
+
+
+From - Thu, 18 Jul 2024 12:35:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Thu, 18 Jul 2024 12:35:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9978@localhost.localdomain>
+From: <jaror>
+MIME-Version: 1.0
+Subject: Haskell Interlude 53: Garrett Morris
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9978
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haskell Interlude 53: Garrett Morris</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Haskell Interlude 53: Garrett Morris
+  </body>
+</html>
+
+
+From - Thu, 18 Jul 2024 12:33:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Thu, 18 Jul 2024 12:33:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9979@localhost.localdomain>
+From: <AntC2>
+MIME-Version: 1.0
+Subject: &quot;Is cabal-install stable enough yet that GHC should be inflicting it on newbies?&quot;
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9979
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>&amp;quot;Is cabal-install stable enough yet that GHC should be inflicting it on newbies?&amp;quot;</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    &amp;quot;Is cabal-install stable enough yet that GHC should be inflicting it on newbies?&amp;quot;
+  </body>
+</html>
+
+
+From - Wed, 17 Jul 2024 14:18:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Wed, 17 Jul 2024 14:18:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9974@localhost.localdomain>
+From: <kosmikus>
+MIME-Version: 1.0
+Subject: The Haskel Unfolder Episode 29: exceptions, annotations and backtraces
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9974
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Haskel Unfolder Episode 29: exceptions, annotations and backtraces</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    The Haskel Unfolder Episode 29: exceptions, annotations and backtraces
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 15:59:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Tue, 16 Jul 2024 15:59:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9963@localhost.localdomain>
+From: <raehik>
+MIME-Version: 1.0
+Subject: PSA: every version of `ki` prior to `1.0.1.2` has at least one known bug
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9963
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PSA: every version of `ki` prior to `1.0.1.2` has at least one known bug</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    PSA: every version of `ki` prior to `1.0.1.2` has at least one known bug
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 15:10:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Tue, 16 Jul 2024 15:10:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9961@localhost.localdomain>
+From: <rhendric>
+MIME-Version: 1.0
+Subject: Breadth first tree relabelling, or: the power of lazyness
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9961
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Breadth first tree relabelling, or: the power of lazyness</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Breadth first tree relabelling, or: the power of lazyness
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 12:43:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Tue, 16 Jul 2024 12:43:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9969@localhost.localdomain>
+From: <jaror>
+MIME-Version: 1.0
+Subject: Type Theory Forall Podcast #40: Secure Voting with Joe Kiniry
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9969
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Type Theory Forall Podcast #40: Secure Voting with Joe Kiniry</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Type Theory Forall Podcast #40: Secure Voting with Joe Kiniry
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 07:32:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Tue, 16 Jul 2024 07:32:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9964@localhost.localdomain>
+From: <andreabedini>
+MIME-Version: 1.0
+Subject: Many near identical copies of packages in .cabal/store
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9964
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Many near identical copies of packages in .cabal/store</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Many near identical copies of packages in .cabal/store
+  </body>
+</html>
+
+
+From - Tue, 16 Jul 2024 00:32:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:48 -0600
+Date: Tue, 16 Jul 2024 00:32:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9958@localhost.localdomain>
+From: <anointed>
+MIME-Version: 1.0
+Subject: A newbie Assistance on Haskell
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9958
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A newbie Assistance on Haskell</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    A newbie Assistance on Haskell
+  </body>
+</html>
+
+
+From - Mon, 15 Jul 2024 23:37:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Mon, 15 Jul 2024 23:37:00 GMT
+Message-Id: <https://discourse.haskell.org/t/9966@localhost.localdomain>
+From: <mpscholten>
+MIME-Version: 1.0
+Subject: Haskell Meetup @ Groq HQ, 301 Castro St., Mountain View, Friday 6pm
+Content-Transfer-Encoding: 8bit
+Content-Base: https://discourse.haskell.org/t/9966
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haskell Meetup @ Groq HQ, 301 Castro St., Mountain View, Friday 6pm</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Haskell Meetup @ Groq HQ, 301 Castro St., Mountain View, Friday 6pm
+  </body>
+</html>
+
+
+From - Thu, 18 Jul 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 18 Jul 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/429.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 429 - 2024-07-18
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/429.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 429 - 2024-07-18</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 429 - 2024-07-18
+  </body>
+</html>
+
+
+From - Thu, 11 Jul 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 11 Jul 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/428.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 428 - 2024-07-11
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/428.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 428 - 2024-07-11</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 428 - 2024-07-11
+  </body>
+</html>
+
+
+From - Thu, 04 Jul 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 04 Jul 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/427.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 427 - 2024-07-04
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/427.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 427 - 2024-07-04</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 427 - 2024-07-04
+  </body>
+</html>
+
+
+From - Thu, 27 Jun 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 27 Jun 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/426.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 426 - 2024-06-27
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/426.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 426 - 2024-06-27</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 426 - 2024-06-27
+  </body>
+</html>
+
+
+From - Thu, 20 Jun 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 20 Jun 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/425.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 425 - 2024-06-20
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/425.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 425 - 2024-06-20</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 425 - 2024-06-20
+  </body>
+</html>
+
+
+From - Thu, 13 Jun 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 13 Jun 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/424.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 424 - 2024-06-13
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/424.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 424 - 2024-06-13</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 424 - 2024-06-13
+  </body>
+</html>
+
+
+From - Thu, 06 Jun 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 06 Jun 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/423.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 423 - 2024-06-06
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/423.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 423 - 2024-06-06</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 423 - 2024-06-06
+  </body>
+</html>
+
+
+From - Thu, 30 May 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 30 May 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/422.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 422 - 2024-05-30
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/422.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 422 - 2024-05-30</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 422 - 2024-05-30
+  </body>
+</html>
+
+
+From - Thu, 23 May 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 23 May 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/421.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 421 - 2024-05-23
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/421.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 421 - 2024-05-23</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 421 - 2024-05-23
+  </body>
+</html>
+
+
+From - Thu, 16 May 2024 12:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:49 -0600
+Date: Thu, 16 May 2024 12:00:00 GMT
+Message-Id: <https://haskellweekly.news/issue/420.html@localhost.localdomain>
+From: <Haskell Weekly>
+MIME-Version: 1.0
+Subject: Issue 420 - 2024-05-16
+Content-Transfer-Encoding: 8bit
+Content-Base: https://haskellweekly.news/issue/420.html
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Issue 420 - 2024-05-16</title>
+    <base href="https://haskell.pl-a.net/atom.xml">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    Issue 420 - 2024-05-16
+  </body>
+</html>
+
+

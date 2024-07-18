@@ -1,0 +1,1053 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=gloda-dirty)(B9=junkscore)(BA=keywords)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=folderName)(AF=indexingPriority)
+  (B0=storeToken)(B1=dateReceived)(B2=content-base)(B3=ProtoThreadFlags)
+  (B4=MRUTime)(B5=dobayes.mailnews@mozilla.org#junk.empty)
+  (B6=dobayes.mailnews@mozilla.org#junk)(B7=gloda-id)>
+<(92=40)(2AE=667d5440)(81=0)(80=1)>
+[40:m(^9B=40)(^8F=40)(^91^2AE)(^90=0)(^92=1)(^93=0)]
+<(2B6=41)(2B4=667419c0)>[41:m(^9B=41)(^8F=41)(^91^2B4)(^90=0)(^92=1)
+    (^93=0)]
+<(2BD=42)(2BB=666adf40)>[42:m(^9B=42)(^8F=42)(^91^2BB)(^90=0)(^92=1)
+    (^93=0)]
+<(2C4=43)(2C2=6661a4c0)>[43:m(^9B=43)(^8F=43)(^91^2C2)(^90=0)(^92=1)
+    (^93=0)]
+<(2CB=44)(2C9=66586a40)>[44:m(^9B=44)(^8F=44)(^91^2C9)(^90=0)(^92=1)
+    (^93=0)]
+<(2D2=45)(2D0=664f2fc0)>[45:m(^9B=45)(^8F=45)(^91^2D0)(^90=0)(^92=1)
+    (^93=0)]
+<(2D9=46)(2D7=6645f540)>[46:m(^9B=46)(^8F=46)(^91^2D7)(^90=0)(^92=1)
+    (^93=0)]
+<(8F=fffffffe)(89=6699102c)>[1:m(^9B=1)(^8F^8F)(^91^89)(^90=0)(^92=1)
+    (^93=0)]
+<(9A=2)(97=66990a50)>[2:m(^9B=2)(^8F=2)(^91^97)(^90=0)(^92=1)(^93=0)]
+<(A3=3)(A0=669809ac)>[3:m(^9B=3)(^8F=3)(^91^A0)(^90=0)(^92=1)(^93=0)]
+<(82=4)(A9=6697cfc8)>[4:m(^9B=4)(^8F=4)(^91^A9)(^90=0)(^92=1)(^93=0)]
+<(B4=5)(B1=6696f558)>[5:m(^9B=5)(^8F=5)(^91^B1)(^90=0)(^92=1)(^93=0)]
+<(BD=6)(BA=66968d0c)>[6:m(^9B=6)(^8F=6)(^91^BA)(^90=0)(^92=1)(^93=0)]
+<(C6=7)(C3=6696687c)>[7:m(^9B=7)(^8F=7)(^91^C3)(^90=0)(^92=1)(^93=0)]
+<(CF=8)(CC=6695a234)>[8:m(^9B=8)(^8F=8)(^91^CC)(^90=0)(^92=1)(^93=0)]
+<(D8=9)(D5=66955068)>[9:m(^9B=9)(^8F=9)(^91^D5)(^90=0)(^92=1)(^93=0)]
+<(E1=a)(DE=6694107c)>[A:m(^9B=a)(^8F=a)(^91^DE)(^90=0)(^92=1)(^93=0)]
+<(8D=b)(E7=6694a5c8)>[B:m(^9B=b)(^8F=b)(^91^E7)(^90=0)(^92=1)(^93=0)]
+<(F2=c)(EF=668daf5c)>[C:m(^9B=c)(^8F=c)(^91^EF)(^90=0)(^92=1)(^93=0)]
+<(FC=d)(F9=668d9e40)>[D:m(^9B=d)(^8F=d)(^91^F9)(^90=0)(^92=1)(^93=0)]
+<(105=e)(102=668bf7e8)>[E:m(^9B=e)(^8F=e)(^91^102)(^90=0)(^92=1)(^93=0)]
+<(10E=f)(10B=6689e764)>[F:m(^9B=f)(^8F=f)(^91^10B)(^90=0)(^92=1)(^93=0)]
+<(117=10)(114=66895f74)>[10:m(^9B=10)(^8F=10)(^91^114)(^90=0)(^92=1)
+    (^93=0)]
+<(120=11)(11D=66856ab8)>[11:m(^9B=11)(^8F=11)(^91^11D)(^90=0)(^92=1)
+    (^93=0)]
+<(129=12)(126=668502a8)>[12:m(^9B=12)(^8F=12)(^91^126)(^90=0)(^92=1)
+    (^93=0)]
+<(132=13)(12F=6682c68c)>[13:m(^9B=13)(^8F=13)(^91^12F)(^90=0)(^92=1)
+    (^93=0)]
+<(13B=14)(138=667bfa14)>[14:m(^9B=14)(^8F=14)(^91^138)(^90=0)(^92=1)
+    (^93=0)]
+<(144=15)(141=6682d280)>[15:m(^9B=15)(^8F=15)(^91^141)(^90=0)(^92=1)
+    (^93=0)]
+<(14B=16)(149=6681f180)>[16:m(^9B=16)(^8F=16)(^91^149)(^90=0)(^92=1)
+    (^93=0)]
+<(153=17)(150=6681e85c)>[17:m(^9B=17)(^8F=17)(^91^150)(^90=0)(^92=1)
+    (^93=0)]
+<(15D=18)(15A=66815d60)>[18:m(^9B=18)(^8F=18)(^91^15A)(^90=0)(^92=1)
+    (^93=0)]
+<(165=19)(162=667cab80)>[19:m(^9B=19)(^8F=19)(^91^162)(^90=0)(^92=1)
+    (^93=0)]
+<(16E=1a)(16B=667ad2c4)>[1A:m(^9B=1a)(^8F=1a)(^91^16B)(^90=0)(^92=1)
+    (^93=0)]
+<(176=1b)(173=667a0880)>[1B:m(^9B=1b)(^8F=1b)(^91^173)(^90=0)(^92=1)
+    (^93=0)]
+<(17D=1c)>[1C:m(^9B=1c)(^8F=1c)(^91^173)(^90=0)(^92=1)(^93=0)]
+<(185=1d)(182=6678b700)>[1D:m(^9B=1d)(^8F=1d)(^91^182)(^90=0)(^92=1)
+    (^93=0)]
+<(18E=1e)(18B=66780990)>[1E:m(^9B=1e)(^8F=1e)(^91^18B)(^90=0)(^92=1)
+    (^93=0)]
+<(197=1f)(194=669876e4)>[1F:m(^9B=1f)(^8F=1f)(^91^194)(^90=0)(^92=1)
+    (^93=0)]
+<(1A0=20)(19D=6697f2f0)>[20:m(^9B=20)(^8F=20)(^91^19D)(^90=0)(^92=1)
+    (^93=0)]
+<(1A9=21)(1A6=6696c588)>[21:m(^9B=21)(^8F=21)(^91^1A6)(^90=0)(^92=1)
+    (^93=0)]
+<(1B2=22)(1AF=6696b37c)>[22:m(^9B=22)(^8F=22)(^91^1AF)(^90=0)(^92=1)
+    (^93=0)]
+<(1BB=23)(1B8=669599c4)>[23:m(^9B=23)(^8F=23)(^91^1B8)(^90=0)(^92=1)
+    (^93=0)]
+<(1C4=24)(1C1=669417fc)>[24:m(^9B=24)(^8F=24)(^91^1C1)(^90=0)(^92=1)
+    (^93=0)]
+<(1CD=25)(1CA=6691aae4)>[25:m(^9B=25)(^8F=25)(^91^1CA)(^90=0)(^92=1)
+    (^93=0)]
+<(1D6=26)(1D3=66904d70)>[26:m(^9B=26)(^8F=26)(^91^1D3)(^90=0)(^92=1)
+    (^93=0)]
+<(1DE=27)(1DB=668f1324)>[27:m(^9B=27)(^8F=27)(^91^1DB)(^90=0)(^92=1)
+    (^93=0)]
+<(1E7=28)(1E4=668e5f9c)>[28:m(^9B=28)(^8F=28)(^91^1E4)(^90=0)(^92=1)
+    (^93=0)]
+<(1F0=29)(1ED=66632610)>[29:m(^9B=29)(^8F=29)(^91^1ED)(^90=0)(^92=1)
+    (^93=0)]
+<(1F9=2a)(1F7=664287fc)>[2A:m(^9B=2a)(^8F=2a)(^91^1F7)(^90=0)(^92=1)
+    (^93=0)]
+<(202=2b)(1FF=66074e08)>[2B:m(^9B=2b)(^8F=2b)(^91^1FF)(^90=0)(^92=1)
+    (^93=0)]
+<(20A=2c)(207=65f9ce2c)>[2C:m(^9B=2c)(^8F=2c)(^91^207)(^90=0)(^92=1)
+    (^93=0)]
+<(213=2d)(210=653e9008)>[2D:m(^9B=2d)(^8F=2d)(^91^210)(^90=0)(^92=1)
+    (^93=0)]
+<(21B=2e)(219=64e2efc8)>[2E:m(^9B=2e)(^8F=2e)(^91^219)(^90=0)(^92=1)
+    (^93=0)]
+<(224=2f)(221=64d9dc6c)>[2F:m(^9B=2f)(^8F=2f)(^91^221)(^90=0)(^92=1)
+    (^93=0)]
+<(22D=30)(22A=64827594)>[30:m(^9B=30)(^8F=30)(^91^22A)(^90=0)(^92=1)
+    (^93=0)]
+<(236=31)(233=6415d40c)>[31:m(^9B=31)(^8F=31)(^91^233)(^90=0)(^92=1)
+    (^93=0)]
+<(23E=32)(23C=640ba3ec)>[32:m(^9B=32)(^8F=32)(^91^23C)(^90=0)(^92=1)
+    (^93=0)]
+<(247=33)(244=669910a4)>[33:m(^9B=33)(^8F=33)(^91^244)(^90=0)(^92=1)
+    (^93=0)]
+<(24E=34)(24B=66990bf4)>[34:m(^9B=34)(^8F=34)(^91^24B)(^90=0)(^92=1)
+    (^93=0)]
+<(257=35)(254=66990b7c)>[35:m(^9B=35)(^8F=35)(^91^254)(^90=0)(^92=1)
+    (^93=0)]
+<(25F=36)(25D=6697d298)>[36:m(^9B=36)(^8F=36)(^91^25D)(^90=0)(^92=1)
+    (^93=0)]
+<(267=37)(265=669698c4)>[37:m(^9B=37)(^8F=37)(^91^265)(^90=0)(^92=1)
+    (^93=0)]
+<(270=38)(26D=66968d48)>[38:m(^9B=38)(^8F=38)(^91^26D)(^90=0)(^92=1)
+    (^93=0)]
+<(278=39)(275=66966ad4)>[39:m(^9B=39)(^8F=39)(^91^275)(^90=0)(^92=1)
+    (^93=0)]
+<(280=3a)(27E=669621f0)>[3A:m(^9B=3a)(^8F=3a)(^91^27E)(^90=0)(^92=1)
+    (^93=0)]
+<(289=3b)(286=6695bf80)>[3B:m(^9B=3b)(^8F=3b)(^91^286)(^90=0)(^92=1)
+    (^93=0)]
+<(292=3c)(28F=6695b29c)>[3C:m(^9B=3c)(^8F=3c)(^91^28F)(^90=0)(^92=1)
+    (^93=0)]
+<(29B=3d)(298=669903c0)>[3D:m(^9B=3d)(^8F=3d)(^91^298)(^90=0)(^92=1)
+    (^93=0)]
+<(2A2=3e)(2A0=668fc940)>[3E:m(^9B=3e)(^8F=3e)(^91^2A0)(^90=0)(^92=1)
+    (^93=0)]
+<(2A9=3f)(2A7=66868ec0)>[3F:m(^9B=3f)(^8F=3f)(^91^2A7)(^90=0)(^92=1)
+    (^93=0)]
+
+<(85=</u/MippsTT>)(86=[Win10] purging Haskell related stuff)(87
+    =https://www.reddit.com/r/haskell/comments/1e6ap6m/win10_purging_haskell_r\
+elated_stuff/@localhost.localdomain)(88=66991e2d)(8A
+    =https://www.reddit.com/r/haskell/comments/1e6ap6m/win10_purging_haskell_r\
+elated_stuff/)(8B=UTF-8)(8C=397)(8E=ffffffff)(2DC=48)(93=920)(91=398)
+  (94=</u/tritlo>)(95=Haskell Interlude 53: Garrett Morris)(96
+    =https://haskell.foundation/podcast/53/@localhost.localdomain)(98
+    =https://haskell.foundation/podcast/53/)(99=333)(2DD=49)(9C=1740)
+  (9B=6cc)(9D=</u/TheChief275>)(9E
+    =Struct.hs - make records more like structs)(9F
+    =http://github.com/Psteven5/Struct.hs@localhost.localdomain)(A1
+    =http://github.com/Psteven5/Struct.hs)(A2=346)(2DE=4a)(A5=2579)
+  (A4=a13)(A6=</u/kosmikus>)(A7
+    =The Haskell Unfolder Episode 29: exceptions, annotations and backtraces)
+  (A8
+    =https://well-typed.com/blog/2024/07/haskell-unfolder-episode-29-exception\
+s-annotations-and-backtraces/@localhost.localdomain)(AA
+    =https://well-typed.com/blog/2024/07/haskell-unfolder-episode-29-exception\
+s-annotations-and-backtraces/)(AB=41e)(2DF=4b)(AD=3634)(AC=e32)(AE
+    =</u/FluxusMagna>)(AF
+    =Is it possible to 'map' on the type level over a type level list?)
+  (B0
+    =https://www.reddit.com/r/haskell/comments/1e51zf9/is_it_possible_to_map_o\
+n_the_type_level_over_a/@localhost.localdomain)(B2
+    =https://www.reddit.com/r/haskell/comments/1e51zf9/is_it_possible_to_map_o\
+n_the_type_level_over_a/)(B3=405)(2E0=4c)(B6=4664)(B5=1238)(B7
+    =</u/Matty_lambda>)(B8
+    =hs-samtools - A Haskell library striving to provide similar functionality\
+ as samtools)(B9
+    =https://www.reddit.com/r/bioinformatics/comments/1e47bgs/hssamtools_a_has\
+kell_library_striving_to_provide/@localhost.localdomain)(BB
+    =https://www.reddit.com/r/bioinformatics/comments/1e47bgs/hssamtools_a_has\
+kell_library_striving_to_provide/)(BC=454)(2E1=4d)(BF=5773)(BE=168d)
+  (C0=</u/byorgey>)(C1
+    =Swarm 0.6 release, featuring equirecursive types, customizable keybinding\
+s, more challenge scenarios, + more)(C2
+    =https://swarm-game.github.io/blog/2024-07-14-swarm-0.6-release/@localhost\
+.localdomain)(C4
+    =https://swarm-game.github.io/blog/2024-07-14-swarm-0.6-release/)
+  (C5=43e)(2E2=4e)(C8=6860)(C7=1acc)(C9=</u/_query>)(CA
+    =Haskell Meetup @ Groq HQ, 301 Castro St., Mountain View, Friday 6pm)
+  (CB
+    =https://www.reddit.com/r/haskell/comments/1e487xf/haskell_meetup_groq_hq_\
+301_castro_st_mountain/@localhost.localdomain)(CD
+    =https://www.reddit.com/r/haskell/comments/1e487xf/haskell_meetup_groq_hq_\
+301_castro_st_mountain/)(CE=404)(2E3=4f)(D1=7889)(D0=1ed1)(D2=</u/ludflu>)
+  (D3=game diagrams with the Haskell Diagrams package)(D4
+    =https://www.reddit.com/r/haskell/comments/1e3zeto/game_diagrams_with_the_\
+haskell_diagrams_package/@localhost.localdomain)(D6
+    =https://www.reddit.com/r/haskell/comments/1e3zeto/game_diagrams_with_the_\
+haskell_diagrams_package/)(D7=3cc)(2E4=50)(DA=8862)(D9=229e)(DB
+    =</u/Lime_Dragonfruit4244>)(DC
+    =Haskell for data analysis, processing and machine learning)(DD
+    =https://www.reddit.com/r/haskell/comments/1e38ia8/haskell_for_data_analys\
+is_processing_and_machine/@localhost.localdomain)(DF
+    =https://www.reddit.com/r/haskell/comments/1e38ia8/haskell_for_data_analys\
+is_processing_and_machine/)(E0=3fd)(2E5=51)(E3=9884)(E2=269c)(E4
+    =<Kristopher K Micinski>)(E5
+    =Call for Papers: Scheme $E2$80$9824 (extended deadline: July 25th\))
+  (E6
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136839.html@loc\
+alhost.localdomain)(E8
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136839.html)
+  (E9=3c5)(2E6=52)(EB=10850)(EA=2a62)(EC=<Henning Thielemann>)(ED
+    =Perl Regular Expressions)(EE
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136837.html@loc\
+alhost.localdomain)(F0
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136837.html)
+  (F1=356)(2E7=53)(F4=11705)(F3=2db9)(F5=<Tristan Cacqueray>)(F6
+    =Taking over maintenance of hsndfile package)(F7
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136838.html@loc\
+alhost.localdomain)(F8=66991e2e)(FA
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136838.html)
+  (FB=38e)(2E8=54)(FE=12616)(FD=3148)(FF=<Matthew Pickering>)(100
+    =Final Call for Talks: Haskell Implementors&apos; Workshop 2024)
+  (101
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136836.html@loc\
+alhost.localdomain)(103
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136836.html)
+  (104=3cf)(2E9=55)(107=13592)(106=3518)(108=<Mark McConnell>)(109
+    =a tribute to Haskell Curry)(10A
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136835.html@loc\
+alhost.localdomain)(10C
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136835.html)
+  (10D=358)(2EA=56)(110=14449)(10F=3871)(111=<Artem Pelenitsyn>)(112
+    =[ANN] cabal-install-3.12.1.0 (and accompanying libraries\) released)
+  (113
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136834.html@loc\
+alhost.localdomain)(115
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136834.html)
+  (116=3d2)(2EB=57)(119=15428)(118=3c44)(11A=<George Colpitts>)(11B
+    =2 optimization bugs ?)(11C
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136831.html@loc\
+alhost.localdomain)(11E
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136831.html)
+  (11F=34a)(2EC=58)(122=16271)(121=3f8f)(123=<Mart Lubbers>)(124
+    =IFL 2024: Second Call for Papers)(125
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136830.html@loc\
+alhost.localdomain)(127
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136830.html)
+  (128=368)(2ED=59)(12B=17144)(12A=42f8)(12C=<Zubin Duggal>)(12D
+    =[ANNOUNCE] GHC 9.6.6 is now available)(12E
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136826.html@loc\
+alhost.localdomain)(130
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-July/136826.html)
+  (131=377)(2EE=5a)(134=18032)(133=4670)(135=<ICFP Publicity>)(136
+    =ICFP 2024: Call fo Volunteers)(137
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-June/136824.html@loc\
+alhost.localdomain)(139
+    =https://mail.haskell.org/pipermail/haskell-cafe/2024-June/136824.html)
+  (13A=361)(2EF=5b)(13D=18898)(13C=49d2)(13E=<N/A>)(13F
+    =Monday Morning Haskell: Solve.hs Module 3 + Summer Sale!)(140
+    =https://mmhaskell.com/blog/2024/7/1/solvehs-module-3-summer-sale@localhos\
+t.localdomain)(142
+    =https://mmhaskell.com/blog/2024/7/1/solvehs-module-3-summer-sale)
+  (143=39d)(321=f1)(146=19824)(145=4d70)(147
+    =GHC Developer Blog: GHC 9.6.6 is now available)(148
+    =http://haskell.org/ghc/blog/20240701-ghc-9.6.6-released.html@localhost.lo\
+caldomain)(14A
+    =http://haskell.org/ghc/blog/20240701-ghc-9.6.6-released.html)(320=f0)
+  (14D=20712)(14C=50e8)(14E
+    =Chris Smith 2: The Semigroup of Exponentially Weighted Moving Averages)
+  (14F
+    =https://cdsmithus.medium.com/the-semigroup-of-exponentially-weighted-movi\
+ng-averages-860a3e28409d?source=rss-18bd5acaea78------2@localhost.localdomain)
+  (151
+    =https://cdsmithus.medium.com/the-semigroup-of-exponentially-weighted-movi\
+ng-averages-860a3e28409d?source=rss-18bd5acaea78------2)(152=447)(31F=ef)
+  (155=21808)(154=5530)(156
+    =<"mail@joachim-breitner.de (Joachim Breitner\)">)(157
+    =Joachim Breitner: Do surprises get larger?)(158
+    =https://www.joachim-breitner.de/blog/814-Do_surprises_get_larger_@localho\
+st.localdomain)(159=66991e2f)(15B
+    =https://www.joachim-breitner.de/blog/814-Do_surprises_get_larger_)
+  (15C=39f)(31E=ee)(15F=22736)(15E=58d0)(160
+    =Tweag I/O: Integration testing: pain points and remedies)(161
+    =https://tweag.io/blog/2024-06-27-integration-testing/@localhost.localdoma\
+in)(163=https://tweag.io/blog/2024-06-27-integration-testing/)(164=387)
+  (31D=ed)(167=23640)(166=5c58)(168
+    =<"noreply@blogger.com (Gabriella Gonzalez\)">)(169
+    =Gabriella Gonzalez: My spiciest take on tech hiring)(16A
+    =https://www.haskellforall.com/2024/06/my-spiciest-take-on-tech-hiring.htm\
+l@localhost.localdomain)(16C
+    =https://www.haskellforall.com/2024/06/my-spiciest-take-on-tech-hiring.htm\
+l)(16D=3c9)(31C=ec)(170=24610)(16F=6022)(171
+    =Michael Snoyman: Manual Leptos)(172
+    =https://www.snoyman.com/blog/manual-leptos/@localhost.localdomain)
+  (174=https://www.snoyman.com/blog/manual-leptos/)(175=325)(31B=eb)
+  (178=25416)(177=6348)(179=Brent Yorgey: Products with unordered n-tuples)
+  (17A
+    =http://byorgey.github.io/blog/posts/2024/06/25/unordered-n-tuple-product.\
+html@localhost.localdomain)(17B
+    =http://byorgey.github.io/blog/posts/2024/06/25/unordered-n-tuple-product.\
+html)(17C=399)(31A=ea)(17F=26338)(17E=66e2)(180
+    =Oleg Grenrus: hashable arch native)(181
+    =https://oleg.fi/gists/posts/2024-06-24-hashable-arch-native.html@localhos\
+t.localdomain)(183
+    =https://oleg.fi/gists/posts/2024-06-24-hashable-arch-native.html)
+  (184=35b)(319=e9)(187=27198)(186=6a3e)(188
+    =<"mjd@plover.com (Mark Dominus\)">)(189
+    =Mark Jason Dominus: A potpourri of cool-looking scripts)(18A
+    =https://blog.plover.com/lang/script-potpourri.html@localhost.localdomain)
+  (18C=https://blog.plover.com/lang/script-potpourri.html)(18D=39a)
+  (318=e8)(190=28121)(18F=6dd9)(191=<Penguino>)(192
+    =Is read inverse of show in Haskell?)(193
+    =https://stackoverflow.com/questions/78762145/is-read-inverse-of-show-in-h\
+askell@localhost.localdomain)(195
+    =https://stackoverflow.com/questions/78762145/is-read-inverse-of-show-in-h\
+askell)(196=381)(317=e7)(199=29019)(198=715b)(19A=<toni057>)(19B
+    =How to combine two Maybes)(19C
+    =https://stackoverflow.com/questions/78760687/how-to-combine-two-maybes@lo\
+calhost.localdomain)(19E
+    =https://stackoverflow.com/questions/78760687/how-to-combine-two-maybes)
+  (19F=350)(316=e6)(1A2=29868)(1A1=74ac)(1A3=<Joe Corps>)(1A4
+    =VS Powershell wont let me compile, but using it externally will)
+  (1A5
+    =https://stackoverflow.com/questions/78756349/vs-powershell-wont-let-me-co\
+mpile-but-using-it-externally-will@localhost.localdomain)(1A7
+    =https://stackoverflow.com/questions/78756349/vs-powershell-wont-let-me-co\
+mpile-but-using-it-externally-will)(1A8=40e)(315=e5)(1AB=30907)(1AA=78bb)
+  (1AC=<user2506946>)(1AD
+    =How to load custom dependencies in interactive Haskell-mode?)(1AE
+    =https://stackoverflow.com/questions/78756069/how-to-load-custom-dependenc\
+ies-in-interactive-haskell-mode@localhost.localdomain)(1B0
+    =https://stackoverflow.com/questions/78756069/how-to-load-custom-dependenc\
+ies-in-interactive-haskell-mode)(1B1=401)(314=e4)(1B4=31933)(1B3=7cbd)
+  (1B5=<user20102550>)(1B6
+    =How to use answers of parsers when nesting parsers (sequentially\))
+  (1B7
+    =https://stackoverflow.com/questions/78752009/how-to-use-answers-of-parser\
+s-when-nesting-parsers-sequentially@localhost.localdomain)(1B9
+    =https://stackoverflow.com/questions/78752009/how-to-use-answers-of-parser\
+s-when-nesting-parsers-sequentially)(1BA=419)(313=e3)(1BD=32983)(1BC=80d7)
+  (1BE=<HaveMercy>)(1BF
+    =`type &lt;nameOfType&gt; = Typeclass` compiles, but `type &lt;nameOfType&\
+gt; = (Typeclass, Typeclass\)` doesn&#39;t)(1C0
+    =https://stackoverflow.com/questions/78747154/type-nameoftype-typeclass-co\
+mpiles-but-type-nameoftype-typeclass-t@localhost.localdomain)(1C2
+    =https://stackoverflow.com/questions/78747154/type-nameoftype-typeclass-co\
+mpiles-but-type-nameoftype-typeclass-t)(1C3=4d7)(312=e2)(1C6=34223)
+  (1C5=85af)(1C7=<IsAdisplayName>)(1C8
+    =Cabal run unable to see packages that interactive haskell mode can)
+  (1C9
+    =https://stackoverflow.com/questions/78742373/cabal-run-unable-to-see-pack\
+ages-that-interactive-haskell-mode-can@localhost.localdomain)(1CB
+    =https://stackoverflow.com/questions/78742373/cabal-run-unable-to-see-pack\
+ages-that-interactive-haskell-mode-can)(1CC=424)(311=e1)(1CF=35284)
+  (1CE=89d4)(1D0=<bitmaybewise>)(1D1
+    =Compiling project errors within a docker container targeting linux/amd64)
+  (1D2
+    =https://stackoverflow.com/questions/78737743/compiling-project-errors-wit\
+hin-a-docker-container-targeting-linux-amd64@localhost.localdomain)
+  (1D4
+    =https://stackoverflow.com/questions/78737743/compiling-project-errors-wit\
+hin-a-docker-container-targeting-linux-amd64)(1D5=440)(310=e0)(1D8=36373)
+  (1D7=8e15)(1D9
+    =Understanding bracket use in Haskell - Parser that depends on previous pa\
+rser gives error when using brackets)(1DA
+    =https://stackoverflow.com/questions/78732991/understanding-bracket-use-in\
+-haskell-parser-that-depends-on-previous-parser-gi@localhost.localdomain)
+  (1DC
+    =https://stackoverflow.com/questions/78732991/understanding-bracket-use-in\
+-haskell-parser-that-depends-on-previous-parser-gi)(1DD=4bb)(30F=df)
+  (1E0=37585)(1DF=92d1)(1E1=<Tom Huntington>)(1E2
+    =Scan that splits accumulator and yielded value)(1E3
+    =https://stackoverflow.com/questions/78729953/scan-that-splits-accumulator\
+-and-yielded-value@localhost.localdomain)(1E5
+    =https://stackoverflow.com/questions/78729953/scan-that-splits-accumulator\
+-and-yielded-value)(1E6=3c0)(30E=de)(1E9=38546)(1E8=9692)(1EA=<Peter>)
+  (1EB=Haskell 2-player TicTacToe terminal game)(1EC
+    =https://codereview.stackexchange.com/questions/292456/haskell-2-player-ti\
+ctactoe-terminal-game@localhost.localdomain)(1EE
+    =https://codereview.stackexchange.com/questions/292456/haskell-2-player-ti\
+ctactoe-terminal-game)(1EF=3ab)(30D=dd)(1F2=39486)(1F1=9a3e)(1F3=<Miles>)
+  (1F4=Parse 2D Cartesian coordinates and output their Polar form)(1F5
+    =https://codereview.stackexchange.com/questions/292048/parse-2d-cartesian-\
+coordinates-and-output-their-polar-form@localhost.localdomain)(1F6
+    =66991e30)(1F8
+    =https://codereview.stackexchange.com/questions/292048/parse-2d-cartesian-\
+coordinates-and-output-their-polar-form)(30C=dc)(1FB=40516)(1FA=9e44)
+  (1FC=<WesAtWork>)(1FD=Last Stone Weight Problem in Haskell Using `fold`)
+  (1FE
+    =https://codereview.stackexchange.com/questions/291327/last-stone-weight-p\
+roblem-in-haskell-using-fold@localhost.localdomain)(200
+    =https://codereview.stackexchange.com/questions/291327/last-stone-weight-p\
+roblem-in-haskell-using-fold)(201=3d8)(30B=db)(204=41501)(203=a21d)
+  (205=Last Stone Weight Problem in Haskell using list `insert`)(206
+    =https://codereview.stackexchange.com/questions/291130/last-stone-weight-p\
+roblem-in-haskell-using-list-insert@localhost.localdomain)(208
+    =https://codereview.stackexchange.com/questions/291130/last-stone-weight-p\
+roblem-in-haskell-using-list-insert)(209=3fb)(30A=da)(20C=42521)(20B=a619)
+  (20D=<Tsaras>)(20E=Haskell code optimization for short Pi approximator)
+  (20F
+    =https://codereview.stackexchange.com/questions/287677/haskell-code-optimi\
+zation-for-short-pi-approximator@localhost.localdomain)(211
+    =https://codereview.stackexchange.com/questions/287677/haskell-code-optimi\
+zation-for-short-pi-approximator)(212=3e3)(309=d9)(215=43517)(214=a9fd)
+  (216=<Fin H>)(217=Autocomplete system with prefix tree)(218
+    =https://codereview.stackexchange.com/questions/286616/autocomplete-system\
+-with-prefix-tree@localhost.localdomain)(21A
+    =https://codereview.stackexchange.com/questions/286616/autocomplete-system\
+-with-prefix-tree)(308=d8)(21D=44437)(21C=ad95)(21E=<Ari Fordsham>)
+  (21F=Performance of Haskell prime sieve)(220
+    =https://codereview.stackexchange.com/questions/286511/performance-of-hask\
+ell-prime-sieve@localhost.localdomain)(222
+    =https://codereview.stackexchange.com/questions/286511/performance-of-hask\
+ell-prime-sieve)(223=394)(307=d7)(226=45354)(225=b12a)(227=<lanf>)(228
+    =Solve a letter digit substitution game in Haskell)(229
+    =https://codereview.stackexchange.com/questions/285417/solve-a-letter-digi\
+t-substitution-game-in-haskell@localhost.localdomain)(22B
+    =https://codereview.stackexchange.com/questions/285417/solve-a-letter-digi\
+t-substitution-game-in-haskell)(22C=3d7)(306=d6)(22F=46338)(22E=b502)
+  (230=<Arpad Horvath>)(231
+    =Ackermann-P&#233;ter function call count using Writer monad)(232
+    =https://codereview.stackexchange.com/questions/284040/ackermann-p%C3%A9te\
+r-function-call-count-using-writer-monad@localhost.localdomain)(234
+    =https://codereview.stackexchange.com/questions/284040/ackermann-p%C3%A9te\
+r-function-call-count-using-writer-monad)(235=41a)(305=d5)(238=47389)
+  (237=b91d)(239=<Dean Menezes>)(23A=Tic Tac Toe game (Haskell\))(23B
+    =https://codereview.stackexchange.com/questions/283876/tic-tac-toe-game-ha\
+skell@localhost.localdomain)(23D
+    =https://codereview.stackexchange.com/questions/283876/tic-tac-toe-game-ha\
+skell)(304=d4)(240=48262)(23F=bc86)(241=<jaror>)(242
+    =GHC and Cabal: the big picture)(243
+    =https://discourse.haskell.org/t/9968@localhost.localdomain)(245
+    =https://discourse.haskell.org/t/9968)(246=319)(303=d3)(249=49056)
+  (248=bfa0)(24A
+    =https://discourse.haskell.org/t/9978@localhost.localdomain)(24C
+    =https://discourse.haskell.org/t/9978)(24D=32b)(302=d2)(250=49868)
+  (24F=c2cc)(251=<AntC2>)(252
+    =&quot;Is cabal-install stable enough yet that GHC should be inflicting it\
+ on newbies?&quot;)(253
+    =https://discourse.haskell.org/t/9979@localhost.localdomain)(255
+    =https://discourse.haskell.org/t/9979)(256=3e0)(301=d1)(259=50861)
+  (258=c6ad)(25A=<kosmikus>)(25B
+    =The Haskel Unfolder Episode 29: exceptions, annotations and backtraces)
+  (25C=https://discourse.haskell.org/t/9974@localhost.localdomain)(25E
+    =https://discourse.haskell.org/t/9974)(300=d0)(261=51778)(260=ca42)
+  (262=<raehik>)(263
+    =PSA: every version of `ki` prior to `1.0.1.2` has at least one known bug)
+  (264=https://discourse.haskell.org/t/9963@localhost.localdomain)(266
+    =https://discourse.haskell.org/t/9963)(2FF=cf)(269=52699)(268=cddb)
+  (26A=<rhendric>)(26B
+    =Breadth first tree relabelling, or: the power of lazyness)(26C
+    =https://discourse.haskell.org/t/9961@localhost.localdomain)(26E
+    =https://discourse.haskell.org/t/9961)(26F=36d)(2FE=ce)(272=53577)
+  (271=d149)(273
+    =Type Theory Forall Podcast #40: Secure Voting with Joe Kiniry)
+  (274=https://discourse.haskell.org/t/9969@localhost.localdomain)(276
+    =https://discourse.haskell.org/t/9969)(277=376)(2FD=cd)(27A=54464)
+  (279=d4c0)(27B=<andreabedini>)(27C
+    =Many near identical copies of packages in .cabal/store)(27D
+    =https://discourse.haskell.org/t/9964@localhost.localdomain)(27F
+    =https://discourse.haskell.org/t/9964)(2FC=cc)(282=55337)(281=d829)
+  (283=<anointed>)(284=A newbie Assistance on Haskell)(285
+    =https://discourse.haskell.org/t/9958@localhost.localdomain)(287
+    =https://discourse.haskell.org/t/9958)(288=31c)(2FB=cb)(28B=56134)
+  (28A=db46)(28C=<mpscholten>)(28D
+    =https://discourse.haskell.org/t/9966@localhost.localdomain)(28E
+    =66991e31)(290=https://discourse.haskell.org/t/9966)(291=38d)(2FA=ca)
+  (294=57044)(293=ded4)(295=<Haskell Weekly>)(296=Issue 429 - 2024-07-18)
+  (297=https://haskellweekly.news/issue/429.html@localhost.localdomain)
+  (299=https://haskellweekly.news/issue/429.html)(29A=314)(2F9=c9)(29D
+    =57833)(29C=e1e9)(29E=Issue 428 - 2024-07-11)(29F
+    =https://haskellweekly.news/issue/428.html@localhost.localdomain)
+  (2A1=https://haskellweekly.news/issue/428.html)(2F8=c8)(2A4=58622)
+  (2A3=e4fe)(2A5=Issue 427 - 2024-07-04)(2A6
+    =https://haskellweekly.news/issue/427.html@localhost.localdomain)
+  (2A8=https://haskellweekly.news/issue/427.html)(2F7=c7)(2AB=59411)
+  (2AA=e813)(2AC=Issue 426 - 2024-06-27)(2AD
+    =https://haskellweekly.news/issue/426.html@localhost.localdomain)
+  (2AF=https://haskellweekly.news/issue/426.html)(2F6=c6)(2B1=60200)
+  (2B0=eb28)(2B2=Issue 425 - 2024-06-20)(2B3
+    =https://haskellweekly.news/issue/425.html@localhost.localdomain)
+  (2B5=https://haskellweekly.news/issue/425.html)(2F5=c5)(2B8=60989)
+  (2B7=ee3d)(2B9=Issue 424 - 2024-06-13)(2BA
+    =https://haskellweekly.news/issue/424.html@localhost.localdomain)
+  (2BC=https://haskellweekly.news/issue/424.html)(2F4=c4)(2BF=61778)
+  (2BE=f152)(2C0=Issue 423 - 2024-06-06)(2C1
+    =https://haskellweekly.news/issue/423.html@localhost.localdomain)
+  (2C3=https://haskellweekly.news/issue/423.html)(2F3=c3)(2C6=62567)
+  (2C5=f467)(2C7=Issue 422 - 2024-05-30)(2C8
+    =https://haskellweekly.news/issue/422.html@localhost.localdomain)
+  (2CA=https://haskellweekly.news/issue/422.html)(2F2=c2)(2CD=63356)
+  (2CC=f77c)(2CE=Issue 421 - 2024-05-23)(2CF
+    =https://haskellweekly.news/issue/421.html@localhost.localdomain)
+  (2D1=https://haskellweekly.news/issue/421.html)(2F1=c1)(2D4=64145)
+  (2D3=fa91)(2D5=Issue 420 - 2024-05-16)(2D6
+    =https://haskellweekly.news/issue/420.html@localhost.localdomain)
+  (2D8=https://haskellweekly.news/issue/420.html)(2F0=c0)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^B0=0)(^9C=0)(^88=41)(^82^85)(^81^86)(^83^87)(^B1^88)(^86^89)(^89=1)
+    (^B2^8A)(^95^8B)(^87^8C)(^8B=b)(^9A^8E)(^8E^8F)(^B3=0)(^B7=48)(^B8=1)]
+  [2(^B0^93)(^9C^91)(^88=41)(^82^94)(^81^95)(^83^96)(^B1^88)(^86^97)
+    (^89=1)(^B2^98)(^95^8B)(^87^99)(^8B=b)(^9A^8E)(^8E=2)(^B3=0)(^B7=49)
+    (^B8=1)]
+  [3(^B0^9C)(^9C^9B)(^88=41)(^82^9D)(^81^9E)(^83^9F)(^B1^88)(^86^A0)
+    (^89=1)(^B2^A1)(^95^8B)(^87^A2)(^8B=b)(^9A^8E)(^8E=3)(^B3=0)(^B7=4a)
+    (^B8=1)]
+  [4(^B0^A5)(^9C^A4)(^88=41)(^82^A6)(^81^A7)(^83^A8)(^B1^88)(^86^A9)
+    (^89=1)(^B2^AA)(^95^8B)(^87^AB)(^8B=b)(^9A^8E)(^8E=4)(^B3=0)(^B7=4b)
+    (^B8=1)]
+  [5(^B0^AD)(^9C^AC)(^88=41)(^82^AE)(^81^AF)(^83^B0)(^B1^88)(^86^B1)
+    (^89=1)(^B2^B2)(^95^8B)(^87^B3)(^8B=b)(^9A^8E)(^8E=5)(^B3=0)(^B7=4c)
+    (^B8=1)]
+  [6(^B0^B6)(^9C^B5)(^88=41)(^82^B7)(^81^B8)(^83^B9)(^B1^88)(^86^BA)
+    (^89=1)(^B2^BB)(^95^8B)(^87^BC)(^8B=b)(^9A^8E)(^8E=6)(^B3=0)(^B7=4d)
+    (^B8=1)]
+  [7(^B0^BF)(^9C^BE)(^88=41)(^82^C0)(^81^C1)(^83^C2)(^B1^88)(^86^C3)
+    (^89=1)(^B2^C4)(^95^8B)(^87^C5)(^8B=b)(^9A^8E)(^8E=7)(^B3=0)(^B7=4e)
+    (^B8=1)]
+  [8(^B0^C8)(^9C^C7)(^88=41)(^82^C9)(^81^CA)(^83^CB)(^B1^88)(^86^CC)
+    (^89=1)(^B2^CD)(^95^8B)(^87^CE)(^8B=b)(^9A^8E)(^8E=8)(^B3=0)(^B7=4f)
+    (^B8=1)]
+  [9(^B0^D1)(^9C^D0)(^88=41)(^82^D2)(^81^D3)(^83^D4)(^B1^88)(^86^D5)
+    (^89=1)(^B2^D6)(^95^8B)(^87^D7)(^8B=b)(^9A^8E)(^8E=9)(^B3=0)(^B7=50)
+    (^B8=1)]
+  [A(^B0^DA)(^9C^D9)(^88=41)(^82^DB)(^81^DC)(^83^DD)(^B1^88)(^86^DE)
+    (^89=1)(^B2^DF)(^95^8B)(^87^E0)(^8B=b)(^9A^8E)(^8E=a)(^B3=0)(^B7=51)
+    (^B8=1)]
+  [B(^B0^E3)(^9C^E2)(^88=41)(^82^E4)(^81^E5)(^83^E6)(^B1^88)(^86^E7)
+    (^89=1)(^B2^E8)(^95^8B)(^87^E9)(^8B=b)(^9A^8E)(^8E=b)(^B3=0)(^B7=52)
+    (^B8=1)]
+  [C(^B0^EB)(^9C^EA)(^88=41)(^82^EC)(^81^ED)(^83^EE)(^B1^88)(^86^EF)
+    (^89=1)(^B2^F0)(^95^8B)(^87^F1)(^8B=b)(^9A^8E)(^8E=c)(^B3=0)(^B7=53)
+    (^B8=1)]
+  [D(^B0^F4)(^9C^F3)(^88=41)(^82^F5)(^81^F6)(^83^F7)(^B1^F8)(^86^F9)
+    (^89=1)(^B2^FA)(^95^8B)(^87^FB)(^8B=b)(^9A^8E)(^8E=d)(^B3=0)(^B7=54)
+    (^B8=1)]
+  [E(^B0^FE)(^9C^FD)(^88=41)(^82^FF)(^81^100)(^83^101)(^B1^F8)(^86^102)
+    (^89=1)(^B2^103)(^95^8B)(^87=3cf)(^8B=b)(^9A^8E)(^8E=e)(^B3=0)(^B7=55)
+    (^B8=1)]
+  [F(^B0^107)(^9C^106)(^88=41)(^82^108)(^81^109)(^83^10A)(^B1^F8)(^86^10B)
+    (^89=1)(^B2^10C)(^95^8B)(^87=358)(^8B=b)(^9A^8E)(^8E=f)(^B3=0)(^B7=56)
+    (^B8=1)]
+  [10(^B0^110)(^9C^10F)(^88=41)(^82^111)(^81^112)(^83^113)(^B1^F8)(^86^114)
+    (^89=1)(^B2^115)(^95^8B)(^87=3d2)(^8B=b)(^9A^8E)(^8E=10)(^B3=0)
+    (^B7=57)(^B8=1)]
+  [11(^B0^119)(^9C^118)(^88=41)(^82^11A)(^81^11B)(^83^11C)(^B1^F8)(^86^11D)
+    (^89=1)(^B2^11E)(^95^8B)(^87=34a)(^8B=b)(^9A^8E)(^8E=11)(^B3=0)
+    (^B7=58)(^B8=1)]
+  [12(^B0^122)(^9C^121)(^88=41)(^82^123)(^81^124)(^83^125)(^B1^F8)(^86^126)
+    (^89=1)(^B2^127)(^95^8B)(^87=368)(^8B=b)(^9A^8E)(^8E=12)(^B3=0)
+    (^B7=59)(^B8=1)]
+  [13(^B0^12B)(^9C^12A)(^88=41)(^82^12C)(^81^12D)(^83^12E)(^B1^F8)(^86^12F)
+    (^89=1)(^B2^130)(^95^8B)(^87=377)(^8B=b)(^9A^8E)(^8E=13)(^B3=0)
+    (^B7=5a)(^B8=1)]
+  [14(^B0^134)(^9C^133)(^88=41)(^82^135)(^81^136)(^83^137)(^B1^F8)(^86^138)
+    (^89=1)(^B2^139)(^95^8B)(^87=361)(^8B=b)(^9A^8E)(^8E=14)(^B3=0)
+    (^B7=5b)(^B8=1)]
+  [15(^B0^13D)(^9C^13C)(^88=41)(^82^13E)(^81^13F)(^83^140)(^B1^F8)(^86^141)
+    (^89=1)(^B2^142)(^95^8B)(^87=39d)(^8B=b)(^9A^8E)(^8E=15)(^B3=0)
+    (^B7=f1)(^B8=1)]
+  [16(^B0^146)(^9C^145)(^88=41)(^82^13E)(^81^147)(^83^148)(^B1^F8)(^86^149)
+    (^89=1)(^B2^14A)(^95^8B)(^87=377)(^8B=b)(^9A^8E)(^8E=16)(^B3=0)
+    (^B7=f0)(^B8=1)]
+  [17(^B0^14D)(^9C^14C)(^88=41)(^82^13E)(^81^14E)(^83^14F)(^B1^F8)(^86^150)
+    (^89=1)(^B2^151)(^95^8B)(^87=447)(^8B=b)(^9A^8E)(^8E=17)(^B3=0)
+    (^B7=ef)(^B8=1)]
+  [18(^B0^155)(^9C^154)(^88=41)(^82^156)(^81^157)(^83^158)(^B1^159)
+    (^86^15A)(^89=1)(^B2^15B)(^95^8B)(^87=39f)(^8B=b)(^9A^8E)(^8E=18)
+    (^B3=0)(^B7=ee)(^B8=1)]
+  [19(^B0^15F)(^9C^15E)(^88=41)(^82^13E)(^81^160)(^83^161)(^B1^159)
+    (^86^162)(^89=1)(^B2^163)(^95^8B)(^87=387)(^8B=b)(^9A^8E)(^8E=19)
+    (^B3=0)(^B7=ed)(^B8=1)]
+  [1A(^B0^167)(^9C^166)(^88=41)(^82^168)(^81^169)(^83^16A)(^B1^159)
+    (^86^16B)(^89=1)(^B2^16C)(^95^8B)(^87=3c9)(^8B=b)(^9A^8E)(^8E=1a)
+    (^B3=0)(^B7=ec)(^B8=1)]
+  [1B(^B0^170)(^9C^16F)(^88=41)(^82^13E)(^81^171)(^83^172)(^B1^159)
+    (^86^173)(^89=1)(^B2^174)(^95^8B)(^87=325)(^8B=b)(^9A^8E)(^8E=1b)
+    (^B3=0)(^B7=eb)(^B8=1)]
+  [1C(^B0^178)(^9C^177)(^88=41)(^82^13E)(^81^179)(^83^17A)(^B1^159)
+    (^86^173)(^89=1)(^B2^17B)(^95^8B)(^87=399)(^8B=b)(^9A^8E)(^8E=1c)
+    (^B3=0)(^B7=ea)(^B8=1)]
+  [1D(^B0^17F)(^9C^17E)(^88=41)(^82^13E)(^81^180)(^83^181)(^B1^159)
+    (^86^182)(^89=1)(^B2^183)(^95^8B)(^87=35b)(^8B=b)(^9A^8E)(^8E=1d)
+    (^B3=0)(^B7=e9)(^B8=1)]
+  [1E(^B0^187)(^9C^186)(^88=41)(^82^188)(^81^189)(^83^18A)(^B1^159)
+    (^86^18B)(^89=1)(^B2^18C)(^95^8B)(^87=39a)(^8B=b)(^9A^8E)(^8E=1e)
+    (^B3=0)(^B7=e8)(^B8=1)]
+  [1F(^B0^190)(^9C^18F)(^88=41)(^82^191)(^81^192)(^83^193)(^B1^159)
+    (^86^194)(^89=1)(^B2^195)(^95^8B)(^87=381)(^8B=b)(^9A^8E)(^8E=1f)
+    (^B3=0)(^B7=e7)(^B8=1)]
+  [20(^B0^199)(^9C^198)(^88=41)(^82^19A)(^81^19B)(^83^19C)(^B1^159)
+    (^86^19D)(^89=1)(^B2^19E)(^95^8B)(^87=350)(^8B=b)(^9A^8E)(^8E=20)
+    (^B3=0)(^B7=e6)(^B8=1)]
+  [21(^B0^1A2)(^9C^1A1)(^88=41)(^82^1A3)(^81^1A4)(^83^1A5)(^B1^159)
+    (^86^1A6)(^89=1)(^B2^1A7)(^95^8B)(^87=40e)(^8B=b)(^9A^8E)(^8E=21)
+    (^B3=0)(^B7=e5)(^B8=1)]
+  [22(^B0^1AB)(^9C^1AA)(^88=41)(^82^1AC)(^81^1AD)(^83^1AE)(^B1^159)
+    (^86^1AF)(^89=1)(^B2^1B0)(^95^8B)(^87=401)(^8B=b)(^9A^8E)(^8E=22)
+    (^B3=0)(^B7=e4)(^B8=1)]
+  [23(^B0^1B4)(^9C^1B3)(^88=41)(^82^1B5)(^81^1B6)(^83^1B7)(^B1^159)
+    (^86^1B8)(^89=1)(^B2^1B9)(^95^8B)(^87=419)(^8B=b)(^9A^8E)(^8E=23)
+    (^B3=0)(^B7=e3)(^B8=1)]
+  [24(^B0^1BD)(^9C^1BC)(^88=41)(^82^1BE)(^81^1BF)(^83^1C0)(^B1^159)
+    (^86^1C1)(^89=1)(^B2^1C2)(^95^8B)(^87=4d7)(^8B=b)(^9A^8E)(^8E=24)
+    (^B3=0)(^B7=e2)(^B8=1)]
+  [25(^B0^1C6)(^9C^1C5)(^88=41)(^82^1C7)(^81^1C8)(^83^1C9)(^B1^159)
+    (^86^1CA)(^89=1)(^B2^1CB)(^95^8B)(^87=424)(^8B=b)(^9A^8E)(^8E=25)
+    (^B3=0)(^B7=e1)(^B8=1)]
+  [26(^B0^1CF)(^9C^1CE)(^88=41)(^82^1D0)(^81^1D1)(^83^1D2)(^B1^159)
+    (^86^1D3)(^89=1)(^B2^1D4)(^95^8B)(^87=440)(^8B=b)(^9A^8E)(^8E=26)
+    (^B3=0)(^B7=e0)(^B8=1)]
+  [27(^B0^1D8)(^9C^1D7)(^88=41)(^82^1B5)(^81^1D9)(^83^1DA)(^B1^159)
+    (^86^1DB)(^89=1)(^B2^1DC)(^95^8B)(^87=4bb)(^8B=b)(^9A^8E)(^8E=27)
+    (^B3=0)(^B7=df)(^B8=1)]
+  [28(^B0^1E0)(^9C^1DF)(^88=41)(^82^1E1)(^81^1E2)(^83^1E3)(^B1^159)
+    (^86^1E4)(^89=1)(^B2^1E5)(^95^8B)(^87=3c0)(^8B=b)(^9A^8E)(^8E=28)
+    (^B3=0)(^B7=de)(^B8=1)]
+  [29(^B0^1E9)(^9C^1E8)(^88=41)(^82^1EA)(^81^1EB)(^83^1EC)(^B1^159)
+    (^86^1ED)(^89=1)(^B2^1EE)(^95^8B)(^87=3ab)(^8B=b)(^9A^8E)(^8E=29)
+    (^B3=0)(^B7=dd)(^B8=1)]
+  [2A(^B0^1F2)(^9C^1F1)(^88=41)(^82^1F3)(^81^1F4)(^83^1F5)(^B1^1F6)
+    (^86^1F7)(^89=1)(^B2^1F8)(^95^8B)(^87^B3)(^8B=b)(^9A^8E)(^8E=2a)
+    (^B3=0)(^B7=dc)(^B8=1)]
+  [2B(^B0^1FB)(^9C^1FA)(^88=41)(^82^1FC)(^81^1FD)(^83^1FE)(^B1^1F6)
+    (^86^1FF)(^89=1)(^B2^200)(^95^8B)(^87=3d8)(^8B=b)(^9A^8E)(^8E=2b)
+    (^B3=0)(^B7=db)(^B8=1)]
+  [2C(^B0^204)(^9C^203)(^88=41)(^82^1FC)(^81^205)(^83^206)(^B1^1F6)
+    (^86^207)(^89=1)(^B2^208)(^95^8B)(^87=3fb)(^8B=b)(^9A^8E)(^8E=2c)
+    (^B3=0)(^B7=da)(^B8=1)]
+  [2D(^B0^20C)(^9C^20B)(^88=41)(^82^20D)(^81^20E)(^83^20F)(^B1^1F6)
+    (^86^210)(^89=1)(^B2^211)(^95^8B)(^87=3e3)(^8B=b)(^9A^8E)(^8E=2d)
+    (^B3=0)(^B7=d9)(^B8=1)]
+  [2E(^B0^215)(^9C^214)(^88=41)(^82^216)(^81^217)(^83^218)(^B1^1F6)
+    (^86^219)(^89=1)(^B2^21A)(^95^8B)(^87^8C)(^8B=b)(^9A^8E)(^8E=2e)
+    (^B3=0)(^B7=d8)(^B8=1)]
+  [2F(^B0^21D)(^9C^21C)(^88=41)(^82^21E)(^81^21F)(^83^220)(^B1^1F6)
+    (^86^221)(^89=1)(^B2^222)(^95^8B)(^87=394)(^8B=b)(^9A^8E)(^8E=2f)
+    (^B3=0)(^B7=d7)(^B8=1)]
+  [30(^B0^226)(^9C^225)(^88=41)(^82^227)(^81^228)(^83^229)(^B1^1F6)
+    (^86^22A)(^89=1)(^B2^22B)(^95^8B)(^87=3d7)(^8B=b)(^9A^8E)(^8E=30)
+    (^B3=0)(^B7=d6)(^B8=1)]
+  [31(^B0^22F)(^9C^22E)(^88=41)(^82^230)(^81^231)(^83^232)(^B1^1F6)
+    (^86^233)(^89=1)(^B2^234)(^95^8B)(^87=41a)(^8B=b)(^9A^8E)(^8E=31)
+    (^B3=0)(^B7=d5)(^B8=1)]
+  [32(^B0^238)(^9C^237)(^88=41)(^82^239)(^81^23A)(^83^23B)(^B1^1F6)
+    (^86^23C)(^89=1)(^B2^23D)(^95^8B)(^87=368)(^8B=b)(^9A^8E)(^8E=32)
+    (^B3=0)(^B7=d4)(^B8=1)]
+  [33(^B0^240)(^9C^23F)(^88=41)(^82^241)(^81^242)(^83^243)(^B1^1F6)
+    (^86^244)(^89=1)(^B2^245)(^95^8B)(^87=319)(^8B=b)(^9A^8E)(^8E=33)
+    (^B3=0)(^B7=d3)(^B8=1)]
+  [34(^B0^249)(^9C^248)(^88=41)(^82^241)(^81^95)(^83^24A)(^B1^1F6)(^86^24B)
+    (^89=1)(^B2^24C)(^95^8B)(^87=32b)(^8B=b)(^9A^8E)(^8E=34)(^B3=0)
+    (^B7=d2)(^B8=1)]
+  [35(^B0^250)(^9C^24F)(^88=41)(^82^251)(^81^252)(^83^253)(^B1^1F6)
+    (^86^254)(^89=1)(^B2^255)(^95^8B)(^87=3e0)(^8B=b)(^9A^8E)(^8E=35)
+    (^B3=0)(^B7=d1)(^B8=1)]
+  [36(^B0^259)(^9C^258)(^88=41)(^82^25A)(^81^25B)(^83^25C)(^B1^1F6)
+    (^86^25D)(^89=1)(^B2^25E)(^95^8B)(^87=394)(^8B=b)(^9A^8E)(^8E=36)
+    (^B3=0)(^B7=d0)(^B8=1)]
+  [37(^B0^261)(^9C^260)(^88=41)(^82^262)(^81^263)(^83^264)(^B1^1F6)
+    (^86^265)(^89=1)(^B2^266)(^95^8B)(^87^91)(^8B=b)(^9A^8E)(^8E=37)
+    (^B3=0)(^B7=cf)(^B8=1)]
+  [38(^B0^269)(^9C^268)(^88=41)(^82^26A)(^81^26B)(^83^26C)(^B1^1F6)
+    (^86^26D)(^89=1)(^B2^26E)(^95^8B)(^87=36d)(^8B=b)(^9A^8E)(^8E=38)
+    (^B3=0)(^B7=ce)(^B8=1)]
+  [39(^B0^272)(^9C^271)(^88=41)(^82^241)(^81^273)(^83^274)(^B1^1F6)
+    (^86^275)(^89=1)(^B2^276)(^95^8B)(^87=376)(^8B=b)(^9A^8E)(^8E=39)
+    (^B3=0)(^B7=cd)(^B8=1)]
+  [3A(^B0^27A)(^9C^279)(^88=41)(^82^27B)(^81^27C)(^83^27D)(^B1^1F6)
+    (^86^27E)(^89=1)(^B2^27F)(^95^8B)(^87=368)(^8B=b)(^9A^8E)(^8E=3a)
+    (^B3=0)(^B7=cc)(^B8=1)]
+  [3B(^B0^282)(^9C^281)(^88=41)(^82^283)(^81^284)(^83^285)(^B1^1F6)
+    (^86^286)(^89=1)(^B2^287)(^95^8B)(^87=31c)(^8B=b)(^9A^8E)(^8E=3b)
+    (^B3=0)(^B7=cb)(^B8=1)]
+  [3C(^B0^28B)(^9C^28A)(^88=41)(^82^28C)(^81^CA)(^83^28D)(^B1^28E)(^86^28F)
+    (^89=1)(^B2^290)(^95^8B)(^87=38d)(^8B=b)(^9A^8E)(^8E=3c)(^B3=0)
+    (^B7=ca)(^B8=1)]
+  [3D(^B0^294)(^9C^293)(^88=41)(^82^295)(^81^296)(^83^297)(^B1^28E)
+    (^86^298)(^89=1)(^B2^299)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=3d)
+    (^B3=0)(^B7=c9)(^B8=1)]
+  [3E(^B0^29D)(^9C^29C)(^88=41)(^82^295)(^81^29E)(^83^29F)(^B1^28E)
+    (^86^2A0)(^89=1)(^B2^2A1)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=3e)
+    (^B3=0)(^B7=c8)(^B8=1)]
+  [3F(^B0^2A4)(^9C^2A3)(^88=41)(^82^295)(^81^2A5)(^83^2A6)(^B1^28E)
+    (^86^2A7)(^89=1)(^B2^2A8)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=3f)
+    (^B3=0)(^B7=c7)(^B8=1)]
+  [40(^B0^2AB)(^9C^2AA)(^88=41)(^82^295)(^81^2AC)(^83^2AD)(^B1^28E)
+    (^86^2AE)(^89=1)(^B2^2AF)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=40)
+    (^B3=0)(^B7=c6)(^B8=1)]
+  [41(^B0^2B1)(^9C^2B0)(^88=41)(^82^295)(^81^2B2)(^83^2B3)(^B1^28E)
+    (^86^2B4)(^89=1)(^B2^2B5)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=41)
+    (^B3=0)(^B7=c5)(^B8=1)]
+  [42(^B0^2B8)(^9C^2B7)(^88=41)(^82^295)(^81^2B9)(^83^2BA)(^B1^28E)
+    (^86^2BB)(^89=1)(^B2^2BC)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=42)
+    (^B3=0)(^B7=c4)(^B8=1)]
+  [43(^B0^2BF)(^9C^2BE)(^88=41)(^82^295)(^81^2C0)(^83^2C1)(^B1^28E)
+    (^86^2C2)(^89=1)(^B2^2C3)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=43)
+    (^B3=0)(^B7=c3)(^B8=1)]
+  [44(^B0^2C6)(^9C^2C5)(^88=41)(^82^295)(^81^2C7)(^83^2C8)(^B1^28E)
+    (^86^2C9)(^89=1)(^B2^2CA)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=44)
+    (^B3=0)(^B7=c2)(^B8=1)]
+  [45(^B0^2CD)(^9C^2CC)(^88=41)(^82^295)(^81^2CE)(^83^2CF)(^B1^28E)
+    (^86^2D0)(^89=1)(^B2^2D1)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=45)
+    (^B3=0)(^B7=c1)(^B8=1)]
+  [46(^B0^2D4)(^9C^2D3)(^88=41)(^82^295)(^81^2D5)(^83^2D6)(^B1^28E)
+    (^86^2D7)(^89=1)(^B2^2D8)(^95^8B)(^87=314)(^8B=b)(^9A^8E)(^8E=46)
+    (^B3=0)(^B7=c0)(^B8=1)]}
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{4:^80 {(k^97:c)(s=9)4:m } 4 }
+{5:^80 {(k^97:c)(s=9)5:m } 5 }
+{6:^80 {(k^97:c)(s=9)6:m } 6 }
+{7:^80 {(k^97:c)(s=9)7:m } 7 }
+{8:^80 {(k^97:c)(s=9)8:m } 8 }
+{9:^80 {(k^97:c)(s=9)9:m } 9 }
+{A:^80 {(k^97:c)(s=9)A:m } A }
+{B:^80 {(k^97:c)(s=9)B:m } B }
+{C:^80 {(k^97:c)(s=9)C:m } C }
+{D:^80 {(k^97:c)(s=9)D:m } D }
+{E:^80 {(k^97:c)(s=9)E:m } E }
+{F:^80 {(k^97:c)(s=9)F:m } F }
+{10:^80 {(k^97:c)(s=9)10:m } 10 }
+{11:^80 {(k^97:c)(s=9)11:m } 11 }
+{12:^80 {(k^97:c)(s=9)12:m } 12 }
+{13:^80 {(k^97:c)(s=9)13:m } 13 }
+{14:^80 {(k^97:c)(s=9)14:m } 14 }
+{15:^80 {(k^97:c)(s=9)15:m } 15 }
+{16:^80 {(k^97:c)(s=9)16:m } 16 }
+{17:^80 {(k^97:c)(s=9)17:m } 17 }
+{18:^80 {(k^97:c)(s=9)18:m } 18 }
+{19:^80 {(k^97:c)(s=9)19:m } 19 }
+{1A:^80 {(k^97:c)(s=9)1A:m } 1A }
+{1B:^80 {(k^97:c)(s=9)1B:m } 1B }
+{1C:^80 {(k^97:c)(s=9)1C:m } 1C }
+{1D:^80 {(k^97:c)(s=9)1D:m } 1D }
+{1E:^80 {(k^97:c)(s=9)1E:m } 1E }
+{1F:^80 {(k^97:c)(s=9)1F:m } 1F }
+{20:^80 {(k^97:c)(s=9)20:m } 20 }
+{21:^80 {(k^97:c)(s=9)21:m } 21 }
+{22:^80 {(k^97:c)(s=9)22:m } 22 }
+{23:^80 {(k^97:c)(s=9)23:m } 23 }
+{24:^80 {(k^97:c)(s=9)24:m } 24 }
+{25:^80 {(k^97:c)(s=9)25:m } 25 }
+{26:^80 {(k^97:c)(s=9)26:m } 26 }
+{27:^80 {(k^97:c)(s=9)27:m } 27 }
+{28:^80 {(k^97:c)(s=9)28:m } 28 }
+{29:^80 {(k^97:c)(s=9)29:m } 29 }
+{2A:^80 {(k^97:c)(s=9)2A:m } 2A }
+{2B:^80 {(k^97:c)(s=9)2B:m } 2B }
+{2C:^80 {(k^97:c)(s=9)2C:m } 2C }
+{2D:^80 {(k^97:c)(s=9)2D:m } 2D }
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{2E:^80 {(k^97:c)(s=9)2E:m } 2E }
+{2F:^80 {(k^97:c)(s=9)2F:m } 2F }
+{30:^80 {(k^97:c)(s=9)30:m } 30 }
+{31:^80 {(k^97:c)(s=9)31:m } 31 }
+{32:^80 {(k^97:c)(s=9)32:m } 32 }
+{33:^80 {(k^97:c)(s=9)33:m } 33 }
+{34:^80 {(k^97:c)(s=9)34:m } 34 }
+{35:^80 {(k^97:c)(s=9)35:m } 35 }
+{36:^80 {(k^97:c)(s=9)36:m } 36 }
+{37:^80 {(k^97:c)(s=9)37:m } 37 }
+{38:^80 {(k^97:c)(s=9)38:m } 38 }
+{39:^80 {(k^97:c)(s=9)39:m } 39 }
+{3A:^80 {(k^97:c)(s=9)3A:m } 3A }
+{3B:^80 {(k^97:c)(s=9)3B:m } 3B }
+{3C:^80 {(k^97:c)(s=9)3C:m } 3C }
+{3D:^80 {(k^97:c)(s=9)3D:m } 3D }
+{3E:^80 {(k^97:c)(s=9)3E:m } 3E }
+{3F:^80 {(k^97:c)(s=9)3F:m } 3F }
+{40:^80 {(k^97:c)(s=9)40:m } 40 }
+{41:^80 {(k^97:c)(s=9)41:m } 41 }
+{42:^80 {(k^97:c)(s=9)42:m } 42 }
+{43:^80 {(k^97:c)(s=9)43:m } 43 }
+{44:^80 {(k^97:c)(s=9)44:m } 44 }
+{45:^80 {(k^97:c)(s=9)45:m } 45 }
+{46:^80 {(k^97:c)(s=9)46:m } 46 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^86)]
+  [2(^94^95)]
+  [3(^94^9E)]
+  [4(^94^A7)]
+  [5(^94^AF)]
+  [6(^94^B8)]
+  [7(^94^C1)]
+  [8(^94^CA)]
+  [9(^94^D3)]
+  [A(^94^DC)]
+  [B(^94^E5)]
+  [C(^94^ED)]
+  [D(^94^F6)]
+  [E(^94^100)]
+  [F(^94^109)]
+  [10(^94^112)]
+  [11(^94^11B)]
+  [12(^94^124)]
+  [13(^94^12D)]
+  [14(^94^136)]
+  [15(^94^13F)]
+  [16(^94^147)]
+  [17(^94^14E)]
+  [18(^94^157)]
+  [19(^94^160)]
+  [1A(^94^169)]
+  [1B(^94^171)]
+  [1C(^94^179)]
+  [1D(^94^180)]
+  [1E(^94^189)]
+  [1F(^94^192)]
+  [20(^94^19B)]
+  [21(^94^1A4)]
+  [22(^94^1AD)]
+  [23(^94^1B6)]
+  [24(^94^1BF)]
+  [25(^94^1C8)]
+  [26(^94^1D1)]
+  [27(^94^1D9)]
+  [28(^94^1E2)]
+  [29(^94^1EB)]
+  [2A(^94^1F4)]
+  [2B(^94^1FD)]
+  [2C(^94^205)]
+  [2D(^94^20E)]
+  [2E(^94^217)]
+  [2F(^94^21F)]
+  [30(^94^228)]
+  [31(^94^231)]
+  [32(^94^23A)]
+  [33(^94^242)]
+  [34(^94^95)]
+  [35(^94^252)]
+  [36(^94^25B)]
+  [37(^94^263)]
+  [38(^94^26B)]
+  [39(^94^273)]
+  [3A(^94^27C)]
+  [3B(^94^284)]
+  [3C(^94^CA)]
+  [3D(^94^296)]
+  [3E(^94^29E)]
+  [3F(^94^2A5)]
+  [40(^94^2AC)]
+  [41(^94^2B2)]
+  [42(^94^2B9)]
+  [43(^94^2C0)]
+  [44(^94^2C7)]
+  [45(^94^2CE)]
+  [46(^94^2D5)]}
+
+<(83=Haskell Planetarium)(2DA=fda6)(322=66991e77)(2DB=1721310769)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^88=4)(^A6^83)(^A2^2DA)(^A4^322)(^A0=46)(^A1=0)
+    (^A5=46)(^B4^2DB)]}
+
+@$${91{@
+@$$}91}@
+
+@$${92{@
+[1:^80(^B8=0)]
+[2:^80(^B8=0)]
+[3:^80(^B8=0)]
+[4:^80(^B8=0)]
+[5:^80(^B8=0)]
+[6:^80(^B8=0)]
+[7:^80(^B8=0)]
+[8:^80(^B8=0)]
+[9:^80(^B8=0)]
+[A:^80(^B8=0)]
+[B:^80(^B8=0)]
+[C:^80(^B8=0)]
+[D:^80(^B8=0)]
+[E:^80(^B8=0)]
+[F:^80(^B8=0)]
+[10:^80(^B8=0)]
+[11:^80(^B8=0)]
+[12:^80(^B8=0)]
+[13:^80(^B8=0)]
+[14:^80(^B8=0)]
+[15:^80(^B8=0)]
+[16:^80(^B8=0)]
+[17:^80(^B8=0)]
+[18:^80(^B8=0)]
+[19:^80(^B8=0)]
+[1A:^80(^B8=0)]
+[1B:^80(^B8=0)]
+[1C:^80(^B8=0)]
+[1D:^80(^B8=0)]
+[1E:^80(^B8=0)]
+[1F:^80(^B8=0)]
+[20:^80(^B8=0)]
+[21:^80(^B8=0)]
+[22:^80(^B8=0)]
+[23:^80(^B8=0)]
+[24:^80(^B8=0)]
+[25:^80(^B8=0)]
+[26:^80(^B8=0)]
+[27:^80(^B8=0)]
+[28:^80(^B8=0)]
+[29:^80(^B8=0)]
+[2A:^80(^B8=0)]
+[2B:^80(^B8=0)]
+[2C:^80(^B8=0)]
+[2D:^80(^B8=0)]
+[2E:^80(^B8=0)]
+[2F:^80(^B8=0)]
+[30:^80(^B8=0)]
+[31:^80(^B8=0)]
+[32:^80(^B8=0)]
+[33:^80(^B8=0)]
+[34:^80(^B8=0)]
+[35:^80(^B8=0)]
+[36:^80(^B8=0)]
+[37:^80(^B8=0)]
+[38:^80(^B8=0)]
+[39:^80(^B8=0)]
+[3A:^80(^B8=0)]
+[3B:^80(^B8=0)]
+[3C:^80(^B8=0)]
+[3D:^80(^B8=0)]
+[3E:^80(^B8=0)]
+[3F:^80(^B8=0)]
+[40:^80(^B8=0)]
+[41:^80(^B8=0)]
+[42:^80(^B8=0)]
+[43:^80(^B8=0)]
+[44:^80(^B8=0)]
+[45:^80(^B8=0)]
+[46:^80(^B8=0)]
+@$$}92}@
+
+@$${94{@
+< <(a=c)> // (f=iso-8859-1)
+  (BB=useServerRetention)>
+@$$}94}@
+
+@$${96{@
+< <(a=c)> // (f=iso-8859-1)
+  (BC=retainBy)(BD=daysToKeepHdrs)(BE=numHdrsToKeep)(BF=daysToKeepBodies)
+  (C0=useServerDefaults)(C1=cleanupBodies)(C2=applyToFlaggedMessages)>
+[1:^9E(^BB=1)]
+@$$}96}@
+
+@$${97{@
+@$$}97}@
+
+@$${99{@
+< <(a=c)> // (f=iso-8859-1)
+  (C3=columnStates)(C4=sortType)(C5=sortOrder)(C6=viewFlags)(C7=viewType)>
+<(323=1721311847)>[1:^9E(^B4^323)]
+@$$}99}@
+
+@$${9A{@
+< <(a=c)> // (f=iso-8859-1)
+  (C8=sortColumns)(C9=customSortCol)(CA=sender_name)(CB=imageSize)
+  (CC=notAPhishMessage)>
+<(346=0|/u/MippsTT)>[1:^80(^CA^346)]
+<(344=0|/u/tritlo)>[2:^80(^CA^344)]
+<(342=0|/u/TheChief275)>[3:^80(^CA^342)]
+<(33F=0|/u/kosmikus)>[4:^80(^CA^33F)]
+<(33E=0|/u/FluxusMagna)>[5:^80(^CA^33E)]
+<(339=0|/u/Matty_lambda)>[6:^80(^CA^339)]
+<(337=0|/u/byorgey)>[7:^80(^CA^337)]
+<(347=0|/u/_query)>[8:^80(^CA^347)]
+<(349=0|/u/ludflu)>[9:^80(^CA^349)]
+<(34C=0|/u/Lime_Dragonfruit4244)>
+[A:^80(^CA^34C)]
+<(34A=0|Kristopher K Micinski)>[B:^80(^CA^34A)]
+<(350=0|Henning Thielemann)>[C:^80(^CA^350)]
+<(351=0|Tristan Cacqueray)>[D:^80(^CA^351)]
+<(352=0|Matthew Pickering)>[E:^80(^CA^352)]
+<(353=0|Mark McConnell)>[F:^80(^CA^353)]
+<(354=0|Artem Pelenitsyn)>[10:^80(^CA^354)]
+<(355=0|George Colpitts)>[11:^80(^CA^355)]
+<(356=0|Mart Lubbers)>[12:^80(^CA^356)]
+<(357=0|Zubin Duggal)>[13:^80(^CA^357)]
+<(333=0|ICFP Publicity)>[14:^80(^CA^333)]
+<(331=0|N/A)>[15:^80(^CA^331)]
+[16:^80(^CA^331)]
+[17:^80(^CA^331)]
+<(358=0|mail@joachim-breitner.de (Joachim Breitner\))>
+[18:^80(^CA^358)]
+[19:^80(^CA^331)]
+<(332=0|noreply@blogger.com (Gabriella Gonzalez\))>
+[1A:^80(^CA^332)]
+[1B:^80(^CA^331)]
+[1C:^80(^CA^331)]
+[1D:^80(^CA^331)]
+<(330=0|mjd@plover.com (Mark Dominus\))>
+[1E:^80(^CA^330)]
+<(343=0|Penguino)>[1F:^80(^CA^343)]
+<(341=0|toni057)>[20:^80(^CA^341)]
+<(33D=0|Joe Corps)>[21:^80(^CA^33D)]
+<(33C=0|user2506946)>[22:^80(^CA^33C)]
+<(348=0|user20102550)>[23:^80(^CA^348)]
+<(34B=0|HaveMercy)>[24:^80(^CA^34B)]
+<(34D=0|IsAdisplayName)>[25:^80(^CA^34D)]
+<(34E=0|bitmaybewise)>[26:^80(^CA^34E)]
+[27:^80(^CA^348)]
+<(34F=0|Tom Huntington)>[28:^80(^CA^34F)]
+<(32F=0|Peter)>[29:^80(^CA^32F)]
+<(32D=0|Miles)>[2A:^80(^CA^32D)]
+<(32C=0|WesAtWork)>[2B:^80(^CA^32C)]
+[2C:^80(^CA^32C)]
+<(32B=0|Tsaras)>[2D:^80(^CA^32B)]
+<(32A=0|Fin H)>[2E:^80(^CA^32A)]
+<(329=0|Ari Fordsham)>[2F:^80(^CA^329)]
+<(328=0|lanf)>[30:^80(^CA^328)]
+<(327=0|Arpad Horvath)>[31:^80(^CA^327)]
+<(326=0|Dean Menezes)>[32:^80(^CA^326)]
+<(338=0|jaror)>[33:^80(^CA^338)]
+[34:^80(^CA^338)]
+<(345=0|AntC2)>[35:^80(^CA^345)]
+<(340=0|kosmikus)>[36:^80(^CA^340)]
+<(33B=0|raehik)>[37:^80(^CA^33B)]
+<(33A=0|rhendric)>[38:^80(^CA^33A)]
+[39:^80(^CA^338)]
+<(336=0|andreabedini)>[3A:^80(^CA^336)]
+<(335=0|anointed)>[3B:^80(^CA^335)]
+<(334=0|mpscholten)>[3C:^80(^CA^334)]
+<(32E=0|Haskell Weekly)>[3D:^80(^CA^32E)]
+[3E:^80(^CA^32E)]
+[3F:^80(^CA^32E)]
+[40:^80(^CA^32E)]
+[41:^80(^CA^32E)]
+[42:^80(^CA^32E)]
+[43:^80(^CA^32E)]
+[44:^80(^CA^32E)]
+[45:^80(^CA^32E)]
+[46:^80(^CA^32E)]
+<(325=$121)>[-1:^9E(^AB=1)(^AC=0)(^AD=1)(^88=4)(^A6^83)(^A2^2DA)(^A4^322)
+    (^A0=46)(^A1=0)(^A5=46)(^B4^323)(^BB=1)(^C4=12)(^C5=1)(^C6=1)(^C7=0)
+    (^C8^325)]
+@$$}9A}@
+
+@$${9B{@
+@$$}9B}@
+
+@$${9C{@
+@$$}9C}@
+
+@$${9D{@
+@$$}9D}@
+
+@$${9E{@
+@$$}9E}@
+
+@$${9F{@
+@$$}9F}@
+
+@$${A0{@
+@$$}A0}@
+
+@$${A1{@
+@$$}A1}@

@@ -1,0 +1,312 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=gloda-dirty)(B9=junkscore)(BA=keywords)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=folderName)(AF=indexingPriority)
+  (B0=storeToken)(B1=dateReceived)(B2=content-base)(B3=ProtoThreadFlags)
+  (B4=MRUTime)(B5=dobayes.mailnews@mozilla.org#junk.empty)
+  (B6=dobayes.mailnews@mozilla.org#junk)(B7=gloda-id)>
+<(D7=14)(12D=659ceab8)(81=0)(80=1)>
+[14:m(^9B=14)(^8F=14)(^91^12D)(^90=0)(^92=1)(^93=0)]
+<(138=15)(134=6595f8c0)>[15:m(^9B=15)(^8F=15)(^91^134)(^90=0)(^92=1)
+    (^93=0)]
+<(137=16)(13D=659301d8)>[16:m(^9B=16)(^8F=16)(^91^13D)(^90=0)(^92=1)
+    (^93=0)]
+<(146=17)(143=6584d540)>[17:m(^9B=17)(^8F=17)(^91^143)(^90=0)(^92=1)
+    (^93=0)]
+<(8D=18)(14A=6583380c)>[18:m(^9B=18)(^8F=18)(^91^14A)(^90=0)(^92=1)
+    (^93=0)]
+<(F0=19)(150=658248c0)>[19:m(^9B=19)(^8F=19)(^91^150)(^90=0)(^92=1)
+    (^93=0)]
+<(8F=fffffffe)(89=669197ac)>[1:m(^9B=1)(^8F^8F)(^91^89)(^90=0)(^92=1)
+    (^93=0)]
+<(9A=2)(96=668add7c)>[2:m(^9B=2)(^8F=2)(^91^96)(^90=0)(^92=1)(^93=0)]
+<(A3=3)(9F=668436c0)>[3:m(^9B=3)(^8F=3)(^91^9F)(^90=0)(^92=1)(^93=0)]
+<(82=4)(A8=667f2270)>[4:m(^9B=4)(^8F=4)(^91^A8)(^90=0)(^92=1)(^93=0)]
+<(B4=5)(B0=665de358)>[5:m(^9B=5)(^8F=5)(^91^B0)(^90=0)(^92=1)(^93=0)]
+<(BD=6)(B9=6658b810)>[6:m(^9B=6)(^8F=6)(^91^B9)(^90=0)(^92=1)(^93=0)]
+<(C6=7)(C2=665645d0)>[7:m(^9B=7)(^8F=7)(^91^C2)(^90=0)(^92=1)(^93=0)]
+<(CF=8)(CB=662bf0c8)>[8:m(^9B=8)(^8F=8)(^91^CB)(^90=0)(^92=1)(^93=0)]
+<(D8=9)(D4=6626dc78)>[9:m(^9B=9)(^8F=9)(^91^D4)(^90=0)(^92=1)(^93=0)]
+<(E0=a)(DC=6621ebc8)>[A:m(^9B=a)(^8F=a)(^91^DC)(^90=0)(^92=1)(^93=0)]
+<(E8=b)(E4=6621a2a8)>[B:m(^9B=b)(^8F=b)(^91^E4)(^90=0)(^92=1)(^93=0)]
+<(F1=c)(ED=661eeb08)>[C:m(^9B=c)(^8F=c)(^91^ED)(^90=0)(^92=1)(^93=0)]
+<(FA=d)(F6=661857fc)>[D:m(^9B=d)(^8F=d)(^91^F6)(^90=0)(^92=1)(^93=0)]
+<(102=e)(FF=66171900)>[E:m(^9B=e)(^8F=e)(^91^FF)(^90=0)(^92=1)(^93=0)]
+<(DF=f)(107=66030d20)>[F:m(^9B=f)(^8F=f)(^91^107)(^90=0)(^92=1)(^93=0)]
+<(111=10)(10E=65f20ee4)>[10:m(^9B=10)(^8F=10)(^91^10E)(^90=0)(^92=1)
+    (^93=0)]
+<(A2=11)(116=65cd3b28)>[11:m(^9B=11)(^8F=11)(^91^116)(^90=0)(^92=1)
+    (^93=0)]
+<(E7=12)(11E=65bd3a48)>[12:m(^9B=12)(^8F=12)(^91^11E)(^90=0)(^92=1)
+    (^93=0)]
+<(F9=13)(125=659dec4c)>[13:m(^9B=13)(^8F=13)(^91^125)(^90=0)(^92=1)
+    (^93=0)]
+
+<(16E=41)(85=<TF2 Official Blog>)(86=RGL.gg Season 15 LAN Playoffs)
+  (87
+    =https://www.teamfortress.com/post.php?id=225171@localhost.localdomain)
+  (88=66991e2d)(8A=https://www.teamfortress.com/post.php?id=225171)
+  (8B=UTF-8)(8C=678)(8E=ffffffff)(16D=74)(93=1657)(91=679)(94
+    =Operation Osmium Ordinance)(95
+    =https://www.teamfortress.com/post.php?id=224879@localhost.localdomain)
+  (97=https://www.teamfortress.com/post.php?id=224879)(98=a42)(99=1a)
+  (16C=73)(9C=4284)(9B=10bc)(9D=LAN Downunder 2024)(9E
+    =https://www.teamfortress.com/post.php?id=224716@localhost.localdomain)
+  (A0=https://www.teamfortress.com/post.php?id=224716)(A1=7ac)(16B=72)
+  (A5=6249)(A4=1869)(A6=Dolphinrider 2v2 MGE Cup)(A7
+    =https://www.teamfortress.com/post.php?id=224377@localhost.localdomain)
+  (A9=https://www.teamfortress.com/post.php?id=224377)(AA=a3c)(AB=25)
+  (16A=71)(AD=8870)(AC=22a6)(AE=Operation Magnetic Mayhem)(AF
+    =https://www.teamfortress.com/post.php?id=223007@localhost.localdomain)
+  (B1=https://www.teamfortress.com/post.php?id=223007)(B2=da1)(B3=1f)
+  (169=70)(B6=12360)(B5=3048)(B7=4v4 PASS Time Draft Cup)(B8
+    =https://www.teamfortress.com/post.php?id=222791@localhost.localdomain)
+  (BA=https://www.teamfortress.com/post.php?id=222791)(BB=b1a)(BC=1c)
+  (168=6f)(BF=15203)(BE=3b63)(C0=Seasonalander Summer 2024)(C1
+    =https://www.teamfortress.com/post.php?id=222683@localhost.localdomain)
+  (C3=https://www.teamfortress.com/post.php?id=222683)(C4=cd6)(C5=1d)
+  (167=6e)(C8=18490)(C7=483a)(C9=Fireside Cup)(CA
+    =https://www.teamfortress.com/post.php?id=220919@localhost.localdomain)
+  (CC=https://www.teamfortress.com/post.php?id=220919)(CD=b00)(CE=1b)
+  (166=6d)(D1=21307)(D0=533b)(D2=Team Fortress 2 Update Released)(D3
+    =https://www.teamfortress.com/post.php?id=220641@localhost.localdomain)
+  (D5=https://www.teamfortress.com/post.php?id=220641)(D6=609)(165=6c)
+  (DA=22853)(D9=5945)(DB
+    =https://www.teamfortress.com/post.php?id=220446@localhost.localdomain)
+  (DD=https://www.teamfortress.com/post.php?id=220446)(DE=477)(164=6b)
+  (E2=23997)(E1=5dbd)(E3
+    =https://www.teamfortress.com/post.php?id=220436@localhost.localdomain)
+  (E5=https://www.teamfortress.com/post.php?id=220436)(E6=534)(163=6a)
+  (EA=25330)(E9=62f2)(EB=ozfortress Sixes Autumn '24 Grand Final)(EC
+    =https://www.teamfortress.com/post.php?id=220319@localhost.localdomain)
+  (EE=https://www.teamfortress.com/post.php?id=220319)(EF=7eb)(162=69)
+  (F3=27358)(F2=6ade)(F4=TF2 Coaching Central Newbie Cup VII)(F5
+    =https://www.teamfortress.com/post.php?id=220099@localhost.localdomain)
+  (F7=https://www.teamfortress.com/post.php?id=220099)(F8=8f7)(161=68)
+  (FC=29654)(FB=73d6)(FD=Particle Mayhem 2 Results)(FE
+    =https://www.teamfortress.com/post.php?id=220033@localhost.localdomain)
+  (100=https://www.teamfortress.com/post.php?id=220033)(101=7a1)(160=67)
+  (104=31608)(103=7b78)(105=Highlander Charity Cup 2024)(106
+    =https://www.teamfortress.com/post.php?id=219108@localhost.localdomain)
+  (108=https://www.teamfortress.com/post.php?id=219108)(109=8e4)(15F=66)
+  (10B=33885)(10A=845d)(10C=CLTF2 Season 4)(10D
+    =https://www.teamfortress.com/post.php?id=218474@localhost.localdomain)
+  (10F=https://www.teamfortress.com/post.php?id=218474)(110=634)(15E=65)
+  (113=35474)(112=8a92)(114=poLANd.tf Winter 2024 is here!)(115
+    =https://www.teamfortress.com/post.php?id=216875@localhost.localdomain)
+  (117=https://www.teamfortress.com/post.php?id=216875)(118=926)(15D=64)
+  (11A=37817)(119=93b9)(11B=Torchlight Tango Tournament)(11C
+    =https://www.teamfortress.com/post.php?id=216203@localhost.localdomain)
+  (11D=66991e2e)(11F=https://www.teamfortress.com/post.php?id=216203)
+  (120=f6c)(121=20)(15C=63)(123=41766)(122=a326)(124
+    =https://www.teamfortress.com/post.php?id=215056@localhost.localdomain)
+  (126=https://www.teamfortress.com/post.php?id=215056)(127=774)(128=21)
+  (15B=62)(12A=43675)(129=aa9b)(12B=TF2 Summer Brawl 2024)(12C
+    =https://www.teamfortress.com/post.php?id=215027@localhost.localdomain)
+  (12E=https://www.teamfortress.com/post.php?id=215027)(12F=6b6)(15A=61)
+  (131=45394)(130=b152)(132=Top 12 Special for 2022)(133
+    =https://www.teamfortress.com/post.php?id=214773@localhost.localdomain)
+  (135=https://www.teamfortress.com/post.php?id=214773)(136=6cb)(159=60)
+  (13A=47134)(139=b81e)(13B=TFConnect Afterparty)(13C
+    =https://www.teamfortress.com/post.php?id=214710@localhost.localdomain)
+  (13E=https://www.teamfortress.com/post.php?id=214710)(13F=aad)(158=5f)
+  (141=49868)(140=c2cc)(142
+    =https://www.teamfortress.com/post.php?id=214407@localhost.localdomain)
+  (144=https://www.teamfortress.com/post.php?id=214407)(145=591)(157=5e)
+  (148=51294)(147=c85e)(149
+    =https://www.teamfortress.com/post.php?id=214327@localhost.localdomain)
+  (14B=https://www.teamfortress.com/post.php?id=214327)(14C=497)(156=5d)
+  (14E=52470)(14D=ccf6)(14F
+    =https://www.teamfortress.com/post.php?id=214279@localhost.localdomain)
+  (151=https://www.teamfortress.com/post.php?id=214279)(152=429)(155=5c)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^B0=0)(^9C=0)(^88=41)(^82^85)(^81^86)(^83^87)(^B1^88)(^86^89)(^89=1)
+    (^B2^8A)(^95^8B)(^87^8C)(^8B=18)(^9A^8E)(^8E^8F)(^B3=0)(^B7=74)
+    (^B8=1)]
+  [2(^B0^93)(^9C^91)(^88=41)(^82^85)(^81^94)(^83^95)(^B1^88)(^86^96)
+    (^89=1)(^B2^97)(^95^8B)(^87^98)(^8B=1a)(^9A^8E)(^8E=2)(^B3=0)(^B7=73)
+    (^B8=1)]
+  [3(^B0^9C)(^9C^9B)(^88=41)(^82^85)(^81^9D)(^83^9E)(^B1^88)(^86^9F)
+    (^89=1)(^B2^A0)(^95^8B)(^87^A1)(^8B=11)(^9A^8E)(^8E=3)(^B3=0)(^B7=72)
+    (^B8=1)]
+  [4(^B0^A5)(^9C^A4)(^88=41)(^82^85)(^81^A6)(^83^A7)(^B1^88)(^86^A8)
+    (^89=1)(^B2^A9)(^95^8B)(^87^AA)(^8B=25)(^9A^8E)(^8E=4)(^B3=0)(^B7=71)
+    (^B8=1)]
+  [5(^B0^AD)(^9C^AC)(^88=41)(^82^85)(^81^AE)(^83^AF)(^B1^88)(^86^B0)
+    (^89=1)(^B2^B1)(^95^8B)(^87^B2)(^8B=1f)(^9A^8E)(^8E=5)(^B3=0)(^B7=70)
+    (^B8=1)]
+  [6(^B0^B6)(^9C^B5)(^88=41)(^82^85)(^81^B7)(^83^B8)(^B1^88)(^86^B9)
+    (^89=1)(^B2^BA)(^95^8B)(^87^BB)(^8B=1c)(^9A^8E)(^8E=6)(^B3=0)(^B7=6f)
+    (^B8=1)]
+  [7(^B0^BF)(^9C^BE)(^88=41)(^82^85)(^81^C0)(^83^C1)(^B1^88)(^86^C2)
+    (^89=1)(^B2^C3)(^95^8B)(^87^C4)(^8B=1d)(^9A^8E)(^8E=7)(^B3=0)(^B7=6e)
+    (^B8=1)]
+  [8(^B0^C8)(^9C^C7)(^88=41)(^82^85)(^81^C9)(^83^CA)(^B1^88)(^86^CB)
+    (^89=1)(^B2^CC)(^95^8B)(^87^CD)(^8B=1b)(^9A^8E)(^8E=8)(^B3=0)(^B7=6d)
+    (^B8=1)]
+  [9(^B0^D1)(^9C^D0)(^88=41)(^82^85)(^81^D2)(^83^D3)(^B1^88)(^86^D4)
+    (^89=1)(^B2^D5)(^95^8B)(^87^D6)(^8B=14)(^9A^8E)(^8E=9)(^B3=0)(^B7=6c)
+    (^B8=1)]
+  [A(^B0^DA)(^9C^D9)(^88=41)(^82^85)(^81^D2)(^83^DB)(^B1^88)(^86^DC)
+    (^89=1)(^B2^DD)(^95^8B)(^87^DE)(^8B=f)(^9A^8E)(^8E=a)(^B3=0)(^B7=6b)
+    (^B8=1)]
+  [B(^B0^E2)(^9C^E1)(^88=41)(^82^85)(^81^D2)(^83^E3)(^B1^88)(^86^E4)
+    (^89=1)(^B2^E5)(^95^8B)(^87^E6)(^8B=12)(^9A^8E)(^8E=b)(^B3=0)(^B7=6a)
+    (^B8=1)]
+  [C(^B0^EA)(^9C^E9)(^88=41)(^82^85)(^81^EB)(^83^EC)(^B1^88)(^86^ED)
+    (^89=1)(^B2^EE)(^95^8B)(^87^EF)(^8B=19)(^9A^8E)(^8E=c)(^B3=0)(^B7=69)
+    (^B8=1)]
+  [D(^B0^F3)(^9C^F2)(^88=41)(^82^85)(^81^F4)(^83^F5)(^B1^88)(^86^F6)
+    (^89=1)(^B2^F7)(^95^8B)(^87^F8)(^8B=13)(^9A^8E)(^8E=d)(^B3=0)(^B7=68)
+    (^B8=1)]
+  [E(^B0^FC)(^9C^FB)(^88=41)(^82^85)(^81^FD)(^83^FE)(^B1^88)(^86^FF)
+    (^89=1)(^B2^100)(^95^8B)(^87=7a1)(^8B=12)(^9A^8E)(^8E=e)(^B3=0)
+    (^B7=67)(^B8=1)]
+  [F(^B0^104)(^9C^103)(^88=41)(^82^85)(^81^105)(^83^106)(^B1^88)(^86^107)
+    (^89=1)(^B2^108)(^95^8B)(^87=8e4)(^8B=19)(^9A^8E)(^8E=f)(^B3=0)
+    (^B7=66)(^B8=1)]
+  [10(^B0^10B)(^9C^10A)(^88=41)(^82^85)(^81^10C)(^83^10D)(^B1^88)(^86^10E)
+    (^89=1)(^B2^10F)(^95^8B)(^87=634)(^8B=12)(^9A^8E)(^8E=10)(^B3=0)
+    (^B7=65)(^B8=1)]
+  [11(^B0^113)(^9C^112)(^88=41)(^82^85)(^81^114)(^83^115)(^B1^88)(^86^116)
+    (^89=1)(^B2^117)(^95^8B)(^87=926)(^8B=18)(^9A^8E)(^8E=11)(^B3=0)
+    (^B7=64)(^B8=1)]
+  [12(^B0^11A)(^9C^119)(^88=41)(^82^85)(^81^11B)(^83^11C)(^B1^11D)(^86^11E)
+    (^89=1)(^B2^11F)(^95^8B)(^87=f6c)(^8B=20)(^9A^8E)(^8E=12)(^B3=0)
+    (^B7=63)(^B8=1)]
+  [13(^B0^123)(^9C^122)(^88=41)(^82^85)(^81^D2)(^83^124)(^B1^11D)(^86^125)
+    (^89=1)(^B2^126)(^95^8B)(^87=774)(^8B=21)(^9A^8E)(^8E=13)(^B3=0)
+    (^B7=62)(^B8=1)]
+  [14(^B0^12A)(^9C^129)(^88=41)(^82^85)(^81^12B)(^83^12C)(^B1^11D)(^86^12D)
+    (^89=1)(^B2^12E)(^95^8B)(^87=6b6)(^8B=f)(^9A^8E)(^8E=14)(^B3=0)
+    (^B7=61)(^B8=1)]
+  [15(^B0^131)(^9C^130)(^88=41)(^82^85)(^81^132)(^83^133)(^B1^11D)(^86^134)
+    (^89=1)(^B2^135)(^95^8B)(^87=6cb)(^8B=16)(^9A^8E)(^8E=15)(^B3=0)
+    (^B7=60)(^B8=1)]
+  [16(^B0^13A)(^9C^139)(^88=41)(^82^85)(^81^13B)(^83^13C)(^B1^11D)(^86^13D)
+    (^89=1)(^B2^13E)(^95^8B)(^87=aad)(^8B=1b)(^9A^8E)(^8E=16)(^B3=0)
+    (^B7=5f)(^B8=1)]
+  [17(^B0^141)(^9C^140)(^88=41)(^82^85)(^81^D2)(^83^142)(^B1^11D)(^86^143)
+    (^89=1)(^B2^144)(^95^8B)(^87=591)(^8B=15)(^9A^8E)(^8E=17)(^B3=0)
+    (^B7=5e)(^B8=1)]
+  [18(^B0^148)(^9C^147)(^88=41)(^82^85)(^81^D2)(^83^149)(^B1^11D)(^86^14A)
+    (^89=1)(^B2^14B)(^95^8B)(^87=497)(^8B=10)(^9A^8E)(^8E=18)(^B3=0)
+    (^B7=5d)(^B8=1)]
+  [19(^B0^14E)(^9C^14D)(^88=41)(^82^85)(^81^D2)(^83^14F)(^B1^11D)(^86^150)
+    (^89=1)(^B2^151)(^95^8B)(^87=429)(^8B=e)(^9A^8E)(^8E=19)(^B3=0)
+    (^B7=5c)(^B8=1)]}
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{4:^80 {(k^97:c)(s=9)4:m } 4 }
+{5:^80 {(k^97:c)(s=9)5:m } 5 }
+{6:^80 {(k^97:c)(s=9)6:m } 6 }
+{7:^80 {(k^97:c)(s=9)7:m } 7 }
+{8:^80 {(k^97:c)(s=9)8:m } 8 }
+{9:^80 {(k^97:c)(s=9)9:m } 9 }
+{A:^80 {(k^97:c)(s=9)A:m } A }
+{B:^80 {(k^97:c)(s=9)B:m } B }
+{C:^80 {(k^97:c)(s=9)C:m } C }
+{D:^80 {(k^97:c)(s=9)D:m } D }
+{E:^80 {(k^97:c)(s=9)E:m } E }
+{F:^80 {(k^97:c)(s=9)F:m } F }
+{10:^80 {(k^97:c)(s=9)10:m } 10 }
+{11:^80 {(k^97:c)(s=9)11:m } 11 }
+{12:^80 {(k^97:c)(s=9)12:m } 12 }
+{13:^80 {(k^97:c)(s=9)13:m } 13 }
+{14:^80 {(k^97:c)(s=9)14:m } 14 }
+{15:^80 {(k^97:c)(s=9)15:m } 15 }
+{16:^80 {(k^97:c)(s=9)16:m } 16 }
+{17:^80 {(k^97:c)(s=9)17:m } 17 }
+{18:^80 {(k^97:c)(s=9)18:m } 18 }
+{19:^80 {(k^97:c)(s=9)19:m } 19 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^86)]
+  [2(^94^94)]
+  [3(^94^9D)]
+  [4(^94^A6)]
+  [5(^94^AE)]
+  [6(^94^B7)]
+  [7(^94^C0)]
+  [8(^94^C9)]
+  [9(^94^D2)]
+  [A(^94^D2)]
+  [B(^94^D2)]
+  [C(^94^EB)]
+  [D(^94^F4)]
+  [E(^94^FD)]
+  [F(^94^105)]
+  [10(^94^10C)]
+  [11(^94^114)]
+  [12(^94^11B)]
+  [13(^94^D2)]
+  [14(^94^12B)]
+  [15(^94^132)]
+  [16(^94^13B)]
+  [17(^94^D2)]
+  [18(^94^D2)]
+  [19(^94^D2)]}
+
+<(83=TF2 Official Blog)(153=d120)(16F=66991e77)(154=1721310766)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^88=4)(^A6^83)(^A2^153)(^A4^16F)(^A0=19)(^A1=0)
+    (^A5=19)(^B4^154)]}
+
+@$${39{@
+@$$}39}@
+
+@$${3A{@
+[1:^80(^B8=0)]
+[2:^80(^B8=0)]
+[3:^80(^B8=0)]
+[4:^80(^B8=0)]
+[5:^80(^B8=0)]
+[6:^80(^B8=0)]
+[7:^80(^B8=0)]
+[8:^80(^B8=0)]
+[9:^80(^B8=0)]
+[A:^80(^B8=0)]
+[B:^80(^B8=0)]
+[C:^80(^B8=0)]
+[D:^80(^B8=0)]
+[E:^80(^B8=0)]
+[F:^80(^B8=0)]
+[10:^80(^B8=0)]
+[11:^80(^B8=0)]
+[12:^80(^B8=0)]
+[13:^80(^B8=0)]
+[14:^80(^B8=0)]
+[15:^80(^B8=0)]
+[16:^80(^B8=0)]
+[17:^80(^B8=0)]
+[18:^80(^B8=0)]
+[19:^80(^B8=0)]
+@$$}3A}@
+
+@$${3C{@
+< <(a=c)> // (f=iso-8859-1)
+  (BB=useServerRetention)>
+@$$}3C}@
+
+@$${3E{@
+< <(a=c)> // (f=iso-8859-1)
+  (BC=retainBy)(BD=daysToKeepHdrs)(BE=numHdrsToKeep)(BF=daysToKeepBodies)
+  (C0=useServerDefaults)(C1=cleanupBodies)(C2=applyToFlaggedMessages)>
+[1:^9E(^BB=1)]
+@$$}3E}@
+
+@$${3F{@
+@$$}3F}@

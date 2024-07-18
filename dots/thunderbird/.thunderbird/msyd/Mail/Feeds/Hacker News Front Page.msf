@@ -1,0 +1,298 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=gloda-dirty)(B9=junkscore)(BA=keywords)(BB=columnStates)
+  (BC=sortType)(BD=sortOrder)(BE=viewFlags)(BF=viewType)(C0=sortColumns)
+  (C1=customSortCol)(C2=sender_name)(C3=imageSize)(C4=useServerRetention)
+  (C5=retainBy)(C6=daysToKeepHdrs)(C7=numHdrsToKeep)(C8=daysToKeepBodies)
+  (C9=useServerDefaults)(CA=cleanupBodies)(CB=applyToFlaggedMessages)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=folderName)(AF=indexingPriority)
+  (B0=storeToken)(B1=dateReceived)(B2=content-base)(B3=ProtoThreadFlags)
+  (B4=MRUTime)(B5=dobayes.mailnews@mozilla.org#junk.empty)
+  (B6=dobayes.mailnews@mozilla.org#junk)(B7=gloda-id)>
+<(13C=14)(139=6697f442)(81=0)(80=1)>
+[14:m(^9B=14)(^8F=14)(^91^139)(^90=0)(^92=1)(^93=0)]
+<(8F=fffffffe)(89=66990fde)>[1:m(^9B=1)(^8F^8F)(^91^89)(^90=0)(^92=1)
+    (^93=0)]
+<(9B=2)(98=66990c98)>[2:m(^9B=2)(^8F=2)(^91^98)(^90=0)(^92=1)(^93=0)]
+<(A4=3)(A1=669904fa)>[3:m(^9B=3)(^8F=3)(^91^A1)(^90=0)(^92=1)(^93=0)]
+<(82=4)(AA=6698fb1a)>[4:m(^9B=4)(^8F=4)(^91^AA)(^90=0)(^92=1)(^93=0)]
+<(B6=5)(B3=6698c910)>[5:m(^9B=5)(^8F=5)(^91^B3)(^90=0)(^92=1)(^93=0)]
+<(BF=6)(BC=6698c746)>[6:m(^9B=6)(^8F=6)(^91^BC)(^90=0)(^92=1)(^93=0)]
+<(C8=7)(C5=6698b533)>[7:m(^9B=7)(^8F=7)(^91^C5)(^90=0)(^92=1)(^93=0)]
+<(D1=8)(CE=669869b8)>[8:m(^9B=8)(^8F=8)(^91^CE)(^90=0)(^92=1)(^93=0)]
+<(DA=9)(D7=66984f9e)>[9:m(^9B=9)(^8F=9)(^91^D7)(^90=0)(^92=1)(^93=0)]
+<(E3=a)(E0=66984afb)>[A:m(^9B=a)(^8F=a)(^91^E0)(^90=0)(^92=1)(^93=0)]
+<(EC=b)(E9=66983f7f)>[B:m(^9B=b)(^8F=b)(^91^E9)(^90=0)(^92=1)(^93=0)]
+<(F5=c)(F2=66983b4a)>[C:m(^9B=c)(^8F=c)(^91^F2)(^90=0)(^92=1)(^93=0)]
+<(FE=d)(FB=66981bf8)>[D:m(^9B=d)(^8F=d)(^91^FB)(^90=0)(^92=1)(^93=0)]
+<(8D=e)(104=66981294)>[E:m(^9B=e)(^8F=e)(^91^104)(^90=0)(^92=1)(^93=0)]
+<(AD=f)(10C=66981024)>[F:m(^9B=f)(^8F=f)(^91^10C)(^90=0)(^92=1)(^93=0)]
+<(117=10)(114=66980d5c)>[10:m(^9B=10)(^8F=10)(^91^114)(^90=0)(^92=1)
+    (^93=0)]
+<(120=11)(11D=66980306)>[11:m(^9B=11)(^8F=11)(^91^11D)(^90=0)(^92=1)
+    (^93=0)]
+<(129=12)(126=6697fc39)>[12:m(^9B=12)(^8F=12)(^91^126)(^90=0)(^92=1)
+    (^93=0)]
+<(132=13)(12F=6697f556)>[13:m(^9B=13)(^8F=13)(^91^12F)(^90=0)(^92=1)
+    (^93=0)]
+
+<(169=41)(85=<trevin>)(86
+    =Modern Luddites: On Being a Digital Minimalist Family in a Tech-Saturated\
+ World)(87
+    =https://news.ycombinator.com/item?id=40995105@localhost.localdomain)
+  (88=66991e2b)(8A
+    =https://www.afterbabel.com/p/modern-luddites-on-being-a-digital)
+  (8B=UTF-8)(8C=4ec)(8E=ffffffff)(13E=20)(168=0|trevin)(94=1261)(91=4ed)
+  (95=<caratrayd>)(96=Trayd (YC S23\) Is Hiring)(97
+    =https://news.ycombinator.com/item?id=40995018@localhost.localdomain)
+  (99
+    =https://buildtrayd.notion.site/Senior-Software-Engineer-Trayd-b2e20c6b936\
+e47b9870823a75e6c0604)(9A=4fb)(13F=21)(167=0|caratrayd)(9D=2537)(9C=9e9)
+  (9E=<bookofjoe>)(9F
+    =The Erie Canal: The man-made waterway that transformed the US)
+  (A0=https://news.ycombinator.com/item?id=40994817@localhost.localdomain)
+  (A2
+    =https://www.bbc.com/travel/article/20240715-the-erie-canal-the-manmade-wa\
+terway-that-transformed-the-us)(A3=56a)(140=22)(166=0|bookofjoe)(A6=3924)
+  (A5=f54)(A7=<overclock351>)(A8=Ask HN: What's Prolog Like in 2024?)
+  (A9=https://news.ycombinator.com/item?id=40994552@localhost.localdomain)
+  (AB=https://news.ycombinator.com/item?id=40994552)(AC=68d)(141=23)
+  (165=0|overclock351)(AF=5602)(AE=15e2)(B0=<arendjr>)(B1
+    =Post-Architecture: Premature Abstraction Is the Root of All Evil)
+  (B2=https://news.ycombinator.com/item?id=40993428@localhost.localdomain)
+  (B4
+    =https://arendjr.nl/blog/2024/07/post-architecture-premature-abstraction-i\
+s-the-root-of-all-evil/)(B5=551)(142=24)(164=0|arendjr)(B8=6964)(B7=1b34)
+  (B9=<janandonly>)(BA=Collection of Dark Patterns and Unethical Design)
+  (BB=https://news.ycombinator.com/item?id=40993389@localhost.localdomain)
+  (BD=https://hallofshame.design/collection/)(BE=44f)(143=25)(163
+    =0|janandonly)(C1=8068)(C0=1f84)(C2=<fintler>)(C3
+    =My daughter (7 years old\) used HTML to make a website)(C4
+    =https://news.ycombinator.com/item?id=40992982@localhost.localdomain)
+  (C6=https://naya.lol/)(C7=401)(144=26)(162=0|fintler)(CA=9094)(C9=2386)
+  (CB=<RandomBK>)(CC
+    =Show HN: Llm2sh $E2$80$93 Translate plain-language requests into shell co\
+mmands)(CD
+    =https://news.ycombinator.com/item?id=40991661@localhost.localdomain)
+  (CF=https://github.com/randombk/llm2sh)(D0=693)(145=27)(161=0|RandomBK)
+  (D3=10778)(D2=2a1a)(D4=<dmitrygr>)(D5
+    =A RP2040 based DECstation 3000 emulator that can run DECWindows)
+  (D6=https://news.ycombinator.com/item?id=40991182@localhost.localdomain)
+  (D8=https://github.com/rscott2049/DECstation2040)(D9=483)(146=28)
+  (160=0|dmitrygr)(DC=11934)(DB=2e9e)(DD=<NinjaKoala>)(DE
+    =Closed form arc length parametrization is impossible for quadratic B$C3$A9\
+zier curves)(DF
+    =https://news.ycombinator.com/item?id=40991075@localhost.localdomain)
+  (E1
+    =https://ninjakoa.la/curly_curves/posts/quadratic_bezier_arc_length_parame\
+trization/)(E2=544)(147=29)(15F=0|NinjaKoala)(E5=13283)(E4=33e3)(E6
+    =<todsacerdoti>)(E7
+    =SAPwned: SAP AI vulnerabilities expose customers' cloud environments and \
+privat)(E8
+    =https://news.ycombinator.com/item?id=40990768@localhost.localdomain)
+  (EA=https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security)
+  (EB=503)(148=2a)(15E=0|todsacerdoti)(EE=14567)(ED=38e7)(EF=<seddonm1>)
+  (F0=Show HN: SQLite Transaction Benchmarking Tool)(F1
+    =https://news.ycombinator.com/item?id=40990641@localhost.localdomain)
+  (F3=https://github.com/seddonm1/sqlite-bench)(F4=55b)(149=2b)(15D
+    =0|seddonm1)(F7=15939)(F6=3e43)(F8=<ewhicher>)(F9
+    =Show HN: Product Hunt for Music)(FA
+    =https://news.ycombinator.com/item?id=40989451@localhost.localdomain)
+  (FC=https://tracklist.it/)(FD=3e7)(14A=2c)(15C=0|ewhicher)(100=16939)
+  (FF=422b)(101=<ashish01>)(102=Little Languages (1986\) [pdf])(103
+    =https://news.ycombinator.com/item?id=40989069@localhost.localdomain)
+  (105=https://staff.um.edu.mt/afra1/seminar/little-languages.pdf)(106=477)
+  (14B=2d)(15B=0|ashish01)(108=18083)(107=46a3)(109=<shaicoleman>)(10A
+    =NVIDIA Transitions Fully Towards Open-Source Linux GPU Kernel Modules)
+  (10B=https://news.ycombinator.com/item?id=40988954@localhost.localdomain)
+  (10D
+    =https://developer.nvidia.com/blog/nvidia-transitions-fully-towards-open-s\
+ource-gpu-kernel-modules/)(10E=56b)(14C=2e)(15A=0|shaicoleman)(110=19471)
+  (10F=4c0f)(111=<breck>)(112
+    =A brief interview with Awk creator Dr. Brian Kernighan (2022\))
+  (113=https://news.ycombinator.com/item?id=40988837@localhost.localdomain)
+  (115=https://pldb.io/blog/brianKernighan.html)(116=46c)(14D=2f)(159
+    =0|breck)(119=20604)(118=507c)(11A=<zsrobinson>)(11B
+    =The unexpected poetry of PhD acknowledgements)(11C
+    =https://news.ycombinator.com/item?id=40988395@localhost.localdomain)
+  (11E
+    =https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowl\
+edgements)(11F=4f9)(14E=30)(158=0|zsrobinson)(122=21878)(121=5576)(123
+    =<davidbarker>)(124
+    =Prover-Verifier Games improve legibility of language model outputs)
+  (125=https://news.ycombinator.com/item?id=40988076@localhost.localdomain)
+  (127=https://openai.com/index/prover-verifier-games-improve-legibility/)
+  (128=4e4)(14F=31)(157=0|davidbarker)(12B=23131)(12A=5a5b)(12C
+    =<darrenyaoyaoyao>)(12D
+    =Show HN: VisCircuit $E2$80$93 A Note-Taking Website for Electronics and C\
+ircuits)(12E
+    =https://news.ycombinator.com/item?id=40987770@localhost.localdomain)
+  (130=https://viscircuit.com/)(131=96a)(150=32)(156=0|darrenyaoyaoyao)
+  (134=25542)(133=63c6)(135=<Retr0id>)(136=Jailbreaking RabbitOS)(137
+    =https://news.ycombinator.com/item?id=40987730@localhost.localdomain)
+  (138=66991e2c)(13A
+    =https://www.da.vidbuchanan.co.uk/blog/r1-jailbreak.html)(13B=45b)
+  (151=33)(155=0|Retr0id)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^B0=0)(^9C=0)(^88=41)(^82^85)(^81^86)(^83^87)(^B1^88)(^86^89)(^89=1)
+    (^B2^8A)(^95^8B)(^87^8C)(^8B=e)(^9A^8E)(^8E^8F)(^B3=0)(^B7=20)(^C2^168)
+    (^B8=1)]
+  [2(^B0^94)(^9C^91)(^88=41)(^82^95)(^81^96)(^83^97)(^B1^88)(^86^98)
+    (^89=1)(^B2^99)(^95^8B)(^87^9A)(^8B=e)(^9A^8E)(^8E=2)(^B3=0)(^B7=21)
+    (^C2^167)(^B8=1)]
+  [3(^B0^9D)(^9C^9C)(^88=41)(^82^9E)(^81^9F)(^83^A0)(^B1^88)(^86^A1)
+    (^89=1)(^B2^A2)(^95^8B)(^87^A3)(^8B=e)(^9A^8E)(^8E=3)(^B3=0)(^B7=22)
+    (^C2^166)(^B8=1)]
+  [4(^B0^A6)(^9C^A5)(^88=41)(^82^A7)(^81^A8)(^83^A9)(^B1^88)(^86^AA)
+    (^89=1)(^B2^AB)(^95^8B)(^87^AC)(^8B=f)(^9A^8E)(^8E=4)(^B3=0)(^B7=23)
+    (^C2^165)(^B8=1)]
+  [5(^B0^AF)(^9C^AE)(^88=41)(^82^B0)(^81^B1)(^83^B2)(^B1^88)(^86^B3)
+    (^89=1)(^B2^B4)(^95^8B)(^87^B5)(^8B=e)(^9A^8E)(^8E=5)(^B3=0)(^B7=24)
+    (^C2^164)(^B8=1)]
+  [6(^B0^B8)(^9C^B7)(^88=41)(^82^B9)(^81^BA)(^83^BB)(^B1^88)(^86^BC)
+    (^89=1)(^B2^BD)(^95^8B)(^87^BE)(^8B=e)(^9A^8E)(^8E=6)(^B3=0)(^B7=25)
+    (^C2^163)(^B8=1)]
+  [7(^B0^C1)(^9C^C0)(^88=41)(^82^C2)(^81^C3)(^83^C4)(^B1^88)(^86^C5)
+    (^89=1)(^B2^C6)(^95^8B)(^87^C7)(^8B=e)(^9A^8E)(^8E=7)(^B3=0)(^B7=26)
+    (^C2^162)(^B8=1)]
+  [8(^B0^CA)(^9C^C9)(^88=41)(^82^CB)(^81^CC)(^83^CD)(^B1^88)(^86^CE)
+    (^89=1)(^B2^CF)(^95^8B)(^87^D0)(^8B=f)(^9A^8E)(^8E=8)(^B3=0)(^B7=27)
+    (^C2^161)(^B8=1)]
+  [9(^B0^D3)(^9C^D2)(^88=41)(^82^D4)(^81^D5)(^83^D6)(^B1^88)(^86^D7)
+    (^89=1)(^B2^D8)(^95^8B)(^87^D9)(^8B=e)(^9A^8E)(^8E=9)(^B3=0)(^B7=28)
+    (^C2^160)(^B8=1)]
+  [A(^B0^DC)(^9C^DB)(^88=41)(^82^DD)(^81^DE)(^83^DF)(^B1^88)(^86^E0)
+    (^89=1)(^B2^E1)(^95^8B)(^87^E2)(^8B=e)(^9A^8E)(^8E=a)(^B3=0)(^B7=29)
+    (^C2^15F)(^B8=1)]
+  [B(^B0^E5)(^9C^E4)(^88=41)(^82^E6)(^81^E7)(^83^E8)(^B1^88)(^86^E9)
+    (^89=1)(^B2^EA)(^95^8B)(^87^EB)(^8B=e)(^9A^8E)(^8E=b)(^B3=0)(^B7=2a)
+    (^C2^15E)(^B8=1)]
+  [C(^B0^EE)(^9C^ED)(^88=41)(^82^EF)(^81^F0)(^83^F1)(^B1^88)(^86^F2)
+    (^89=1)(^B2^F3)(^95^8B)(^87^F4)(^8B=f)(^9A^8E)(^8E=c)(^B3=0)(^B7=2b)
+    (^C2^15D)(^B8=1)]
+  [D(^B0^F7)(^9C^F6)(^88=41)(^82^F8)(^81^F9)(^83^FA)(^B1^88)(^86^FB)
+    (^89=1)(^B2^FC)(^95^8B)(^87^FD)(^8B=e)(^9A^8E)(^8E=d)(^B3=0)(^B7=2c)
+    (^C2^15C)(^B8=1)]
+  [E(^B0^100)(^9C^FF)(^88=41)(^82^101)(^81^102)(^83^103)(^B1^88)(^86^104)
+    (^89=1)(^B2^105)(^95^8B)(^87=477)(^8B=e)(^9A^8E)(^8E=e)(^B3=0)(^B7=2d)
+    (^C2^15B)(^B8=1)]
+  [F(^B0^108)(^9C^107)(^88=41)(^82^109)(^81^10A)(^83^10B)(^B1^88)(^86^10C)
+    (^89=1)(^B2^10D)(^95^8B)(^87=56b)(^8B=e)(^9A^8E)(^8E=f)(^B3=0)(^B7=2e)
+    (^C2^15A)(^B8=1)]
+  [10(^B0^110)(^9C^10F)(^88=41)(^82^111)(^81^112)(^83^113)(^B1^88)(^86^114)
+    (^89=1)(^B2^115)(^95^8B)(^87=46c)(^8B=e)(^9A^8E)(^8E=10)(^B3=0)
+    (^B7=2f)(^C2^159)(^B8=1)]
+  [11(^B0^119)(^9C^118)(^88=41)(^82^11A)(^81^11B)(^83^11C)(^B1^88)(^86^11D)
+    (^89=1)(^B2^11E)(^95^8B)(^87=4f9)(^8B=e)(^9A^8E)(^8E=11)(^B3=0)
+    (^B7=30)(^C2^158)(^B8=1)]
+  [12(^B0^122)(^9C^121)(^88=41)(^82^123)(^81^124)(^83^125)(^B1^88)(^86^126)
+    (^89=1)(^B2^127)(^95^8B)(^87=4e4)(^8B=e)(^9A^8E)(^8E=12)(^B3=0)
+    (^B7=31)(^C2^157)(^B8=1)]
+  [13(^B0^12B)(^9C^12A)(^88=41)(^82^12C)(^81^12D)(^83^12E)(^B1^88)(^86^12F)
+    (^89=1)(^B2^130)(^95^8B)(^87=96a)(^8B=f)(^9A^8E)(^8E=13)(^B3=0)
+    (^B7=32)(^C2^156)(^B8=1)]
+  [14(^B0^134)(^9C^133)(^88=41)(^82^135)(^81^136)(^83^137)(^B1^138)
+    (^86^139)(^89=1)(^B2^13A)(^95^8B)(^87=45b)(^8B=e)(^9A^8E)(^8E=14)
+    (^B3=0)(^B7=33)(^C2^155)(^B8=1)]}
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{4:^80 {(k^97:c)(s=9)4:m } 4 }
+{5:^80 {(k^97:c)(s=9)5:m } 5 }
+{6:^80 {(k^97:c)(s=9)6:m } 6 }
+{7:^80 {(k^97:c)(s=9)7:m } 7 }
+{8:^80 {(k^97:c)(s=9)8:m } 8 }
+{9:^80 {(k^97:c)(s=9)9:m } 9 }
+{A:^80 {(k^97:c)(s=9)A:m } A }
+{B:^80 {(k^97:c)(s=9)B:m } B }
+{C:^80 {(k^97:c)(s=9)C:m } C }
+{D:^80 {(k^97:c)(s=9)D:m } D }
+{E:^80 {(k^97:c)(s=9)E:m } E }
+{F:^80 {(k^97:c)(s=9)F:m } F }
+{10:^80 {(k^97:c)(s=9)10:m } 10 }
+{11:^80 {(k^97:c)(s=9)11:m } 11 }
+{12:^80 {(k^97:c)(s=9)12:m } 12 }
+{13:^80 {(k^97:c)(s=9)13:m } 13 }
+{14:^80 {(k^97:c)(s=9)14:m } 14 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^86)]
+  [2(^94^96)]
+  [3(^94^9F)]
+  [4(^94^A8)]
+  [5(^94^B1)]
+  [6(^94^BA)]
+  [7(^94^C3)]
+  [8(^94^CC)]
+  [9(^94^D5)]
+  [A(^94^DE)]
+  [B(^94^E7)]
+  [C(^94^F0)]
+  [D(^94^F9)]
+  [E(^94^102)]
+  [F(^94^10A)]
+  [10(^94^112)]
+  [11(^94^11B)]
+  [12(^94^124)]
+  [13(^94^12D)]
+  [14(^94^136)]}
+
+<(83=Hacker News Front Page)(13D=6822)(16A=66991e77)(152=1721310833)
+  (154=$121)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^88=4)(^A6^83)(^A2^13D)(^A4^16A)(^A0=14)(^A1=0)
+    (^A5=14)(^B4^152)(^BC=12)(^BD=1)(^BE=1)(^BF=0)(^C0^154)(^C4=1)]}
+
+@$${31{@
+@$$}31}@
+
+@$${32{@
+[1:^80(^B8=0)]
+[2:^80(^B8=0)]
+[3:^80(^B8=0)]
+@$$}32}@
+
+@$${33{@
+@$$}33}@
+
+@$${34{@
+@$$}34}@
+
+@$${35{@
+@$$}35}@
+
+@$${36{@
+[E:^80(^B8=0)]
+[F:^80(^B8=0)]
+[10:^80(^B8=0)]
+[11:^80(^B8=0)]
+[12:^80(^B8=0)]
+[13:^80(^B8=0)]
+[14:^80(^B8=0)]
+[4:^80(^B8=0)]
+[5:^80(^B8=0)]
+[6:^80(^B8=0)]
+[7:^80(^B8=0)]
+[8:^80(^B8=0)]
+[9:^80(^B8=0)]
+[A:^80(^B8=0)]
+[B:^80(^B8=0)]
+[C:^80(^B8=0)]
+[D:^80(^B8=0)]
+@$$}36}@
+
+@$${38{@
+<(16B=1721311890)>[1:^9E(^B4^16B)]
+@$$}38}@

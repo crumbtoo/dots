@@ -1,0 +1,182 @@
+From - Tue, 23 Jan 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:44 -0600
+Date: Tue, 23 Jan 2024 00:00:00 GMT
+Message-Id: <https://dx.doi.org/10.1017/S0956796823000114?rft_dat=source%3Ddrss@localhost.localdomain>
+From: <"GRAVERSEN, EVA">
+MIME-Version: 1.0
+Subject: Alice or Bob?: Process polymorphism in choreographies
+Content-Transfer-Encoding: 8bit
+Content-Base: https://dx.doi.org/10.1017/S0956796823000114?rft_dat=source%3Ddrss
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alice or Bob?: Process polymorphism in choreographies</title>
+    <base href="https://dx.doi.org/10.1017/S0956796823000114?rft_dat=source%3Ddrss">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    <div class="abstract" data-abstract-type="normal"><p>We present PolyChor<span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240119180742097-0905:S0956796823000114:S0956796823000114_inline1.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span>, a language for higher-order functional <span class='italic'>choreographic programming</span>—an emerging paradigm for concurrent programming. In choreographic programming, programmers write the desired cooperative behaviour of a system of processes and then compile it into an implementation for each process, a translation called <span class='italic'>endpoint projection</span>. Unlike its predecessor, Chor<span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240119180742097-0905:S0956796823000114:S0956796823000114_inline2.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span>, PolyChor<span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240119180742097-0905:S0956796823000114:S0956796823000114_inline3.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> has both type and <span class='italic'>process</span> polymorphism inspired by System F<span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240119180742097-0905:S0956796823000114:S0956796823000114_inline4.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span>. That is, PolyChor<span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240119180742097-0905:S0956796823000114:S0956796823000114_inline5.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> is the first (higher-order) functional choreographic language which gives programmers the ability to write generic choreographies and determine the participants at runtime. This novel combination of features also allows PolyChor<span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240119180742097-0905:S0956796823000114:S0956796823000114_inline6.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> processes to communicate <span class='italic'>distributed values</span>, leading to a new and intuitive way to write delegation. While some of the functional features of PolyChor<span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240119180742097-0905:S0956796823000114:S0956796823000114_inline7.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> give it a weaker correspondence between the semantics of choreographies and their endpoint-projected concurrent systems than some other choreographic languages, we still get the hallmark end result of choreographic programming: projected programmes are deadlock-free by design.</p></div>
+  </body>
+</html>
+
+
+From - Fri, 26 Jan 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:44 -0600
+Date: Fri, 26 Jan 2024 00:00:00 GMT
+Message-Id: <https://dx.doi.org/10.1017/S0956796823000126?rft_dat=source%3Ddrss@localhost.localdomain>
+From: <"MATSUDA, KAZUTAKA">
+MIME-Version: 1.0
+Subject: Sparcl: A language for partially invertible computation
+Content-Transfer-Encoding: 8bit
+Content-Base: https://dx.doi.org/10.1017/S0956796823000126?rft_dat=source%3Ddrss
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sparcl: A language for partially invertible computation</title>
+    <base href="https://dx.doi.org/10.1017/S0956796823000126?rft_dat=source%3Ddrss">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    <div class="abstract" data-abstract-type="normal"><p>Invertibility is a fundamental concept in computer science, with various manifestations in software development (serializer/deserializer, parser/printer, redo/undo, compressor/decompressor, and so on). Full invertibility necessarily requires bijectivity, but the direct approach of composing bijective functions to develop invertible programs is too restrictive to be useful. In this paper, we take a different approach by focusing on <span class='italic'>partially invertible</span> functions—functions that become invertible if some of their arguments are fixed. The simplest example of such is addition, which becomes invertible when fixing one of the operands. More involved examples include entropy-based compression methods (e.g., Huffman coding), which carry the occurrence frequency of input symbols (in certain formats such as Huffman tree), and fixing this frequency information makes the compression methods invertible.</p><p>We develop a language <span class='sc'>Sparcl</span> for programming such functions in a natural way, where partial invertibility is the norm and bijectivity is a special case, hence gaining significant expressiveness without compromising correctness. The challenge in designing such a language is to allow ordinary programming (the “partially” part) to interact with the invertible part freely, and yet guarantee invertibility by construction. The language <span class='sc'>Sparcl</span> is linear-typed and has a type constructor to distinguish data that are subject to invertible computation and those that are not. We present the syntax, type system, and semantics of the language and prove that <span class='sc'>Sparcl</span> correctly guarantees invertibility for its programs. We demonstrate the expressiveness of <span class='sc'>Sparcl</span> with examples including tree rebuilding from preorder and inorder traversals, Huffman coding, arithmetic coding, and LZ77 compression.</p></div>
+  </body>
+</html>
+
+
+From - Tue, 30 Jan 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:44 -0600
+Date: Tue, 30 Jan 2024 00:00:00 GMT
+Message-Id: <https://dx.doi.org/10.1017/S0956796824000017?rft_dat=source%3Ddrss@localhost.localdomain>
+From: <"MOY, CAMERON">
+MIME-Version: 1.0
+Subject: Knuth–Morris–Pratt illustrated
+Content-Transfer-Encoding: 8bit
+Content-Base: https://dx.doi.org/10.1017/S0956796824000017?rft_dat=source%3Ddrss
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Knuth–Morris–Pratt illustrated</title>
+    <base href="https://dx.doi.org/10.1017/S0956796824000017?rft_dat=source%3Ddrss">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    <div class="abstract" data-abstract-type="normal"><p>The Knuth–Morris–Pratt (KMP) algorithm for string search is notoriously difficult to understand. Lost in a sea of index arithmetic, most explanations of KMP obscure its essence. This paper constructs KMP incrementally, using pictures to illustrate each step. The end result is easier to comprehend. Additionally, the derivation uses only elementary functional programming techniques.</p></div>
+  </body>
+</html>
+
+
+From - Mon, 25 Mar 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:44 -0600
+Date: Mon, 25 Mar 2024 00:00:00 GMT
+Message-Id: <https://dx.doi.org/10.1017/S0956796824000029?rft_dat=source%3Ddrss@localhost.localdomain>
+From: <"SU, CHENGHAO">
+MIME-Version: 1.0
+Subject: Static Blame for gradual typing
+Content-Transfer-Encoding: 8bit
+Content-Base: https://dx.doi.org/10.1017/S0956796824000029?rft_dat=source%3Ddrss
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static Blame for gradual typing</title>
+    <base href="https://dx.doi.org/10.1017/S0956796824000029?rft_dat=source%3Ddrss">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    <div class="abstract" data-abstract-type="normal"><p>Gradual typing integrates static and dynamic typing by introducing a dynamic type and a consistency relation. A problem of gradual type systems is that dynamic types can easily hide erroneous data flows since consistency relations are not transitive. Therefore, a more rigorous static check is required to reveal these hidden data flows statically. However, in order to preserve the expressiveness of gradually typed languages, static checks for gradually typed languages cannot simply reject programs with potentially erroneous data flows. By contrast, a more reasonable request is to show how these data flows can affect the execution of the program. In this paper, we propose and formalize <span class='italic'>Static Blame</span>, a framework that can reveal hidden data flows for gradually typed programs and establish the correspondence between static-time data flows and runtime behavior. With this correspondence, we build a classification of potential errors detected from hidden data flows and formally characterize the possible impact of potential errors in each category on program execution, without simply rejecting the whole program. We implemented Static Blame on Grift, an academic gradually typed language, and evaluated the effectiveness of Static Blame by mutation analysis to verify our theoretical results. Our findings revealed that Static Blame exhibits a notable level of precision and recall in detecting type-related bugs. Furthermore, we conducted a manual classification to elucidate the reasons behind instances of failure. We also evaluated the performance of Static Blame, showing a quadratic growth in run time as program size increases.</p></div>
+  </body>
+</html>
+
+
+From - Fri, 05 Apr 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:44 -0600
+Date: Fri, 05 Apr 2024 00:00:00 GMT
+Message-Id: <https://dx.doi.org/10.1017/S0956796824000030?rft_dat=source%3Ddrss@localhost.localdomain>
+From: <"HILLERSTRÖM, DANIEL">
+MIME-Version: 1.0
+Subject: Asymptotic speedup via effect handlers
+Content-Transfer-Encoding: 8bit
+Content-Base: https://dx.doi.org/10.1017/S0956796824000030?rft_dat=source%3Ddrss
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Asymptotic speedup via effect handlers</title>
+    <base href="https://dx.doi.org/10.1017/S0956796824000030?rft_dat=source%3Ddrss">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    <div class="abstract" data-abstract-type="normal"><p>We study a fundamental efficiency benefit afforded by delimited control, showing that for certain higher-order functions, a language with advanced control features offers an asymptotic improvement in runtime over a language without them. Specifically, we consider the <span class='italic'>generic count</span> problem in the context of a pure functional base language <span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240424104250570-0399:S0956796824000030:S0956796824000030_inline1.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> and an extension <span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240424104250570-0399:S0956796824000030:S0956796824000030_inline2.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> with general <span class='italic'>effect handlers</span>. We prove that <span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240424104250570-0399:S0956796824000030:S0956796824000030_inline3.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> admits an asymptotically more efficient implementation of generic count than any implementation in <span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240424104250570-0399:S0956796824000030:S0956796824000030_inline4.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span>. We also show that this gap remains even when <span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240424104250570-0399:S0956796824000030:S0956796824000030_inline5.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> is extended to a language <span class='inlineFormula'><span class='alternatives'><img class='inline-graphic mathjax-alternative mathjax-alt-graphic mathjax-off' data-mimesubtype='png' data-type='' src='http://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240424104250570-0399:S0956796824000030:S0956796824000030_inline6.png'><span class='mathjax-tex-wrapper' data-mathjax-type='texmath'></span></span></span> with <span class='italic'>affine effect handlers</span>, which is strong enough to encode exceptions, local state, coroutines and single-shot continuations. This locates the efficiency difference in the gap between ‘single-shot’ and ‘multi-shot’ versions of delimited control.</p><p>To our knowledge, these results are the first of their kind for control operators.</p></div>
+  </body>
+</html>
+
+
+From - Fri, 24 May 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Fri, 24 May 2024 00:00:00 GMT
+Message-Id: <https://dx.doi.org/10.1017/S0956796824000042?rft_dat=source%3Ddrss@localhost.localdomain>
+From: <"SPERBER, MICHAEL">
+MIME-Version: 1.0
+Subject: A review for the Journal of Functional Programming of Sandy Maguire, Algebra-Driven Design (Leanpub, 2020).
+Content-Transfer-Encoding: 8bit
+Content-Base: https://dx.doi.org/10.1017/S0956796824000042?rft_dat=source%3Ddrss
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A review for the Journal of Functional Programming of Sandy Maguire, Algebra-Driven Design (Leanpub, 2020).</title>
+    <base href="https://dx.doi.org/10.1017/S0956796824000042?rft_dat=source%3Ddrss">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    A review for the Journal of Functional Programming of Sandy Maguire, Algebra-Driven Design (Leanpub, 2020).
+  </body>
+</html>
+
+
+From - Mon, 27 May 2024 00:00:00 GMT
+X-Mozilla-Status: 0041
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: by localhost; Thu, 18 Jul 2024 07:52:45 -0600
+Date: Mon, 27 May 2024 00:00:00 GMT
+Message-Id: <https://dx.doi.org/10.1017/S0956796824000054?rft_dat=source%3Ddrss@localhost.localdomain>
+From: <"SEKIYAMA, TARO">
+MIME-Version: 1.0
+Subject: Signature restriction for polymorphic algebraic effects
+Content-Transfer-Encoding: 8bit
+Content-Base: https://dx.doi.org/10.1017/S0956796824000054?rft_dat=source%3Ddrss
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signature restriction for polymorphic algebraic effects</title>
+    <base href="https://dx.doi.org/10.1017/S0956796824000054?rft_dat=source%3Ddrss">
+  </head>
+  <body id="msgFeedSummaryBody" selected="false">
+    <div class="abstract" data-abstract-type="normal"><p>The naive combination of polymorphic effects and polymorphic type assignment has been well known to break type safety. In the literature, there are two kinds of approaches to this problem: one is to restrict how effects are triggered and the other is to restrict how they are implemented. This work explores a new approach to ensuring the safety of the use of polymorphic effects in polymorphic type assignment. A novelty of our work is to restrict <span class='italic'>effect interfaces</span>. To formalize our idea, we employ algebraic effects and handlers, where an effect interface is given by a set of operations coupled with type signatures. We propose <span class='italic'>signature restriction</span>, a new notion to restrict the type signatures of operations and show that signature restriction ensures type safety of a language equipped with polymorphic effects and unrestricted polymorphic type assignment. We also develop a type-and-effect system to enable the use of both of the operations that satisfy and those that do not satisfy the signature restriction in a single program.</p></div>
+  </body>
+</html>
+
+

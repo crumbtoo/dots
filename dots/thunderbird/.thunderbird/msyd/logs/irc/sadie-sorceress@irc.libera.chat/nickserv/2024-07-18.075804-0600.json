@@ -1,0 +1,3 @@
+{"date":"2024-07-18T13:58:04.137Z","name":"NickServ","title":"NickServ","account":"sadie-sorceress@irc.libera.chat","protocol":"irc","isChat":false,"normalizedName":"nickserv"}
+{"date":"2024-07-18T13:58:03.000Z","who":"NickServ","text":"This nickname is registered. Please choose a different nickname, or identify via <b>/msg NickServ IDENTIFY sadie-sorceress &lt;password&gt;</b>","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T13:58:10.000Z","who":"NickServ","text":"Invalid password for <b>sadie-sorceress</b>.","flags":["incoming","delayed","notification"],"remoteId":""}

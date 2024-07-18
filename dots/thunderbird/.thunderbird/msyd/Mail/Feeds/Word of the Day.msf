@@ -1,0 +1,90 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=gloda-dirty)(B9=junkscore)(BA=keywords)(BB=columnStates)
+  (BC=sortType)(BD=sortOrder)(BE=viewFlags)(BF=viewType)(C0=sortColumns)
+  (C1=customSortCol)(C2=sender_name)(C3=imageSize)(C4=useServerRetention)
+  (C5=retainBy)(C6=daysToKeepHdrs)(C7=numHdrsToKeep)(C8=daysToKeepBodies)
+  (C9=useServerDefaults)(CA=cleanupBodies)(CB=applyToFlaggedMessages)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=folderName)(AF=indexingPriority)
+  (B0=storeToken)(B1=dateReceived)(B2=content-base)(B3=ProtoThreadFlags)
+  (B4=MRUTime)(B5=dobayes.mailnews@mozilla.org#junk.empty)
+  (B6=dobayes.mailnews@mozilla.org#junk)(B7=gloda-id)>
+<(80=1)(8F=fffffffe)(89=6698a150)(81=0)>
+[1:m(^9B=1)(^8F^8F)(^91^89)(^90=0)(^92=1)(^93=0)]
+<(9A=2)(96=66974fd0)>[2:m(^9B=2)(^8F=2)(^91^96)(^90=0)(^92=1)(^93=0)]
+<(A3=3)(A0=6695fe50)>[3:m(^9B=3)(^8F=3)(^91^A0)(^90=0)(^92=1)(^93=0)]
+
+<(A9=41)(85=<Word of the Day>)(86=nubbly)(87
+    =https://www.thefreedictionary.com/nubbly@localhost.localdomain)
+  (88=66991e2c)(8A=https://www.thefreedictionary.com/nubbly)(8B=UTF-8)
+  (8C=4ef)(8D=e)(8E=ffffffff)(A6=38)(AF=0|Word of the Day)(93=1264)
+  (91=4f0)(94=entreaty)(95
+    =https://www.thefreedictionary.com/entreaty@localhost.localdomain)
+  (97=https://www.thefreedictionary.com/entreaty)(98=445)(99=d)(A7=39)
+  (9C=2358)(9B=936)(9D=doleful)(9E
+    =https://www.thefreedictionary.com/doleful@localhost.localdomain)
+  (9F=66991e2d)(A1=https://www.thefreedictionary.com/doleful)(A2=401)
+  (A8=3a)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^B0=0)(^9C=0)(^88=41)(^82^85)(^81^86)(^83^87)(^B1^88)(^86^89)(^89=1)
+    (^B2^8A)(^95^8B)(^87^8C)(^8B=e)(^9A^8E)(^8E^8F)(^B3=0)(^B7=38)(^B8=1)
+    (^C2^AF)]
+  [2(^B0^93)(^9C^91)(^88=41)(^82^85)(^81^94)(^83^95)(^B1^88)(^86^96)
+    (^89=1)(^B2^97)(^95^8B)(^87^98)(^8B=d)(^9A^8E)(^8E=2)(^B3=0)(^B7=39)
+    (^B8=1)(^C2^AF)]
+  [3(^B0^9C)(^9C^9B)(^88=41)(^82^85)(^81^9D)(^83^9E)(^B1^9F)(^86^A0)
+    (^89=1)(^B2^A1)(^95^8B)(^87^A2)(^8B=d)(^9A^8E)(^8E=3)(^B3=0)(^B7=3a)
+    (^B8=1)(^C2^AF)]}
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^86)]
+  [2(^94^94)]
+  [3(^94^9D)]}
+
+<(82=4)(83=Word of the Day)(A4=d38)(AA=66991e77)(AB=1721310844)(AC=12)
+  (AE=$121)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^88=4)(^A6^83)(^A2^A4)(^A4^AA)(^A0=3)(^A1=0)
+    (^A5=3)(^B4^AB)(^BC=12)(^BD=1)(^BE=1)(^BF=0)(^C0^AE)(^C4=1)]}
+
+@$${15{@
+@$$}15}@
+
+@$${16{@
+< <(a=c)> // (f=iso-8859-1)
+  (CC=notAPhishMessage)>
+@$$}16}@
+
+@$${17{@
+@$$}17}@
+
+@$${18{@
+[3:^80(^B8=0)]
+[1:^80(^B8=0)]
+[2:^80(^B8=0)]
+@$$}18}@
+
+@$${1A{@
+<(B0=1721311845)>[1:^9E(^B4^B0)]
+@$$}1A}@
+
+@$${1B{@
+@$$}1B}@
+
+@$${1C{@
+@$$}1C}@

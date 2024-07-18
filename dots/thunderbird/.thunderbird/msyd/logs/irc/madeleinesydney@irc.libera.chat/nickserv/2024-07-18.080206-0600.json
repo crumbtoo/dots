@@ -1,0 +1,15 @@
+{"date":"2024-07-18T14:02:06.231Z","name":"NickServ","title":"NickServ","account":"madeleinesydney@irc.libera.chat","protocol":"irc","isChat":false,"normalizedName":"nickserv"}
+{"date":"2024-07-18T14:02:06.000Z","who":"NickServ","text":"<b>MadeleineSydney</b> is not a registered nickname.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:02:36.000Z","who":"NickServ","text":"<b>GloriousGlasgow2024</b> is not a valid e-mail address.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:04:12.000Z","who":"NickServ","text":"<b>lomiskiam@gmail.com</b> has too many accounts registered.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:04:32.000Z","who":"NickServ","text":"You cannot use your nickname as a password.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:04:32.000Z","who":"NickServ","text":"Syntax: REGISTER &lt;password&gt; &lt;email&gt;","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:04:48.000Z","who":"NickServ","text":"An email containing nickname activation instructions has been sent to <b>dacomeber2@gmail.com</b>.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:04:48.000Z","who":"NickServ","text":"Please check the address if you don't receive it. If it is incorrect, DROP then REGISTER again.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:04:48.000Z","who":"NickServ","text":"If you do not complete registration within one day, your nickname will expire.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:04:48.000Z","who":"NickServ","text":"<b>MadeleineSydney</b> is now registered to <b>dacomeber2@gmail.com</b>.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:05:26.000Z","who":"NickServ","text":"Verification failed. Invalid key for <b>MadeleineSydney</b>.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:05:49.000Z","who":"NickServ","text":"Verification failed. Invalid key for <b>MadeleineSydney</b>.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:06:08.000Z","who":"NickServ","text":"<b>MadeleineSydney</b> has now been verified.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:06:08.000Z","who":"NickServ","text":"Thank you for verifying your e-mail address! You have taken steps in ensuring that your registrations are not exploited.","flags":["incoming","delayed","notification"],"remoteId":""}
+{"date":"2024-07-18T14:06:08.000Z","who":"NickServ","text":"You have been given a default user cloak.","flags":["incoming","delayed","notification"],"remoteId":""}

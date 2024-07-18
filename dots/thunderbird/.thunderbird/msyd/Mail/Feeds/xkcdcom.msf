@@ -1,0 +1,101 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=gloda-dirty)(B9=junkscore)(BA=keywords)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=folderName)(AF=indexingPriority)
+  (B0=storeToken)(B1=dateReceived)(B2=content-base)(B3=ProtoThreadFlags)
+  (B4=MRUTime)(B5=dobayes.mailnews@mozilla.org#junk.empty)
+  (B6=dobayes.mailnews@mozilla.org#junk)(B7=gloda-id)>
+<(80=1)(8F=fffffffe)(89=669741c0)(81=0)>
+[1:m(^9B=1)(^8F^8F)(^91^89)(^90=0)(^92=1)(^93=0)]
+<(99=2)(96=66949ec0)>[2:m(^9B=2)(^8F=2)(^91^96)(^90=0)(^92=1)(^93=0)]
+<(A1=3)(9E=6690aa40)>[3:m(^9B=3)(^8F=3)(^91^9E)(^90=0)(^92=1)(^93=0)]
+<(82=4)(A7=668e0740)>[4:m(^9B=4)(^8F=4)(^91^A7)(^90=0)(^92=1)(^93=0)]
+
+<(B0=41)(85=<xkcd.com>)(86=Organ Meanings)(87
+    =https://xkcd.com/2960/@localhost.localdomain)(88=66991e2c)(8A
+    =https://xkcd.com/2960/)(8B=UTF-8)(8C=3bc)(8D=b)(8E=ffffffff)(AC=34)
+  (93=957)(91=3bd)(94=Beam of Light)(95
+    =https://xkcd.com/2959/@localhost.localdomain)(97
+    =https://xkcd.com/2959/)(98=449)(AD=35)(9B=2055)(9A=807)(9C=Hatchery)
+  (9D=https://xkcd.com/2958/@localhost.localdomain)(9F
+    =https://xkcd.com/2958/)(A0=404)(AE=36)(A3=3084)(A2=c0c)(A4
+    =A Crossword Puzzle)(A5=https://xkcd.com/2957/@localhost.localdomain)
+  (A6=66991e2d)(A8=https://xkcd.com/2957/)(A9=420)(AF=37)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^B0=0)(^9C=0)(^88=41)(^82^85)(^81^86)(^83^87)(^B1^88)(^86^89)(^89=1)
+    (^B2^8A)(^95^8B)(^87^8C)(^8B=b)(^9A^8E)(^8E^8F)(^B3=0)(^B7=34)(^B8=1)]
+  [2(^B0^93)(^9C^91)(^88=41)(^82^85)(^81^94)(^83^95)(^B1^88)(^86^96)
+    (^89=1)(^B2^97)(^95^8B)(^87^98)(^8B=b)(^9A^8E)(^8E=2)(^B3=0)(^B7=35)
+    (^B8=1)]
+  [3(^B0^9B)(^9C^9A)(^88=41)(^82^85)(^81^9C)(^83^9D)(^B1^88)(^86^9E)
+    (^89=1)(^B2^9F)(^95^8B)(^87^A0)(^8B=b)(^9A^8E)(^8E=3)(^B3=0)(^B7=36)
+    (^B8=1)]
+  [4(^B0^A3)(^9C^A2)(^88=41)(^82^85)(^81^A4)(^83^A5)(^B1^A6)(^86^A7)
+    (^89=1)(^B2^A8)(^95^8B)(^87^A9)(^8B=b)(^9A^8E)(^8E=4)(^B3=0)(^B7=37)
+    (^B8=1)]}
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{4:^80 {(k^97:c)(s=9)4:m } 4 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^86)]
+  [2(^94^94)]
+  [3(^94^9C)]
+  [4(^94^A4)]}
+
+<(83=xkcdcom)(AA=102d)(B1=66991e77)(AB=1721310765)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^88=4)(^A6^83)(^A2^AA)(^A4^B1)(^A0=4)(^A1=0)
+    (^A5=4)(^B4^AB)]}
+
+@$${15{@
+< <(a=c)> // (f=iso-8859-1)
+  (BB=columnStates)(BC=sortType)(BD=sortOrder)(BE=viewFlags)(BF=viewType)>
+<(B2=1721310840)>[1:^9E(^B4^B2)]
+@$$}15}@
+
+@$${16{@
+< <(a=c)> // (f=iso-8859-1)
+  (C0=sortColumns)(C1=customSortCol)(C2=sender_name)(C3=imageSize)
+  (C4=useServerRetention)(C5=retainBy)(C6=daysToKeepHdrs)
+  (C7=numHdrsToKeep)(C8=daysToKeepBodies)(C9=useServerDefaults)
+  (CA=cleanupBodies)(CB=applyToFlaggedMessages)>
+<(B6=0|xkcd.com)>[3:^80(^C2^B6)]
+[4:^80(^C2^B6)]
+[1:^80(^C2^B6)]
+[2:^80(^C2^B6)]
+<(B3=12)(B5=$121)>[-1:^9E(^AB=1)(^AC=0)(^AD=1)(^88=4)(^A6^83)(^A2^AA)
+    (^A4^B1)(^A0=4)(^A1=0)(^A5=4)(^B4^B2)(^BC=12)(^BD=1)(^BE=1)(^BF=0)
+    (^C0^B5)(^C4=1)]
+@$$}16}@
+
+@$${17{@
+< <(a=c)> // (f=iso-8859-1)
+  (CC=remoteContentPolicy)(CD=notAPhishMessage)>
+@$$}17}@
+
+@$${18{@
+@$$}18}@
+
+@$${19{@
+@$$}19}@
+
+@$${1A{@
+[3:^80(^B8=0)]
+[4:^80(^B8=0)]
+[1:^80(^B8=0)]
+[2:^80(^B8=0)]
+@$$}1A}@

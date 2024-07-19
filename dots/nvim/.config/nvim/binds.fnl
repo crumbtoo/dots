@@ -178,7 +178,7 @@
       (let [s vim.o.commentstring
             s^ (string.format
                  s
-                 (string.rep "-" (- (or vim.o.textwidth 80) (length s))))]
+                 (string.rep "-" (- (or vim.o.textwidth 80) (- (length s) 2))))]
         (set vim.b.rulestring s^)
         s^)))
 

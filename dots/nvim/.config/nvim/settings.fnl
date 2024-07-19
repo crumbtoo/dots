@@ -110,6 +110,14 @@
   (fn [_]
     (edit-and-cd "~/.config/nvim/init.fnl")))
 
+(command! [] :EditProject
+  (fn [_]
+    (let [proj vim.b.get-project]
+      (match (type proj)
+        :string (vim.cmd proj)
+        :function (proj) ; pcall?
+        _ (error "vim.b.get-project should be a string or a function")))))
+
 ;------------------------------------------------------------------------------;
 ; filetypes
 

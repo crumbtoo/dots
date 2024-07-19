@@ -164,10 +164,6 @@
       #(vim.lsp.buf.hover)
       "lsp hover")
 
-(map! [nx] :<leader>ssr
-      #((. (require :ssr) :open))
-      "open SSR")
-
 ;;; vim-fu
 
 (fn with-current-line-num [f]
@@ -175,12 +171,6 @@
 
 (fn with-current-line [f]
   (f (vim.fn.getline (vim.fn.line "."))))
-
-(command! [] :Thing
-          #(with-current-line
-             (fn [line]
-               (let [c (string.char (vim.fn.getchar))]
-                 (print line c)))))
 
 (fn get-rulestring []
   (or vim.b.rulestring

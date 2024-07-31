@@ -4,6 +4,8 @@
 (set vim.b.rulestring
      "--------------------------------------------------------------------------------")
 
+(set vim.b.get-project ":HsPackageCabal")
+
 ; (fn get-haskell-indent []
 ;   10)
 

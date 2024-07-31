@@ -136,6 +136,12 @@
   (opts :neovim/nvim-lspconfig
         :config #(require :plugins.lspconfig))
   ;; agda
+  (opts :Julian/lean.nvim
+        :event ["BufReadPre *.lean" "BufNewFile *.lean"]
+        :dependencies [:neovim/nvim-lspconfig
+                       :nvim-lua/plenary.nvim]
+        :opts {:lsp {}
+               :mappings true})
   (opts :isovector/cornelis
         :dependencies [:kana/vim-textobj-user
                        :neovimhaskell/nvim-hs.vim]
@@ -146,6 +152,7 @@
   (opts :SlayerOfTheBad/idris2-nvim ; why am i using this fork???
         :dependencies [:neovim/nvim-lspconfig
                        :MunifTanjim/nui.nvim]
+        :dev true
         :lazy true
         :ft [:idris2 :ipkg]
         :main :idris2

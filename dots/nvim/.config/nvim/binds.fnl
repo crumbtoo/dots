@@ -52,9 +52,10 @@
 ;       vim.lsp.buf.code_action
 ;       "lsp code action")
 
-(map! [nv] "<leader>fmt"
-      (fn [_] (vim.lsp.buf.format {:async true}))
-      "lsp format")
+;; just use `gq`
+; (map! [nv] "<leader>fmt"
+;       (fn [_] (vim.lsp.buf.format {:async true}))
+;       "lsp format")
 
 (map! [n] "<leader>rn"
       #(vim.lsp.buf.rename)
@@ -63,6 +64,15 @@
 (map! [nv] "<leader>ca"
       (. (require :actions-preview) :code_actions)
       "lsp code action preview")
+
+(map! [n] "<leader>fr"
+      #(vim.lsp.buf.references)
+      "lsp find references")
+
+(map! [n] "<leader>ta"
+      #((. (require :telescope.builtin) :tags)
+        {:only_sort_tags true})
+      "telescope tags")
 
 ;; TODO put these in an LspAttach autocmd
 
@@ -89,11 +99,11 @@
       "toggle nvim-tree")
 
 (map! [n :silent] :<leader>ff
-      ":Telescope find_files<CR>"
+      #((. (require :telescope.builtin) :find_files))
       "search files by name")
 
 (map! [n] :<leader>lg
-      ":Telescope live_grep<CR>"
+      #((. (require :telescope.builtin) :live_grep))
       "search files by content (requires ripgrep)")
 
 (map! [n] :<leader>?
@@ -154,10 +164,6 @@
       #(vim.lsp.buf.hover)
       "lsp hover")
 
-(map! [nx] :<leader>ssr
-      #((. (require :ssr) :open))
-      "open SSR")
-
 ;;; vim-fu
 
 (fn with-current-line-num [f]
@@ -166,19 +172,13 @@
 (fn with-current-line [f]
   (f (vim.fn.getline (vim.fn.line "."))))
 
-(command! [] :Thing
-          #(with-current-line
-             (fn [line]
-               (let [c (string.char (vim.fn.getchar))]
-                 (print line c)))))
-
 (fn get-rulestring []
   (or vim.b.rulestring
       ;; compute a default rulestring and cache it.
       (let [s vim.o.commentstring
             s^ (string.format
                  s
-                 (string.rep "-" (- (or vim.o.textwidth 80) (length s))))]
+                 (string.rep "-" (- (or vim.o.textwidth 80) (- (length s) 2))))]
         (set vim.b.rulestring s^)
         s^)))
 

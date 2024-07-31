@@ -60,6 +60,7 @@
   ;       :dependencies [:nvim-lua/plenary.nvim])
 
   ;;; language tools
+  :sbdchd/neoformat
   (opts :nvim-treesitter/nvim-treesitter
         :config #(require :plugins.treesitter))
   :nvim-treesitter/playground
@@ -153,13 +154,13 @@
         :dependencies [:neovim/nvim-lspconfig
                        :MunifTanjim/nui.nvim]
         :dev true
-        :lazy true
-        :ft [:idris2 :ipkg]
+        ; :lazy true
+        ; :ft [:idris2 :ipkg]
         :main :idris2
         :opts {:code_action_post_hook #(exec! [silent write])}
         :config true)
-  ; (opts :crumbtoo/idris2-snippets.nvim
-  ;       :dev true)
+  (opts :crumbtoo/idris2-snippets.nvim
+        :dev true)
 
   ;;; vim-fu
   (opts :windwp/nvim-autopairs

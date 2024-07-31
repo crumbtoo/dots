@@ -85,6 +85,7 @@ path=(
   /usr/local/{,s}bin(N)
   $DENO_INSTALL/bin
   $HOME/.ghcup/bin
+  $HOME/.pack/bin
   $path
 )
 

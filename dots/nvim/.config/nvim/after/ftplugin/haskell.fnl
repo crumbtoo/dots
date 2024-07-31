@@ -1,8 +1,7 @@
 (require-macros :hibiscus.core)
 (require-macros :hibiscus.vim)
 
-(set vim.b.rulestring
-     "--------------------------------------------------------------------------------")
+(b! rulestring (string.rep "-" 80))
 
 (set vim.b.get-project ":HsPackageCabal")
 

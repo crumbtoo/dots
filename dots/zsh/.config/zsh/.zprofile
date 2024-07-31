@@ -84,6 +84,7 @@ path=(
   /opt/{homebrew,local}/{,s}bin(N)
   /usr/local/{,s}bin(N)
   $DENO_INSTALL/bin
+  $HOME/.ghcup/bin
   $path
 )
 

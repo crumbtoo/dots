@@ -54,6 +54,7 @@ set_prompt
   git clone https://github.com/mattmc3/antidote ${ZDOTDIR:-~}/.antidote
 
 PATH_LOL=$PATH
+
 # Create an amazing Zsh config using antidote plugins.
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 antidote load

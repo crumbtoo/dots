@@ -76,11 +76,14 @@ typeset -gU path fpath
     || source '/Users/crumble/.opam/opam-init/init.zsh' \
     > /dev/null 2> /dev/null
 
+export DENO_INSTALL="/home/crumb/.deno"
+
 # Set the list of directories that zsh searches for commands.
 path=(
   $HOME/{,s}bin(N)
   /opt/{homebrew,local}/{,s}bin(N)
   /usr/local/{,s}bin(N)
+  $DENO_INSTALL/bin
   $path
 )
 

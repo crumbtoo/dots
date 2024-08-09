@@ -5,5 +5,5 @@
 
 (server :agda_ls)
 (server :ocamllsp)
-(server :fennel_ls)
+; (server :fennel_ls)
 

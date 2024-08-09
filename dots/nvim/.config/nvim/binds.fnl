@@ -66,7 +66,8 @@
       "lsp code action preview")
 
 (map! [n] "<leader>fr"
-      #(vim.lsp.buf.references)
+      #((. (require :telescope.builtin) :lsp_references)
+        {})
       "lsp find references")
 
 (map! [n] "<leader>ta"

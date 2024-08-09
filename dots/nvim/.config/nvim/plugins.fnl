@@ -86,6 +86,8 @@
   ;; dale
   ; (opts :crumbtoo/dale.vim
   ;       :dev true)
+  ;; qbe
+  :perillo/qbe.vim
   ;; mercury
   (opts :Mercury-Language/mercury
         :dir :/Users/crumble/git/mercury-srcdist-22.01.8/vim

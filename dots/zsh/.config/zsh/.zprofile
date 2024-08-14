@@ -88,6 +88,7 @@ path=(
   $HOME/.pack/bin
   $HOME/.cabal/bin
   $HOME/src/scripts
+  $HOME/.config/emacs/bin
   $path
 )
 

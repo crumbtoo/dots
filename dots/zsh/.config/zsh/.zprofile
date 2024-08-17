@@ -89,6 +89,7 @@ path=(
   $HOME/.cabal/bin
   $HOME/src/scripts
   $HOME/.config/emacs/bin
+  $HOME/.elan/bin
   $path
 )
 

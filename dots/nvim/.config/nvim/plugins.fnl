@@ -83,6 +83,10 @@
   (opts :crumbtoo/diagflow.nvim ; :dgagn/diagflow.nvim
         :event :LspAttach
         :opts (require :plugins.diagflow))
+  ;; guix
+  (opts :https://gitlab.com/Efraim/guix.vim
+        :config #(do (g! guix_binary "guix")
+                     (g! guix_build_options "")))
   ;; dale
   ; (opts :crumbtoo/dale.vim
   ;       :dev true)
@@ -144,6 +148,7 @@
         :dependencies [:neovim/nvim-lspconfig
                        :nvim-lua/plenary.nvim]
         :opts {:lsp {}
+               :infoview {:horizontal_position "bottom"}
                :mappings true})
   (opts :isovector/cornelis
         :dependencies [:kana/vim-textobj-user

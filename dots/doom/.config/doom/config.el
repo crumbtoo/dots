@@ -94,8 +94,11 @@
 (use-package key-chord
   :config
   (key-chord-mode 1)
-  (key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
+  (key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
   (key-chord-define evil-visual-state-map "JK" 'evil-normal-state))
 
 (setq indent-tabs-mode nil
       tab-width 2)
+
+(with-eval-after-load 'yasnippet
+  (add-to-list 'yas-snippet-dirs "~/git/guix/etc/snippets/yas"))

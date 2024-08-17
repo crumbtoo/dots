@@ -52,3 +52,5 @@
 (package! autothemer)
 (package! kanagawa-theme)
 (package! key-chord)
+(package! geiser-guile :built-in 'prefer)
+(package! geiser :built-in 'prefer)

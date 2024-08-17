@@ -59,7 +59,7 @@
        fold              ; (nigh) universal code folding
        ;;(format +onsave)  ; automated prettiness
        ;;god               ; run Emacs commands without modifier keys
-       ;;lispy             ; vim for lisp, for people who don't like vim
+       lispy             ; vim for lisp, for people who don't like vim
        ;;multiple-cursors  ; editing in many places at once
        ;;objed             ; text object editing for the innocent
        ;;parinfer          ; turn lisp into python, sort of
@@ -98,7 +98,7 @@
        lookup              ; navigate your code and its documentation
        lsp                 ; M-x vscode
        magit             ; a git porcelain for Emacs
-       ;;make              ; run make tasks from Emacs
+       make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
        ;;pdf               ; pdf enhancements
        ;;prodigy           ; FIXME managing external services & code builders
@@ -195,5 +195,5 @@
        (default +bindings +smartparens))
 
 ; (add-to-list 'default-frame-alist '(font . "JuliaMono"))
-(add-to-list 'default-frame-alist '(font . "VictorMono NF"))
-(set-face-attribute 'default t :font "VictorMono NF")
+; (add-to-list 'default-frame-alist '(font . "VictorMono NF"))
+; (set-face-attribute 'default t :font "VictorMono NF")

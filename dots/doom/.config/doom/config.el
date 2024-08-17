@@ -87,3 +87,6 @@
 (use-package kanagawa-theme
   :ensure t
   :config (load-theme 'kanagawa t))
+
+(use-package evil-snipe
+  :config (setq evil-snipe-scope 'visible))

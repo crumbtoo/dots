@@ -186,8 +186,8 @@
        ;;calendar
        ;;emms
        ;;everywhere        ; *leave* Emacs!? You must be joking
-       ;;irc               ; how neckbeards socialize
-       ;;(rss +org)        ; emacs as an RSS reader
+       irc               ; how neckbeards socialize
+       (rss +org)        ; emacs as an RSS reader
        ;;twitter           ; twitter client https://twitter.com/vnought
 
        :config
@@ -195,5 +195,5 @@
        (default +bindings +smartparens))
 
 ; (add-to-list 'default-frame-alist '(font . "JuliaMono"))
-; (add-to-list 'default-frame-alist '(font . "VictorMono NF"))
-; (set-face-attribute 'default t :font "VictorMono NF")
+(add-to-list 'default-frame-alist '(font . "VictorMono NF"))
+(set-face-attribute 'default t :font "VictorMono NF")

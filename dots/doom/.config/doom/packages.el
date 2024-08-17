@@ -51,3 +51,4 @@
 
 (package! autothemer)
 (package! kanagawa-theme)
+(package! key-chord)

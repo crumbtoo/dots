@@ -21,10 +21,10 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-; (setq doom-font (font-spec :family "VictorMono" :size 12 :weight 'semi-light)
-;       doom-variable-pitch-font (font-spec :family "Liberation Sans" :size 13)
-;       doom-symbol-font (font-spec :family "VictorMono" :size 12)
-;       doom-big-font (font-spec :family "VictorMono" :size 14))
+;; (setq doom-font (font-spec :family "VictorMono" :size 12 :weight 'semi-light)
+;;       doom-variable-pitch-font (font-spec :family "Liberation Sans" :size 13)
+;;       doom-symbol-font (font-spec :family "VictorMono" :size 12)
+;;       doom-big-font (font-spec :family "VictorMono" :size 14))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -90,3 +90,12 @@
 
 (use-package evil-snipe
   :config (setq evil-snipe-scope 'visible))
+
+(use-package key-chord
+  :config
+  (key-chord-mode 1)
+  (key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
+  (key-chord-define evil-visual-state-map "JK" 'evil-normal-state))
+
+(setq indent-tabs-mode nil
+      tab-width 2)

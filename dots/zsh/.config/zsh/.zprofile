@@ -80,16 +80,16 @@ export DENO_INSTALL="/home/crumb/.deno"
 
 # Set the list of directories that zsh searches for commands.
 path=(
-  $HOME/{,s}bin(N)
-  /opt/{homebrew,local}/{,s}bin(N)
-  /usr/local/{,s}bin(N)
-  $DENO_INSTALL/bin
   $HOME/.ghcup/bin
   $HOME/.pack/bin
   $HOME/.cabal/bin
   $HOME/src/scripts
   $HOME/.config/emacs/bin
   $HOME/.elan/bin
+  $HOME/{,s}bin(N)
+  /opt/{homebrew,local}/{,s}bin(N)
+  /usr/local/{,s}bin(N)
+  $DENO_INSTALL/bin
   $path
 )
 

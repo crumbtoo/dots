@@ -5,7 +5,9 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    '("476fe2180054c68863477bd43617e17bb4d10b75e44f6efed146cc55d7b28809" default))
+ '(elfeed-feeds '("https://xkcd.com/rss.xml"))
  '(evil-snipe-scope 'visible)
+ '(magit-todos-insert-after '(bottom) nil nil "Changed by setter of obsolete option `magit-todos-insert-at'")
  '(safe-local-variable-values
    '((geiser-repl-per-project-p . t)
      (eval with-eval-after-load 'yasnippet
@@ -25,4 +27,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(ts-fold-replacement-face ((t (:foreground unspecified :box nil :inherit font-lock-comment-face :weight light)))))

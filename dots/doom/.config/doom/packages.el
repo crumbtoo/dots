@@ -52,5 +52,13 @@
 (package! autothemer)
 (package! kanagawa-theme)
 (package! key-chord)
-(package! geiser-guile :built-in 'prefer)
-(package! geiser :built-in 'prefer)
+;; (package! geiser-guile :built-in 'prefer)
+;; (package! geiser :built-in 'prefer)
+(package! lean4-mode :recipe
+  (:host github
+   :repo "leanprover/lean4-mode"
+   :files ("*.el" "data")))
+(package! dirvish)
+(package! math-symbol-lists)
+(package! unicode-math-input)
+;; (package! w3m)

@@ -21,10 +21,10 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-;; (setq doom-font (font-spec :family "VictorMono" :size 12 :weight 'semi-light)
-;;       doom-variable-pitch-font (font-spec :family "Liberation Sans" :size 13)
-;;       doom-symbol-font (font-spec :family "VictorMono" :size 12)
-;;       doom-big-font (font-spec :family "VictorMono" :size 14))
+(setq doom-font (font-spec :family "VictorMono NF" :size 12)
+      doom-variable-pitch-font (font-spec :family "VictorMono NF" :size 13)
+      doom-symbol-font (font-spec :family "VictorMono NF" :size 12)
+      doom-big-font (font-spec :family "VictorMono NF" :size 15))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -48,7 +48,9 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/org/")
+(setq org-directory "~/org")
+(setq org-mobile-inbox-for-pull "~/org/mobile-inbox.org")
+(setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
 
 ; (load-file (let ((coding-system-for-read 'utf-8))
 ;                 (shell-command-to-string "agda-mode locate")))
@@ -84,21 +86,42 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-(use-package kanagawa-theme
+(use-package! kanagawa-theme
   :ensure t
   :config (load-theme 'kanagawa t))
 
-(use-package evil-snipe
+;; disable synchronization between the kill ring and system clipboard.
+(setq select-enable-clipboard nil)
+
+(use-package! evil-snipe
   :config (setq evil-snipe-scope 'visible))
 
-(use-package key-chord
+(use-package! key-chord
   :config
   (key-chord-mode 1)
-  (key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
-  (key-chord-define evil-visual-state-map "JK" 'evil-normal-state))
+  (key-chord-define evil-visual-state-map "JK" 'evil-normal-state)
+  (key-chord-define evil-insert-state-map "jk" 'evil-normal-state))
 
 (setq indent-tabs-mode nil
       tab-width 2)
 
 (with-eval-after-load 'yasnippet
   (add-to-list 'yas-snippet-dirs "~/git/guix/etc/snippets/yas"))
+
+(use-package! tree-sitter
+  :config
+  (progn
+    (global-tree-sitter-mode)
+    (add-hook 'tree-sitter-after-on-hook
+              #'tree-sitter-hl-mode)))
+
+(use-package! idris-mode
+  :custom
+  (idris-interpreter-path "idris2"))
+
+;; break long paragraphs w/ newlines
+;; (add-hook 'text-mode-hook 'turn-on-auto-fill)
+;; (add-hook 'org-mode-hook 'turn-on-auto-fill)
+;; (add-hook 'markdown-mode-hook 'turn-on-auto-fill)
+(auto-fill-mode 1)
+;; (setq comment-auto-fill-only-comments t)

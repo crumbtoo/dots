@@ -114,7 +114,7 @@
        tty               ; improve the terminal Emacs experience
 
        :lang
-       (agda +lsp)         ; types of types of types of types...
+       ;;(agda +lsp)         ; types of types of types of types...
        ;;beancount         ; mind the GAAP
        ;;(cc +lsp)         ; C > C++ == 1
        clojure           ; java with a lisp
@@ -194,6 +194,6 @@
        ;;literate
        (default +bindings +smartparens))
 
-(add-to-list 'default-frame-alist '(font . "JuliaMono"))
-(add-to-list 'default-frame-alist '(font . "Victor Mono"))
-(set-face-attribute 'default t :font "Victor Mono")
+; (add-to-list 'default-frame-alist '(font . "JuliaMono"))
+(add-to-list 'default-frame-alist '(font . "VictorMono NF"))
+(set-face-attribute 'default t :font "VictorMono NF")

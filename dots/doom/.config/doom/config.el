@@ -21,10 +21,10 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "Victor Mono" :size 12 :weight 'semi-light)
-      doom-variable-pitch-font (font-spec :family "Liberation Sans" :size 13)
-      doom-symbol-font (font-spec :family "Victor Mono" :size 12)
-      doom-big-font (font-spec :family "Victor Mono" :size 14))
+; (setq doom-font (font-spec :family "VictorMono" :size 12 :weight 'semi-light)
+;       doom-variable-pitch-font (font-spec :family "Liberation Sans" :size 13)
+;       doom-symbol-font (font-spec :family "VictorMono" :size 12)
+;       doom-big-font (font-spec :family "VictorMono" :size 14))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -34,7 +34,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'kanagawa)
+; (setq doom-theme 'kanagawa)
 ;; (load-theme 'kanagawa)
 ;; (use-package kanagawa-theme
 ;;   :ensure t
@@ -50,8 +50,8 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
-(load-file (let ((coding-system-for-read 'utf-8))
-                (shell-command-to-string "agda-mode locate")))
+; (load-file (let ((coding-system-for-read 'utf-8))
+;                 (shell-command-to-string "agda-mode locate")))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
@@ -84,3 +84,6 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+(use-package kanagawa-theme
+  :ensure t
+  :config (load-theme 'kanagawa t))

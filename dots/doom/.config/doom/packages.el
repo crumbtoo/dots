@@ -62,3 +62,11 @@
 (package! math-symbol-lists)
 (package! unicode-math-input)
 ;; (package! w3m)
+(package! svg-2048
+  :recipe (:host github
+           :repo "wasamasa/svg-2048"))
+
+(package! qbe-mode
+  :recipe (:type git
+           :host github
+           :repo "mbknust/qbe-mode"))

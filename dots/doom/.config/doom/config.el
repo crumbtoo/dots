@@ -50,7 +50,7 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org")
 (setq org-mobile-inbox-for-pull "~/org/mobile-inbox.org")
-(setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+(setq org-mobile-directory "~/Dropbox/Apps/Metanote")
 
 ; (load-file (let ((coding-system-for-read 'utf-8))
 ;                 (shell-command-to-string "agda-mode locate")))

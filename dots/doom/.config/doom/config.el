@@ -91,16 +91,16 @@
 ;; they are implemented.
 (use-package! kanagawa-theme
   :ensure t
-  :config (load-theme 'kanagawa t))
+  :config
+  (load-theme 'kanagawa t))
 
 ;; disable synchronization between the kill ring and system clipboard.
 (setq select-enable-clipboard nil)
 
-(use-package! evil-snipe
-  :config (setq evil-snipe-scope 'visible))
+(after! evil-snipe
+  (setq evil-snipe-scope 'visible))
 
-(use-package! key-chord
-  :config
+(after! key-chord
   (key-chord-mode 1)
   (key-chord-define evil-visual-state-map "JK" 'evil-normal-state)
   (key-chord-define evil-insert-state-map "jk" 'evil-normal-state))
@@ -111,16 +111,13 @@
 (with-eval-after-load 'yasnippet
   (add-to-list 'yas-snippet-dirs "~/git/guix/etc/snippets/yas"))
 
-(use-package! tree-sitter
-  :config
-  (progn
-    (global-tree-sitter-mode)
-    (add-hook 'tree-sitter-after-on-hook
-              #'tree-sitter-hl-mode)))
+(after! tree-sitter
+  (global-tree-sitter-mode)
+  (add-hook 'tree-sitter-after-on-hook
+            #'tree-sitter-hl-mode))
 
-(use-package! idris-mode
-  :custom
-  (idris-interpreter-path "idris2"))
+(after! idris-mode
+  (setq idris-interpreter-path "idris2"))
 
 ;; break long paragraphs w/ newlines
 ;; (add-hook 'text-mode-hook 'turn-on-auto-fill)

@@ -65,7 +65,6 @@
 (package! svg-2048
   :recipe (:host github
            :repo "wasamasa/svg-2048"))
-
 (package! qbe-mode
   :recipe (:type git
            :host github

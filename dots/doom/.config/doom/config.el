@@ -24,7 +24,7 @@
 (setq doom-font (font-spec :family "VictorMono NF" :size 12)
       doom-variable-pitch-font (font-spec :family "VictorMono NF" :size 13)
       doom-symbol-font (font-spec :family "VictorMono NF" :size 12)
-      doom-big-font (font-spec :family "VictorMono NF" :size 15))
+      doom-big-font (font-spec :family "VictorMono NF" :size 17))
 
 (setq fancy-splash-image (concat doom-user-dir "emacs-small.png"))
 
@@ -84,6 +84,9 @@
    " ┄┄┄┄┄ " "┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄")
  org-agenda-current-time-string
  "◁── now ─────────────────────────────────────────────────")
+
+;; (setq org-project-capture-default-backend
+;;   (make-instance 'org-project-capture-projectile-backend))
 
 (setq haskell-interactive-popup-errors nil)
 

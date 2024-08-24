@@ -58,7 +58,7 @@
   (:host github
    :repo "leanprover/lean4-mode"
    :files ("*.el" "data")))
-(package! dirvish)
+;(package! dirvish)
 (package! math-symbol-lists)
 (package! unicode-math-input)
 ;; (package! w3m)
@@ -73,3 +73,6 @@
   :recipe (:type git
            :host github
            :repo "iostapyshyn/eshell-vterm"))
+(package! org-present)
+(package! org-project-capture)
+(package! org-projectile)

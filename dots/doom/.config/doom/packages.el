@@ -69,3 +69,7 @@
   :recipe (:type git
            :host github
            :repo "mbknust/qbe-mode"))
+(package! eshell-vterm
+  :recipe (:type git
+           :host github
+           :repo "iostapyshyn/eshell-vterm"))

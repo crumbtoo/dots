@@ -14,17 +14,18 @@
       (let
           ((guix-yasnippets
             (expand-file-name "etc/snippets/yas"
-                              (locate-dominating-file default-directory ".dir-locals.el"))))
-        (unless
-            (member guix-yasnippets yas-snippet-dirs)
-          (add-to-list 'yas-snippet-dirs guix-yasnippets)
-          (yas-reload-all))))
+                              (locate-dominating-file default-directory
+                                                      ".dir-locals.el"))))
+        (unless (member guix-yasnippets yas-snippet-dirs)
+          (add-to-list 'yas-snippet-dirs guix-yasnippets) (yas-reload-all))))
      (eval setq-local guix-directory
       (locate-dominating-file default-directory ".dir-locals.el"))
-     (eval add-to-list 'completion-ignored-extensions ".go"))))
+     (eval add-to-list 'completion-ignored-extensions ".go")))
+ '(smtpmail-smtp-server "smtp.gmail.com")
+ '(smtpmail-smtp-service 587))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ts-fold-replacement-face ((t (:foreground unspecified :box nil :inherit font-lock-comment-face :weight light)))))
+ )

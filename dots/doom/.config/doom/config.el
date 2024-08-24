@@ -25,6 +25,9 @@
       doom-variable-pitch-font (font-spec :family "VictorMono NF" :size 13)
       doom-symbol-font (font-spec :family "VictorMono NF" :size 12)
       doom-big-font (font-spec :family "VictorMono NF" :size 15))
+
+(setq fancy-splash-image (concat doom-user-dir "emacs.png"))
+
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to

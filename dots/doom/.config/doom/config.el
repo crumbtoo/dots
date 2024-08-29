@@ -131,12 +131,16 @@
 ;; disable synchronization between the kill ring and system clipboard.
 (setq select-enable-clipboard nil)
 
-(setq evil-move-beyond-eol t)
-(setq evil-snipe-scope 'visible)
+(after! elfeed
+  (add-hook 'elfeed-search-mode-hook #'elfeed-update))
+
+(after! evil
+  (define-key evil-normal-state-map "#" 'evilnc-comment-operator)
+  (setq evil-move-beyond-eol t)
+  (setq evil-snipe-scope 'visible))
 
 (key-chord-mode 1)
 (key-chord-define evil-visual-state-map "JK" 'evil-normal-state)
-(key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
 
 (setq indent-tabs-mode nil
       tab-width 2)
@@ -191,3 +195,25 @@
   :after eshell
   :config
   (eshell-vterm-mode))
+
+(after! eshell
+  (setq eshell-prompt-function
+        (lambda ()
+          (require 'shrink-path)
+          (concat (if (bobp) "" "\n")
+                  (let ((pwd (eshell/pwd)))
+                    (propertize (if (equal pwd "~")
+                                    pwd
+                                  (abbreviate-file-name (shrink-path-file pwd)))
+                                'face '+eshell-prompt-pwd))
+                  (propertize " η"
+                              'face
+                              (if (zerop eshell-last-command-status)
+                                  'success
+                                'error))
+                  " ")))
+
+  (setq eshell-prompt-regex "^[^#$\n]* [#$η] "))
+
+(after! paredit
+  )

@@ -1,7 +1,7 @@
 * Emacs is now my...
 - [X] Text editor.
 - [X] IDE.
-- [X] Email client.
+- [ ] Email client.
 - [X] Password manager.
 - [X] Terminal emulator.
 - [X] Shell.
@@ -13,7 +13,7 @@
 - [ ] Web browser.
 - [ ] File manager.
 - [ ] Git client.
-- [ ] RSS client.
+- [X] RSS client.
 - [ ] Video player.
 - [ ] Music player.
 - [ ] PDF viewer.

@@ -4,9 +4,6 @@
 {
   home.file = import ./files.nix inputs;
 
-  # TODO: move to some `overlays/default.nix`, where it may be easily shared
-  # by both `modules/shared` and `users/*`.
-
   nixpkgs = {
     config = {
       allowUnfree = true;
@@ -38,11 +35,21 @@
 
   home.packages = with pkgs; [
     firefox
-    (nerdfonts.override { fonts = [ "VictorMono" ]; })
     jujutsu
     direnv
     vesktop
+    sioyek
+    gnupg
+    pass
+    obs-studio
+
+    # fonts
+    (nerdfonts.override { fonts = [ "VictorMono" ]; })
+    overpass
+    julia-mono
   ];
+
+  fonts.fontconfig.enable = true;
 
   services = {
     lorri.enable = true;
@@ -52,6 +59,6 @@
   home.stateVersion = "24.05";
 
   imports = [
-    ./programs/editors/emacs.nix
+    # ./programs/editors/emacs.nix
   ];
 }

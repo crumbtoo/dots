@@ -6,6 +6,16 @@
     ../../modules/shared
   ];
 
+  nix.settings = {
+    substituters = [
+      "https://nix-community.cachix.org"
+      "https://cache.nixos.org/"
+    ];
+    trusted-public-keys = [
+      "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
+    ];
+  };
+
   boot = {
     loader = {
       systemd-boot.enable = true;
@@ -24,6 +34,7 @@
 
   modules = {
     gaming.steam.enable = true;
+    editors.emacs.enable = true;
   };
 
   hardware = {
@@ -47,6 +58,7 @@
   console.useXkbConfig = true;
 
   services = {
+    pipewire.wireplumber.enable = true;
     xserver = {
       enable = true;
 
@@ -58,11 +70,11 @@
         options = "ctrl:swapcaps";
       };
 
-      windowManager.exwm = {
-        enable = true;
-        enableDefaultConfig = false;
-        extraPackages = epkgs: [epkgs.vterm];
-      };
+      # windowManager.exwm = {
+      #   enable = true;
+      #   enableDefaultConfig = false;
+      #   extraPackages = epkgs: [epkgs.vterm];
+      # };
     };
 
     displayManager.sddm.enable = true;

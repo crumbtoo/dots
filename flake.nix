@@ -4,7 +4,6 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-
     agenix.url = "github:ryantm/agenix";
 
     home-manager = {
@@ -25,6 +24,7 @@
           modules = [
             ./hosts/guix-rebound/configuration.nix
             ./modules/gaming/steam.nix
+            ./modules/editors/emacs.nix
             inputs.home-manager.nixosModules.default
             inputs.agenix.nixosModules.default
             { environment.systemPackages = [ inputs.agenix.packages.${system}.default ]; }

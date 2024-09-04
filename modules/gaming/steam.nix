@@ -21,9 +21,9 @@ in {
       enableRenice = true;
     };
 
-    hardware.opengl = { # this fixes the "glXChooseVisual failed" bug, see: https://github.com/NixOS/nixpkgs/issues/47932
+    hardware.graphics = { # this fixes the "glXChooseVisual failed" bug, see: https://github.com/NixOS/nixpkgs/issues/47932
       enable = true;
-      driSupport32Bit = true;
+      enable32Bit = true;
     };
 
     environment = {

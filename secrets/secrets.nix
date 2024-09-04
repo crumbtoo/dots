@@ -1,7 +1,0 @@
-{ config, lib, pkgs, ... }:
-
-let id_rsa-pub = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0lRhtS84zA2nkN5EQjrnEWU0UjvptX2ESjlRJjZW45py4GArO4yVM9+GhrBtRE5Y5LDAnFJj0i5iAnlwAJOvWL6TrT1Vmj/28kGEA3lOBGEN81cIw5EVA5GYEji1SWXStcPeWW4/Vx7Lx/J/3jLRtmTkhaq/qG1vsU+nWxs4rhoMnPKJsIBLC+SuH1fx2ByFRvjgTeEa0A+NQEhzssepJmcUKqbQZslAsrSY1VArYc2wfaballlbyVyxzinR5ihXJ3d4RsU8wkVtNYgPn7zv/GVpvf/6vogixHo149b6oHpTFXDGeitYm2JaCUJlipMaw7vlIS84/UwdszilQ8C8okzA2n6zbIyWyTaIJnPY9qeMaP5YnZ5ynpRztqmL/EJd1NMPoN72kc9wn8YLSAOtcKBEvWTIOS6QU1MpJXJcSxDndaqls1O4cxBAqiIdiiwHynBLIHcqJyreJYvfNqRk8oQlrz//Syhw1Q5qEt7vUiXr3P58NDN9Vo35VgBrHobc= crumb@guix-rebound";
-    # system-guix-rebound = "localhost ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJHtBi8xDLQzQCMUEtFsRiVb+dDyjjSksZagzTydxw1q";
-in
-{
-}

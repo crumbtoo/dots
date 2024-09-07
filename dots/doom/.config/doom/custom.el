@@ -8,16 +8,19 @@
  '(elfeed-feeds '("https://xkcd.com/rss.xml"))
  '(evil-snipe-scope 'visible)
  '(magit-todos-insert-after '(bottom) nil nil "Changed by setter of obsolete option `magit-todos-insert-at'")
+ '(org-safe-remote-resources
+   '("\\`https://fniessen\\.github\\.io/org-html-themes/org/theme-bigblow\\.setup\\'"))
  '(safe-local-variable-values
    '((geiser-repl-per-project-p . t)
      (eval with-eval-after-load 'yasnippet
       (let
           ((guix-yasnippets
             (expand-file-name "etc/snippets/yas"
-                              (locate-dominating-file default-directory
-                                                      ".dir-locals.el"))))
-        (unless (member guix-yasnippets yas-snippet-dirs)
-          (add-to-list 'yas-snippet-dirs guix-yasnippets) (yas-reload-all))))
+                              (locate-dominating-file default-directory ".dir-locals.el"))))
+        (unless
+            (member guix-yasnippets yas-snippet-dirs)
+          (add-to-list 'yas-snippet-dirs guix-yasnippets)
+          (yas-reload-all))))
      (eval setq-local guix-directory
       (locate-dominating-file default-directory ".dir-locals.el"))
      (eval add-to-list 'completion-ignored-extensions ".go")))

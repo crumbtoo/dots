@@ -3,6 +3,11 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
+(progn
+  (require 'server)
+  (when (server-running-p)
+    (setenv "EDITOR" "emacsclient")
+    (setenv "VISUAL" "emacsclient")))
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
@@ -21,10 +26,16 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "VictorMono NF" :size 12)
-      doom-variable-pitch-font (font-spec :family "VictorMono NF" :size 13)
-      doom-symbol-font (font-spec :family "VictorMono NF" :size 12)
+(setq doom-font (font-spec :family "VictorMono NF" :size 13)
+      ;; doom-variable-pitch-font (font-spec :family "VictorMono NF" :size 13)
+      doom-variable-pitch-font (font-spec :family "Overpass" :size 13)
       doom-big-font (font-spec :family "VictorMono NF" :size 17))
+
+;; (add-hook! 'after-setting-font-hook
+;;   (let ((julia-mono (font-spec :family "JuliaMono" :size 13)))
+;;     (set-fontset-font t
+;;                       '(#x0250 . #x02af)
+;;                       julia-mono)))
 
 (setq fancy-splash-image (concat doom-user-dir "emacs-small.png"))
 
@@ -37,7 +48,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-; (setq doom-theme 'kanagawa)
+(setq doom-theme 'kanagawa)
 ;; (load-theme 'kanagawa)
 ;; (use-package kanagawa-theme
 ;;   :ensure t
@@ -57,12 +68,14 @@
 ;; (modify-all-frames-parameters
 ;;  '((right-divider-width . 40)
 ;;    (internal-border-width . 40)))
-(dolist (face '(window-divider
-                window-divider-first-pixel
-                window-divider-last-pixel))
-  (face-spec-reset-face face)
-  (set-face-foreground face (face-attribute 'default :background)))
-(set-face-background 'fringe (face-attribute 'default :background))
+;; (dolist (face '(window-divider
+;;                 window-divider-first-pixel
+;;                 window-divider-last-pixel))
+;;   (face-spec-reset-face face)
+;;   (set-face-foreground face (face-attribute 'default :background)))
+;; (set-face-background 'fringe (face-attribute 'default :background))
+;; Insert a "CLOSED: [timestamp]" line when changing an item to DONE.
+(setq org-log-done 'time)
 (setq
  ;; Edit settings
  org-auto-align-tags nil
@@ -124,9 +137,9 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-(use-package! kanagawa-theme
-  :config
-  (load-theme 'kanagawa t))
+;; (use-package! kanagawa-theme
+;;   :config
+;;   (load-theme 'kanagawa t))
 
 ;; disable synchronization between the kill ring and system clipboard.
 (setq select-enable-clipboard nil)
@@ -136,7 +149,9 @@
 
 (after! evil
   (define-key evil-normal-state-map "#" 'evilnc-comment-operator)
+  (define-key evil-visual-state-map "#" 'evilnc-comment-operator)
   (setq evil-move-beyond-eol t)
+  (setq evil-vsplit-window-right t)
   (setq evil-snipe-scope 'visible))
 
 (key-chord-mode 1)
@@ -154,30 +169,36 @@
 
 (setq idris-interpreter-path "idris2")
 
-(use-package mu4e
-  ;; :load-path "/usr/share/emacs/site-lisp/mu4e/"
-  ;; :defer 20 ; Wait until 20 seconds after startup
-  :config
+(map! :after haskell
+      :map haskell-mode-map
+      :localleader
+      "a i" (cmd! (haskell-add-import))
+      "a d" #'haskell-cabal-add-dependency)
 
-  ;; This is set to 't' to avoid mail syncing issues when using mbsync
-  (setq mu4e-change-filenames-when-moving t)
+;; (use-package mu4e
+;;   ;; :load-path "/usr/share/emacs/site-lisp/mu4e/"
+;;   ;; :defer 20 ; Wait until 20 seconds after startup
+;;   :config
 
-  ;; Refresh mail using isync every 10 minutes
-  (setq mu4e-update-interval (* 10 60))
-  (setq mu4e-get-mail-command "mbsync -a")
-  (setq mu4e-maildir "~/Mail")
+;;   ;; This is set to 't' to avoid mail syncing issues when using mbsync
+;;   (setq mu4e-change-filenames-when-moving t)
 
-  (setq mu4e-drafts-folder "/[Gmail]/Drafts")
-  (setq mu4e-sent-folder   "/[Gmail]/Sent Mail")
-  (setq mu4e-refile-folder "/[Gmail]/All Mail")
-  (setq mu4e-trash-folder  "/[Gmail]/Trash")
+;;   ;; Refresh mail using isync every 10 minutes
+;;   (setq mu4e-update-interval (* 10 60))
+;;   (setq mu4e-get-mail-command "mbsync -a")
+;;   (setq mu4e-maildir "~/Mail")
 
-  (setq mu4e-maildir-shortcuts
-    '((:maildir "/Inbox"    :key ?i)
-      (:maildir "/[Gmail]/Sent Mail" :key ?s)
-      (:maildir "/[Gmail]/Trash"     :key ?t)
-      (:maildir "/[Gmail]/Drafts"    :key ?d)
-      (:maildir "/[Gmail]/All Mail"  :key ?a))))
+;;   (setq mu4e-drafts-folder "/[Gmail]/Drafts")
+;;   (setq mu4e-sent-folder   "/[Gmail]/Sent Mail")
+;;   (setq mu4e-refile-folder "/[Gmail]/All Mail")
+;;   (setq mu4e-trash-folder  "/[Gmail]/Trash")
+
+;;   (setq mu4e-maildir-shortcuts
+;;     '((:maildir "/Inbox"    :key ?i)
+;;       (:maildir "/[Gmail]/Sent Mail" :key ?s)
+;;       (:maildir "/[Gmail]/Trash"     :key ?t)
+;;       (:maildir "/[Gmail]/Drafts"    :key ?d)
+;;       (:maildir "/[Gmail]/All Mail"  :key ?a))))
 
 (setq message-signature (concat "\n\n-- \n"
                                 "Sent from mu4e.\n"
@@ -190,30 +211,71 @@
 (auto-fill-mode 1)
 ;; (setq comment-auto-fill-only-comments t)
 
-(use-package! eshell-vterm
-  :demand t
-  :after eshell
-  :config
-  (eshell-vterm-mode))
+;; (after! vterm
+;;  (key-chord-define vterm-mode-map "jk" 'evil-normal-state))
 
-(after! eshell
-  (setq eshell-prompt-function
-        (lambda ()
-          (require 'shrink-path)
-          (concat (if (bobp) "" "\n")
-                  (let ((pwd (eshell/pwd)))
-                    (propertize (if (equal pwd "~")
-                                    pwd
-                                  (abbreviate-file-name (shrink-path-file pwd)))
-                                'face '+eshell-prompt-pwd))
-                  (propertize " η"
-                              'face
-                              (if (zerop eshell-last-command-status)
-                                  'success
-                                'error))
-                  " ")))
+;; (after! eshell-vterm
+;;  (eshell-vterm-mode))
 
-  (setq eshell-prompt-regex "^[^#$\n]* [#$η] "))
+(add-hook! 'eshell-mode-hook
+  (setq eshell-list-files-after-cd t)
+  (appendq! eshell-visual-commands '("nix-shell")))
 
 (after! paredit
   )
+
+(defun efs/exwm-update-class ()
+  (exwm-workspace-rename-buffer exwm-class-name))
+
+;(use-package! exwm
+; :config
+; ;; Set the default number of workspaces
+; (setq exwm-workspace-number 5)
+;
+; ;; When window "class" updates, use it to set the buffer name
+; ;; (add-hook 'exwm-update-class-hook #'efs/exwm-update-class)
+;
+; ;; These keys should always pass through to Emacs
+; (setq exwm-input-prefix-keys
+;   '(?\C-x
+;     ?\C-u
+;     ?\C-h
+;     ?\M-x
+;     ?\M-`
+;     ?\M-&
+;     ?\M-:
+;     ?\C-\M-j  ;; Buffer list
+;     ?\C-\ ))  ;; Ctrl+Space
+;
+; ;; Ctrl+Q will enable the next key to be sent directly
+; (define-key exwm-mode-map [?\C-q] 'exwm-input-send-next-key)
+;
+; ;; Set up global key bindings.  These always work, no matter the input state!
+; ;; Keep in mind that changing this list after EXWM initializes has no effect.
+; (setq exwm-input-global-keys
+;       `(
+;         ;; Reset to line-mode (C-c C-k switches to char-mode via exwm-input-release-keyboard)
+;         ([?\s-r] . exwm-reset)
+;
+;         ;; Move between windows
+;         ([?\s-h] . windmove-left)
+;         ([?\s-j] . windmove-down)
+;         ([?\s-k] . windmove-up)
+;         ([?\s-l] . windmove-right)
+;
+;         ;; Launch applications via shell command
+;         ([?\s-&] . (lambda (command)
+;                      (interactive (list (read-shell-command "$ ")))
+;                      (start-process-shell-command command nil command)))
+;
+;         ;; Switch workspace
+;         ([?\s-w] . exwm-workspace-switch)
+;
+;         ;; 's-N': Switch to certain workspace with Super plus a number key (0 - 9)
+;         ,@(mapcar (lambda (i)
+;                     `(,(kbd (format "s-%d" i)) .
+;                       (lambda ()
+;                         (interactive)
+;                         (exwm-workspace-switch-create ,i))))
+;                   (number-sequence 0 9))))
+; (exwm-enable))

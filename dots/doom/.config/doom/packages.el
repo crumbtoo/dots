@@ -69,10 +69,13 @@
   :recipe (:type git
            :host github
            :repo "mbknust/qbe-mode"))
-(package! eshell-vterm
-  :recipe (:type git
-           :host github
-           :repo "iostapyshyn/eshell-vterm"))
+;; (package! eshell-vterm
+;;   :recipe (:type git
+;;            :host github
+;;            :repo "iostapyshyn/eshell-vterm"))
 (package! org-present)
 (package! org-project-capture)
 (package! org-projectile)
+(package! exwm :built-in 'prefer)
+(package! agenix)
+;; (package! vterm)

@@ -1,3 +1,4 @@
+alias jj jj --no-pager $*
 alias jgp jj git push $*
 alias jgr jj git remote $*
 alias jgcl jj git clone $*

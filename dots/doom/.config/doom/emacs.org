@@ -1,21 +1,22 @@
 * Emacs is now my...
-- [X] Text editor.
-- [X] IDE.
-- [ ] Email client.
-- [X] Password manager.
-- [X] Terminal emulator.
-- [X] Shell.
-- [X] Calender.
-- [ ] Contact manager.
+- [X] Text editor
+- [X] IDE
+- [ ] Email client
+- [X] Password manager
+- [X] Terminal emulator
+- [X] Shell
+- [X] Calender
+- [ ] Contact manager
   see: [[https://repo.or.cz/org-contacts.git][org-contacts.el]]
-- [ ] Collaborative document editor.
-- [ ] Spreadsheet.
-- [ ] Web browser.
-- [ ] File manager.
-- [ ] Git client.
-- [X] RSS client.
-- [ ] Video player.
-- [ ] Music player.
-- [ ] PDF viewer.
-- [ ] IRC client.
-- [ ] Window manager.
+- [ ] Collaborative document editor
+- [ ] Spreadsheet
+- [ ] Web browser
+- [X] File manager
+- [ ] Git client
+- [X] RSS client
+- [ ] Video player
+- [ ] Music player
+- [X] PDF reader
+- [ ] IRC client
+- [X] Calculator
+- [ ] Window manager

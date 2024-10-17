@@ -3,15 +3,20 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
+;; FIXME: TEMPORARY!!!!!!! we're using this for hacking on org-mode.
+(setq load-prefer-newer t)
+
 (progn
   (require 'server)
-  (when (server-running-p)
-    (setenv "EDITOR" "emacsclient")
-    (setenv "VISUAL" "emacsclient")))
+  (let ((editor (if (server-running-p)
+                    "emacsclient"
+                  "emacs")))
+    (setenv "EDITOR" editor)
+    (setenv "VISUAL" editor)))
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-(setq user-full-name "sydney goose"
+(setq user-full-name "Madeleine Sydney"
       user-mail-address "lomiskiam@gmail.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
@@ -27,9 +32,12 @@
 ;; accept. For example:
 ;;
 (setq doom-font (font-spec :family "VictorMono NF" :size 13)
-      ;; doom-variable-pitch-font (font-spec :family "VictorMono NF" :size 13)
       doom-variable-pitch-font (font-spec :family "Overpass" :size 13)
       doom-big-font (font-spec :family "VictorMono NF" :size 17))
+
+(dolist (char-range '((#x0250 . #x02af) ; IPA extensions
+                      (#x2200 . #x22FF))) ; Mathematical operators
+  (set-fontset-font "fontset-default" char-range "JuliaMono"))
 
 ;; (add-hook! 'after-setting-font-hook
 ;;   (let ((julia-mono (font-spec :family "JuliaMono" :size 13)))
@@ -48,13 +56,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'kanagawa)
-;; (load-theme 'kanagawa)
-;; (use-package kanagawa-theme
-;;   :ensure t
-;;   :config
-;;   (load-theme 'kanagawa t))
-;; (setq doom-theme 'doom-one)
+(setq doom-theme 'kanagawa-wave)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -63,8 +65,10 @@
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org")
+(setq org-roam-directory "~/org/roam")
 (setq org-mobile-inbox-for-pull "~/org/mobile-inbox.org")
-(setq org-mobile-directory "~/Dropbox/Apps/Metanote")
+(setq org-cycle-emulate-tab nil)
+;; (setq org-mobile-directory "~/Dropbox/Apps/Metanote")
 ;; (modify-all-frames-parameters
 ;;  '((right-divider-width . 40)
 ;;    (internal-border-width . 40)))
@@ -83,6 +87,7 @@
  org-fold-catch-invisible-edits 'show-and-error
  org-special-ctrl-a/e t
  org-insert-heading-respect-content t
+ org-startup-with-inline-images t
 
  ;; Org styling, hide markup etc.
  org-hide-emphasis-markers t
@@ -102,9 +107,24 @@
 ;;   (make-instance 'org-project-capture-projectile-backend))
 
 (setq haskell-interactive-popup-errors nil)
+(setq haskell-auto-insert-module-format-string
+      (let ((hrule (make-string 80 ?-)))
+        (string-join
+         `("{- |"
+           "-}"
+           "module %s"
+           "  ("
+           "  )"
+           "  where"
+           ,hrule
+           ,hrule
+           "\n")
+         "\n")))
 
-; (load-file (let ((coding-system-for-read 'utf-8))
-;                 (shell-command-to-string "agda-mode locate")))
+(setq lsp-rename-use-prepare nil)
+
+                                        ; (load-file (let ((coding-system-for-read 'utf-8))
+                                        ;                 (shell-command-to-string "agda-mode locate")))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
@@ -148,11 +168,22 @@
   (add-hook 'elfeed-search-mode-hook #'elfeed-update))
 
 (after! evil
+  ;; TODO: we should probably use `map!'
+  (define-key evil-normal-state-map "gx" #'browse-url-at-point)
+  (define-key evil-normal-state-map "gX" #'evil-exchange)
   (define-key evil-normal-state-map "#" 'evilnc-comment-operator)
   (define-key evil-visual-state-map "#" 'evilnc-comment-operator)
+  (evil-set-initial-state 'exwm-mode 'emacs)
   (setq evil-move-beyond-eol t)
   (setq evil-vsplit-window-right t)
+  (define-key evil-outer-text-objects-map "B" 'evil-a-curly)
+  (define-key evil-inner-text-objects-map "B" 'evil-inner-curly)
   (setq evil-snipe-scope 'visible))
+
+;; TODO: upstream to evil-collection
+(map! :map helpful-mode-map
+      :n "C-p" #'help-go-back
+      :n "C-n" #'help-go-forward)
 
 (key-chord-mode 1)
 (key-chord-define evil-visual-state-map "JK" 'evil-normal-state)
@@ -160,20 +191,38 @@
 (setq indent-tabs-mode nil
       tab-width 2)
 
-(with-eval-after-load 'yasnippet
-  (add-to-list 'yas-snippet-dirs "~/git/guix/etc/snippets/yas"))
-
 (global-tree-sitter-mode)
 (add-hook 'tree-sitter-after-on-hook
           #'tree-sitter-hl-mode)
 
 (setq idris-interpreter-path "idris2")
 
-(map! :after haskell
-      :map haskell-mode-map
-      :localleader
-      "a i" (cmd! (haskell-add-import))
-      "a d" #'haskell-cabal-add-dependency)
+(map! :map comint-mode-map
+      :i "C-k" #'comint-previous-input
+      :i "C-j" #'comint-next-input)
+
+(after! racket-mode
+  (map! :map racket-repl-mode-map
+        :i "C-k" #'racket-repl-previous-input
+        :i "C-j" #'racket-repl-next-input)
+
+  (add-to-list 'display-buffer-alist
+               '("\\`\\*Racket REPL"
+                 (+popup-buffer) (actions) (side . bottom)
+                 (size) (window-width . 40) (window-height . 0.16) (slot) (vslot)
+                 (window-parameters (ttl . 5) (quit) (select . ignore) (modeline)
+                                    (autosave)))))
+
+(after! haskell
+  ;; remove annoying virtual type signatures.
+  ;; (setq lsp-haskell-plugin-ghcide-type-lenses-global-on nil)
+  (map! :map haskell-mode-map
+        :localleader
+        "a i" (cmd! (haskell-add-import))
+        "a d" #'haskell-cabal-add-dependency)
+  (map! :map interactive-haskell-mode-map
+        :i "C-j" #'haskell-interactive-mode-history-next
+        :i "C-k" #'haskell-interactive-mode-history-previous))
 
 ;; (use-package mu4e
 ;;   ;; :load-path "/usr/share/emacs/site-lisp/mu4e/"
@@ -217,65 +266,70 @@
 ;; (after! eshell-vterm
 ;;  (eshell-vterm-mode))
 
-(add-hook! 'eshell-mode-hook
-  (setq eshell-list-files-after-cd t)
-  (appendq! eshell-visual-commands '("nix-shell")))
+;; (map! :mode calc-mode
+;;       :map calc-mode-map
+;;       :n "<spc>" nil)
 
-(after! paredit
+(add-hook! 'eshell-mode-hook
+  (setq-local company-mode nil)
+  ;; (setq eshell-list-files-after-cd t)
+  ;; (appendq! eshell-visual-commands
+  ;;           '("nix-shell"
+  ;;             "nvim"))
+  ;; (appendq! eshell-visual-subcommands
+  ;;           '(("nix" "develop" "shell")
+  ;;             ("jj" "split")))
   )
 
-(defun efs/exwm-update-class ()
-  (exwm-workspace-rename-buffer exwm-class-name))
+(add-hook! 'pdf-view-mode-hook
+  (pdf-view-themed-minor-mode))
 
-;(use-package! exwm
-; :config
-; ;; Set the default number of workspaces
-; (setq exwm-workspace-number 5)
-;
-; ;; When window "class" updates, use it to set the buffer name
-; ;; (add-hook 'exwm-update-class-hook #'efs/exwm-update-class)
-;
-; ;; These keys should always pass through to Emacs
-; (setq exwm-input-prefix-keys
-;   '(?\C-x
-;     ?\C-u
-;     ?\C-h
-;     ?\M-x
-;     ?\M-`
-;     ?\M-&
-;     ?\M-:
-;     ?\C-\M-j  ;; Buffer list
-;     ?\C-\ ))  ;; Ctrl+Space
-;
-; ;; Ctrl+Q will enable the next key to be sent directly
-; (define-key exwm-mode-map [?\C-q] 'exwm-input-send-next-key)
-;
-; ;; Set up global key bindings.  These always work, no matter the input state!
-; ;; Keep in mind that changing this list after EXWM initializes has no effect.
-; (setq exwm-input-global-keys
-;       `(
-;         ;; Reset to line-mode (C-c C-k switches to char-mode via exwm-input-release-keyboard)
-;         ([?\s-r] . exwm-reset)
-;
-;         ;; Move between windows
-;         ([?\s-h] . windmove-left)
-;         ([?\s-j] . windmove-down)
-;         ([?\s-k] . windmove-up)
-;         ([?\s-l] . windmove-right)
-;
-;         ;; Launch applications via shell command
-;         ([?\s-&] . (lambda (command)
-;                      (interactive (list (read-shell-command "$ ")))
-;                      (start-process-shell-command command nil command)))
-;
-;         ;; Switch workspace
-;         ([?\s-w] . exwm-workspace-switch)
-;
-;         ;; 's-N': Switch to certain workspace with Super plus a number key (0 - 9)
-;         ,@(mapcar (lambda (i)
-;                     `(,(kbd (format "s-%d" i)) .
-;                       (lambda ()
-;                         (interactive)
-;                         (exwm-workspace-switch-create ,i))))
-;                   (number-sequence 0 9))))
-; (exwm-enable))
+(add-hook 'eshell-load-hook #'eat-eshell-mode)
+;; (add-hook 'eshell-load-hook #'eat-eshell-visual-command-mode)
+
+;; (after! evil-cleverparens
+;;   (require 'evil-cleverparens-text-objects)
+;;   (map! :textobj "s" #'evil-cp-inner-form #'evil-cp-a-form))
+
+(add-hook! '(scheme-mode-hook clojure-mode-hook emacs-lisp-mode-hook
+             geiser-repl-mode-hook lisp-mode-hook racket-mode-hook
+             racket-repl-mode-hook)
+  (dolist (c '(?- ?_ ?? ?! ?+ ?* ?/ ?:))
+    ;; TODO: how do we make this buffer-local?
+    (modify-syntax-entry c "w"))
+  (evil-cleverparens-mode)
+  ;; remove s/S from cleverparens in favour of evil-snipe
+  (map! :map evil-cleverparens-mode-map
+        :nv "{" #'evil-cp-previous-opening
+        :nv "}" #'evil-cp-next-opening
+        :nv "g {" #'evil-cp-previous-closing
+        :nv "g }" #'evil-cp-next-closing
+        :nv "g l" #'paredit-forward-down
+        :nv "g h" #'paredit-backward-up
+        :nv "g j" #'sp-next-sexp
+        :nv "g k" #'paredit-backward
+        :nv "H" #'paredit-backward
+        :nv "L" #'sp-next-sexp
+        :nv "[" nil
+        :nv "]" nil
+        :nv "s" nil
+        :nv "S" nil)
+  (paredit-mode))
+
+(use-package! websocket
+  :after org-roam)
+
+(use-package! org-roam-ui
+  :after org-roam ;; or :after org
+  ;;         normally we'd recommend hooking orui after org-roam, but since org-roam does not have
+  ;;         a hookable mode anymore, you're advised to pick something yourself
+  ;;         if you don't care about startup time, use
+  ;;  :hook (after-init . org-roam-ui-mode)
+  :config
+  (setq org-roam-ui-sync-theme t
+        org-roam-ui-follow t
+        org-roam-ui-update-on-save t
+        org-roam-ui-open-on-start t))
+
+(defun syd/start-exwm ()
+  (load! "+exwm"))

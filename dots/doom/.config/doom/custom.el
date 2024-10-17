@@ -8,19 +8,30 @@
  '(elfeed-feeds '("https://xkcd.com/rss.xml"))
  '(evil-snipe-scope 'visible)
  '(magit-todos-insert-after '(bottom) nil nil "Changed by setter of obsolete option `magit-todos-insert-at'")
+ '(org-agenda-files
+   '("~/Dropbox/org/events.org" "/home/crumb/src/sydml/README.org"
+     "/home/crumb/org/aliases.org" "/home/crumb/org/birthdays.org"
+     "/home/crumb/org/classy-todo.org" "/home/crumb/org/cool-projects.org"
+     "/home/crumb/org/dreams.org" "/home/crumb/org/elfeed.org"
+     "/home/crumb/org/glossary.org" "/home/crumb/org/inbox.org"
+     "/home/crumb/org/journal.org" "/home/crumb/org/project-ideas.org"
+     "/home/crumb/org/todo.org"))
  '(org-safe-remote-resources
    '("\\`https://fniessen\\.github\\.io/org-html-themes/org/theme-bigblow\\.setup\\'"))
+ '(safe-local-variable-directories
+   '("/home/crumb/git/scheme-macros/" "/home/crumb/src/demand-driven/"
+     "/home/crumb/src/silly.old/" "/home/crumb/src/silly/"
+     "/home/crumb/src/sydml/" "/home/crumb/src/lean-playground/"))
  '(safe-local-variable-values
    '((geiser-repl-per-project-p . t)
      (eval with-eval-after-load 'yasnippet
       (let
           ((guix-yasnippets
             (expand-file-name "etc/snippets/yas"
-                              (locate-dominating-file default-directory ".dir-locals.el"))))
-        (unless
-            (member guix-yasnippets yas-snippet-dirs)
-          (add-to-list 'yas-snippet-dirs guix-yasnippets)
-          (yas-reload-all))))
+                              (locate-dominating-file default-directory
+                                                      ".dir-locals.el"))))
+        (unless (member guix-yasnippets yas-snippet-dirs)
+          (add-to-list 'yas-snippet-dirs guix-yasnippets) (yas-reload-all))))
      (eval setq-local guix-directory
       (locate-dominating-file default-directory ".dir-locals.el"))
      (eval add-to-list 'completion-ignored-extensions ".go")))

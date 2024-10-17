@@ -50,7 +50,7 @@
 ;; (unpin! t)
 
 (package! autothemer)
-(package! kanagawa-theme)
+(package! kanagawa-themes)
 (package! key-chord)
 ;; (package! geiser-guile :built-in 'prefer)
 ;; (package! geiser :built-in 'prefer)
@@ -69,13 +69,25 @@
   :recipe (:type git
            :host github
            :repo "mbknust/qbe-mode"))
+(package! eat)
 ;; (package! eshell-vterm
 ;;   :recipe (:type git
 ;;            :host github
 ;;            :repo "iostapyshyn/eshell-vterm"))
-(package! org-present)
-(package! org-project-capture)
-(package! org-projectile)
-(package! exwm :built-in 'prefer)
+(when (featurep :system 'linux)
+  ;; (package! exwm-evil
+  ;;   :recipe (:type git
+  ;;            :host github
+  ;;            :repo "LemonBreezes/exwm-evil"))
+  (package! exwm :built-in 'prefer)
+  (package! exwm-edit)
+  (package! desktop-environment)
+  (package! app-launcher
+    :recipe (:type git :host github :repo "SebastienWae/app-launcher")))
 (package! agenix)
+(package! ement)
 ;; (package! vterm)
+(unpin! org-roam)
+(package! org-roam-ui)
+(package! evil-cleverparens)
+(package! combobulate)

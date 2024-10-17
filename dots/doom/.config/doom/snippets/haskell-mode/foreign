@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: foreign
+# uuid: haskell-foreign
+# key: foreign
+# condition: t
+# --
+
+foreign import ccall unsafe "src/bridge.c $1"
+  $1 :: $2
